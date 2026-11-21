@@ -1,0 +1,4134 @@
+[
+  {
+    "id": "g3a-u01",
+    "title": "Hello!",
+    "description": "问候与告别",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        8,
+        15
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Aa–Dd",
+    "objectives": [
+      "根据时间与对象礼貌问候",
+      "在校园场景中自然告别"
+    ],
+    "phrases": [
+      {
+        "english": "Good morning.",
+        "meaning": "早上好。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Good afternoon.",
+        "meaning": "下午好。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Goodbye!",
+        "meaning": "再见！",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Hi!",
+        "meaning": "嗨！",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Good morning!",
+          "Good morning!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Hi!",
+          "Hello!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Good afternoon!",
+          "Good afternoon!"
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u01-v01",
+        "word": "hello",
+        "meaning": "你好",
+        "emoji": "👋",
+        "example": "Hello, Amy!",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v02",
+        "word": "hi",
+        "meaning": "嗨",
+        "emoji": "👋",
+        "example": "Hi, Ben!",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v03",
+        "word": "I",
+        "meaning": "我",
+        "emoji": "🙋",
+        "example": "I am Amy.",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v04",
+        "word": "am",
+        "meaning": "是",
+        "emoji": "✨",
+        "example": "I am happy.",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v05",
+        "word": "a",
+        "meaning": "一个",
+        "emoji": "🔤",
+        "example": "a.",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v06",
+        "word": "cat",
+        "meaning": "猫",
+        "emoji": "🐱",
+        "example": "I see a cat.",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v07",
+        "word": "Miss",
+        "meaning": "小姐、女士",
+        "emoji": "👩‍🏫",
+        "example": "Good morning, Miss Lin.",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v08",
+        "word": "class",
+        "meaning": "同学们",
+        "emoji": "🏫",
+        "example": "Good afternoon, class.",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v09",
+        "word": "goodbye",
+        "meaning": "再见",
+        "emoji": "👋",
+        "example": "Goodbye, Ben!",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u01-v10",
+        "word": "bye",
+        "meaning": "再见",
+        "emoji": "👋",
+        "example": "Bye, Amy!",
+        "source": {
+          "bookPage": 8,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u01-v1-choice",
+        "kind": "choice",
+        "prompt": "“你好”用英语怎么说？",
+        "answer": "hello",
+        "options": [
+          "hello",
+          "hi",
+          "I",
+          "am"
+        ]
+      },
+      {
+        "id": "g3a-u01-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“你好”对应的英语词",
+        "answer": "hello"
+      },
+      {
+        "id": "g3a-u01-v2-choice",
+        "kind": "choice",
+        "prompt": "“嗨”用英语怎么说？",
+        "answer": "hi",
+        "options": [
+          "hi",
+          "I",
+          "am",
+          "a"
+        ]
+      },
+      {
+        "id": "g3a-u01-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“嗨”对应的英语词",
+        "answer": "hi"
+      },
+      {
+        "id": "g3a-u01-v3-choice",
+        "kind": "choice",
+        "prompt": "“我”用英语怎么说？",
+        "answer": "I",
+        "options": [
+          "I",
+          "am",
+          "a",
+          "cat"
+        ]
+      },
+      {
+        "id": "g3a-u01-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“我”对应的英语词",
+        "answer": "I"
+      },
+      {
+        "id": "g3a-u01-v4-choice",
+        "kind": "choice",
+        "prompt": "“是”用英语怎么说？",
+        "answer": "am",
+        "options": [
+          "am",
+          "a",
+          "cat",
+          "Miss"
+        ]
+      },
+      {
+        "id": "g3a-u01-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“是”对应的英语词",
+        "answer": "am"
+      },
+      {
+        "id": "g3a-u01-v5-choice",
+        "kind": "choice",
+        "prompt": "“一个”用英语怎么说？",
+        "answer": "a",
+        "options": [
+          "a",
+          "cat",
+          "Miss",
+          "class"
+        ]
+      },
+      {
+        "id": "g3a-u01-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“一个”对应的英语词",
+        "answer": "a"
+      },
+      {
+        "id": "g3a-u01-v6-choice",
+        "kind": "choice",
+        "prompt": "“猫”用英语怎么说？",
+        "answer": "cat",
+        "options": [
+          "cat",
+          "Miss",
+          "class",
+          "goodbye"
+        ]
+      },
+      {
+        "id": "g3a-u01-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“猫”对应的英语词",
+        "answer": "cat"
+      },
+      {
+        "id": "g3a-u01-v7-choice",
+        "kind": "choice",
+        "prompt": "“小姐、女士”用英语怎么说？",
+        "answer": "Miss",
+        "options": [
+          "Miss",
+          "class",
+          "goodbye",
+          "bye"
+        ]
+      },
+      {
+        "id": "g3a-u01-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“小姐、女士”对应的英语词",
+        "answer": "Miss"
+      },
+      {
+        "id": "g3a-u01-v8-choice",
+        "kind": "choice",
+        "prompt": "“同学们”用英语怎么说？",
+        "answer": "class",
+        "options": [
+          "class",
+          "goodbye",
+          "bye",
+          "hello"
+        ]
+      },
+      {
+        "id": "g3a-u01-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“同学们”对应的英语词",
+        "answer": "class"
+      },
+      {
+        "id": "g3a-u01-v9-choice",
+        "kind": "choice",
+        "prompt": "“再见”用英语怎么说？",
+        "answer": "goodbye",
+        "options": [
+          "goodbye",
+          "bye",
+          "hello",
+          "hi"
+        ]
+      },
+      {
+        "id": "g3a-u01-v9-spell",
+        "kind": "spell",
+        "prompt": "拼写“再见”对应的英语词",
+        "answer": "goodbye"
+      },
+      {
+        "id": "g3a-u01-v10-choice",
+        "kind": "choice",
+        "prompt": "“再见”用英语怎么说？",
+        "answer": "bye",
+        "options": [
+          "bye",
+          "hello",
+          "hi",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u01-v10-spell",
+        "kind": "spell",
+        "prompt": "拼写“再见”对应的英语词",
+        "answer": "bye"
+      },
+      {
+        "id": "g3a-u01-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“早上好。”的英语句子",
+        "answer": "Good morning.",
+        "options": [
+          "Good morning.",
+          "Good afternoon.",
+          "Goodbye!",
+          "Hi!"
+        ]
+      },
+      {
+        "id": "g3a-u01-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“下午好。”的英语句子",
+        "answer": "Good afternoon.",
+        "options": [
+          "Good afternoon.",
+          "Good morning.",
+          "Goodbye!",
+          "Hi!"
+        ]
+      },
+      {
+        "id": "g3a-u01-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“再见！”的英语句子",
+        "answer": "Goodbye!",
+        "options": [
+          "Goodbye!",
+          "Good morning.",
+          "Good afternoon.",
+          "Hi!"
+        ]
+      },
+      {
+        "id": "g3a-u01-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“嗨！”的英语句子",
+        "answer": "Hi!",
+        "options": [
+          "Hi!",
+          "Good morning.",
+          "Good afternoon.",
+          "Goodbye!"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g3a-u02",
+    "title": "What's your name?",
+    "description": "询问姓名",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        16,
+        23
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Ee–Gg",
+    "objectives": [
+      "介绍自己的姓名",
+      "礼貌询问别人的姓名"
+    ],
+    "phrases": [
+      {
+        "english": "What's your name?",
+        "meaning": "你叫什么名字？",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "My name is Amy.",
+        "meaning": "我的名字叫艾米。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Nice to meet you!",
+        "meaning": "很高兴认识你！",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Nice to meet you too.",
+        "meaning": "我也很高兴认识你。",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Hello! What's your name?",
+          "My name is Amy."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Nice to meet you!",
+          "Nice to meet you too."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u02-v01",
+        "word": "what",
+        "meaning": "什么",
+        "emoji": "❔",
+        "example": "What is this?",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v02",
+        "word": "is",
+        "meaning": "是",
+        "emoji": "✨",
+        "example": "This is my friend.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v03",
+        "word": "your",
+        "meaning": "你的",
+        "emoji": "👤",
+        "example": "Is this your book?",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v04",
+        "word": "name",
+        "meaning": "名字",
+        "emoji": "🏷️",
+        "example": "My name is Amy.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v05",
+        "word": "my",
+        "meaning": "我的",
+        "emoji": "🙋",
+        "example": "This is my book.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v06",
+        "word": "too",
+        "meaning": "也",
+        "emoji": "➕",
+        "example": "I like it too.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v07",
+        "word": "boy",
+        "meaning": "男孩",
+        "emoji": "👦",
+        "example": "The boy is my friend.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v08",
+        "word": "and",
+        "meaning": "和",
+        "emoji": "🤝",
+        "example": "Amy and Ben are friends.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v09",
+        "word": "girl",
+        "meaning": "女孩",
+        "emoji": "👧",
+        "example": "The girl is happy.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u02-v10",
+        "word": "Mr",
+        "meaning": "先生",
+        "emoji": "👨‍🏫",
+        "example": "Good morning, Mr Lee.",
+        "source": {
+          "bookPage": 16,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u02-v1-choice",
+        "kind": "choice",
+        "prompt": "“什么”用英语怎么说？",
+        "answer": "what",
+        "options": [
+          "what",
+          "is",
+          "your",
+          "name"
+        ]
+      },
+      {
+        "id": "g3a-u02-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“什么”对应的英语词",
+        "answer": "what"
+      },
+      {
+        "id": "g3a-u02-v2-choice",
+        "kind": "choice",
+        "prompt": "“是”用英语怎么说？",
+        "answer": "is",
+        "options": [
+          "is",
+          "your",
+          "name",
+          "my"
+        ]
+      },
+      {
+        "id": "g3a-u02-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“是”对应的英语词",
+        "answer": "is"
+      },
+      {
+        "id": "g3a-u02-v3-choice",
+        "kind": "choice",
+        "prompt": "“你的”用英语怎么说？",
+        "answer": "your",
+        "options": [
+          "your",
+          "name",
+          "my",
+          "too"
+        ]
+      },
+      {
+        "id": "g3a-u02-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“你的”对应的英语词",
+        "answer": "your"
+      },
+      {
+        "id": "g3a-u02-v4-choice",
+        "kind": "choice",
+        "prompt": "“名字”用英语怎么说？",
+        "answer": "name",
+        "options": [
+          "name",
+          "my",
+          "too",
+          "boy"
+        ]
+      },
+      {
+        "id": "g3a-u02-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“名字”对应的英语词",
+        "answer": "name"
+      },
+      {
+        "id": "g3a-u02-v5-choice",
+        "kind": "choice",
+        "prompt": "“我的”用英语怎么说？",
+        "answer": "my",
+        "options": [
+          "my",
+          "too",
+          "boy",
+          "and"
+        ]
+      },
+      {
+        "id": "g3a-u02-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“我的”对应的英语词",
+        "answer": "my"
+      },
+      {
+        "id": "g3a-u02-v6-choice",
+        "kind": "choice",
+        "prompt": "“也”用英语怎么说？",
+        "answer": "too",
+        "options": [
+          "too",
+          "boy",
+          "and",
+          "girl"
+        ]
+      },
+      {
+        "id": "g3a-u02-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“也”对应的英语词",
+        "answer": "too"
+      },
+      {
+        "id": "g3a-u02-v7-choice",
+        "kind": "choice",
+        "prompt": "“男孩”用英语怎么说？",
+        "answer": "boy",
+        "options": [
+          "boy",
+          "and",
+          "girl",
+          "Mr"
+        ]
+      },
+      {
+        "id": "g3a-u02-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“男孩”对应的英语词",
+        "answer": "boy"
+      },
+      {
+        "id": "g3a-u02-v8-choice",
+        "kind": "choice",
+        "prompt": "“和”用英语怎么说？",
+        "answer": "and",
+        "options": [
+          "and",
+          "girl",
+          "Mr",
+          "what"
+        ]
+      },
+      {
+        "id": "g3a-u02-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“和”对应的英语词",
+        "answer": "and"
+      },
+      {
+        "id": "g3a-u02-v9-choice",
+        "kind": "choice",
+        "prompt": "“女孩”用英语怎么说？",
+        "answer": "girl",
+        "options": [
+          "girl",
+          "Mr",
+          "what",
+          "is"
+        ]
+      },
+      {
+        "id": "g3a-u02-v9-spell",
+        "kind": "spell",
+        "prompt": "拼写“女孩”对应的英语词",
+        "answer": "girl"
+      },
+      {
+        "id": "g3a-u02-v10-choice",
+        "kind": "choice",
+        "prompt": "“先生”用英语怎么说？",
+        "answer": "Mr",
+        "options": [
+          "Mr",
+          "what",
+          "is",
+          "your"
+        ]
+      },
+      {
+        "id": "g3a-u02-v10-spell",
+        "kind": "spell",
+        "prompt": "拼写“先生”对应的英语词",
+        "answer": "Mr"
+      },
+      {
+        "id": "g3a-u02-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“你叫什么名字？”的英语句子",
+        "answer": "What's your name?",
+        "options": [
+          "What's your name?",
+          "My name is Amy.",
+          "Nice to meet you!",
+          "Nice to meet you too."
+        ]
+      },
+      {
+        "id": "g3a-u02-p1-order",
+        "kind": "order",
+        "prompt": "排列词块：你叫什么名字？",
+        "answer": "What's your name?",
+        "tokens": [
+          "name?",
+          "your",
+          "What's"
+        ]
+      },
+      {
+        "id": "g3a-u02-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我的名字叫艾米。”的英语句子",
+        "answer": "My name is Amy.",
+        "options": [
+          "My name is Amy.",
+          "What's your name?",
+          "Nice to meet you!",
+          "Nice to meet you too."
+        ]
+      },
+      {
+        "id": "g3a-u02-p2-order",
+        "kind": "order",
+        "prompt": "排列词块：我的名字叫艾米。",
+        "answer": "My name is Amy.",
+        "tokens": [
+          "Amy.",
+          "is",
+          "name",
+          "My"
+        ]
+      },
+      {
+        "id": "g3a-u02-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“很高兴认识你！”的英语句子",
+        "answer": "Nice to meet you!",
+        "options": [
+          "Nice to meet you!",
+          "What's your name?",
+          "My name is Amy.",
+          "Nice to meet you too."
+        ]
+      },
+      {
+        "id": "g3a-u02-p3-order",
+        "kind": "order",
+        "prompt": "排列词块：很高兴认识你！",
+        "answer": "Nice to meet you!",
+        "tokens": [
+          "you!",
+          "meet",
+          "to",
+          "Nice"
+        ]
+      },
+      {
+        "id": "g3a-u02-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我也很高兴认识你。”的英语句子",
+        "answer": "Nice to meet you too.",
+        "options": [
+          "Nice to meet you too.",
+          "What's your name?",
+          "My name is Amy.",
+          "Nice to meet you!"
+        ]
+      },
+      {
+        "id": "g3a-u02-p4-order",
+        "kind": "order",
+        "prompt": "排列词块：我也很高兴认识你。",
+        "answer": "Nice to meet you too.",
+        "tokens": [
+          "too.",
+          "you",
+          "meet",
+          "to",
+          "Nice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g3a-u03",
+    "title": "Are you Su Hai?",
+    "description": "确认身份和班级",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        24,
+        31
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Hh–Kk",
+    "objectives": [
+      "使用一般疑问句确认身份",
+      "用肯定和否定回答回应",
+      "询问所在班级"
+    ],
+    "phrases": [
+      {
+        "english": "Are you Amy?",
+        "meaning": "你是艾米吗？",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Yes, I am.",
+        "meaning": "是的，我是。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "No, I'm not.",
+        "meaning": "不，我不是。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "What class are you in?",
+        "meaning": "你在哪个班？",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "I'm in Class 1.",
+        "meaning": "我在一班。",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Are you Amy?",
+          "Yes, I am."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Are you Lily?",
+          "No, I'm not."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "What class are you in?",
+          "I'm in Class 1."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u03-v01",
+        "word": "are",
+        "meaning": "是",
+        "emoji": "✨",
+        "example": "Are you Amy?",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v02",
+        "word": "you",
+        "meaning": "你、你们",
+        "emoji": "👥",
+        "example": "You are my friend.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v03",
+        "word": "no",
+        "meaning": "不、不是",
+        "emoji": "🚫",
+        "example": "No, I'm not.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v04",
+        "word": "not",
+        "meaning": "不",
+        "emoji": "🚫",
+        "example": "I am not Ben.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v05",
+        "word": "yes",
+        "meaning": "是、对",
+        "emoji": "✔️",
+        "example": "Yes, I am.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v06",
+        "word": "but",
+        "meaning": "但是",
+        "emoji": "↔️",
+        "example": "I am Amy, but she is Lily.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v07",
+        "word": "sorry",
+        "meaning": "对不起",
+        "emoji": "🙏",
+        "example": "Sorry, I'm not Amy.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v08",
+        "word": "we",
+        "meaning": "我们",
+        "emoji": "👥",
+        "example": "We are friends.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v09",
+        "word": "class",
+        "meaning": "班级",
+        "emoji": "🏫",
+        "example": "Good afternoon, class.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v10",
+        "word": "in",
+        "meaning": "在……中",
+        "emoji": "📍",
+        "example": "I'm in Class 1.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v11",
+        "word": "with",
+        "meaning": "和、同",
+        "emoji": "🤝",
+        "example": "I am with my friend.",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u03-v12",
+        "word": "right",
+        "meaning": "正确的",
+        "emoji": "✔️",
+        "example": "That's right!",
+        "source": {
+          "bookPage": 24,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u03-v1-choice",
+        "kind": "choice",
+        "prompt": "“是”用英语怎么说？",
+        "answer": "are",
+        "options": [
+          "are",
+          "you",
+          "no",
+          "not"
+        ]
+      },
+      {
+        "id": "g3a-u03-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“是”对应的英语词",
+        "answer": "are"
+      },
+      {
+        "id": "g3a-u03-v2-choice",
+        "kind": "choice",
+        "prompt": "“你、你们”用英语怎么说？",
+        "answer": "you",
+        "options": [
+          "you",
+          "no",
+          "not",
+          "yes"
+        ]
+      },
+      {
+        "id": "g3a-u03-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“你、你们”对应的英语词",
+        "answer": "you"
+      },
+      {
+        "id": "g3a-u03-v3-choice",
+        "kind": "choice",
+        "prompt": "“不、不是”用英语怎么说？",
+        "answer": "no",
+        "options": [
+          "no",
+          "not",
+          "yes",
+          "but"
+        ]
+      },
+      {
+        "id": "g3a-u03-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“不、不是”对应的英语词",
+        "answer": "no"
+      },
+      {
+        "id": "g3a-u03-v4-choice",
+        "kind": "choice",
+        "prompt": "“不”用英语怎么说？",
+        "answer": "not",
+        "options": [
+          "not",
+          "yes",
+          "but",
+          "sorry"
+        ]
+      },
+      {
+        "id": "g3a-u03-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“不”对应的英语词",
+        "answer": "not"
+      },
+      {
+        "id": "g3a-u03-v5-choice",
+        "kind": "choice",
+        "prompt": "“是、对”用英语怎么说？",
+        "answer": "yes",
+        "options": [
+          "yes",
+          "but",
+          "sorry",
+          "we"
+        ]
+      },
+      {
+        "id": "g3a-u03-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“是、对”对应的英语词",
+        "answer": "yes"
+      },
+      {
+        "id": "g3a-u03-v6-choice",
+        "kind": "choice",
+        "prompt": "“但是”用英语怎么说？",
+        "answer": "but",
+        "options": [
+          "but",
+          "sorry",
+          "we",
+          "class"
+        ]
+      },
+      {
+        "id": "g3a-u03-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“但是”对应的英语词",
+        "answer": "but"
+      },
+      {
+        "id": "g3a-u03-v7-choice",
+        "kind": "choice",
+        "prompt": "“对不起”用英语怎么说？",
+        "answer": "sorry",
+        "options": [
+          "sorry",
+          "we",
+          "class",
+          "in"
+        ]
+      },
+      {
+        "id": "g3a-u03-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“对不起”对应的英语词",
+        "answer": "sorry"
+      },
+      {
+        "id": "g3a-u03-v8-choice",
+        "kind": "choice",
+        "prompt": "“我们”用英语怎么说？",
+        "answer": "we",
+        "options": [
+          "we",
+          "class",
+          "in",
+          "with"
+        ]
+      },
+      {
+        "id": "g3a-u03-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“我们”对应的英语词",
+        "answer": "we"
+      },
+      {
+        "id": "g3a-u03-v9-choice",
+        "kind": "choice",
+        "prompt": "“班级”用英语怎么说？",
+        "answer": "class",
+        "options": [
+          "class",
+          "in",
+          "with",
+          "right"
+        ]
+      },
+      {
+        "id": "g3a-u03-v9-spell",
+        "kind": "spell",
+        "prompt": "拼写“班级”对应的英语词",
+        "answer": "class"
+      },
+      {
+        "id": "g3a-u03-v10-choice",
+        "kind": "choice",
+        "prompt": "“在……中”用英语怎么说？",
+        "answer": "in",
+        "options": [
+          "in",
+          "with",
+          "right",
+          "are"
+        ]
+      },
+      {
+        "id": "g3a-u03-v10-spell",
+        "kind": "spell",
+        "prompt": "拼写“在……中”对应的英语词",
+        "answer": "in"
+      },
+      {
+        "id": "g3a-u03-v11-choice",
+        "kind": "choice",
+        "prompt": "“和、同”用英语怎么说？",
+        "answer": "with",
+        "options": [
+          "with",
+          "right",
+          "are",
+          "you"
+        ]
+      },
+      {
+        "id": "g3a-u03-v11-spell",
+        "kind": "spell",
+        "prompt": "拼写“和、同”对应的英语词",
+        "answer": "with"
+      },
+      {
+        "id": "g3a-u03-v12-choice",
+        "kind": "choice",
+        "prompt": "“正确的”用英语怎么说？",
+        "answer": "right",
+        "options": [
+          "right",
+          "are",
+          "you",
+          "no"
+        ]
+      },
+      {
+        "id": "g3a-u03-v12-spell",
+        "kind": "spell",
+        "prompt": "拼写“正确的”对应的英语词",
+        "answer": "right"
+      },
+      {
+        "id": "g3a-u03-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“你是艾米吗？”的英语句子",
+        "answer": "Are you Amy?",
+        "options": [
+          "Are you Amy?",
+          "Yes, I am.",
+          "No, I'm not.",
+          "What class are you in?"
+        ]
+      },
+      {
+        "id": "g3a-u03-p1-order",
+        "kind": "order",
+        "prompt": "排列词块：你是艾米吗？",
+        "answer": "Are you Amy?",
+        "tokens": [
+          "Amy?",
+          "you",
+          "Are"
+        ]
+      },
+      {
+        "id": "g3a-u03-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“是的，我是。”的英语句子",
+        "answer": "Yes, I am.",
+        "options": [
+          "Yes, I am.",
+          "Are you Amy?",
+          "No, I'm not.",
+          "What class are you in?"
+        ]
+      },
+      {
+        "id": "g3a-u03-p2-order",
+        "kind": "order",
+        "prompt": "排列词块：是的，我是。",
+        "answer": "Yes, I am.",
+        "tokens": [
+          "am.",
+          "I",
+          "Yes,"
+        ]
+      },
+      {
+        "id": "g3a-u03-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“不，我不是。”的英语句子",
+        "answer": "No, I'm not.",
+        "options": [
+          "No, I'm not.",
+          "Are you Amy?",
+          "Yes, I am.",
+          "What class are you in?"
+        ]
+      },
+      {
+        "id": "g3a-u03-p3-order",
+        "kind": "order",
+        "prompt": "排列词块：不，我不是。",
+        "answer": "No, I'm not.",
+        "tokens": [
+          "not.",
+          "I'm",
+          "No,"
+        ]
+      },
+      {
+        "id": "g3a-u03-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“你在哪个班？”的英语句子",
+        "answer": "What class are you in?",
+        "options": [
+          "What class are you in?",
+          "Are you Amy?",
+          "Yes, I am.",
+          "No, I'm not."
+        ]
+      },
+      {
+        "id": "g3a-u03-p4-order",
+        "kind": "order",
+        "prompt": "排列词块：你在哪个班？",
+        "answer": "What class are you in?",
+        "tokens": [
+          "in?",
+          "you",
+          "are",
+          "class",
+          "What"
+        ]
+      },
+      {
+        "id": "g3a-u03-p5-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我在一班。”的英语句子",
+        "answer": "I'm in Class 1.",
+        "options": [
+          "I'm in Class 1.",
+          "Are you Amy?",
+          "Yes, I am.",
+          "No, I'm not."
+        ]
+      },
+      {
+        "id": "g3a-u03-p5-order",
+        "kind": "order",
+        "prompt": "排列词块：我在一班。",
+        "answer": "I'm in Class 1.",
+        "tokens": [
+          "1.",
+          "Class",
+          "in",
+          "I'm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g3a-u04",
+    "title": "This is my friend",
+    "description": "介绍朋友",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        32,
+        39
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Ll–Nn",
+    "objectives": [
+      "介绍朋友",
+      "向家人介绍朋友",
+      "用 he/she 区分人物"
+    ],
+    "phrases": [
+      {
+        "english": "This is my friend.",
+        "meaning": "这是我的朋友。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "She's my friend.",
+        "meaning": "她是我的朋友。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "He's my friend.",
+        "meaning": "他是我的朋友。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Thank you.",
+        "meaning": "谢谢你。",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "This is my friend, Amy.",
+          "Nice to meet you!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "This is Ben. He's my friend.",
+          "Hello, Ben!"
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u04-v01",
+        "word": "this",
+        "meaning": "这、这个",
+        "emoji": "👉",
+        "example": "This is my friend.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u04-v02",
+        "word": "friend",
+        "meaning": "朋友",
+        "emoji": "🤝",
+        "example": "Ben is my friend.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u04-v03",
+        "word": "she",
+        "meaning": "她",
+        "emoji": "👧",
+        "example": "She is my sister.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u04-v04",
+        "word": "he",
+        "meaning": "他",
+        "emoji": "👦",
+        "example": "He is my brother.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u04-v05",
+        "word": "it",
+        "meaning": "它",
+        "emoji": "🐾",
+        "example": "It is a cat.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u04-v06",
+        "word": "good",
+        "meaning": "好的",
+        "emoji": "👍",
+        "example": "This is a good book.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u04-v07",
+        "word": "have",
+        "meaning": "有",
+        "emoji": "🎒",
+        "example": "I have a book.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u04-v08",
+        "word": "many",
+        "meaning": "许多",
+        "emoji": "✨",
+        "example": "I have many friends.",
+        "source": {
+          "bookPage": 32,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u04-v1-choice",
+        "kind": "choice",
+        "prompt": "“这、这个”用英语怎么说？",
+        "answer": "this",
+        "options": [
+          "this",
+          "friend",
+          "she",
+          "he"
+        ]
+      },
+      {
+        "id": "g3a-u04-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“这、这个”对应的英语词",
+        "answer": "this"
+      },
+      {
+        "id": "g3a-u04-v2-choice",
+        "kind": "choice",
+        "prompt": "“朋友”用英语怎么说？",
+        "answer": "friend",
+        "options": [
+          "friend",
+          "she",
+          "he",
+          "it"
+        ]
+      },
+      {
+        "id": "g3a-u04-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“朋友”对应的英语词",
+        "answer": "friend"
+      },
+      {
+        "id": "g3a-u04-v3-choice",
+        "kind": "choice",
+        "prompt": "“她”用英语怎么说？",
+        "answer": "she",
+        "options": [
+          "she",
+          "he",
+          "it",
+          "good"
+        ]
+      },
+      {
+        "id": "g3a-u04-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“她”对应的英语词",
+        "answer": "she"
+      },
+      {
+        "id": "g3a-u04-v4-choice",
+        "kind": "choice",
+        "prompt": "“他”用英语怎么说？",
+        "answer": "he",
+        "options": [
+          "he",
+          "it",
+          "good",
+          "have"
+        ]
+      },
+      {
+        "id": "g3a-u04-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“他”对应的英语词",
+        "answer": "he"
+      },
+      {
+        "id": "g3a-u04-v5-choice",
+        "kind": "choice",
+        "prompt": "“它”用英语怎么说？",
+        "answer": "it",
+        "options": [
+          "it",
+          "good",
+          "have",
+          "many"
+        ]
+      },
+      {
+        "id": "g3a-u04-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“它”对应的英语词",
+        "answer": "it"
+      },
+      {
+        "id": "g3a-u04-v6-choice",
+        "kind": "choice",
+        "prompt": "“好的”用英语怎么说？",
+        "answer": "good",
+        "options": [
+          "good",
+          "have",
+          "many",
+          "this"
+        ]
+      },
+      {
+        "id": "g3a-u04-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“好的”对应的英语词",
+        "answer": "good"
+      },
+      {
+        "id": "g3a-u04-v7-choice",
+        "kind": "choice",
+        "prompt": "“有”用英语怎么说？",
+        "answer": "have",
+        "options": [
+          "have",
+          "many",
+          "this",
+          "friend"
+        ]
+      },
+      {
+        "id": "g3a-u04-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“有”对应的英语词",
+        "answer": "have"
+      },
+      {
+        "id": "g3a-u04-v8-choice",
+        "kind": "choice",
+        "prompt": "“许多”用英语怎么说？",
+        "answer": "many",
+        "options": [
+          "many",
+          "this",
+          "friend",
+          "she"
+        ]
+      },
+      {
+        "id": "g3a-u04-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“许多”对应的英语词",
+        "answer": "many"
+      },
+      {
+        "id": "g3a-u04-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“这是我的朋友。”的英语句子",
+        "answer": "This is my friend.",
+        "options": [
+          "This is my friend.",
+          "She's my friend.",
+          "He's my friend.",
+          "Thank you."
+        ]
+      },
+      {
+        "id": "g3a-u04-p1-order",
+        "kind": "order",
+        "prompt": "排列词块：这是我的朋友。",
+        "answer": "This is my friend.",
+        "tokens": [
+          "friend.",
+          "my",
+          "is",
+          "This"
+        ]
+      },
+      {
+        "id": "g3a-u04-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“她是我的朋友。”的英语句子",
+        "answer": "She's my friend.",
+        "options": [
+          "She's my friend.",
+          "This is my friend.",
+          "He's my friend.",
+          "Thank you."
+        ]
+      },
+      {
+        "id": "g3a-u04-p2-order",
+        "kind": "order",
+        "prompt": "排列词块：她是我的朋友。",
+        "answer": "She's my friend.",
+        "tokens": [
+          "friend.",
+          "my",
+          "She's"
+        ]
+      },
+      {
+        "id": "g3a-u04-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“他是我的朋友。”的英语句子",
+        "answer": "He's my friend.",
+        "options": [
+          "He's my friend.",
+          "This is my friend.",
+          "She's my friend.",
+          "Thank you."
+        ]
+      },
+      {
+        "id": "g3a-u04-p3-order",
+        "kind": "order",
+        "prompt": "排列词块：他是我的朋友。",
+        "answer": "He's my friend.",
+        "tokens": [
+          "friend.",
+          "my",
+          "He's"
+        ]
+      },
+      {
+        "id": "g3a-u04-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“谢谢你。”的英语句子",
+        "answer": "Thank you.",
+        "options": [
+          "Thank you.",
+          "This is my friend.",
+          "She's my friend.",
+          "He's my friend."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g3a-u05",
+    "title": "She's my mother",
+    "description": "认识家庭成员",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        42,
+        49
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Oo–Qq",
+    "objectives": [
+      "介绍家庭成员",
+      "询问他人是谁",
+      "表达对家庭的感情"
+    ],
+    "phrases": [
+      {
+        "english": "Good evening.",
+        "meaning": "晚上好。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Who's she?",
+        "meaning": "她是谁？",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "She's my sister.",
+        "meaning": "她是我的姐妹。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "This is my family.",
+        "meaning": "这是我的家庭。",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Who's he?",
+          "He's my brother."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Who's she?",
+          "She's my mother."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u05-v01",
+        "word": "mother",
+        "meaning": "母亲、妈妈",
+        "emoji": "👩",
+        "example": "This is my mother.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v02",
+        "word": "father",
+        "meaning": "父亲、爸爸",
+        "emoji": "👨",
+        "example": "This is my father.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v03",
+        "word": "dad",
+        "meaning": "爸爸",
+        "emoji": "👨",
+        "example": "My dad is happy.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v04",
+        "word": "mum",
+        "meaning": "妈妈",
+        "emoji": "👩",
+        "example": "My mum is here.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v05",
+        "word": "brother",
+        "meaning": "兄弟",
+        "emoji": "👦",
+        "example": "He is my brother.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v06",
+        "word": "baby",
+        "meaning": "婴儿",
+        "emoji": "👶",
+        "example": "The baby is happy.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v07",
+        "word": "sister",
+        "meaning": "姐妹",
+        "emoji": "👧",
+        "example": "She is my sister.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v08",
+        "word": "look",
+        "meaning": "看",
+        "emoji": "👀",
+        "example": "Look at my book!",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v09",
+        "word": "who",
+        "meaning": "谁",
+        "emoji": "❔",
+        "example": "Who is she?",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v10",
+        "word": "great",
+        "meaning": "很棒的",
+        "emoji": "⭐",
+        "example": "That's great!",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v11",
+        "word": "come",
+        "meaning": "来",
+        "emoji": "🚶",
+        "example": "Come here, please.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v12",
+        "word": "meet",
+        "meaning": "相识、结识",
+        "emoji": "🤝",
+        "example": "Nice to meet you.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v13",
+        "word": "family",
+        "meaning": "家庭",
+        "emoji": "🏠",
+        "example": "I love my family.",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u05-v14",
+        "word": "say",
+        "meaning": "说",
+        "emoji": "💬",
+        "example": "Say hello!",
+        "source": {
+          "bookPage": 42,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u05-v1-choice",
+        "kind": "choice",
+        "prompt": "“母亲、妈妈”用英语怎么说？",
+        "answer": "mother",
+        "options": [
+          "mother",
+          "father",
+          "dad",
+          "mum"
+        ]
+      },
+      {
+        "id": "g3a-u05-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“母亲、妈妈”对应的英语词",
+        "answer": "mother"
+      },
+      {
+        "id": "g3a-u05-v2-choice",
+        "kind": "choice",
+        "prompt": "“父亲、爸爸”用英语怎么说？",
+        "answer": "father",
+        "options": [
+          "father",
+          "dad",
+          "mum",
+          "brother"
+        ]
+      },
+      {
+        "id": "g3a-u05-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“父亲、爸爸”对应的英语词",
+        "answer": "father"
+      },
+      {
+        "id": "g3a-u05-v3-choice",
+        "kind": "choice",
+        "prompt": "“爸爸”用英语怎么说？",
+        "answer": "dad",
+        "options": [
+          "dad",
+          "mum",
+          "brother",
+          "baby"
+        ]
+      },
+      {
+        "id": "g3a-u05-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“爸爸”对应的英语词",
+        "answer": "dad"
+      },
+      {
+        "id": "g3a-u05-v4-choice",
+        "kind": "choice",
+        "prompt": "“妈妈”用英语怎么说？",
+        "answer": "mum",
+        "options": [
+          "mum",
+          "brother",
+          "baby",
+          "sister"
+        ]
+      },
+      {
+        "id": "g3a-u05-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“妈妈”对应的英语词",
+        "answer": "mum"
+      },
+      {
+        "id": "g3a-u05-v5-choice",
+        "kind": "choice",
+        "prompt": "“兄弟”用英语怎么说？",
+        "answer": "brother",
+        "options": [
+          "brother",
+          "baby",
+          "sister",
+          "look"
+        ]
+      },
+      {
+        "id": "g3a-u05-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“兄弟”对应的英语词",
+        "answer": "brother"
+      },
+      {
+        "id": "g3a-u05-v6-choice",
+        "kind": "choice",
+        "prompt": "“婴儿”用英语怎么说？",
+        "answer": "baby",
+        "options": [
+          "baby",
+          "sister",
+          "look",
+          "who"
+        ]
+      },
+      {
+        "id": "g3a-u05-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“婴儿”对应的英语词",
+        "answer": "baby"
+      },
+      {
+        "id": "g3a-u05-v7-choice",
+        "kind": "choice",
+        "prompt": "“姐妹”用英语怎么说？",
+        "answer": "sister",
+        "options": [
+          "sister",
+          "look",
+          "who",
+          "great"
+        ]
+      },
+      {
+        "id": "g3a-u05-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“姐妹”对应的英语词",
+        "answer": "sister"
+      },
+      {
+        "id": "g3a-u05-v8-choice",
+        "kind": "choice",
+        "prompt": "“看”用英语怎么说？",
+        "answer": "look",
+        "options": [
+          "look",
+          "who",
+          "great",
+          "come"
+        ]
+      },
+      {
+        "id": "g3a-u05-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“看”对应的英语词",
+        "answer": "look"
+      },
+      {
+        "id": "g3a-u05-v9-choice",
+        "kind": "choice",
+        "prompt": "“谁”用英语怎么说？",
+        "answer": "who",
+        "options": [
+          "who",
+          "great",
+          "come",
+          "meet"
+        ]
+      },
+      {
+        "id": "g3a-u05-v9-spell",
+        "kind": "spell",
+        "prompt": "拼写“谁”对应的英语词",
+        "answer": "who"
+      },
+      {
+        "id": "g3a-u05-v10-choice",
+        "kind": "choice",
+        "prompt": "“很棒的”用英语怎么说？",
+        "answer": "great",
+        "options": [
+          "great",
+          "come",
+          "meet",
+          "family"
+        ]
+      },
+      {
+        "id": "g3a-u05-v10-spell",
+        "kind": "spell",
+        "prompt": "拼写“很棒的”对应的英语词",
+        "answer": "great"
+      },
+      {
+        "id": "g3a-u05-v11-choice",
+        "kind": "choice",
+        "prompt": "“来”用英语怎么说？",
+        "answer": "come",
+        "options": [
+          "come",
+          "meet",
+          "family",
+          "say"
+        ]
+      },
+      {
+        "id": "g3a-u05-v11-spell",
+        "kind": "spell",
+        "prompt": "拼写“来”对应的英语词",
+        "answer": "come"
+      },
+      {
+        "id": "g3a-u05-v12-choice",
+        "kind": "choice",
+        "prompt": "“相识、结识”用英语怎么说？",
+        "answer": "meet",
+        "options": [
+          "meet",
+          "family",
+          "say",
+          "mother"
+        ]
+      },
+      {
+        "id": "g3a-u05-v12-spell",
+        "kind": "spell",
+        "prompt": "拼写“相识、结识”对应的英语词",
+        "answer": "meet"
+      },
+      {
+        "id": "g3a-u05-v13-choice",
+        "kind": "choice",
+        "prompt": "“家庭”用英语怎么说？",
+        "answer": "family",
+        "options": [
+          "family",
+          "say",
+          "mother",
+          "father"
+        ]
+      },
+      {
+        "id": "g3a-u05-v13-spell",
+        "kind": "spell",
+        "prompt": "拼写“家庭”对应的英语词",
+        "answer": "family"
+      },
+      {
+        "id": "g3a-u05-v14-choice",
+        "kind": "choice",
+        "prompt": "“说”用英语怎么说？",
+        "answer": "say",
+        "options": [
+          "say",
+          "mother",
+          "father",
+          "dad"
+        ]
+      },
+      {
+        "id": "g3a-u05-v14-spell",
+        "kind": "spell",
+        "prompt": "拼写“说”对应的英语词",
+        "answer": "say"
+      },
+      {
+        "id": "g3a-u05-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“晚上好。”的英语句子",
+        "answer": "Good evening.",
+        "options": [
+          "Good evening.",
+          "Who's she?",
+          "She's my sister.",
+          "This is my family."
+        ]
+      },
+      {
+        "id": "g3a-u05-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“她是谁？”的英语句子",
+        "answer": "Who's she?",
+        "options": [
+          "Who's she?",
+          "Good evening.",
+          "She's my sister.",
+          "This is my family."
+        ]
+      },
+      {
+        "id": "g3a-u05-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“她是我的姐妹。”的英语句子",
+        "answer": "She's my sister.",
+        "options": [
+          "She's my sister.",
+          "Good evening.",
+          "Who's she?",
+          "This is my family."
+        ]
+      },
+      {
+        "id": "g3a-u05-p3-order",
+        "kind": "order",
+        "prompt": "排列词块：她是我的姐妹。",
+        "answer": "She's my sister.",
+        "tokens": [
+          "sister.",
+          "my",
+          "She's"
+        ]
+      },
+      {
+        "id": "g3a-u05-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“这是我的家庭。”的英语句子",
+        "answer": "This is my family.",
+        "options": [
+          "This is my family.",
+          "Good evening.",
+          "Who's she?",
+          "She's my sister."
+        ]
+      },
+      {
+        "id": "g3a-u05-p4-order",
+        "kind": "order",
+        "prompt": "排列词块：这是我的家庭。",
+        "answer": "This is my family.",
+        "tokens": [
+          "family.",
+          "my",
+          "is",
+          "This"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g3a-u06",
+    "title": "Is he your grandpa?",
+    "description": "大家庭与亲属",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        50,
+        57
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Rr–Tt",
+    "objectives": [
+      "认识更多家庭成员称谓",
+      "询问与确认亲属关系",
+      "介绍家庭树"
+    ],
+    "phrases": [
+      {
+        "english": "Is he your grandpa?",
+        "meaning": "他是你的爷爷或外公吗？",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Yes, he is.",
+        "meaning": "是的，他是。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "No, he isn't.",
+        "meaning": "不，他不是。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "She's my aunt.",
+        "meaning": "她是我的姑姨婶等亲属。",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Is he your grandpa?",
+          "Yes, he is."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Is she your mother?",
+          "No, she isn't."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u06-v01",
+        "word": "grandfather",
+        "meaning": "祖父、外祖父",
+        "emoji": "👴",
+        "example": "This is my grandfather.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v02",
+        "word": "uncle",
+        "meaning": "叔伯舅姑姨父",
+        "emoji": "👨",
+        "example": "This is my uncle.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v03",
+        "word": "aunt",
+        "meaning": "姑姨伯婶舅母",
+        "emoji": "👩",
+        "example": "She is my aunt.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v04",
+        "word": "grandmother",
+        "meaning": "祖母、外祖母",
+        "emoji": "👵",
+        "example": "This is my grandmother.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v05",
+        "word": "cousin",
+        "meaning": "堂表兄弟姐妹",
+        "emoji": "🧒",
+        "example": "He is my cousin.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v06",
+        "word": "cool",
+        "meaning": "很酷的",
+        "emoji": "😎",
+        "example": "That's cool!",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v07",
+        "word": "me",
+        "meaning": "我",
+        "emoji": "🙋",
+        "example": "Look at me!",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v08",
+        "word": "big",
+        "meaning": "大的",
+        "emoji": "🏠",
+        "example": "I have a big family.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v09",
+        "word": "it",
+        "meaning": "它",
+        "emoji": "🐾",
+        "example": "It is a cat.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v10",
+        "word": "happy",
+        "meaning": "幸福的",
+        "emoji": "😊",
+        "example": "We are happy.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u06-v11",
+        "word": "love",
+        "meaning": "爱",
+        "emoji": "❤️",
+        "example": "I love my family.",
+        "source": {
+          "bookPage": 50,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u06-v1-choice",
+        "kind": "choice",
+        "prompt": "“祖父、外祖父”用英语怎么说？",
+        "answer": "grandfather",
+        "options": [
+          "grandfather",
+          "uncle",
+          "aunt",
+          "grandmother"
+        ]
+      },
+      {
+        "id": "g3a-u06-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“祖父、外祖父”对应的英语词",
+        "answer": "grandfather"
+      },
+      {
+        "id": "g3a-u06-v2-choice",
+        "kind": "choice",
+        "prompt": "“叔伯舅姑姨父”用英语怎么说？",
+        "answer": "uncle",
+        "options": [
+          "uncle",
+          "aunt",
+          "grandmother",
+          "cousin"
+        ]
+      },
+      {
+        "id": "g3a-u06-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“叔伯舅姑姨父”对应的英语词",
+        "answer": "uncle"
+      },
+      {
+        "id": "g3a-u06-v3-choice",
+        "kind": "choice",
+        "prompt": "“姑姨伯婶舅母”用英语怎么说？",
+        "answer": "aunt",
+        "options": [
+          "aunt",
+          "grandmother",
+          "cousin",
+          "cool"
+        ]
+      },
+      {
+        "id": "g3a-u06-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“姑姨伯婶舅母”对应的英语词",
+        "answer": "aunt"
+      },
+      {
+        "id": "g3a-u06-v4-choice",
+        "kind": "choice",
+        "prompt": "“祖母、外祖母”用英语怎么说？",
+        "answer": "grandmother",
+        "options": [
+          "grandmother",
+          "cousin",
+          "cool",
+          "me"
+        ]
+      },
+      {
+        "id": "g3a-u06-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“祖母、外祖母”对应的英语词",
+        "answer": "grandmother"
+      },
+      {
+        "id": "g3a-u06-v5-choice",
+        "kind": "choice",
+        "prompt": "“堂表兄弟姐妹”用英语怎么说？",
+        "answer": "cousin",
+        "options": [
+          "cousin",
+          "cool",
+          "me",
+          "big"
+        ]
+      },
+      {
+        "id": "g3a-u06-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“堂表兄弟姐妹”对应的英语词",
+        "answer": "cousin"
+      },
+      {
+        "id": "g3a-u06-v6-choice",
+        "kind": "choice",
+        "prompt": "“很酷的”用英语怎么说？",
+        "answer": "cool",
+        "options": [
+          "cool",
+          "me",
+          "big",
+          "it"
+        ]
+      },
+      {
+        "id": "g3a-u06-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“很酷的”对应的英语词",
+        "answer": "cool"
+      },
+      {
+        "id": "g3a-u06-v7-choice",
+        "kind": "choice",
+        "prompt": "“我”用英语怎么说？",
+        "answer": "me",
+        "options": [
+          "me",
+          "big",
+          "it",
+          "happy"
+        ]
+      },
+      {
+        "id": "g3a-u06-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“我”对应的英语词",
+        "answer": "me"
+      },
+      {
+        "id": "g3a-u06-v8-choice",
+        "kind": "choice",
+        "prompt": "“大的”用英语怎么说？",
+        "answer": "big",
+        "options": [
+          "big",
+          "it",
+          "happy",
+          "love"
+        ]
+      },
+      {
+        "id": "g3a-u06-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“大的”对应的英语词",
+        "answer": "big"
+      },
+      {
+        "id": "g3a-u06-v9-choice",
+        "kind": "choice",
+        "prompt": "“它”用英语怎么说？",
+        "answer": "it",
+        "options": [
+          "it",
+          "happy",
+          "love",
+          "grandfather"
+        ]
+      },
+      {
+        "id": "g3a-u06-v9-spell",
+        "kind": "spell",
+        "prompt": "拼写“它”对应的英语词",
+        "answer": "it"
+      },
+      {
+        "id": "g3a-u06-v10-choice",
+        "kind": "choice",
+        "prompt": "“幸福的”用英语怎么说？",
+        "answer": "happy",
+        "options": [
+          "happy",
+          "love",
+          "grandfather",
+          "uncle"
+        ]
+      },
+      {
+        "id": "g3a-u06-v10-spell",
+        "kind": "spell",
+        "prompt": "拼写“幸福的”对应的英语词",
+        "answer": "happy"
+      },
+      {
+        "id": "g3a-u06-v11-choice",
+        "kind": "choice",
+        "prompt": "“爱”用英语怎么说？",
+        "answer": "love",
+        "options": [
+          "love",
+          "grandfather",
+          "uncle",
+          "aunt"
+        ]
+      },
+      {
+        "id": "g3a-u06-v11-spell",
+        "kind": "spell",
+        "prompt": "拼写“爱”对应的英语词",
+        "answer": "love"
+      },
+      {
+        "id": "g3a-u06-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“他是你的爷爷或外公吗？”的英语句子",
+        "answer": "Is he your grandpa?",
+        "options": [
+          "Is he your grandpa?",
+          "Yes, he is.",
+          "No, he isn't.",
+          "She's my aunt."
+        ]
+      },
+      {
+        "id": "g3a-u06-p1-order",
+        "kind": "order",
+        "prompt": "排列词块：他是你的爷爷或外公吗？",
+        "answer": "Is he your grandpa?",
+        "tokens": [
+          "grandpa?",
+          "your",
+          "he",
+          "Is"
+        ]
+      },
+      {
+        "id": "g3a-u06-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“是的，他是。”的英语句子",
+        "answer": "Yes, he is.",
+        "options": [
+          "Yes, he is.",
+          "Is he your grandpa?",
+          "No, he isn't.",
+          "She's my aunt."
+        ]
+      },
+      {
+        "id": "g3a-u06-p2-order",
+        "kind": "order",
+        "prompt": "排列词块：是的，他是。",
+        "answer": "Yes, he is.",
+        "tokens": [
+          "is.",
+          "he",
+          "Yes,"
+        ]
+      },
+      {
+        "id": "g3a-u06-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“不，他不是。”的英语句子",
+        "answer": "No, he isn't.",
+        "options": [
+          "No, he isn't.",
+          "Is he your grandpa?",
+          "Yes, he is.",
+          "She's my aunt."
+        ]
+      },
+      {
+        "id": "g3a-u06-p3-order",
+        "kind": "order",
+        "prompt": "排列词块：不，他不是。",
+        "answer": "No, he isn't.",
+        "tokens": [
+          "isn't.",
+          "he",
+          "No,"
+        ]
+      },
+      {
+        "id": "g3a-u06-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“她是我的姑姨婶等亲属。”的英语句子",
+        "answer": "She's my aunt.",
+        "options": [
+          "She's my aunt.",
+          "Is he your grandpa?",
+          "Yes, he is.",
+          "No, he isn't."
+        ]
+      },
+      {
+        "id": "g3a-u06-p4-order",
+        "kind": "order",
+        "prompt": "排列词块：她是我的姑姨婶等亲属。",
+        "answer": "She's my aunt.",
+        "tokens": [
+          "aunt.",
+          "my",
+          "She's"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g3a-u07",
+    "title": "Happy Birthday!",
+    "description": "生日与年龄",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        58,
+        65
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Uu–Ww",
+    "objectives": [
+      "询问年龄并回答",
+      "表达生日祝福与感谢",
+      "表达自己想要的物品"
+    ],
+    "phrases": [
+      {
+        "english": "Happy Birthday!",
+        "meaning": "生日快乐！",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "How old are you?",
+        "meaning": "你几岁了？",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "I'm nine.",
+        "meaning": "我九岁了。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Can I help you?",
+        "meaning": "需要帮忙吗？",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "Here you are.",
+        "meaning": "给你。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "You're welcome.",
+        "meaning": "不客气。",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Happy Birthday!",
+          "Thank you!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "How old are you?",
+          "I'm nine."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Can I help you?",
+          "Yes, please."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u07-v01",
+        "word": "one",
+        "meaning": "一",
+        "emoji": "1️⃣",
+        "example": "I am one.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v02",
+        "word": "two",
+        "meaning": "二",
+        "emoji": "2️⃣",
+        "example": "I have two books.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v03",
+        "word": "three",
+        "meaning": "三",
+        "emoji": "3️⃣",
+        "example": "I have three toys.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v04",
+        "word": "four",
+        "meaning": "四",
+        "emoji": "4️⃣",
+        "example": "I see four balls.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v05",
+        "word": "five",
+        "meaning": "五",
+        "emoji": "5️⃣",
+        "example": "I am five.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v06",
+        "word": "six",
+        "meaning": "六",
+        "emoji": "6️⃣",
+        "example": "I am six.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v07",
+        "word": "seven",
+        "meaning": "七",
+        "emoji": "7️⃣",
+        "example": "I am seven.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v08",
+        "word": "eight",
+        "meaning": "八",
+        "emoji": "8️⃣",
+        "example": "I am eight.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v09",
+        "word": "nine",
+        "meaning": "九",
+        "emoji": "9️⃣",
+        "example": "I am nine.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v10",
+        "word": "ten",
+        "meaning": "十",
+        "emoji": "🔟",
+        "example": "I am ten.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v11",
+        "word": "now",
+        "meaning": "现在",
+        "emoji": "⏰",
+        "example": "I am nine now.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v12",
+        "word": "want",
+        "meaning": "想要",
+        "emoji": "🎁",
+        "example": "I want a book.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v13",
+        "word": "car",
+        "meaning": "小汽车",
+        "emoji": "🚗",
+        "example": "I want a toy car.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v14",
+        "word": "book",
+        "meaning": "书",
+        "emoji": "📚",
+        "example": "This is my book.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v15",
+        "word": "ball",
+        "meaning": "球",
+        "emoji": "⚽",
+        "example": "I want a ball.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v16",
+        "word": "cake",
+        "meaning": "蛋糕",
+        "emoji": "🎂",
+        "example": "I like cake.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v17",
+        "word": "some",
+        "meaning": "一些",
+        "emoji": "➕",
+        "example": "I want some toys.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v18",
+        "word": "toy",
+        "meaning": "玩具",
+        "emoji": "🧸",
+        "example": "This is my toy.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v19",
+        "word": "please",
+        "meaning": "请",
+        "emoji": "🙏",
+        "example": "Yes, please.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v20",
+        "word": "here",
+        "meaning": "这里",
+        "emoji": "📍",
+        "example": "Here you are.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v21",
+        "word": "love",
+        "meaning": "喜爱",
+        "emoji": "❤️",
+        "example": "I love my family.",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u07-v22",
+        "word": "thanks",
+        "meaning": "谢谢",
+        "emoji": "🙏",
+        "example": "Thanks, Mum!",
+        "source": {
+          "bookPage": 58,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u07-v1-choice",
+        "kind": "choice",
+        "prompt": "“一”用英语怎么说？",
+        "answer": "one",
+        "options": [
+          "one",
+          "two",
+          "three",
+          "four"
+        ]
+      },
+      {
+        "id": "g3a-u07-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“一”对应的英语词",
+        "answer": "one"
+      },
+      {
+        "id": "g3a-u07-v2-choice",
+        "kind": "choice",
+        "prompt": "“二”用英语怎么说？",
+        "answer": "two",
+        "options": [
+          "two",
+          "three",
+          "four",
+          "five"
+        ]
+      },
+      {
+        "id": "g3a-u07-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“二”对应的英语词",
+        "answer": "two"
+      },
+      {
+        "id": "g3a-u07-v3-choice",
+        "kind": "choice",
+        "prompt": "“三”用英语怎么说？",
+        "answer": "three",
+        "options": [
+          "three",
+          "four",
+          "five",
+          "six"
+        ]
+      },
+      {
+        "id": "g3a-u07-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“三”对应的英语词",
+        "answer": "three"
+      },
+      {
+        "id": "g3a-u07-v4-choice",
+        "kind": "choice",
+        "prompt": "“四”用英语怎么说？",
+        "answer": "four",
+        "options": [
+          "four",
+          "five",
+          "six",
+          "seven"
+        ]
+      },
+      {
+        "id": "g3a-u07-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“四”对应的英语词",
+        "answer": "four"
+      },
+      {
+        "id": "g3a-u07-v5-choice",
+        "kind": "choice",
+        "prompt": "“五”用英语怎么说？",
+        "answer": "five",
+        "options": [
+          "five",
+          "six",
+          "seven",
+          "eight"
+        ]
+      },
+      {
+        "id": "g3a-u07-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“五”对应的英语词",
+        "answer": "five"
+      },
+      {
+        "id": "g3a-u07-v6-choice",
+        "kind": "choice",
+        "prompt": "“六”用英语怎么说？",
+        "answer": "six",
+        "options": [
+          "six",
+          "seven",
+          "eight",
+          "nine"
+        ]
+      },
+      {
+        "id": "g3a-u07-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“六”对应的英语词",
+        "answer": "six"
+      },
+      {
+        "id": "g3a-u07-v7-choice",
+        "kind": "choice",
+        "prompt": "“七”用英语怎么说？",
+        "answer": "seven",
+        "options": [
+          "seven",
+          "eight",
+          "nine",
+          "ten"
+        ]
+      },
+      {
+        "id": "g3a-u07-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“七”对应的英语词",
+        "answer": "seven"
+      },
+      {
+        "id": "g3a-u07-v8-choice",
+        "kind": "choice",
+        "prompt": "“八”用英语怎么说？",
+        "answer": "eight",
+        "options": [
+          "eight",
+          "nine",
+          "ten",
+          "now"
+        ]
+      },
+      {
+        "id": "g3a-u07-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“八”对应的英语词",
+        "answer": "eight"
+      },
+      {
+        "id": "g3a-u07-v9-choice",
+        "kind": "choice",
+        "prompt": "“九”用英语怎么说？",
+        "answer": "nine",
+        "options": [
+          "nine",
+          "ten",
+          "now",
+          "want"
+        ]
+      },
+      {
+        "id": "g3a-u07-v9-spell",
+        "kind": "spell",
+        "prompt": "拼写“九”对应的英语词",
+        "answer": "nine"
+      },
+      {
+        "id": "g3a-u07-v10-choice",
+        "kind": "choice",
+        "prompt": "“十”用英语怎么说？",
+        "answer": "ten",
+        "options": [
+          "ten",
+          "now",
+          "want",
+          "car"
+        ]
+      },
+      {
+        "id": "g3a-u07-v10-spell",
+        "kind": "spell",
+        "prompt": "拼写“十”对应的英语词",
+        "answer": "ten"
+      },
+      {
+        "id": "g3a-u07-v11-choice",
+        "kind": "choice",
+        "prompt": "“现在”用英语怎么说？",
+        "answer": "now",
+        "options": [
+          "now",
+          "want",
+          "car",
+          "book"
+        ]
+      },
+      {
+        "id": "g3a-u07-v11-spell",
+        "kind": "spell",
+        "prompt": "拼写“现在”对应的英语词",
+        "answer": "now"
+      },
+      {
+        "id": "g3a-u07-v12-choice",
+        "kind": "choice",
+        "prompt": "“想要”用英语怎么说？",
+        "answer": "want",
+        "options": [
+          "want",
+          "car",
+          "book",
+          "ball"
+        ]
+      },
+      {
+        "id": "g3a-u07-v12-spell",
+        "kind": "spell",
+        "prompt": "拼写“想要”对应的英语词",
+        "answer": "want"
+      },
+      {
+        "id": "g3a-u07-v13-choice",
+        "kind": "choice",
+        "prompt": "“小汽车”用英语怎么说？",
+        "answer": "car",
+        "options": [
+          "car",
+          "book",
+          "ball",
+          "cake"
+        ]
+      },
+      {
+        "id": "g3a-u07-v13-spell",
+        "kind": "spell",
+        "prompt": "拼写“小汽车”对应的英语词",
+        "answer": "car"
+      },
+      {
+        "id": "g3a-u07-v14-choice",
+        "kind": "choice",
+        "prompt": "“书”用英语怎么说？",
+        "answer": "book",
+        "options": [
+          "book",
+          "ball",
+          "cake",
+          "some"
+        ]
+      },
+      {
+        "id": "g3a-u07-v14-spell",
+        "kind": "spell",
+        "prompt": "拼写“书”对应的英语词",
+        "answer": "book"
+      },
+      {
+        "id": "g3a-u07-v15-choice",
+        "kind": "choice",
+        "prompt": "“球”用英语怎么说？",
+        "answer": "ball",
+        "options": [
+          "ball",
+          "cake",
+          "some",
+          "toy"
+        ]
+      },
+      {
+        "id": "g3a-u07-v15-spell",
+        "kind": "spell",
+        "prompt": "拼写“球”对应的英语词",
+        "answer": "ball"
+      },
+      {
+        "id": "g3a-u07-v16-choice",
+        "kind": "choice",
+        "prompt": "“蛋糕”用英语怎么说？",
+        "answer": "cake",
+        "options": [
+          "cake",
+          "some",
+          "toy",
+          "please"
+        ]
+      },
+      {
+        "id": "g3a-u07-v16-spell",
+        "kind": "spell",
+        "prompt": "拼写“蛋糕”对应的英语词",
+        "answer": "cake"
+      },
+      {
+        "id": "g3a-u07-v17-choice",
+        "kind": "choice",
+        "prompt": "“一些”用英语怎么说？",
+        "answer": "some",
+        "options": [
+          "some",
+          "toy",
+          "please",
+          "here"
+        ]
+      },
+      {
+        "id": "g3a-u07-v17-spell",
+        "kind": "spell",
+        "prompt": "拼写“一些”对应的英语词",
+        "answer": "some"
+      },
+      {
+        "id": "g3a-u07-v18-choice",
+        "kind": "choice",
+        "prompt": "“玩具”用英语怎么说？",
+        "answer": "toy",
+        "options": [
+          "toy",
+          "please",
+          "here",
+          "love"
+        ]
+      },
+      {
+        "id": "g3a-u07-v18-spell",
+        "kind": "spell",
+        "prompt": "拼写“玩具”对应的英语词",
+        "answer": "toy"
+      },
+      {
+        "id": "g3a-u07-v19-choice",
+        "kind": "choice",
+        "prompt": "“请”用英语怎么说？",
+        "answer": "please",
+        "options": [
+          "please",
+          "here",
+          "love",
+          "thanks"
+        ]
+      },
+      {
+        "id": "g3a-u07-v19-spell",
+        "kind": "spell",
+        "prompt": "拼写“请”对应的英语词",
+        "answer": "please"
+      },
+      {
+        "id": "g3a-u07-v20-choice",
+        "kind": "choice",
+        "prompt": "“这里”用英语怎么说？",
+        "answer": "here",
+        "options": [
+          "here",
+          "love",
+          "thanks",
+          "one"
+        ]
+      },
+      {
+        "id": "g3a-u07-v20-spell",
+        "kind": "spell",
+        "prompt": "拼写“这里”对应的英语词",
+        "answer": "here"
+      },
+      {
+        "id": "g3a-u07-v21-choice",
+        "kind": "choice",
+        "prompt": "“喜爱”用英语怎么说？",
+        "answer": "love",
+        "options": [
+          "love",
+          "thanks",
+          "one",
+          "two"
+        ]
+      },
+      {
+        "id": "g3a-u07-v21-spell",
+        "kind": "spell",
+        "prompt": "拼写“喜爱”对应的英语词",
+        "answer": "love"
+      },
+      {
+        "id": "g3a-u07-v22-choice",
+        "kind": "choice",
+        "prompt": "“谢谢”用英语怎么说？",
+        "answer": "thanks",
+        "options": [
+          "thanks",
+          "one",
+          "two",
+          "three"
+        ]
+      },
+      {
+        "id": "g3a-u07-v22-spell",
+        "kind": "spell",
+        "prompt": "拼写“谢谢”对应的英语词",
+        "answer": "thanks"
+      },
+      {
+        "id": "g3a-u07-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“生日快乐！”的英语句子",
+        "answer": "Happy Birthday!",
+        "options": [
+          "Happy Birthday!",
+          "How old are you?",
+          "I'm nine.",
+          "Can I help you?"
+        ]
+      },
+      {
+        "id": "g3a-u07-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“你几岁了？”的英语句子",
+        "answer": "How old are you?",
+        "options": [
+          "How old are you?",
+          "Happy Birthday!",
+          "I'm nine.",
+          "Can I help you?"
+        ]
+      },
+      {
+        "id": "g3a-u07-p2-order",
+        "kind": "order",
+        "prompt": "排列词块：你几岁了？",
+        "answer": "How old are you?",
+        "tokens": [
+          "you?",
+          "are",
+          "old",
+          "How"
+        ]
+      },
+      {
+        "id": "g3a-u07-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我九岁了。”的英语句子",
+        "answer": "I'm nine.",
+        "options": [
+          "I'm nine.",
+          "Happy Birthday!",
+          "How old are you?",
+          "Can I help you?"
+        ]
+      },
+      {
+        "id": "g3a-u07-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“需要帮忙吗？”的英语句子",
+        "answer": "Can I help you?",
+        "options": [
+          "Can I help you?",
+          "Happy Birthday!",
+          "How old are you?",
+          "I'm nine."
+        ]
+      },
+      {
+        "id": "g3a-u07-p4-order",
+        "kind": "order",
+        "prompt": "排列词块：需要帮忙吗？",
+        "answer": "Can I help you?",
+        "tokens": [
+          "you?",
+          "help",
+          "I",
+          "Can"
+        ]
+      },
+      {
+        "id": "g3a-u07-p5-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“给你。”的英语句子",
+        "answer": "Here you are.",
+        "options": [
+          "Here you are.",
+          "Happy Birthday!",
+          "How old are you?",
+          "I'm nine."
+        ]
+      },
+      {
+        "id": "g3a-u07-p5-order",
+        "kind": "order",
+        "prompt": "排列词块：给你。",
+        "answer": "Here you are.",
+        "tokens": [
+          "are.",
+          "you",
+          "Here"
+        ]
+      },
+      {
+        "id": "g3a-u07-p6-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“不客气。”的英语句子",
+        "answer": "You're welcome.",
+        "options": [
+          "You're welcome.",
+          "Happy Birthday!",
+          "How old are you?",
+          "I'm nine."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g3a-u08",
+    "title": "I can do this for you",
+    "description": "帮助家人",
+    "status": "textbook-anchored-original-practice",
+    "source": {
+      "title": "英语 三年级上册 2024版",
+      "publisher": "译林出版社",
+      "printedPages": [
+        66,
+        73
+      ],
+      "wordListPages": [
+        78,
+        79
+      ],
+      "verifiedScope": "目录、Word lists 与单元学习目标；例句和题目为原创配套练习"
+    },
+    "letters": "Xx–Zz",
+    "objectives": [
+      "描述可以为家人做的事情",
+      "用 can 表达能力",
+      "在生活中主动提供帮助"
+    ],
+    "phrases": [
+      {
+        "english": "I can do this for you.",
+        "meaning": "我能为你做这件事。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "I can sing.",
+        "meaning": "我会唱歌。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "I can dance.",
+        "meaning": "我会跳舞。",
+        "origin": "original-practice-or-common-expression"
+      },
+      {
+        "english": "I can clean the table.",
+        "meaning": "我能擦桌子。",
+        "origin": "original-practice-or-common-expression"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Can you sing?",
+          "Yes, I can."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "What can you do?",
+          "I can draw."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "cards": [
+      {
+        "id": "g3a-u08-v01",
+        "word": "can",
+        "meaning": "能、会",
+        "emoji": "💪",
+        "example": "I can sing.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u08-v02",
+        "word": "do",
+        "meaning": "做",
+        "emoji": "🛠️",
+        "example": "I can do this.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u08-v03",
+        "word": "for",
+        "meaning": "为了",
+        "emoji": "🎯",
+        "example": "This is for you.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u08-v04",
+        "word": "clean",
+        "meaning": "打扫、使干净",
+        "emoji": "🧹",
+        "example": "I can clean the table.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u08-v05",
+        "word": "table",
+        "meaning": "桌子",
+        "emoji": "🪑",
+        "example": "This is a table.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u08-v06",
+        "word": "draw",
+        "meaning": "画",
+        "emoji": "🎨",
+        "example": "I can draw.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u08-v07",
+        "word": "sing",
+        "meaning": "唱歌",
+        "emoji": "🎤",
+        "example": "I can sing.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      },
+      {
+        "id": "g3a-u08-v08",
+        "word": "dance",
+        "meaning": "跳舞",
+        "emoji": "💃",
+        "example": "I can dance.",
+        "source": {
+          "bookPage": 66,
+          "type": "textbook-word-list",
+          "verified": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u08-v1-choice",
+        "kind": "choice",
+        "prompt": "“能、会”用英语怎么说？",
+        "answer": "can",
+        "options": [
+          "can",
+          "do",
+          "for",
+          "clean"
+        ]
+      },
+      {
+        "id": "g3a-u08-v1-spell",
+        "kind": "spell",
+        "prompt": "拼写“能、会”对应的英语词",
+        "answer": "can"
+      },
+      {
+        "id": "g3a-u08-v2-choice",
+        "kind": "choice",
+        "prompt": "“做”用英语怎么说？",
+        "answer": "do",
+        "options": [
+          "do",
+          "for",
+          "clean",
+          "table"
+        ]
+      },
+      {
+        "id": "g3a-u08-v2-spell",
+        "kind": "spell",
+        "prompt": "拼写“做”对应的英语词",
+        "answer": "do"
+      },
+      {
+        "id": "g3a-u08-v3-choice",
+        "kind": "choice",
+        "prompt": "“为了”用英语怎么说？",
+        "answer": "for",
+        "options": [
+          "for",
+          "clean",
+          "table",
+          "draw"
+        ]
+      },
+      {
+        "id": "g3a-u08-v3-spell",
+        "kind": "spell",
+        "prompt": "拼写“为了”对应的英语词",
+        "answer": "for"
+      },
+      {
+        "id": "g3a-u08-v4-choice",
+        "kind": "choice",
+        "prompt": "“打扫、使干净”用英语怎么说？",
+        "answer": "clean",
+        "options": [
+          "clean",
+          "table",
+          "draw",
+          "sing"
+        ]
+      },
+      {
+        "id": "g3a-u08-v4-spell",
+        "kind": "spell",
+        "prompt": "拼写“打扫、使干净”对应的英语词",
+        "answer": "clean"
+      },
+      {
+        "id": "g3a-u08-v5-choice",
+        "kind": "choice",
+        "prompt": "“桌子”用英语怎么说？",
+        "answer": "table",
+        "options": [
+          "table",
+          "draw",
+          "sing",
+          "dance"
+        ]
+      },
+      {
+        "id": "g3a-u08-v5-spell",
+        "kind": "spell",
+        "prompt": "拼写“桌子”对应的英语词",
+        "answer": "table"
+      },
+      {
+        "id": "g3a-u08-v6-choice",
+        "kind": "choice",
+        "prompt": "“画”用英语怎么说？",
+        "answer": "draw",
+        "options": [
+          "draw",
+          "sing",
+          "dance",
+          "can"
+        ]
+      },
+      {
+        "id": "g3a-u08-v6-spell",
+        "kind": "spell",
+        "prompt": "拼写“画”对应的英语词",
+        "answer": "draw"
+      },
+      {
+        "id": "g3a-u08-v7-choice",
+        "kind": "choice",
+        "prompt": "“唱歌”用英语怎么说？",
+        "answer": "sing",
+        "options": [
+          "sing",
+          "dance",
+          "can",
+          "do"
+        ]
+      },
+      {
+        "id": "g3a-u08-v7-spell",
+        "kind": "spell",
+        "prompt": "拼写“唱歌”对应的英语词",
+        "answer": "sing"
+      },
+      {
+        "id": "g3a-u08-v8-choice",
+        "kind": "choice",
+        "prompt": "“跳舞”用英语怎么说？",
+        "answer": "dance",
+        "options": [
+          "dance",
+          "can",
+          "do",
+          "for"
+        ]
+      },
+      {
+        "id": "g3a-u08-v8-spell",
+        "kind": "spell",
+        "prompt": "拼写“跳舞”对应的英语词",
+        "answer": "dance"
+      },
+      {
+        "id": "g3a-u08-p1-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我能为你做这件事。”的英语句子",
+        "answer": "I can do this for you.",
+        "options": [
+          "I can do this for you.",
+          "I can sing.",
+          "I can dance.",
+          "I can clean the table."
+        ]
+      },
+      {
+        "id": "g3a-u08-p1-order",
+        "kind": "order",
+        "prompt": "排列词块：我能为你做这件事。",
+        "answer": "I can do this for you.",
+        "tokens": [
+          "you.",
+          "for",
+          "this",
+          "do",
+          "can",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u08-p2-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我会唱歌。”的英语句子",
+        "answer": "I can sing.",
+        "options": [
+          "I can sing.",
+          "I can do this for you.",
+          "I can dance.",
+          "I can clean the table."
+        ]
+      },
+      {
+        "id": "g3a-u08-p2-order",
+        "kind": "order",
+        "prompt": "排列词块：我会唱歌。",
+        "answer": "I can sing.",
+        "tokens": [
+          "sing.",
+          "can",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u08-p3-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我会跳舞。”的英语句子",
+        "answer": "I can dance.",
+        "options": [
+          "I can dance.",
+          "I can do this for you.",
+          "I can sing.",
+          "I can clean the table."
+        ]
+      },
+      {
+        "id": "g3a-u08-p3-order",
+        "kind": "order",
+        "prompt": "排列词块：我会跳舞。",
+        "answer": "I can dance.",
+        "tokens": [
+          "dance.",
+          "can",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u08-p4-phrase",
+        "kind": "phrase",
+        "prompt": "选择表达“我能擦桌子。”的英语句子",
+        "answer": "I can clean the table.",
+        "options": [
+          "I can clean the table.",
+          "I can do this for you.",
+          "I can sing.",
+          "I can dance."
+        ]
+      },
+      {
+        "id": "g3a-u08-p4-order",
+        "kind": "order",
+        "prompt": "排列词块：我能擦桌子。",
+        "answer": "I can clean the table.",
+        "tokens": [
+          "table.",
+          "the",
+          "clean",
+          "can",
+          "I"
+        ]
+      }
+    ]
+  }
+]
