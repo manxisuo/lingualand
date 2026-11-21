@@ -1,0 +1,102 @@
+{
+  "edition": "译林版小学英语（三年级起点）2024修订版",
+  "scope": "三年级上下册",
+  "status": "unit-titles-user-confirmed; practice-original-unverified",
+  "notice": "单元标题按用户确认目录录入。单词、例句和练习是按主题创作的候选教学素材，尚未与纸质教材逐条核对，不代表教材官方词汇表或课文。",
+  "volumes": [
+    {
+      "id": "g3a",
+      "grade": 3,
+      "term": "上册",
+      "units": [
+        {
+          "id": "g3a-u01",
+          "title": "Hello!",
+          "theme": "问候与告别"
+        },
+        {
+          "id": "g3a-u02",
+          "title": "What's your name?",
+          "theme": "姓名与自我介绍"
+        },
+        {
+          "id": "g3a-u03",
+          "title": "Are you Su Hai?",
+          "theme": "确认身份"
+        },
+        {
+          "id": "g3a-u04",
+          "title": "This is my friend",
+          "theme": "介绍朋友"
+        },
+        {
+          "id": "g3a-u05",
+          "title": "She's my mother",
+          "theme": "介绍家人"
+        },
+        {
+          "id": "g3a-u06",
+          "title": "Is he your grandpa?",
+          "theme": "祖辈与家庭成员"
+        },
+        {
+          "id": "g3a-u07",
+          "title": "Happy Birthday!",
+          "theme": "生日与祝福"
+        },
+        {
+          "id": "g3a-u08",
+          "title": "I can do this for you",
+          "theme": "帮助家人"
+        }
+      ]
+    },
+    {
+      "id": "g3b",
+      "grade": 3,
+      "term": "下册",
+      "units": [
+        {
+          "id": "g3b-u01",
+          "title": "School things",
+          "theme": "学习用品"
+        },
+        {
+          "id": "g3b-u02",
+          "title": "Clean our classroom",
+          "theme": "打扫教室"
+        },
+        {
+          "id": "g3b-u03",
+          "title": "School rules",
+          "theme": "校园规则"
+        },
+        {
+          "id": "g3b-u04",
+          "title": "Have fun after class",
+          "theme": "课后活动"
+        },
+        {
+          "id": "g3b-u05",
+          "title": "Fruit",
+          "theme": "水果"
+        },
+        {
+          "id": "g3b-u06",
+          "title": "On the farm",
+          "theme": "农场"
+        },
+        {
+          "id": "g3b-u07",
+          "title": "Animals",
+          "theme": "动物"
+        },
+        {
+          "id": "g3b-u08",
+          "title": "Colours",
+          "theme": "颜色"
+        }
+      ]
+    }
+  ]
+}
