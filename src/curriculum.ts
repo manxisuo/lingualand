@@ -1,6 +1,7 @@
 import {course,type Card,type Question} from './data'
 import manifest from './content/2024-g3-manifest.json'
 import practice from './content/2024-g3-practice.json'
+import verifiedG3a from './content/2024-g3a-verified.json'
 export type Unit={id:string;title:string;description:string;cards:Card[];questions:Question[];status?:string}
 export type Volume={id:string;grade:number;term:'上册'|'下册';units:Unit[]}
 export type Curriculum={id:string;name:string;volumes:Volume[]}
@@ -23,7 +24,7 @@ const things:Unit={id:'everyday-things',title:'Everyday Things',description:'日
 {id:'et2',kind:'spell',prompt:'拼写“钢笔”',answer:'pen'},
 {id:'et3',kind:'order',prompt:'排列词块：这是我的钢笔。',answer:'This is my pen.',tokens:['pen.','my','This','is']}
 ]}
-const contentUnits:Unit[]=practice.map(u=>({...u,cards:u.cards as Card[],questions:u.questions.map(q=>({...q,kind:q.kind as Question['kind']}))}))
+const contentUnits:Unit[]=[...verifiedG3a,...practice.filter(u=>u.id.startsWith('g3b-'))].map(u=>({...u,cards:u.cards as Card[],questions:u.questions.map(q=>({...q,kind:q.kind as Question['kind']}))}))
 const byId=(id:string)=>{const u=contentUnits.find(u=>u.id===id);if(!u)throw new Error('Missing content unit: '+id);return u}
 export const curricula:Curriculum[]=[{id:'yilin-2024',name:'译林版小学英语 · 2024修订版（原创配套练习）',volumes:manifest.volumes.map(v=>({id:v.id,grade:v.grade,term:v.term as Volume['term'],units:v.units.map(u=>byId(u.id))}))},{id:'yilin-demo',name:'译林版方向 · 原创示范',volumes:[{id:'g3a',grade:3,term:'上册',units:[original,friends]},{id:'g3b',grade:3,term:'下册',units:[things]}]}]
 export const defaultUnitId='happy-day'
