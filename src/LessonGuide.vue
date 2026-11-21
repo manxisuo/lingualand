@@ -3,13 +3,13 @@ import {computed,ref} from 'vue'
 import type {Unit} from './curriculum'
 const props=defineProps<{unit:Unit}>()
 const active=ref(0)
-const isTextbook=computed(()=>props.unit.status==='textbook-anchored-original-practice')
+const isTextbook=computed(()=>props.unit.status==='textbook-wordlist-verified')
 function say(s:string){if(!('speechSynthesis' in window))return;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(s);u.lang='en-US';u.rate=.78;window.speechSynthesis.speak(u)}
 </script>
 <template>
 <section class="lesson-guide">
 <div class="studio-header"><small>✦ TEXTBOOK-ALIGNED LEARNING</small><h2>{{unit.title}}</h2><p>{{unit.description}}</p></div>
-<div v-if="isTextbook" class="lesson-source">教材：2024 修订版译林英语 · 三年级上册 · 本单元内容依据教材目录、Word lists 和学习目标组织；例句、对话与练习为原创配套内容。</div>
+<div v-if="isTextbook" class="lesson-source">教材：2024 修订版译林英语 · 三年级上册 · 词卡完整对应书后 Word lists；对话和练习为原创配套内容，非教材原题。</div>
 <div v-else class="lesson-source">当前单元为原创主题练习，尚未与所选教材逐页核对。</div>
 <template v-if="unit.objectives?.length">
 <h3>本单元学习目标</h3><div class="lesson-goals"><div v-for="(goal,i) in unit.objectives" :key="i"><span>0{{i+1}}</span>{{goal}}</div></div>
