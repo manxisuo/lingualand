@@ -18,7 +18,7 @@ const friends:Unit={id:'new-friends',title:'New Friends',description:'介绍自�
 const things:Unit={id:'everyday-things',title:'Everyday Things',description:'日常物品和简单表达',cards:[
 {id:'pen',word:'pen',meaning:'钢笔',emoji:'🖊️',example:'This is my pen.'},
 {id:'bag',word:'bag',meaning:'书包',emoji:'🎒',example:'My bag is blue.'},
-{id:'desk',word:'desk',meaning:'书桌',emoji:'📚',example:'The book is on the desk.'}
+{id:'desk',word:'desk',meaning:'书桌',emoji:'',example:'The book is on the desk.'}
 ],questions:[
 {id:'et1',kind:'choice',prompt:'“书包”用英语怎么说？',answer:'bag',options:['pen','bag','desk','book']},
 {id:'et2',kind:'spell',prompt:'拼写“钢笔”',answer:'pen'},
