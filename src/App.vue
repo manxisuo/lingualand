@@ -3,7 +3,7 @@ import {computed,ref} from 'vue'
 import {course,type Question} from './data'
 import LearningStudio from './LearningStudio.vue'
 import SpeakingIsland from './SpeakingIsland.vue'
-import {curricula,findUnit,defaultUnitId,allUnits} from './curriculum'
+import {curricula,findUnit,defaultUnitId,initialUnitId,allUnits} from './curriculum'
 import {loadReviews,schedule,dueQuestions,reviewedCount,reviewKey,type ReviewStore} from './review'
 type Result={correct:boolean;attempts:number}
 type Progress={stars:number;results:Record<string,Result>}
@@ -19,7 +19,7 @@ const allQuestionCount=computed(()=>allUnits().reduce((n,x)=>n+x.unit.questions.
 const globalMastered=computed(()=>allUnits().reduce((n,x)=>n+x.unit.questions.filter(q=>progress.value.results[x.unit.id===defaultUnitId?q.id:x.unit.id+':'+q.id]?.correct).length,0))
 const analysisUnits=computed(()=>allUnits().map(x=>({id:x.unit.id,title:x.unit.title,volume:x.volume.grade+'年级'+x.volume.term,due:dueFor(x.unit.id),reviewed:reviewedCount(reviewRecords.value,x.unit.id),total:x.unit.questions.length,mastered:x.unit.questions.filter(q=>progress.value.results[x.unit.id===defaultUnitId?q.id:x.unit.id+':'+q.id]?.correct).length})))
 
-const unitId=ref(localStorage.getItem('lingualand-unit')||defaultUnitId)
+const unitId=ref(localStorage.getItem('lingualand-unit')||initialUnitId)
 const current=computed(()=>findUnit(unitId.value))
 const activeUnit=computed(()=>current.value.unit)
 const activeVolume=computed(()=>current.value.volume)
