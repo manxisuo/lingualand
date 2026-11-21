@@ -8,7 +8,7 @@ export function schedule(previous:ReviewRecord|undefined,correct:boolean,now=Dat
  const old=previous||{repetitions:0,intervalDays:0,ease:2.5,dueAt:now,lastAt:0,lapses:0}
  const repetitions=correct?old.repetitions+1:0
  const intervalDays=correct?(repetitions===1?1:repetitions===2?3:Math.max(1,Math.round(old.intervalDays*old.ease))):0
- const ease=Math.max(1.3,Math.min(3,old.ease+(correct?.1:-.2)))
+ const ease=Math.max(1.3,Math.min(3,old.ease+(correct ? 0.1 : -0.2)))
  return {repetitions,intervalDays,ease,dueAt:now+(correct?intervalDays*day:0),lastAt:now,lapses:old.lapses+(correct?0:1)}
 }
 export function dueQuestions(questions:Question[],unitId:string,reviews:ReviewStore,results:Record<string,{correct:boolean;attempts:number}>,now=Date.now()){
