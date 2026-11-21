@@ -260,8 +260,9 @@
           "hello",
           "hi",
           "Good morning.",
-          "I"
-        ]
+          "Good afternoon."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl01-spell",
@@ -276,10 +277,11 @@
         "answer": "hi",
         "options": [
           "hi",
+          "hello",
           "Good morning.",
-          "I",
-          "am"
-        ]
+          "Good afternoon."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl02-spell",
@@ -294,10 +296,11 @@
         "answer": "Good morning.",
         "options": [
           "Good morning.",
-          "I",
-          "am",
-          "ah"
-        ]
+          "hello",
+          "hi",
+          "Good afternoon."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl04-choice",
@@ -306,10 +309,11 @@
         "answer": "I",
         "options": [
           "I",
-          "am",
-          "ah",
-          "a"
-        ]
+          "a",
+          "what",
+          "your"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl04-spell",
@@ -324,10 +328,11 @@
         "answer": "am",
         "options": [
           "am",
-          "ah",
-          "a",
-          "cat"
-        ]
+          "too",
+          "and",
+          "no"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl05-spell",
@@ -360,10 +365,11 @@
         "answer": "a",
         "options": [
           "a",
-          "cat",
-          "Miss",
-          "Good afternoon."
-        ]
+          "I",
+          "what",
+          "your"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl07-spell",
@@ -378,10 +384,11 @@
         "answer": "cat",
         "options": [
           "cat",
-          "Miss",
-          "Good afternoon.",
-          "class"
-        ]
+          "class",
+          "name",
+          "pond"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl08-spell",
@@ -396,10 +403,11 @@
         "answer": "Miss",
         "options": [
           "Miss",
-          "Good afternoon.",
-          "class",
-          "goodbye"
-        ]
+          "boy",
+          "girl",
+          "Mr"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl09-spell",
@@ -414,10 +422,11 @@
         "answer": "Good afternoon.",
         "options": [
           "Good afternoon.",
-          "class",
-          "goodbye",
-          "bye"
-        ]
+          "hello",
+          "hi",
+          "Good morning."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl11-choice",
@@ -426,10 +435,11 @@
         "answer": "class",
         "options": [
           "class",
-          "goodbye",
-          "bye",
-          "hello"
-        ]
+          "cat",
+          "name",
+          "pond"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl11-spell",
@@ -444,10 +454,11 @@
         "answer": "goodbye",
         "options": [
           "goodbye",
-          "bye",
           "hello",
-          "hi"
-        ]
+          "hi",
+          "Good morning."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl12-spell",
@@ -465,7 +476,8 @@
           "hello",
           "hi",
           "Good morning."
-        ]
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u01-wl13-spell",
@@ -692,10 +704,11 @@
         "answer": "what",
         "options": [
           "what",
-          "is",
           "your",
-          "name"
-        ]
+          "my",
+          "I"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl01-spell",
@@ -710,10 +723,11 @@
         "answer": "is",
         "options": [
           "is",
-          "your",
-          "name",
-          "my"
-        ]
+          "too",
+          "and",
+          "no"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl02-spell",
@@ -728,10 +742,11 @@
         "answer": "your",
         "options": [
           "your",
-          "name",
+          "what",
           "my",
-          "Nice to meet you!"
-        ]
+          "I"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl03-spell",
@@ -746,10 +761,11 @@
         "answer": "name",
         "options": [
           "name",
-          "my",
-          "Nice to meet you!",
-          "too"
-        ]
+          "cat",
+          "class",
+          "pond"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl04-spell",
@@ -764,10 +780,11 @@
         "answer": "my",
         "options": [
           "my",
-          "Nice to meet you!",
-          "too",
-          "boy"
-        ]
+          "what",
+          "your",
+          "I"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl05-spell",
@@ -782,10 +799,11 @@
         "answer": "Nice to meet you!",
         "options": [
           "Nice to meet you!",
-          "too",
-          "boy",
-          "and"
-        ]
+          "hello",
+          "hi",
+          "Good morning."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl07-choice",
@@ -794,10 +812,11 @@
         "answer": "too",
         "options": [
           "too",
-          "boy",
+          "is",
           "and",
-          "girl"
-        ]
+          "no"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl07-spell",
@@ -812,10 +831,11 @@
         "answer": "boy",
         "options": [
           "boy",
-          "and",
           "girl",
-          "Mr"
-        ]
+          "Mr",
+          "Miss"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl08-spell",
@@ -830,10 +850,11 @@
         "answer": "and",
         "options": [
           "and",
-          "girl",
-          "Mr",
-          "what"
-        ]
+          "is",
+          "too",
+          "no"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl09-spell",
@@ -848,10 +869,11 @@
         "answer": "girl",
         "options": [
           "girl",
+          "boy",
           "Mr",
-          "what",
-          "is"
-        ]
+          "Miss"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl10-spell",
@@ -866,10 +888,11 @@
         "answer": "Mr",
         "options": [
           "Mr",
-          "what",
-          "is",
-          "your"
-        ]
+          "boy",
+          "girl",
+          "Miss"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u02-wl11-spell",
@@ -1199,10 +1222,11 @@
         "answer": "are",
         "options": [
           "are",
-          "you",
           "no",
-          "not"
-        ]
+          "but",
+          "in"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl01-spell",
@@ -1217,10 +1241,11 @@
         "answer": "you",
         "options": [
           "you",
-          "no",
-          "not",
-          "yes"
-        ]
+          "we",
+          "I",
+          "a"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl02-spell",
@@ -1235,10 +1260,11 @@
         "answer": "no",
         "options": [
           "no",
-          "not",
-          "yes",
-          "ha"
-        ]
+          "are",
+          "but",
+          "in"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl03-spell",
@@ -1253,10 +1279,11 @@
         "answer": "not",
         "options": [
           "not",
-          "yes",
-          "ha",
-          "Here I am!"
-        ]
+          "are",
+          "but",
+          "in"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl04-spell",
@@ -1271,10 +1298,11 @@
         "answer": "yes",
         "options": [
           "yes",
-          "ha",
-          "Here I am!",
-          "but"
-        ]
+          "no",
+          "but",
+          "in"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl05-spell",
@@ -1307,10 +1335,11 @@
         "answer": "Here I am!",
         "options": [
           "Here I am!",
-          "but",
-          "oh",
-          "sorry"
-        ]
+          "sorry",
+          "hello",
+          "hi"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl08-choice",
@@ -1319,10 +1348,11 @@
         "answer": "but",
         "options": [
           "but",
-          "oh",
-          "sorry",
-          "twin"
-        ]
+          "are",
+          "no",
+          "in"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl08-spell",
@@ -1355,10 +1385,11 @@
         "answer": "sorry",
         "options": [
           "sorry",
-          "twin",
-          "we",
-          "excuse me"
-        ]
+          "Here I am!",
+          "hello",
+          "hi"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl10-spell",
@@ -1373,10 +1404,11 @@
         "answer": "twin",
         "options": [
           "twin",
-          "we",
-          "excuse me",
-          "class"
-        ]
+          "Miss",
+          "boy",
+          "girl"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl11-spell",
@@ -1391,10 +1423,11 @@
         "answer": "we",
         "options": [
           "we",
-          "excuse me",
-          "class",
-          "in"
-        ]
+          "you",
+          "I",
+          "a"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl12-spell",
@@ -1409,10 +1442,11 @@
         "answer": "excuse me",
         "options": [
           "excuse me",
-          "class",
-          "in",
-          "with"
-        ]
+          "Here I am!",
+          "hello",
+          "hi"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl14-choice",
@@ -1421,10 +1455,11 @@
         "answer": "class",
         "options": [
           "class",
-          "in",
-          "with",
-          "right"
-        ]
+          "cat",
+          "name",
+          "pond"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl14-spell",
@@ -1439,10 +1474,11 @@
         "answer": "in",
         "options": [
           "in",
-          "with",
-          "right",
-          "are"
-        ]
+          "are",
+          "no",
+          "but"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl15-spell",
@@ -1457,10 +1493,11 @@
         "answer": "with",
         "options": [
           "with",
-          "right",
           "are",
-          "you"
-        ]
+          "no",
+          "but"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl16-spell",
@@ -1476,9 +1513,10 @@
         "options": [
           "right",
           "are",
-          "you",
-          "no"
-        ]
+          "no",
+          "but"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u03-wl17-spell",
@@ -1676,10 +1714,11 @@
         "answer": "this",
         "options": [
           "this",
-          "friend",
           "she",
-          "he"
-        ]
+          "he",
+          "it"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl01-spell",
@@ -1694,10 +1733,11 @@
         "answer": "friend",
         "options": [
           "friend",
-          "she",
-          "he",
-          "it"
-        ]
+          "Miss",
+          "boy",
+          "girl"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl02-spell",
@@ -1712,10 +1752,11 @@
         "answer": "she",
         "options": [
           "she",
+          "this",
           "he",
-          "it",
-          "good"
-        ]
+          "it"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl03-spell",
@@ -1730,10 +1771,11 @@
         "answer": "he",
         "options": [
           "he",
-          "it",
-          "good",
-          "Thank you."
-        ]
+          "this",
+          "she",
+          "it"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl04-spell",
@@ -1748,10 +1790,11 @@
         "answer": "it",
         "options": [
           "it",
-          "good",
-          "Thank you.",
-          "have"
-        ]
+          "this",
+          "she",
+          "he"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl05-spell",
@@ -1766,10 +1809,11 @@
         "answer": "good",
         "options": [
           "good",
-          "Thank you.",
-          "have",
-          "many"
-        ]
+          "quick",
+          "great",
+          "cool"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl06-spell",
@@ -1784,10 +1828,11 @@
         "answer": "Thank you.",
         "options": [
           "Thank you.",
-          "have",
-          "many",
-          "this"
-        ]
+          "hello",
+          "hi",
+          "Good morning."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl08-choice",
@@ -1796,10 +1841,11 @@
         "answer": "have",
         "options": [
           "have",
-          "many",
-          "this",
-          "friend"
-        ]
+          "look",
+          "come",
+          "meet"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl08-spell",
@@ -1815,9 +1861,10 @@
         "options": [
           "many",
           "this",
-          "friend",
-          "she"
-        ]
+          "she",
+          "he"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u04-wl09-spell",
@@ -2151,9 +2198,10 @@
         "options": [
           "mother",
           "father",
-          "dad",
-          "mum"
-        ]
+          "brother",
+          "baby"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl01-spell",
@@ -2168,10 +2216,11 @@
         "answer": "father",
         "options": [
           "father",
-          "dad",
-          "mum",
-          "brother"
-        ]
+          "mother",
+          "brother",
+          "baby"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl02-spell",
@@ -2186,10 +2235,11 @@
         "answer": "dad",
         "options": [
           "dad",
-          "mum",
+          "mother",
           "brother",
           "baby"
-        ]
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl03-spell",
@@ -2204,10 +2254,11 @@
         "answer": "mum",
         "options": [
           "mum",
+          "father",
           "brother",
-          "baby",
-          "sister"
-        ]
+          "baby"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl04-spell",
@@ -2222,10 +2273,11 @@
         "answer": "brother",
         "options": [
           "brother",
-          "baby",
-          "sister",
-          "Good evening."
-        ]
+          "mother",
+          "father",
+          "baby"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl05-spell",
@@ -2240,10 +2292,11 @@
         "answer": "baby",
         "options": [
           "baby",
-          "sister",
-          "Good evening.",
-          "quick"
-        ]
+          "mother",
+          "father",
+          "brother"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl06-spell",
@@ -2258,10 +2311,11 @@
         "answer": "sister",
         "options": [
           "sister",
-          "Good evening.",
-          "quick",
-          "look"
-        ]
+          "mother",
+          "father",
+          "brother"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl07-spell",
@@ -2276,10 +2330,11 @@
         "answer": "Good evening.",
         "options": [
           "Good evening.",
-          "quick",
-          "look",
-          "the"
-        ]
+          "hello",
+          "hi",
+          "Good morning."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl09-choice",
@@ -2288,10 +2343,11 @@
         "answer": "quick",
         "options": [
           "quick",
-          "look",
-          "the",
-          "pond"
-        ]
+          "great",
+          "good",
+          "cool"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl09-spell",
@@ -2306,10 +2362,11 @@
         "answer": "look",
         "options": [
           "look",
-          "the",
-          "pond",
-          "who"
-        ]
+          "come",
+          "meet",
+          "say"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl10-spell",
@@ -2324,10 +2381,11 @@
         "answer": "the",
         "options": [
           "the",
-          "pond",
           "who",
-          "great"
-        ]
+          "I",
+          "a"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl11-spell",
@@ -2342,10 +2400,11 @@
         "answer": "pond",
         "options": [
           "pond",
-          "who",
-          "great",
-          "come"
-        ]
+          "family",
+          "cat",
+          "class"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl12-spell",
@@ -2360,10 +2419,11 @@
         "answer": "who",
         "options": [
           "who",
-          "great",
-          "come",
-          "meet"
-        ]
+          "the",
+          "I",
+          "a"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl13-spell",
@@ -2378,10 +2438,11 @@
         "answer": "great",
         "options": [
           "great",
-          "come",
-          "meet",
-          "family"
-        ]
+          "quick",
+          "good",
+          "cool"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl14-spell",
@@ -2396,10 +2457,11 @@
         "answer": "come",
         "options": [
           "come",
+          "look",
           "meet",
-          "family",
           "say"
-        ]
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl15-spell",
@@ -2414,10 +2476,11 @@
         "answer": "meet",
         "options": [
           "meet",
-          "family",
-          "say",
-          "mother"
-        ]
+          "look",
+          "come",
+          "say"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl16-spell",
@@ -2432,10 +2495,11 @@
         "answer": "family",
         "options": [
           "family",
-          "say",
-          "mother",
-          "father"
-        ]
+          "pond",
+          "cat",
+          "class"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl17-spell",
@@ -2450,10 +2514,11 @@
         "answer": "say",
         "options": [
           "say",
-          "mother",
-          "father",
-          "dad"
-        ]
+          "look",
+          "come",
+          "meet"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u05-wl18-spell",
@@ -2693,7 +2758,8 @@
           "uncle",
           "aunt",
           "grandmother"
-        ]
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl01-spell",
@@ -2708,10 +2774,11 @@
         "answer": "uncle",
         "options": [
           "uncle",
+          "grandfather",
           "aunt",
-          "grandmother",
-          "cousin"
-        ]
+          "grandmother"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl02-spell",
@@ -2726,10 +2793,11 @@
         "answer": "aunt",
         "options": [
           "aunt",
-          "grandmother",
-          "cousin",
-          "cool"
-        ]
+          "grandfather",
+          "uncle",
+          "grandmother"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl03-spell",
@@ -2744,10 +2812,11 @@
         "answer": "grandmother",
         "options": [
           "grandmother",
-          "cousin",
-          "cool",
-          "me"
-        ]
+          "grandfather",
+          "uncle",
+          "aunt"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl04-spell",
@@ -2762,10 +2831,11 @@
         "answer": "cousin",
         "options": [
           "cousin",
-          "cool",
-          "me",
-          "wow"
-        ]
+          "grandfather",
+          "uncle",
+          "aunt"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl05-spell",
@@ -2780,10 +2850,11 @@
         "answer": "cool",
         "options": [
           "cool",
-          "me",
-          "wow",
-          "big"
-        ]
+          "big",
+          "happy",
+          "good"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl06-spell",
@@ -2798,10 +2869,11 @@
         "answer": "me",
         "options": [
           "me",
-          "wow",
-          "big",
-          "it"
-        ]
+          "it",
+          "a",
+          "what"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl07-spell",
@@ -2834,10 +2906,11 @@
         "answer": "big",
         "options": [
           "big",
-          "it",
+          "cool",
           "happy",
-          "love"
-        ]
+          "good"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl09-spell",
@@ -2852,10 +2925,11 @@
         "answer": "it",
         "options": [
           "it",
-          "happy",
-          "love",
-          "grandfather"
-        ]
+          "me",
+          "a",
+          "what"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl10-spell",
@@ -2870,10 +2944,11 @@
         "answer": "happy",
         "options": [
           "happy",
-          "love",
-          "grandfather",
-          "uncle"
-        ]
+          "cool",
+          "big",
+          "good"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl11-spell",
@@ -2888,10 +2963,11 @@
         "answer": "love",
         "options": [
           "love",
-          "grandfather",
-          "uncle",
-          "aunt"
-        ]
+          "have",
+          "look",
+          "come"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u06-wl12-spell",
@@ -3456,10 +3532,11 @@
         "answer": "Happy Birthday!",
         "options": [
           "Happy Birthday!",
-          "one",
-          "two",
-          "three"
-        ]
+          "How lovely!",
+          "Can I help you?",
+          "Yes, please."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl02-choice",
@@ -3471,7 +3548,8 @@
           "two",
           "three",
           "four"
-        ]
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl02-spell",
@@ -3486,10 +3564,11 @@
         "answer": "two",
         "options": [
           "two",
+          "one",
           "three",
-          "four",
-          "five"
-        ]
+          "four"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl03-spell",
@@ -3504,10 +3583,11 @@
         "answer": "three",
         "options": [
           "three",
-          "four",
-          "five",
-          "six"
-        ]
+          "one",
+          "two",
+          "four"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl04-spell",
@@ -3522,10 +3602,11 @@
         "answer": "four",
         "options": [
           "four",
-          "five",
-          "six",
-          "seven"
-        ]
+          "one",
+          "two",
+          "three"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl05-spell",
@@ -3540,10 +3621,11 @@
         "answer": "five",
         "options": [
           "five",
-          "six",
-          "seven",
-          "eight"
-        ]
+          "one",
+          "two",
+          "three"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl06-spell",
@@ -3558,10 +3640,11 @@
         "answer": "six",
         "options": [
           "six",
-          "seven",
-          "eight",
-          "nine"
-        ]
+          "one",
+          "two",
+          "three"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl07-spell",
@@ -3576,10 +3659,11 @@
         "answer": "seven",
         "options": [
           "seven",
-          "eight",
-          "nine",
-          "ten"
-        ]
+          "one",
+          "two",
+          "three"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl08-spell",
@@ -3594,10 +3678,11 @@
         "answer": "eight",
         "options": [
           "eight",
-          "nine",
-          "ten",
-          "now"
-        ]
+          "one",
+          "two",
+          "three"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl09-spell",
@@ -3612,10 +3697,11 @@
         "answer": "nine",
         "options": [
           "nine",
-          "ten",
-          "now",
-          "want"
-        ]
+          "one",
+          "two",
+          "three"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl10-spell",
@@ -3630,10 +3716,11 @@
         "answer": "ten",
         "options": [
           "ten",
-          "now",
-          "want",
-          "car"
-        ]
+          "one",
+          "two",
+          "three"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl11-spell",
@@ -3648,10 +3735,11 @@
         "answer": "now",
         "options": [
           "now",
-          "want",
-          "car",
-          "book"
-        ]
+          "for",
+          "here",
+          "am"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl12-spell",
@@ -3666,10 +3754,11 @@
         "answer": "want",
         "options": [
           "want",
-          "car",
-          "book",
-          "ball"
-        ]
+          "love",
+          "have",
+          "look"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl13-spell",
@@ -3687,7 +3776,8 @@
           "book",
           "ball",
           "cake"
-        ]
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl14-spell",
@@ -3702,10 +3792,11 @@
         "answer": "book",
         "options": [
           "book",
+          "car",
           "ball",
-          "cake",
-          "How lovely!"
-        ]
+          "cake"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl15-spell",
@@ -3720,10 +3811,11 @@
         "answer": "ball",
         "options": [
           "ball",
-          "cake",
-          "How lovely!",
-          "Can I help you?"
-        ]
+          "car",
+          "book",
+          "cake"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl16-spell",
@@ -3738,10 +3830,11 @@
         "answer": "cake",
         "options": [
           "cake",
-          "How lovely!",
-          "Can I help you?",
-          "Yes, please."
-        ]
+          "car",
+          "book",
+          "ball"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl17-spell",
@@ -3756,10 +3849,11 @@
         "answer": "How lovely!",
         "options": [
           "How lovely!",
+          "Happy Birthday!",
           "Can I help you?",
-          "Yes, please.",
-          "some"
-        ]
+          "Yes, please."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl19-choice",
@@ -3768,10 +3862,11 @@
         "answer": "Can I help you?",
         "options": [
           "Can I help you?",
-          "Yes, please.",
-          "some",
-          "toy"
-        ]
+          "Happy Birthday!",
+          "How lovely!",
+          "Yes, please."
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl20-choice",
@@ -3780,10 +3875,11 @@
         "answer": "Yes, please.",
         "options": [
           "Yes, please.",
-          "some",
-          "toy",
-          "for"
-        ]
+          "Happy Birthday!",
+          "How lovely!",
+          "Can I help you?"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl21-choice",
@@ -3792,10 +3888,11 @@
         "answer": "some",
         "options": [
           "some",
-          "toy",
-          "for",
-          "OK"
-        ]
+          "I",
+          "a",
+          "what"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl21-spell",
@@ -3810,10 +3907,11 @@
         "answer": "toy",
         "options": [
           "toy",
-          "for",
-          "OK",
-          "How old are you?"
-        ]
+          "car",
+          "book",
+          "ball"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl22-spell",
@@ -3828,10 +3926,11 @@
         "answer": "for",
         "options": [
           "for",
-          "OK",
-          "How old are you?",
-          "please"
-        ]
+          "now",
+          "here",
+          "am"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl23-spell",
@@ -3864,10 +3963,11 @@
         "answer": "How old are you?",
         "options": [
           "How old are you?",
-          "please",
-          "here",
-          "love"
-        ]
+          "Happy Birthday!",
+          "How lovely!",
+          "Can I help you?"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl26-choice",
@@ -3894,10 +3994,11 @@
         "answer": "here",
         "options": [
           "here",
-          "love",
-          "Here you are.",
-          "You're welcome."
-        ]
+          "now",
+          "for",
+          "am"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl27-spell",
@@ -3912,10 +4013,11 @@
         "answer": "love",
         "options": [
           "love",
-          "Here you are.",
-          "You're welcome.",
-          "thanks"
-        ]
+          "want",
+          "have",
+          "look"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl28-spell",
@@ -3930,10 +4032,11 @@
         "answer": "Here you are.",
         "options": [
           "Here you are.",
-          "You're welcome.",
-          "thanks",
-          "Happy Birthday!"
-        ]
+          "Happy Birthday!",
+          "How lovely!",
+          "Can I help you?"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl30-choice",
@@ -3942,10 +4045,11 @@
         "answer": "You're welcome.",
         "options": [
           "You're welcome.",
-          "thanks",
           "Happy Birthday!",
-          "one"
-        ]
+          "How lovely!",
+          "Can I help you?"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl31-choice",
@@ -3955,9 +4059,10 @@
         "options": [
           "thanks",
           "Happy Birthday!",
-          "one",
-          "two"
-        ]
+          "How lovely!",
+          "Can I help you?"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u07-wl31-spell",
@@ -4155,10 +4260,11 @@
         "answer": "can",
         "options": [
           "can",
-          "do",
           "for",
-          "clean"
-        ]
+          "am",
+          "too"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl01-spell",
@@ -4173,10 +4279,11 @@
         "answer": "do",
         "options": [
           "do",
-          "for",
           "clean",
-          "table"
-        ]
+          "draw",
+          "sing"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl02-spell",
@@ -4191,10 +4298,11 @@
         "answer": "for",
         "options": [
           "for",
-          "clean",
-          "table",
-          "draw"
-        ]
+          "can",
+          "am",
+          "too"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl03-spell",
@@ -4209,10 +4317,11 @@
         "answer": "clean",
         "options": [
           "clean",
-          "table",
+          "do",
           "draw",
           "sing"
-        ]
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl04-spell",
@@ -4227,10 +4336,11 @@
         "answer": "table",
         "options": [
           "table",
-          "draw",
-          "sing",
-          "take pictures"
-        ]
+          "cat",
+          "class",
+          "name"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl05-spell",
@@ -4245,10 +4355,11 @@
         "answer": "draw",
         "options": [
           "draw",
-          "sing",
-          "take pictures",
-          "dance"
-        ]
+          "do",
+          "clean",
+          "sing"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl06-spell",
@@ -4263,10 +4374,11 @@
         "answer": "sing",
         "options": [
           "sing",
-          "take pictures",
-          "dance",
-          "can"
-        ]
+          "do",
+          "clean",
+          "draw"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl07-spell",
@@ -4281,10 +4393,11 @@
         "answer": "take pictures",
         "options": [
           "take pictures",
-          "dance",
-          "can",
-          "do"
-        ]
+          "do",
+          "clean",
+          "draw"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl09-choice",
@@ -4293,10 +4406,11 @@
         "answer": "dance",
         "options": [
           "dance",
-          "can",
           "do",
-          "for"
-        ]
+          "clean",
+          "draw"
+        ],
+        "distractorStrategy": "semantic-category-v1"
       },
       {
         "id": "g3a-u08-wl09-spell",
