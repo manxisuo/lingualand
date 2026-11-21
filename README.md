@@ -1,1 +1,30 @@
-# lingualand
+# LinguaLand · 语言奇遇岛
+
+面向小学三至六年级的英语巩固练习网站。技术栈：Vue 3 + TypeScript + Vite，部署于 GitHub Pages。
+
+## V1 功能
+
+- 森林主题响应式首页、学习地图与星星奖励
+- 单词闪卡、浏览器语音朗读
+- 词义选择、单词拼写、短语选择、句子排序
+- 统一判题、错题回顾、浏览器本地进度持久化
+
+当前使用 **原创示范单元 My Happy Day** 验证产品体验，尚未接入经核对的译林版教材原文。未来按教材版本、年级、学期和单元扩充数据。
+
+## 本地开发
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## GitHub Pages
+
+仓库 `manxisuo/lingualand` 的 Vite base 为 `/lingualand/`。GitHub Pages 的 Source 应设置为 **GitHub Actions**。推送 main 后自动构建并部署。
+
+访问地址：https://manxisuo.github.io/lingualand/
+
+## 注意
+
+学习记录默认保存在当前浏览器的 localStorage 中，不支持跨设备同步。发音由浏览器 Speech Synthesis 提供，效果依赖系统语音包及浏览器支持。
