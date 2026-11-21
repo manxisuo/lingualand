@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "g3a-u01",
+    "title": "Hello!",
+    "description": "问候与告别",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u01-w0",
+        "word": "hello",
+        "meaning": "你好",
+        "emoji": "👋",
+        "example": "Hello."
+      },
+      {
+        "id": "g3a-u01-w1",
+        "word": "hi",
+        "meaning": "嗨",
+        "emoji": "🌞",
+        "example": "Hi."
+      },
+      {
+        "id": "g3a-u01-w2",
+        "word": "goodbye",
+        "meaning": "再见",
+        "emoji": "👋",
+        "example": "Goodbye."
+      },
+      {
+        "id": "g3a-u01-w3",
+        "word": "morning",
+        "meaning": "早晨",
+        "emoji": "🌅",
+        "example": "Morning."
+      },
+      {
+        "id": "g3a-u01-w4",
+        "word": "afternoon",
+        "meaning": "下午",
+        "emoji": "☀️",
+        "example": "Afternoon."
+      },
+      {
+        "id": "g3a-u01-w5",
+        "word": "friend",
+        "meaning": "朋友",
+        "emoji": "🤝",
+        "example": "Friend."
+      },
+      {
+        "id": "g3a-u01-w6",
+        "word": "name",
+        "meaning": "名字",
+        "emoji": "🏷️",
+        "example": "Name."
+      },
+      {
+        "id": "g3a-u01-w7",
+        "word": "nice",
+        "meaning": "友好的",
+        "emoji": "🌷",
+        "example": "Nice."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u01-q0-c",
+        "kind": "choice",
+        "prompt": "“你好”用英语怎么说？",
+        "answer": "hello",
+        "options": [
+          "morning",
+          "goodbye",
+          "hello",
+          "hi"
+        ]
+      },
+      {
+        "id": "g3a-u01-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“你好”对应的英语单词",
+        "answer": "hello"
+      },
+      {
+        "id": "g3a-u01-q1-c",
+        "kind": "choice",
+        "prompt": "“嗨”用英语怎么说？",
+        "answer": "hi",
+        "options": [
+          "hi",
+          "afternoon",
+          "morning",
+          "goodbye"
+        ]
+      },
+      {
+        "id": "g3a-u01-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“嗨”对应的英语单词",
+        "answer": "hi"
+      },
+      {
+        "id": "g3a-u01-q2-c",
+        "kind": "choice",
+        "prompt": "“再见”用英语怎么说？",
+        "answer": "goodbye",
+        "options": [
+          "goodbye",
+          "afternoon",
+          "morning",
+          "friend"
+        ]
+      },
+      {
+        "id": "g3a-u01-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“再见”对应的英语单词",
+        "answer": "goodbye"
+      },
+      {
+        "id": "g3a-u01-q3-c",
+        "kind": "choice",
+        "prompt": "“早晨”用英语怎么说？",
+        "answer": "morning",
+        "options": [
+          "morning",
+          "friend",
+          "name",
+          "afternoon"
+        ]
+      },
+      {
+        "id": "g3a-u01-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“早晨”对应的英语单词",
+        "answer": "morning"
+      },
+      {
+        "id": "g3a-u01-q4-c",
+        "kind": "choice",
+        "prompt": "“下午”用英语怎么说？",
+        "answer": "afternoon",
+        "options": [
+          "friend",
+          "name",
+          "nice",
+          "afternoon"
+        ]
+      },
+      {
+        "id": "g3a-u01-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“下午”对应的英语单词",
+        "answer": "afternoon"
+      },
+      {
+        "id": "g3a-u01-q5-c",
+        "kind": "choice",
+        "prompt": "“朋友”用英语怎么说？",
+        "answer": "friend",
+        "options": [
+          "friend",
+          "name",
+          "nice",
+          "hello"
+        ]
+      },
+      {
+        "id": "g3a-u01-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“朋友”对应的英语单词",
+        "answer": "friend"
+      },
+      {
+        "id": "g3a-u01-q6-c",
+        "kind": "choice",
+        "prompt": "“名字”用英语怎么说？",
+        "answer": "name",
+        "options": [
+          "name",
+          "nice",
+          "hello",
+          "hi"
+        ]
+      },
+      {
+        "id": "g3a-u01-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“名字”对应的英语单词",
+        "answer": "name"
+      },
+      {
+        "id": "g3a-u01-q7-c",
+        "kind": "choice",
+        "prompt": "“友好的”用英语怎么说？",
+        "answer": "nice",
+        "options": [
+          "nice",
+          "goodbye",
+          "hello",
+          "hi"
+        ]
+      },
+      {
+        "id": "g3a-u01-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“友好的”对应的英语单词",
+        "answer": "nice"
+      }
+    ]
+  },
+  {
+    "id": "g3a-u02",
+    "title": "What's your name?",
+    "description": "姓名与自我介绍",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u02-w0",
+        "word": "name",
+        "meaning": "名字",
+        "emoji": "🏷️",
+        "example": "Name."
+      },
+      {
+        "id": "g3a-u02-w1",
+        "word": "what",
+        "meaning": "什么",
+        "emoji": "❔",
+        "example": "What."
+      },
+      {
+        "id": "g3a-u02-w2",
+        "word": "your",
+        "meaning": "你的",
+        "emoji": "👤",
+        "example": "Your."
+      },
+      {
+        "id": "g3a-u02-w3",
+        "word": "my",
+        "meaning": "我的",
+        "emoji": "🙋",
+        "example": "My."
+      },
+      {
+        "id": "g3a-u02-w4",
+        "word": "I",
+        "meaning": "我",
+        "emoji": "🙋",
+        "example": "I."
+      },
+      {
+        "id": "g3a-u02-w5",
+        "word": "you",
+        "meaning": "你",
+        "emoji": "👥",
+        "example": "You."
+      },
+      {
+        "id": "g3a-u02-w6",
+        "word": "meet",
+        "meaning": "遇见",
+        "emoji": "🤝",
+        "example": "Meet."
+      },
+      {
+        "id": "g3a-u02-w7",
+        "word": "hello",
+        "meaning": "你好",
+        "emoji": "👋",
+        "example": "Hello."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u02-q0-c",
+        "kind": "choice",
+        "prompt": "“名字”用英语怎么说？",
+        "answer": "name",
+        "options": [
+          "what",
+          "your",
+          "my",
+          "name"
+        ]
+      },
+      {
+        "id": "g3a-u02-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“名字”对应的英语单词",
+        "answer": "name"
+      },
+      {
+        "id": "g3a-u02-q1-c",
+        "kind": "choice",
+        "prompt": "“什么”用英语怎么说？",
+        "answer": "what",
+        "options": [
+          "what",
+          "your",
+          "I",
+          "my"
+        ]
+      },
+      {
+        "id": "g3a-u02-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“什么”对应的英语单词",
+        "answer": "what"
+      },
+      {
+        "id": "g3a-u02-q2-c",
+        "kind": "choice",
+        "prompt": "“你的”用英语怎么说？",
+        "answer": "your",
+        "options": [
+          "your",
+          "you",
+          "I",
+          "my"
+        ]
+      },
+      {
+        "id": "g3a-u02-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“你的”对应的英语单词",
+        "answer": "your"
+      },
+      {
+        "id": "g3a-u02-q3-c",
+        "kind": "choice",
+        "prompt": "“我的”用英语怎么说？",
+        "answer": "my",
+        "options": [
+          "my",
+          "meet",
+          "you",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u02-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“我的”对应的英语单词",
+        "answer": "my"
+      },
+      {
+        "id": "g3a-u02-q4-c",
+        "kind": "choice",
+        "prompt": "“我”用英语怎么说？",
+        "answer": "I",
+        "options": [
+          "I",
+          "meet",
+          "hello",
+          "you"
+        ]
+      },
+      {
+        "id": "g3a-u02-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“我”对应的英语单词",
+        "answer": "I"
+      },
+      {
+        "id": "g3a-u02-q5-c",
+        "kind": "choice",
+        "prompt": "“你”用英语怎么说？",
+        "answer": "you",
+        "options": [
+          "you",
+          "meet",
+          "name",
+          "hello"
+        ]
+      },
+      {
+        "id": "g3a-u02-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“你”对应的英语单词",
+        "answer": "you"
+      },
+      {
+        "id": "g3a-u02-q6-c",
+        "kind": "choice",
+        "prompt": "“遇见”用英语怎么说？",
+        "answer": "meet",
+        "options": [
+          "meet",
+          "name",
+          "hello",
+          "what"
+        ]
+      },
+      {
+        "id": "g3a-u02-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“遇见”对应的英语单词",
+        "answer": "meet"
+      },
+      {
+        "id": "g3a-u02-q7-c",
+        "kind": "choice",
+        "prompt": "“你好”用英语怎么说？",
+        "answer": "hello",
+        "options": [
+          "what",
+          "your",
+          "name",
+          "hello"
+        ]
+      },
+      {
+        "id": "g3a-u02-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“你好”对应的英语单词",
+        "answer": "hello"
+      }
+    ]
+  },
+  {
+    "id": "g3a-u03",
+    "title": "Are you Su Hai?",
+    "description": "确认身份",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u03-w0",
+        "word": "are",
+        "meaning": "是",
+        "emoji": "❔",
+        "example": "Are."
+      },
+      {
+        "id": "g3a-u03-w1",
+        "word": "you",
+        "meaning": "你",
+        "emoji": "👤",
+        "example": "You."
+      },
+      {
+        "id": "g3a-u03-w2",
+        "word": "yes",
+        "meaning": "是的",
+        "emoji": "✔️",
+        "example": "Yes."
+      },
+      {
+        "id": "g3a-u03-w3",
+        "word": "no",
+        "meaning": "不是",
+        "emoji": "✖️",
+        "example": "No."
+      },
+      {
+        "id": "g3a-u03-w4",
+        "word": "not",
+        "meaning": "不",
+        "emoji": "🚫",
+        "example": "Not."
+      },
+      {
+        "id": "g3a-u03-w5",
+        "word": "I",
+        "meaning": "我",
+        "emoji": "🙋",
+        "example": "I."
+      },
+      {
+        "id": "g3a-u03-w6",
+        "word": "am",
+        "meaning": "是",
+        "emoji": "🌟",
+        "example": "Am."
+      },
+      {
+        "id": "g3a-u03-w7",
+        "word": "friend",
+        "meaning": "朋友",
+        "emoji": "🤝",
+        "example": "Friend."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u03-q0-c",
+        "kind": "choice",
+        "prompt": "“是”用英语怎么说？",
+        "answer": "are",
+        "options": [
+          "you",
+          "yes",
+          "no",
+          "are"
+        ]
+      },
+      {
+        "id": "g3a-u03-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“是”对应的英语单词",
+        "answer": "are"
+      },
+      {
+        "id": "g3a-u03-q1-c",
+        "kind": "choice",
+        "prompt": "“你”用英语怎么说？",
+        "answer": "you",
+        "options": [
+          "you",
+          "yes",
+          "no",
+          "not"
+        ]
+      },
+      {
+        "id": "g3a-u03-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“你”对应的英语单词",
+        "answer": "you"
+      },
+      {
+        "id": "g3a-u03-q2-c",
+        "kind": "choice",
+        "prompt": "“是的”用英语怎么说？",
+        "answer": "yes",
+        "options": [
+          "no",
+          "not",
+          "yes",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u03-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“是的”对应的英语单词",
+        "answer": "yes"
+      },
+      {
+        "id": "g3a-u03-q3-c",
+        "kind": "choice",
+        "prompt": "“不是”用英语怎么说？",
+        "answer": "no",
+        "options": [
+          "no",
+          "not",
+          "am",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u03-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“不是”对应的英语单词",
+        "answer": "no"
+      },
+      {
+        "id": "g3a-u03-q4-c",
+        "kind": "choice",
+        "prompt": "“不”用英语怎么说？",
+        "answer": "not",
+        "options": [
+          "I",
+          "friend",
+          "not",
+          "am"
+        ]
+      },
+      {
+        "id": "g3a-u03-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“不”对应的英语单词",
+        "answer": "not"
+      },
+      {
+        "id": "g3a-u03-q5-c",
+        "kind": "choice",
+        "prompt": "“我”用英语怎么说？",
+        "answer": "I",
+        "options": [
+          "I",
+          "friend",
+          "am",
+          "are"
+        ]
+      },
+      {
+        "id": "g3a-u03-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“我”对应的英语单词",
+        "answer": "I"
+      },
+      {
+        "id": "g3a-u03-q6-c",
+        "kind": "choice",
+        "prompt": "“是”用英语怎么说？",
+        "answer": "am",
+        "options": [
+          "you",
+          "friend",
+          "am",
+          "are"
+        ]
+      },
+      {
+        "id": "g3a-u03-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“是”对应的英语单词",
+        "answer": "am"
+      },
+      {
+        "id": "g3a-u03-q7-c",
+        "kind": "choice",
+        "prompt": "“朋友”用英语怎么说？",
+        "answer": "friend",
+        "options": [
+          "you",
+          "yes",
+          "friend",
+          "are"
+        ]
+      },
+      {
+        "id": "g3a-u03-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“朋友”对应的英语单词",
+        "answer": "friend"
+      }
+    ]
+  },
+  {
+    "id": "g3a-u04",
+    "title": "This is my friend",
+    "description": "介绍朋友",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u04-w0",
+        "word": "this",
+        "meaning": "这",
+        "emoji": "👉",
+        "example": "This."
+      },
+      {
+        "id": "g3a-u04-w1",
+        "word": "is",
+        "meaning": "是",
+        "emoji": "✔️",
+        "example": "Is."
+      },
+      {
+        "id": "g3a-u04-w2",
+        "word": "my",
+        "meaning": "我的",
+        "emoji": "🙋",
+        "example": "My."
+      },
+      {
+        "id": "g3a-u04-w3",
+        "word": "friend",
+        "meaning": "朋友",
+        "emoji": "🤝",
+        "example": "Friend."
+      },
+      {
+        "id": "g3a-u04-w4",
+        "word": "he",
+        "meaning": "他",
+        "emoji": "👦",
+        "example": "He."
+      },
+      {
+        "id": "g3a-u04-w5",
+        "word": "she",
+        "meaning": "她",
+        "emoji": "👧",
+        "example": "She."
+      },
+      {
+        "id": "g3a-u04-w6",
+        "word": "nice",
+        "meaning": "友好的",
+        "emoji": "🌷",
+        "example": "Nice."
+      },
+      {
+        "id": "g3a-u04-w7",
+        "word": "meet",
+        "meaning": "遇见",
+        "emoji": "🤝",
+        "example": "Meet."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u04-q0-c",
+        "kind": "choice",
+        "prompt": "“这”用英语怎么说？",
+        "answer": "this",
+        "options": [
+          "is",
+          "this",
+          "my",
+          "friend"
+        ]
+      },
+      {
+        "id": "g3a-u04-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“这”对应的英语单词",
+        "answer": "this"
+      },
+      {
+        "id": "g3a-u04-q1-c",
+        "kind": "choice",
+        "prompt": "“是”用英语怎么说？",
+        "answer": "is",
+        "options": [
+          "he",
+          "is",
+          "my",
+          "friend"
+        ]
+      },
+      {
+        "id": "g3a-u04-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“是”对应的英语单词",
+        "answer": "is"
+      },
+      {
+        "id": "g3a-u04-q2-c",
+        "kind": "choice",
+        "prompt": "“我的”用英语怎么说？",
+        "answer": "my",
+        "options": [
+          "he",
+          "she",
+          "my",
+          "friend"
+        ]
+      },
+      {
+        "id": "g3a-u04-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“我的”对应的英语单词",
+        "answer": "my"
+      },
+      {
+        "id": "g3a-u04-q3-c",
+        "kind": "choice",
+        "prompt": "“朋友”用英语怎么说？",
+        "answer": "friend",
+        "options": [
+          "friend",
+          "nice",
+          "he",
+          "she"
+        ]
+      },
+      {
+        "id": "g3a-u04-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“朋友”对应的英语单词",
+        "answer": "friend"
+      },
+      {
+        "id": "g3a-u04-q4-c",
+        "kind": "choice",
+        "prompt": "“他”用英语怎么说？",
+        "answer": "he",
+        "options": [
+          "she",
+          "meet",
+          "nice",
+          "he"
+        ]
+      },
+      {
+        "id": "g3a-u04-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“他”对应的英语单词",
+        "answer": "he"
+      },
+      {
+        "id": "g3a-u04-q5-c",
+        "kind": "choice",
+        "prompt": "“她”用英语怎么说？",
+        "answer": "she",
+        "options": [
+          "she",
+          "meet",
+          "this",
+          "nice"
+        ]
+      },
+      {
+        "id": "g3a-u04-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“她”对应的英语单词",
+        "answer": "she"
+      },
+      {
+        "id": "g3a-u04-q6-c",
+        "kind": "choice",
+        "prompt": "“友好的”用英语怎么说？",
+        "answer": "nice",
+        "options": [
+          "meet",
+          "this",
+          "nice",
+          "is"
+        ]
+      },
+      {
+        "id": "g3a-u04-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“友好的”对应的英语单词",
+        "answer": "nice"
+      },
+      {
+        "id": "g3a-u04-q7-c",
+        "kind": "choice",
+        "prompt": "“遇见”用英语怎么说？",
+        "answer": "meet",
+        "options": [
+          "is",
+          "meet",
+          "this",
+          "my"
+        ]
+      },
+      {
+        "id": "g3a-u04-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“遇见”对应的英语单词",
+        "answer": "meet"
+      }
+    ]
+  },
+  {
+    "id": "g3a-u05",
+    "title": "She's my mother",
+    "description": "介绍家人",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u05-w0",
+        "word": "mother",
+        "meaning": "妈妈",
+        "emoji": "👩",
+        "example": "Mother."
+      },
+      {
+        "id": "g3a-u05-w1",
+        "word": "father",
+        "meaning": "爸爸",
+        "emoji": "👨",
+        "example": "Father."
+      },
+      {
+        "id": "g3a-u05-w2",
+        "word": "family",
+        "meaning": "家庭",
+        "emoji": "🏠",
+        "example": "Family."
+      },
+      {
+        "id": "g3a-u05-w3",
+        "word": "sister",
+        "meaning": "姐妹",
+        "emoji": "👧",
+        "example": "Sister."
+      },
+      {
+        "id": "g3a-u05-w4",
+        "word": "brother",
+        "meaning": "兄弟",
+        "emoji": "👦",
+        "example": "Brother."
+      },
+      {
+        "id": "g3a-u05-w5",
+        "word": "she",
+        "meaning": "她",
+        "emoji": "👩",
+        "example": "She."
+      },
+      {
+        "id": "g3a-u05-w6",
+        "word": "he",
+        "meaning": "他",
+        "emoji": "👨",
+        "example": "He."
+      },
+      {
+        "id": "g3a-u05-w7",
+        "word": "love",
+        "meaning": "爱",
+        "emoji": "❤️",
+        "example": "Love."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u05-q0-c",
+        "kind": "choice",
+        "prompt": "“妈妈”用英语怎么说？",
+        "answer": "mother",
+        "options": [
+          "sister",
+          "mother",
+          "father",
+          "family"
+        ]
+      },
+      {
+        "id": "g3a-u05-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“妈妈”对应的英语单词",
+        "answer": "mother"
+      },
+      {
+        "id": "g3a-u05-q1-c",
+        "kind": "choice",
+        "prompt": "“爸爸”用英语怎么说？",
+        "answer": "father",
+        "options": [
+          "brother",
+          "sister",
+          "father",
+          "family"
+        ]
+      },
+      {
+        "id": "g3a-u05-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“爸爸”对应的英语单词",
+        "answer": "father"
+      },
+      {
+        "id": "g3a-u05-q2-c",
+        "kind": "choice",
+        "prompt": "“家庭”用英语怎么说？",
+        "answer": "family",
+        "options": [
+          "brother",
+          "sister",
+          "she",
+          "family"
+        ]
+      },
+      {
+        "id": "g3a-u05-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“家庭”对应的英语单词",
+        "answer": "family"
+      },
+      {
+        "id": "g3a-u05-q3-c",
+        "kind": "choice",
+        "prompt": "“姐妹”用英语怎么说？",
+        "answer": "sister",
+        "options": [
+          "he",
+          "brother",
+          "sister",
+          "she"
+        ]
+      },
+      {
+        "id": "g3a-u05-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“姐妹”对应的英语单词",
+        "answer": "sister"
+      },
+      {
+        "id": "g3a-u05-q4-c",
+        "kind": "choice",
+        "prompt": "“兄弟”用英语怎么说？",
+        "answer": "brother",
+        "options": [
+          "she",
+          "love",
+          "he",
+          "brother"
+        ]
+      },
+      {
+        "id": "g3a-u05-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“兄弟”对应的英语单词",
+        "answer": "brother"
+      },
+      {
+        "id": "g3a-u05-q5-c",
+        "kind": "choice",
+        "prompt": "“她”用英语怎么说？",
+        "answer": "she",
+        "options": [
+          "she",
+          "love",
+          "mother",
+          "he"
+        ]
+      },
+      {
+        "id": "g3a-u05-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“她”对应的英语单词",
+        "answer": "she"
+      },
+      {
+        "id": "g3a-u05-q6-c",
+        "kind": "choice",
+        "prompt": "“他”用英语怎么说？",
+        "answer": "he",
+        "options": [
+          "love",
+          "mother",
+          "father",
+          "he"
+        ]
+      },
+      {
+        "id": "g3a-u05-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“他”对应的英语单词",
+        "answer": "he"
+      },
+      {
+        "id": "g3a-u05-q7-c",
+        "kind": "choice",
+        "prompt": "“爱”用英语怎么说？",
+        "answer": "love",
+        "options": [
+          "love",
+          "mother",
+          "father",
+          "family"
+        ]
+      },
+      {
+        "id": "g3a-u05-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“爱”对应的英语单词",
+        "answer": "love"
+      }
+    ]
+  },
+  {
+    "id": "g3a-u06",
+    "title": "Is he your grandpa?",
+    "description": "祖辈与家庭成员",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u06-w0",
+        "word": "grandpa",
+        "meaning": "爷爷或外公",
+        "emoji": "👴",
+        "example": "Grandpa."
+      },
+      {
+        "id": "g3a-u06-w1",
+        "word": "grandma",
+        "meaning": "奶奶或外婆",
+        "emoji": "👵",
+        "example": "Grandma."
+      },
+      {
+        "id": "g3a-u06-w2",
+        "word": "father",
+        "meaning": "爸爸",
+        "emoji": "👨",
+        "example": "Father."
+      },
+      {
+        "id": "g3a-u06-w3",
+        "word": "mother",
+        "meaning": "妈妈",
+        "emoji": "👩",
+        "example": "Mother."
+      },
+      {
+        "id": "g3a-u06-w4",
+        "word": "he",
+        "meaning": "他",
+        "emoji": "👨",
+        "example": "He."
+      },
+      {
+        "id": "g3a-u06-w5",
+        "word": "she",
+        "meaning": "她",
+        "emoji": "👩",
+        "example": "She."
+      },
+      {
+        "id": "g3a-u06-w6",
+        "word": "yes",
+        "meaning": "是的",
+        "emoji": "✔️",
+        "example": "Yes."
+      },
+      {
+        "id": "g3a-u06-w7",
+        "word": "no",
+        "meaning": "不是",
+        "emoji": "✖️",
+        "example": "No."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u06-q0-c",
+        "kind": "choice",
+        "prompt": "“爷爷或外公”用英语怎么说？",
+        "answer": "grandpa",
+        "options": [
+          "father",
+          "mother",
+          "grandpa",
+          "grandma"
+        ]
+      },
+      {
+        "id": "g3a-u06-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“爷爷或外公”对应的英语单词",
+        "answer": "grandpa"
+      },
+      {
+        "id": "g3a-u06-q1-c",
+        "kind": "choice",
+        "prompt": "“奶奶或外婆”用英语怎么说？",
+        "answer": "grandma",
+        "options": [
+          "he",
+          "father",
+          "mother",
+          "grandma"
+        ]
+      },
+      {
+        "id": "g3a-u06-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“奶奶或外婆”对应的英语单词",
+        "answer": "grandma"
+      },
+      {
+        "id": "g3a-u06-q2-c",
+        "kind": "choice",
+        "prompt": "“爸爸”用英语怎么说？",
+        "answer": "father",
+        "options": [
+          "he",
+          "she",
+          "father",
+          "mother"
+        ]
+      },
+      {
+        "id": "g3a-u06-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“爸爸”对应的英语单词",
+        "answer": "father"
+      },
+      {
+        "id": "g3a-u06-q3-c",
+        "kind": "choice",
+        "prompt": "“妈妈”用英语怎么说？",
+        "answer": "mother",
+        "options": [
+          "mother",
+          "he",
+          "yes",
+          "she"
+        ]
+      },
+      {
+        "id": "g3a-u06-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“妈妈”对应的英语单词",
+        "answer": "mother"
+      },
+      {
+        "id": "g3a-u06-q4-c",
+        "kind": "choice",
+        "prompt": "“他”用英语怎么说？",
+        "answer": "he",
+        "options": [
+          "she",
+          "no",
+          "he",
+          "yes"
+        ]
+      },
+      {
+        "id": "g3a-u06-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“他”对应的英语单词",
+        "answer": "he"
+      },
+      {
+        "id": "g3a-u06-q5-c",
+        "kind": "choice",
+        "prompt": "“她”用英语怎么说？",
+        "answer": "she",
+        "options": [
+          "yes",
+          "she",
+          "no",
+          "grandpa"
+        ]
+      },
+      {
+        "id": "g3a-u06-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“她”对应的英语单词",
+        "answer": "she"
+      },
+      {
+        "id": "g3a-u06-q6-c",
+        "kind": "choice",
+        "prompt": "“是的”用英语怎么说？",
+        "answer": "yes",
+        "options": [
+          "yes",
+          "no",
+          "grandpa",
+          "grandma"
+        ]
+      },
+      {
+        "id": "g3a-u06-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“是的”对应的英语单词",
+        "answer": "yes"
+      },
+      {
+        "id": "g3a-u06-q7-c",
+        "kind": "choice",
+        "prompt": "“不是”用英语怎么说？",
+        "answer": "no",
+        "options": [
+          "father",
+          "no",
+          "grandpa",
+          "grandma"
+        ]
+      },
+      {
+        "id": "g3a-u06-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“不是”对应的英语单词",
+        "answer": "no"
+      }
+    ]
+  },
+  {
+    "id": "g3a-u07",
+    "title": "Happy Birthday!",
+    "description": "生日与祝福",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u07-w0",
+        "word": "birthday",
+        "meaning": "生日",
+        "emoji": "🎂",
+        "example": "Birthday."
+      },
+      {
+        "id": "g3a-u07-w1",
+        "word": "happy",
+        "meaning": "快乐的",
+        "emoji": "🥳",
+        "example": "Happy."
+      },
+      {
+        "id": "g3a-u07-w2",
+        "word": "cake",
+        "meaning": "蛋糕",
+        "emoji": "🍰",
+        "example": "Cake."
+      },
+      {
+        "id": "g3a-u07-w3",
+        "word": "gift",
+        "meaning": "礼物",
+        "emoji": "🎁",
+        "example": "Gift."
+      },
+      {
+        "id": "g3a-u07-w4",
+        "word": "party",
+        "meaning": "聚会",
+        "emoji": "🎉",
+        "example": "Party."
+      },
+      {
+        "id": "g3a-u07-w5",
+        "word": "thank",
+        "meaning": "感谢",
+        "emoji": "🙏",
+        "example": "Thank."
+      },
+      {
+        "id": "g3a-u07-w6",
+        "word": "you",
+        "meaning": "你",
+        "emoji": "👤",
+        "example": "You."
+      },
+      {
+        "id": "g3a-u07-w7",
+        "word": "wish",
+        "meaning": "祝愿",
+        "emoji": "⭐",
+        "example": "Wish."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u07-q0-c",
+        "kind": "choice",
+        "prompt": "“生日”用英语怎么说？",
+        "answer": "birthday",
+        "options": [
+          "birthday",
+          "cake",
+          "gift",
+          "happy"
+        ]
+      },
+      {
+        "id": "g3a-u07-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“生日”对应的英语单词",
+        "answer": "birthday"
+      },
+      {
+        "id": "g3a-u07-q1-c",
+        "kind": "choice",
+        "prompt": "“快乐的”用英语怎么说？",
+        "answer": "happy",
+        "options": [
+          "happy",
+          "party",
+          "cake",
+          "gift"
+        ]
+      },
+      {
+        "id": "g3a-u07-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“快乐的”对应的英语单词",
+        "answer": "happy"
+      },
+      {
+        "id": "g3a-u07-q2-c",
+        "kind": "choice",
+        "prompt": "“蛋糕”用英语怎么说？",
+        "answer": "cake",
+        "options": [
+          "gift",
+          "party",
+          "cake",
+          "thank"
+        ]
+      },
+      {
+        "id": "g3a-u07-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“蛋糕”对应的英语单词",
+        "answer": "cake"
+      },
+      {
+        "id": "g3a-u07-q3-c",
+        "kind": "choice",
+        "prompt": "“礼物”用英语怎么说？",
+        "answer": "gift",
+        "options": [
+          "thank",
+          "gift",
+          "party",
+          "you"
+        ]
+      },
+      {
+        "id": "g3a-u07-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“礼物”对应的英语单词",
+        "answer": "gift"
+      },
+      {
+        "id": "g3a-u07-q4-c",
+        "kind": "choice",
+        "prompt": "“聚会”用英语怎么说？",
+        "answer": "party",
+        "options": [
+          "thank",
+          "party",
+          "wish",
+          "you"
+        ]
+      },
+      {
+        "id": "g3a-u07-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“聚会”对应的英语单词",
+        "answer": "party"
+      },
+      {
+        "id": "g3a-u07-q5-c",
+        "kind": "choice",
+        "prompt": "“感谢”用英语怎么说？",
+        "answer": "thank",
+        "options": [
+          "you",
+          "thank",
+          "wish",
+          "birthday"
+        ]
+      },
+      {
+        "id": "g3a-u07-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“感谢”对应的英语单词",
+        "answer": "thank"
+      },
+      {
+        "id": "g3a-u07-q6-c",
+        "kind": "choice",
+        "prompt": "“你”用英语怎么说？",
+        "answer": "you",
+        "options": [
+          "you",
+          "happy",
+          "wish",
+          "birthday"
+        ]
+      },
+      {
+        "id": "g3a-u07-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“你”对应的英语单词",
+        "answer": "you"
+      },
+      {
+        "id": "g3a-u07-q7-c",
+        "kind": "choice",
+        "prompt": "“祝愿”用英语怎么说？",
+        "answer": "wish",
+        "options": [
+          "wish",
+          "birthday",
+          "cake",
+          "happy"
+        ]
+      },
+      {
+        "id": "g3a-u07-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“祝愿”对应的英语单词",
+        "answer": "wish"
+      }
+    ]
+  },
+  {
+    "id": "g3a-u08",
+    "title": "I can do this for you",
+    "description": "帮助家人",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3a-u08-w0",
+        "word": "can",
+        "meaning": "能够",
+        "emoji": "💪",
+        "example": "Can."
+      },
+      {
+        "id": "g3a-u08-w1",
+        "word": "help",
+        "meaning": "帮助",
+        "emoji": "🤝",
+        "example": "Help."
+      },
+      {
+        "id": "g3a-u08-w2",
+        "word": "do",
+        "meaning": "做",
+        "emoji": "🛠️",
+        "example": "Do."
+      },
+      {
+        "id": "g3a-u08-w3",
+        "word": "this",
+        "meaning": "这",
+        "emoji": "👉",
+        "example": "This."
+      },
+      {
+        "id": "g3a-u08-w4",
+        "word": "for",
+        "meaning": "为",
+        "emoji": "🎯",
+        "example": "For."
+      },
+      {
+        "id": "g3a-u08-w5",
+        "word": "you",
+        "meaning": "你",
+        "emoji": "👤",
+        "example": "You."
+      },
+      {
+        "id": "g3a-u08-w6",
+        "word": "please",
+        "meaning": "请",
+        "emoji": "🙏",
+        "example": "Please."
+      },
+      {
+        "id": "g3a-u08-w7",
+        "word": "thank",
+        "meaning": "感谢",
+        "emoji": "❤️",
+        "example": "Thank."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3a-u08-q0-c",
+        "kind": "choice",
+        "prompt": "“能够”用英语怎么说？",
+        "answer": "can",
+        "options": [
+          "can",
+          "do",
+          "this",
+          "help"
+        ]
+      },
+      {
+        "id": "g3a-u08-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“能够”对应的英语单词",
+        "answer": "can"
+      },
+      {
+        "id": "g3a-u08-q1-c",
+        "kind": "choice",
+        "prompt": "“帮助”用英语怎么说？",
+        "answer": "help",
+        "options": [
+          "help",
+          "do",
+          "this",
+          "for"
+        ]
+      },
+      {
+        "id": "g3a-u08-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“帮助”对应的英语单词",
+        "answer": "help"
+      },
+      {
+        "id": "g3a-u08-q2-c",
+        "kind": "choice",
+        "prompt": "“做”用英语怎么说？",
+        "answer": "do",
+        "options": [
+          "do",
+          "you",
+          "this",
+          "for"
+        ]
+      },
+      {
+        "id": "g3a-u08-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“做”对应的英语单词",
+        "answer": "do"
+      },
+      {
+        "id": "g3a-u08-q3-c",
+        "kind": "choice",
+        "prompt": "“这”用英语怎么说？",
+        "answer": "this",
+        "options": [
+          "this",
+          "for",
+          "please",
+          "you"
+        ]
+      },
+      {
+        "id": "g3a-u08-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“这”对应的英语单词",
+        "answer": "this"
+      },
+      {
+        "id": "g3a-u08-q4-c",
+        "kind": "choice",
+        "prompt": "“为”用英语怎么说？",
+        "answer": "for",
+        "options": [
+          "for",
+          "thank",
+          "please",
+          "you"
+        ]
+      },
+      {
+        "id": "g3a-u08-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“为”对应的英语单词",
+        "answer": "for"
+      },
+      {
+        "id": "g3a-u08-q5-c",
+        "kind": "choice",
+        "prompt": "“你”用英语怎么说？",
+        "answer": "you",
+        "options": [
+          "you",
+          "thank",
+          "please",
+          "can"
+        ]
+      },
+      {
+        "id": "g3a-u08-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“你”对应的英语单词",
+        "answer": "you"
+      },
+      {
+        "id": "g3a-u08-q6-c",
+        "kind": "choice",
+        "prompt": "“请”用英语怎么说？",
+        "answer": "please",
+        "options": [
+          "can",
+          "thank",
+          "help",
+          "please"
+        ]
+      },
+      {
+        "id": "g3a-u08-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“请”对应的英语单词",
+        "answer": "please"
+      },
+      {
+        "id": "g3a-u08-q7-c",
+        "kind": "choice",
+        "prompt": "“感谢”用英语怎么说？",
+        "answer": "thank",
+        "options": [
+          "can",
+          "do",
+          "thank",
+          "help"
+        ]
+      },
+      {
+        "id": "g3a-u08-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“感谢”对应的英语单词",
+        "answer": "thank"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u01",
+    "title": "School things",
+    "description": "学习用品",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u01-w0",
+        "word": "book",
+        "meaning": "书",
+        "emoji": "📚",
+        "example": "Book."
+      },
+      {
+        "id": "g3b-u01-w1",
+        "word": "pen",
+        "meaning": "钢笔",
+        "emoji": "🖊️",
+        "example": "Pen."
+      },
+      {
+        "id": "g3b-u01-w2",
+        "word": "pencil",
+        "meaning": "铅笔",
+        "emoji": "✏️",
+        "example": "Pencil."
+      },
+      {
+        "id": "g3b-u01-w3",
+        "word": "ruler",
+        "meaning": "尺子",
+        "emoji": "📏",
+        "example": "Ruler."
+      },
+      {
+        "id": "g3b-u01-w4",
+        "word": "bag",
+        "meaning": "书包",
+        "emoji": "🎒",
+        "example": "Bag."
+      },
+      {
+        "id": "g3b-u01-w5",
+        "word": "eraser",
+        "meaning": "橡皮",
+        "emoji": "🧽",
+        "example": "Eraser."
+      },
+      {
+        "id": "g3b-u01-w6",
+        "word": "desk",
+        "meaning": "课桌",
+        "emoji": "🪑",
+        "example": "Desk."
+      },
+      {
+        "id": "g3b-u01-w7",
+        "word": "school",
+        "meaning": "学校",
+        "emoji": "🏫",
+        "example": "School."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u01-q0-c",
+        "kind": "choice",
+        "prompt": "“书”用英语怎么说？",
+        "answer": "book",
+        "options": [
+          "book",
+          "pen",
+          "pencil",
+          "ruler"
+        ]
+      },
+      {
+        "id": "g3b-u01-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“书”对应的英语单词",
+        "answer": "book"
+      },
+      {
+        "id": "g3b-u01-q1-c",
+        "kind": "choice",
+        "prompt": "“钢笔”用英语怎么说？",
+        "answer": "pen",
+        "options": [
+          "pen",
+          "pencil",
+          "bag",
+          "ruler"
+        ]
+      },
+      {
+        "id": "g3b-u01-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“钢笔”对应的英语单词",
+        "answer": "pen"
+      },
+      {
+        "id": "g3b-u01-q2-c",
+        "kind": "choice",
+        "prompt": "“铅笔”用英语怎么说？",
+        "answer": "pencil",
+        "options": [
+          "pencil",
+          "bag",
+          "ruler",
+          "eraser"
+        ]
+      },
+      {
+        "id": "g3b-u01-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“铅笔”对应的英语单词",
+        "answer": "pencil"
+      },
+      {
+        "id": "g3b-u01-q3-c",
+        "kind": "choice",
+        "prompt": "“尺子”用英语怎么说？",
+        "answer": "ruler",
+        "options": [
+          "bag",
+          "ruler",
+          "desk",
+          "eraser"
+        ]
+      },
+      {
+        "id": "g3b-u01-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“尺子”对应的英语单词",
+        "answer": "ruler"
+      },
+      {
+        "id": "g3b-u01-q4-c",
+        "kind": "choice",
+        "prompt": "“书包”用英语怎么说？",
+        "answer": "bag",
+        "options": [
+          "eraser",
+          "school",
+          "bag",
+          "desk"
+        ]
+      },
+      {
+        "id": "g3b-u01-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“书包”对应的英语单词",
+        "answer": "bag"
+      },
+      {
+        "id": "g3b-u01-q5-c",
+        "kind": "choice",
+        "prompt": "“橡皮”用英语怎么说？",
+        "answer": "eraser",
+        "options": [
+          "desk",
+          "eraser",
+          "school",
+          "book"
+        ]
+      },
+      {
+        "id": "g3b-u01-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“橡皮”对应的英语单词",
+        "answer": "eraser"
+      },
+      {
+        "id": "g3b-u01-q6-c",
+        "kind": "choice",
+        "prompt": "“课桌”用英语怎么说？",
+        "answer": "desk",
+        "options": [
+          "desk",
+          "school",
+          "book",
+          "pen"
+        ]
+      },
+      {
+        "id": "g3b-u01-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“课桌”对应的英语单词",
+        "answer": "desk"
+      },
+      {
+        "id": "g3b-u01-q7-c",
+        "kind": "choice",
+        "prompt": "“学校”用英语怎么说？",
+        "answer": "school",
+        "options": [
+          "book",
+          "pen",
+          "pencil",
+          "school"
+        ]
+      },
+      {
+        "id": "g3b-u01-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“学校”对应的英语单词",
+        "answer": "school"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u02",
+    "title": "Clean our classroom",
+    "description": "打扫教室",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u02-w0",
+        "word": "clean",
+        "meaning": "打扫",
+        "emoji": "🧹",
+        "example": "Clean."
+      },
+      {
+        "id": "g3b-u02-w1",
+        "word": "classroom",
+        "meaning": "教室",
+        "emoji": "🏫",
+        "example": "Classroom."
+      },
+      {
+        "id": "g3b-u02-w2",
+        "word": "floor",
+        "meaning": "地板",
+        "emoji": "🧽",
+        "example": "Floor."
+      },
+      {
+        "id": "g3b-u02-w3",
+        "word": "window",
+        "meaning": "窗户",
+        "emoji": "🪟",
+        "example": "Window."
+      },
+      {
+        "id": "g3b-u02-w4",
+        "word": "door",
+        "meaning": "门",
+        "emoji": "🚪",
+        "example": "Door."
+      },
+      {
+        "id": "g3b-u02-w5",
+        "word": "desk",
+        "meaning": "课桌",
+        "emoji": "🪑",
+        "example": "Desk."
+      },
+      {
+        "id": "g3b-u02-w6",
+        "word": "help",
+        "meaning": "帮助",
+        "emoji": "🤝",
+        "example": "Help."
+      },
+      {
+        "id": "g3b-u02-w7",
+        "word": "please",
+        "meaning": "请",
+        "emoji": "🙏",
+        "example": "Please."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u02-q0-c",
+        "kind": "choice",
+        "prompt": "“打扫”用英语怎么说？",
+        "answer": "clean",
+        "options": [
+          "window",
+          "clean",
+          "classroom",
+          "floor"
+        ]
+      },
+      {
+        "id": "g3b-u02-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“打扫”对应的英语单词",
+        "answer": "clean"
+      },
+      {
+        "id": "g3b-u02-q1-c",
+        "kind": "choice",
+        "prompt": "“教室”用英语怎么说？",
+        "answer": "classroom",
+        "options": [
+          "window",
+          "classroom",
+          "door",
+          "floor"
+        ]
+      },
+      {
+        "id": "g3b-u02-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“教室”对应的英语单词",
+        "answer": "classroom"
+      },
+      {
+        "id": "g3b-u02-q2-c",
+        "kind": "choice",
+        "prompt": "“地板”用英语怎么说？",
+        "answer": "floor",
+        "options": [
+          "window",
+          "door",
+          "desk",
+          "floor"
+        ]
+      },
+      {
+        "id": "g3b-u02-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“地板”对应的英语单词",
+        "answer": "floor"
+      },
+      {
+        "id": "g3b-u02-q3-c",
+        "kind": "choice",
+        "prompt": "“窗户”用英语怎么说？",
+        "answer": "window",
+        "options": [
+          "help",
+          "window",
+          "door",
+          "desk"
+        ]
+      },
+      {
+        "id": "g3b-u02-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“窗户”对应的英语单词",
+        "answer": "window"
+      },
+      {
+        "id": "g3b-u02-q4-c",
+        "kind": "choice",
+        "prompt": "“门”用英语怎么说？",
+        "answer": "door",
+        "options": [
+          "help",
+          "please",
+          "door",
+          "desk"
+        ]
+      },
+      {
+        "id": "g3b-u02-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“门”对应的英语单词",
+        "answer": "door"
+      },
+      {
+        "id": "g3b-u02-q5-c",
+        "kind": "choice",
+        "prompt": "“课桌”用英语怎么说？",
+        "answer": "desk",
+        "options": [
+          "desk",
+          "help",
+          "please",
+          "clean"
+        ]
+      },
+      {
+        "id": "g3b-u02-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“课桌”对应的英语单词",
+        "answer": "desk"
+      },
+      {
+        "id": "g3b-u02-q6-c",
+        "kind": "choice",
+        "prompt": "“帮助”用英语怎么说？",
+        "answer": "help",
+        "options": [
+          "clean",
+          "classroom",
+          "help",
+          "please"
+        ]
+      },
+      {
+        "id": "g3b-u02-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“帮助”对应的英语单词",
+        "answer": "help"
+      },
+      {
+        "id": "g3b-u02-q7-c",
+        "kind": "choice",
+        "prompt": "“请”用英语怎么说？",
+        "answer": "please",
+        "options": [
+          "please",
+          "clean",
+          "classroom",
+          "floor"
+        ]
+      },
+      {
+        "id": "g3b-u02-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“请”对应的英语单词",
+        "answer": "please"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u03",
+    "title": "School rules",
+    "description": "校园规则",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u03-w0",
+        "word": "rule",
+        "meaning": "规则",
+        "emoji": "📜",
+        "example": "Rule."
+      },
+      {
+        "id": "g3b-u03-w1",
+        "word": "school",
+        "meaning": "学校",
+        "emoji": "🏫",
+        "example": "School."
+      },
+      {
+        "id": "g3b-u03-w2",
+        "word": "listen",
+        "meaning": "听",
+        "emoji": "👂",
+        "example": "Listen."
+      },
+      {
+        "id": "g3b-u03-w3",
+        "word": "read",
+        "meaning": "读",
+        "emoji": "📖",
+        "example": "Read."
+      },
+      {
+        "id": "g3b-u03-w4",
+        "word": "walk",
+        "meaning": "走",
+        "emoji": "🚶",
+        "example": "Walk."
+      },
+      {
+        "id": "g3b-u03-w5",
+        "word": "run",
+        "meaning": "跑",
+        "emoji": "🏃",
+        "example": "Run."
+      },
+      {
+        "id": "g3b-u03-w6",
+        "word": "quiet",
+        "meaning": "安静的",
+        "emoji": "🤫",
+        "example": "Quiet."
+      },
+      {
+        "id": "g3b-u03-w7",
+        "word": "please",
+        "meaning": "请",
+        "emoji": "🙏",
+        "example": "Please."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u03-q0-c",
+        "kind": "choice",
+        "prompt": "“规则”用英语怎么说？",
+        "answer": "rule",
+        "options": [
+          "rule",
+          "read",
+          "school",
+          "listen"
+        ]
+      },
+      {
+        "id": "g3b-u03-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“规则”对应的英语单词",
+        "answer": "rule"
+      },
+      {
+        "id": "g3b-u03-q1-c",
+        "kind": "choice",
+        "prompt": "“学校”用英语怎么说？",
+        "answer": "school",
+        "options": [
+          "walk",
+          "read",
+          "school",
+          "listen"
+        ]
+      },
+      {
+        "id": "g3b-u03-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“学校”对应的英语单词",
+        "answer": "school"
+      },
+      {
+        "id": "g3b-u03-q2-c",
+        "kind": "choice",
+        "prompt": "“听”用英语怎么说？",
+        "answer": "listen",
+        "options": [
+          "walk",
+          "read",
+          "run",
+          "listen"
+        ]
+      },
+      {
+        "id": "g3b-u03-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“听”对应的英语单词",
+        "answer": "listen"
+      },
+      {
+        "id": "g3b-u03-q3-c",
+        "kind": "choice",
+        "prompt": "“读”用英语怎么说？",
+        "answer": "read",
+        "options": [
+          "walk",
+          "quiet",
+          "read",
+          "run"
+        ]
+      },
+      {
+        "id": "g3b-u03-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“读”对应的英语单词",
+        "answer": "read"
+      },
+      {
+        "id": "g3b-u03-q4-c",
+        "kind": "choice",
+        "prompt": "“走”用英语怎么说？",
+        "answer": "walk",
+        "options": [
+          "walk",
+          "please",
+          "quiet",
+          "run"
+        ]
+      },
+      {
+        "id": "g3b-u03-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“走”对应的英语单词",
+        "answer": "walk"
+      },
+      {
+        "id": "g3b-u03-q5-c",
+        "kind": "choice",
+        "prompt": "“跑”用英语怎么说？",
+        "answer": "run",
+        "options": [
+          "run",
+          "rule",
+          "please",
+          "quiet"
+        ]
+      },
+      {
+        "id": "g3b-u03-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“跑”对应的英语单词",
+        "answer": "run"
+      },
+      {
+        "id": "g3b-u03-q6-c",
+        "kind": "choice",
+        "prompt": "“安静的”用英语怎么说？",
+        "answer": "quiet",
+        "options": [
+          "quiet",
+          "rule",
+          "school",
+          "please"
+        ]
+      },
+      {
+        "id": "g3b-u03-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“安静的”对应的英语单词",
+        "answer": "quiet"
+      },
+      {
+        "id": "g3b-u03-q7-c",
+        "kind": "choice",
+        "prompt": "“请”用英语怎么说？",
+        "answer": "please",
+        "options": [
+          "please",
+          "rule",
+          "school",
+          "listen"
+        ]
+      },
+      {
+        "id": "g3b-u03-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“请”对应的英语单词",
+        "answer": "please"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u04",
+    "title": "Have fun after class",
+    "description": "课后活动",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u04-w0",
+        "word": "play",
+        "meaning": "玩耍",
+        "emoji": "⚽",
+        "example": "Play."
+      },
+      {
+        "id": "g3b-u04-w1",
+        "word": "fun",
+        "meaning": "乐趣",
+        "emoji": "🎈",
+        "example": "Fun."
+      },
+      {
+        "id": "g3b-u04-w2",
+        "word": "class",
+        "meaning": "课",
+        "emoji": "🏫",
+        "example": "Class."
+      },
+      {
+        "id": "g3b-u04-w3",
+        "word": "game",
+        "meaning": "游戏",
+        "emoji": "🎲",
+        "example": "Game."
+      },
+      {
+        "id": "g3b-u04-w4",
+        "word": "jump",
+        "meaning": "跳",
+        "emoji": "🤸",
+        "example": "Jump."
+      },
+      {
+        "id": "g3b-u04-w5",
+        "word": "run",
+        "meaning": "跑",
+        "emoji": "🏃",
+        "example": "Run."
+      },
+      {
+        "id": "g3b-u04-w6",
+        "word": "sing",
+        "meaning": "唱歌",
+        "emoji": "🎵",
+        "example": "Sing."
+      },
+      {
+        "id": "g3b-u04-w7",
+        "word": "dance",
+        "meaning": "跳舞",
+        "emoji": "💃",
+        "example": "Dance."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u04-q0-c",
+        "kind": "choice",
+        "prompt": "“玩耍”用英语怎么说？",
+        "answer": "play",
+        "options": [
+          "play",
+          "class",
+          "fun",
+          "game"
+        ]
+      },
+      {
+        "id": "g3b-u04-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“玩耍”对应的英语单词",
+        "answer": "play"
+      },
+      {
+        "id": "g3b-u04-q1-c",
+        "kind": "choice",
+        "prompt": "“乐趣”用英语怎么说？",
+        "answer": "fun",
+        "options": [
+          "class",
+          "jump",
+          "fun",
+          "game"
+        ]
+      },
+      {
+        "id": "g3b-u04-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“乐趣”对应的英语单词",
+        "answer": "fun"
+      },
+      {
+        "id": "g3b-u04-q2-c",
+        "kind": "choice",
+        "prompt": "“课”用英语怎么说？",
+        "answer": "class",
+        "options": [
+          "game",
+          "class",
+          "jump",
+          "run"
+        ]
+      },
+      {
+        "id": "g3b-u04-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“课”对应的英语单词",
+        "answer": "class"
+      },
+      {
+        "id": "g3b-u04-q3-c",
+        "kind": "choice",
+        "prompt": "“游戏”用英语怎么说？",
+        "answer": "game",
+        "options": [
+          "game",
+          "jump",
+          "run",
+          "sing"
+        ]
+      },
+      {
+        "id": "g3b-u04-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“游戏”对应的英语单词",
+        "answer": "game"
+      },
+      {
+        "id": "g3b-u04-q4-c",
+        "kind": "choice",
+        "prompt": "“跳”用英语怎么说？",
+        "answer": "jump",
+        "options": [
+          "sing",
+          "jump",
+          "run",
+          "dance"
+        ]
+      },
+      {
+        "id": "g3b-u04-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“跳”对应的英语单词",
+        "answer": "jump"
+      },
+      {
+        "id": "g3b-u04-q5-c",
+        "kind": "choice",
+        "prompt": "“跑”用英语怎么说？",
+        "answer": "run",
+        "options": [
+          "run",
+          "dance",
+          "sing",
+          "play"
+        ]
+      },
+      {
+        "id": "g3b-u04-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“跑”对应的英语单词",
+        "answer": "run"
+      },
+      {
+        "id": "g3b-u04-q6-c",
+        "kind": "choice",
+        "prompt": "“唱歌”用英语怎么说？",
+        "answer": "sing",
+        "options": [
+          "dance",
+          "sing",
+          "fun",
+          "play"
+        ]
+      },
+      {
+        "id": "g3b-u04-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“唱歌”对应的英语单词",
+        "answer": "sing"
+      },
+      {
+        "id": "g3b-u04-q7-c",
+        "kind": "choice",
+        "prompt": "“跳舞”用英语怎么说？",
+        "answer": "dance",
+        "options": [
+          "play",
+          "class",
+          "dance",
+          "fun"
+        ]
+      },
+      {
+        "id": "g3b-u04-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“跳舞”对应的英语单词",
+        "answer": "dance"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u05",
+    "title": "Fruit",
+    "description": "水果",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u05-w0",
+        "word": "apple",
+        "meaning": "苹果",
+        "emoji": "🍎",
+        "example": "Apple."
+      },
+      {
+        "id": "g3b-u05-w1",
+        "word": "banana",
+        "meaning": "香蕉",
+        "emoji": "🍌",
+        "example": "Banana."
+      },
+      {
+        "id": "g3b-u05-w2",
+        "word": "orange",
+        "meaning": "橙子",
+        "emoji": "🍊",
+        "example": "Orange."
+      },
+      {
+        "id": "g3b-u05-w3",
+        "word": "pear",
+        "meaning": "梨",
+        "emoji": "🍐",
+        "example": "Pear."
+      },
+      {
+        "id": "g3b-u05-w4",
+        "word": "grape",
+        "meaning": "葡萄",
+        "emoji": "🍇",
+        "example": "Grape."
+      },
+      {
+        "id": "g3b-u05-w5",
+        "word": "watermelon",
+        "meaning": "西瓜",
+        "emoji": "🍉",
+        "example": "Watermelon."
+      },
+      {
+        "id": "g3b-u05-w6",
+        "word": "fruit",
+        "meaning": "水果",
+        "emoji": "🍓",
+        "example": "Fruit."
+      },
+      {
+        "id": "g3b-u05-w7",
+        "word": "sweet",
+        "meaning": "甜的",
+        "emoji": "🍯",
+        "example": "Sweet."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u05-q0-c",
+        "kind": "choice",
+        "prompt": "“苹果”用英语怎么说？",
+        "answer": "apple",
+        "options": [
+          "banana",
+          "pear",
+          "apple",
+          "orange"
+        ]
+      },
+      {
+        "id": "g3b-u05-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“苹果”对应的英语单词",
+        "answer": "apple"
+      },
+      {
+        "id": "g3b-u05-q1-c",
+        "kind": "choice",
+        "prompt": "“香蕉”用英语怎么说？",
+        "answer": "banana",
+        "options": [
+          "orange",
+          "banana",
+          "pear",
+          "grape"
+        ]
+      },
+      {
+        "id": "g3b-u05-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“香蕉”对应的英语单词",
+        "answer": "banana"
+      },
+      {
+        "id": "g3b-u05-q2-c",
+        "kind": "choice",
+        "prompt": "“橙子”用英语怎么说？",
+        "answer": "orange",
+        "options": [
+          "grape",
+          "orange",
+          "pear",
+          "watermelon"
+        ]
+      },
+      {
+        "id": "g3b-u05-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“橙子”对应的英语单词",
+        "answer": "orange"
+      },
+      {
+        "id": "g3b-u05-q3-c",
+        "kind": "choice",
+        "prompt": "“梨”用英语怎么说？",
+        "answer": "pear",
+        "options": [
+          "fruit",
+          "grape",
+          "pear",
+          "watermelon"
+        ]
+      },
+      {
+        "id": "g3b-u05-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“梨”对应的英语单词",
+        "answer": "pear"
+      },
+      {
+        "id": "g3b-u05-q4-c",
+        "kind": "choice",
+        "prompt": "“葡萄”用英语怎么说？",
+        "answer": "grape",
+        "options": [
+          "sweet",
+          "fruit",
+          "grape",
+          "watermelon"
+        ]
+      },
+      {
+        "id": "g3b-u05-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“葡萄”对应的英语单词",
+        "answer": "grape"
+      },
+      {
+        "id": "g3b-u05-q5-c",
+        "kind": "choice",
+        "prompt": "“西瓜”用英语怎么说？",
+        "answer": "watermelon",
+        "options": [
+          "sweet",
+          "fruit",
+          "apple",
+          "watermelon"
+        ]
+      },
+      {
+        "id": "g3b-u05-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“西瓜”对应的英语单词",
+        "answer": "watermelon"
+      },
+      {
+        "id": "g3b-u05-q6-c",
+        "kind": "choice",
+        "prompt": "“水果”用英语怎么说？",
+        "answer": "fruit",
+        "options": [
+          "sweet",
+          "fruit",
+          "apple",
+          "banana"
+        ]
+      },
+      {
+        "id": "g3b-u05-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“水果”对应的英语单词",
+        "answer": "fruit"
+      },
+      {
+        "id": "g3b-u05-q7-c",
+        "kind": "choice",
+        "prompt": "“甜的”用英语怎么说？",
+        "answer": "sweet",
+        "options": [
+          "banana",
+          "sweet",
+          "apple",
+          "orange"
+        ]
+      },
+      {
+        "id": "g3b-u05-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“甜的”对应的英语单词",
+        "answer": "sweet"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u06",
+    "title": "On the farm",
+    "description": "农场",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u06-w0",
+        "word": "farm",
+        "meaning": "农场",
+        "emoji": "🚜",
+        "example": "Farm."
+      },
+      {
+        "id": "g3b-u06-w1",
+        "word": "cow",
+        "meaning": "奶牛",
+        "emoji": "🐄",
+        "example": "Cow."
+      },
+      {
+        "id": "g3b-u06-w2",
+        "word": "pig",
+        "meaning": "猪",
+        "emoji": "🐖",
+        "example": "Pig."
+      },
+      {
+        "id": "g3b-u06-w3",
+        "word": "duck",
+        "meaning": "鸭子",
+        "emoji": "🦆",
+        "example": "Duck."
+      },
+      {
+        "id": "g3b-u06-w4",
+        "word": "chicken",
+        "meaning": "鸡",
+        "emoji": "🐔",
+        "example": "Chicken."
+      },
+      {
+        "id": "g3b-u06-w5",
+        "word": "sheep",
+        "meaning": "绵羊",
+        "emoji": "🐑",
+        "example": "Sheep."
+      },
+      {
+        "id": "g3b-u06-w6",
+        "word": "horse",
+        "meaning": "马",
+        "emoji": "🐎",
+        "example": "Horse."
+      },
+      {
+        "id": "g3b-u06-w7",
+        "word": "field",
+        "meaning": "田地",
+        "emoji": "🌾",
+        "example": "Field."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u06-q0-c",
+        "kind": "choice",
+        "prompt": "“农场”用英语怎么说？",
+        "answer": "farm",
+        "options": [
+          "pig",
+          "cow",
+          "duck",
+          "farm"
+        ]
+      },
+      {
+        "id": "g3b-u06-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“农场”对应的英语单词",
+        "answer": "farm"
+      },
+      {
+        "id": "g3b-u06-q1-c",
+        "kind": "choice",
+        "prompt": "“奶牛”用英语怎么说？",
+        "answer": "cow",
+        "options": [
+          "pig",
+          "cow",
+          "chicken",
+          "duck"
+        ]
+      },
+      {
+        "id": "g3b-u06-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“奶牛”对应的英语单词",
+        "answer": "cow"
+      },
+      {
+        "id": "g3b-u06-q2-c",
+        "kind": "choice",
+        "prompt": "“猪”用英语怎么说？",
+        "answer": "pig",
+        "options": [
+          "pig",
+          "chicken",
+          "duck",
+          "sheep"
+        ]
+      },
+      {
+        "id": "g3b-u06-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“猪”对应的英语单词",
+        "answer": "pig"
+      },
+      {
+        "id": "g3b-u06-q3-c",
+        "kind": "choice",
+        "prompt": "“鸭子”用英语怎么说？",
+        "answer": "duck",
+        "options": [
+          "horse",
+          "chicken",
+          "duck",
+          "sheep"
+        ]
+      },
+      {
+        "id": "g3b-u06-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“鸭子”对应的英语单词",
+        "answer": "duck"
+      },
+      {
+        "id": "g3b-u06-q4-c",
+        "kind": "choice",
+        "prompt": "“鸡”用英语怎么说？",
+        "answer": "chicken",
+        "options": [
+          "sheep",
+          "field",
+          "horse",
+          "chicken"
+        ]
+      },
+      {
+        "id": "g3b-u06-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“鸡”对应的英语单词",
+        "answer": "chicken"
+      },
+      {
+        "id": "g3b-u06-q5-c",
+        "kind": "choice",
+        "prompt": "“绵羊”用英语怎么说？",
+        "answer": "sheep",
+        "options": [
+          "sheep",
+          "field",
+          "farm",
+          "horse"
+        ]
+      },
+      {
+        "id": "g3b-u06-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“绵羊”对应的英语单词",
+        "answer": "sheep"
+      },
+      {
+        "id": "g3b-u06-q6-c",
+        "kind": "choice",
+        "prompt": "“马”用英语怎么说？",
+        "answer": "horse",
+        "options": [
+          "cow",
+          "field",
+          "farm",
+          "horse"
+        ]
+      },
+      {
+        "id": "g3b-u06-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“马”对应的英语单词",
+        "answer": "horse"
+      },
+      {
+        "id": "g3b-u06-q7-c",
+        "kind": "choice",
+        "prompt": "“田地”用英语怎么说？",
+        "answer": "field",
+        "options": [
+          "pig",
+          "cow",
+          "field",
+          "farm"
+        ]
+      },
+      {
+        "id": "g3b-u06-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“田地”对应的英语单词",
+        "answer": "field"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u07",
+    "title": "Animals",
+    "description": "动物",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u07-w0",
+        "word": "animal",
+        "meaning": "动物",
+        "emoji": "🐾",
+        "example": "Animal."
+      },
+      {
+        "id": "g3b-u07-w1",
+        "word": "cat",
+        "meaning": "猫",
+        "emoji": "🐈",
+        "example": "Cat."
+      },
+      {
+        "id": "g3b-u07-w2",
+        "word": "dog",
+        "meaning": "狗",
+        "emoji": "🐕",
+        "example": "Dog."
+      },
+      {
+        "id": "g3b-u07-w3",
+        "word": "bird",
+        "meaning": "鸟",
+        "emoji": "🐦",
+        "example": "Bird."
+      },
+      {
+        "id": "g3b-u07-w4",
+        "word": "fish",
+        "meaning": "鱼",
+        "emoji": "🐟",
+        "example": "Fish."
+      },
+      {
+        "id": "g3b-u07-w5",
+        "word": "rabbit",
+        "meaning": "兔子",
+        "emoji": "🐇",
+        "example": "Rabbit."
+      },
+      {
+        "id": "g3b-u07-w6",
+        "word": "tiger",
+        "meaning": "老虎",
+        "emoji": "🐅",
+        "example": "Tiger."
+      },
+      {
+        "id": "g3b-u07-w7",
+        "word": "panda",
+        "meaning": "熊猫",
+        "emoji": "🐼",
+        "example": "Panda."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u07-q0-c",
+        "kind": "choice",
+        "prompt": "“动物”用英语怎么说？",
+        "answer": "animal",
+        "options": [
+          "bird",
+          "cat",
+          "dog",
+          "animal"
+        ]
+      },
+      {
+        "id": "g3b-u07-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“动物”对应的英语单词",
+        "answer": "animal"
+      },
+      {
+        "id": "g3b-u07-q1-c",
+        "kind": "choice",
+        "prompt": "“猫”用英语怎么说？",
+        "answer": "cat",
+        "options": [
+          "bird",
+          "cat",
+          "dog",
+          "fish"
+        ]
+      },
+      {
+        "id": "g3b-u07-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“猫”对应的英语单词",
+        "answer": "cat"
+      },
+      {
+        "id": "g3b-u07-q2-c",
+        "kind": "choice",
+        "prompt": "“狗”用英语怎么说？",
+        "answer": "dog",
+        "options": [
+          "bird",
+          "dog",
+          "rabbit",
+          "fish"
+        ]
+      },
+      {
+        "id": "g3b-u07-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“狗”对应的英语单词",
+        "answer": "dog"
+      },
+      {
+        "id": "g3b-u07-q3-c",
+        "kind": "choice",
+        "prompt": "“鸟”用英语怎么说？",
+        "answer": "bird",
+        "options": [
+          "fish",
+          "tiger",
+          "bird",
+          "rabbit"
+        ]
+      },
+      {
+        "id": "g3b-u07-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“鸟”对应的英语单词",
+        "answer": "bird"
+      },
+      {
+        "id": "g3b-u07-q4-c",
+        "kind": "choice",
+        "prompt": "“鱼”用英语怎么说？",
+        "answer": "fish",
+        "options": [
+          "fish",
+          "tiger",
+          "panda",
+          "rabbit"
+        ]
+      },
+      {
+        "id": "g3b-u07-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“鱼”对应的英语单词",
+        "answer": "fish"
+      },
+      {
+        "id": "g3b-u07-q5-c",
+        "kind": "choice",
+        "prompt": "“兔子”用英语怎么说？",
+        "answer": "rabbit",
+        "options": [
+          "rabbit",
+          "tiger",
+          "animal",
+          "panda"
+        ]
+      },
+      {
+        "id": "g3b-u07-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“兔子”对应的英语单词",
+        "answer": "rabbit"
+      },
+      {
+        "id": "g3b-u07-q6-c",
+        "kind": "choice",
+        "prompt": "“老虎”用英语怎么说？",
+        "answer": "tiger",
+        "options": [
+          "cat",
+          "tiger",
+          "animal",
+          "panda"
+        ]
+      },
+      {
+        "id": "g3b-u07-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“老虎”对应的英语单词",
+        "answer": "tiger"
+      },
+      {
+        "id": "g3b-u07-q7-c",
+        "kind": "choice",
+        "prompt": "“熊猫”用英语怎么说？",
+        "answer": "panda",
+        "options": [
+          "panda",
+          "cat",
+          "dog",
+          "animal"
+        ]
+      },
+      {
+        "id": "g3b-u07-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“熊猫”对应的英语单词",
+        "answer": "panda"
+      }
+    ]
+  },
+  {
+    "id": "g3b-u08",
+    "title": "Colours",
+    "description": "颜色",
+    "status": "original-theme-practice-unverified",
+    "cards": [
+      {
+        "id": "g3b-u08-w0",
+        "word": "red",
+        "meaning": "红色",
+        "emoji": "🔴",
+        "example": "Red."
+      },
+      {
+        "id": "g3b-u08-w1",
+        "word": "blue",
+        "meaning": "蓝色",
+        "emoji": "🔵",
+        "example": "Blue."
+      },
+      {
+        "id": "g3b-u08-w2",
+        "word": "green",
+        "meaning": "绿色",
+        "emoji": "🟢",
+        "example": "Green."
+      },
+      {
+        "id": "g3b-u08-w3",
+        "word": "yellow",
+        "meaning": "黄色",
+        "emoji": "🟡",
+        "example": "Yellow."
+      },
+      {
+        "id": "g3b-u08-w4",
+        "word": "black",
+        "meaning": "黑色",
+        "emoji": "⚫",
+        "example": "Black."
+      },
+      {
+        "id": "g3b-u08-w5",
+        "word": "white",
+        "meaning": "白色",
+        "emoji": "⚪",
+        "example": "White."
+      },
+      {
+        "id": "g3b-u08-w6",
+        "word": "pink",
+        "meaning": "粉色",
+        "emoji": "🌸",
+        "example": "Pink."
+      },
+      {
+        "id": "g3b-u08-w7",
+        "word": "purple",
+        "meaning": "紫色",
+        "emoji": "🟣",
+        "example": "Purple."
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u08-q0-c",
+        "kind": "choice",
+        "prompt": "“红色”用英语怎么说？",
+        "answer": "red",
+        "options": [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ]
+      },
+      {
+        "id": "g3b-u08-q0-s",
+        "kind": "spell",
+        "prompt": "拼写“红色”对应的英语单词",
+        "answer": "red"
+      },
+      {
+        "id": "g3b-u08-q1-c",
+        "kind": "choice",
+        "prompt": "“蓝色”用英语怎么说？",
+        "answer": "blue",
+        "options": [
+          "blue",
+          "black",
+          "yellow",
+          "green"
+        ]
+      },
+      {
+        "id": "g3b-u08-q1-s",
+        "kind": "spell",
+        "prompt": "拼写“蓝色”对应的英语单词",
+        "answer": "blue"
+      },
+      {
+        "id": "g3b-u08-q2-c",
+        "kind": "choice",
+        "prompt": "“绿色”用英语怎么说？",
+        "answer": "green",
+        "options": [
+          "green",
+          "black",
+          "white",
+          "yellow"
+        ]
+      },
+      {
+        "id": "g3b-u08-q2-s",
+        "kind": "spell",
+        "prompt": "拼写“绿色”对应的英语单词",
+        "answer": "green"
+      },
+      {
+        "id": "g3b-u08-q3-c",
+        "kind": "choice",
+        "prompt": "“黄色”用英语怎么说？",
+        "answer": "yellow",
+        "options": [
+          "black",
+          "white",
+          "pink",
+          "yellow"
+        ]
+      },
+      {
+        "id": "g3b-u08-q3-s",
+        "kind": "spell",
+        "prompt": "拼写“黄色”对应的英语单词",
+        "answer": "yellow"
+      },
+      {
+        "id": "g3b-u08-q4-c",
+        "kind": "choice",
+        "prompt": "“黑色”用英语怎么说？",
+        "answer": "black",
+        "options": [
+          "black",
+          "white",
+          "pink",
+          "purple"
+        ]
+      },
+      {
+        "id": "g3b-u08-q4-s",
+        "kind": "spell",
+        "prompt": "拼写“黑色”对应的英语单词",
+        "answer": "black"
+      },
+      {
+        "id": "g3b-u08-q5-c",
+        "kind": "choice",
+        "prompt": "“白色”用英语怎么说？",
+        "answer": "white",
+        "options": [
+          "red",
+          "white",
+          "pink",
+          "purple"
+        ]
+      },
+      {
+        "id": "g3b-u08-q5-s",
+        "kind": "spell",
+        "prompt": "拼写“白色”对应的英语单词",
+        "answer": "white"
+      },
+      {
+        "id": "g3b-u08-q6-c",
+        "kind": "choice",
+        "prompt": "“粉色”用英语怎么说？",
+        "answer": "pink",
+        "options": [
+          "red",
+          "pink",
+          "purple",
+          "blue"
+        ]
+      },
+      {
+        "id": "g3b-u08-q6-s",
+        "kind": "spell",
+        "prompt": "拼写“粉色”对应的英语单词",
+        "answer": "pink"
+      },
+      {
+        "id": "g3b-u08-q7-c",
+        "kind": "choice",
+        "prompt": "“紫色”用英语怎么说？",
+        "answer": "purple",
+        "options": [
+          "purple",
+          "blue",
+          "red",
+          "green"
+        ]
+      },
+      {
+        "id": "g3b-u08-q7-s",
+        "kind": "spell",
+        "prompt": "拼写“紫色”对应的英语单词",
+        "answer": "purple"
+      }
+    ]
+  }
+]
