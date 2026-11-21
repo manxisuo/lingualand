@@ -341,18 +341,6 @@
         "answer": "am"
       },
       {
-        "id": "g3a-u01-wl06-choice",
-        "kind": "choice",
-        "prompt": "“啊”用英语怎么表达？",
-        "answer": "ah",
-        "options": [
-          "ah",
-          "a",
-          "cat",
-          "Miss"
-        ]
-      },
-      {
         "id": "g3a-u01-wl06-spell",
         "kind": "spell",
         "prompt": "拼写“啊”对应的英语单词",
@@ -1311,18 +1299,6 @@
         "answer": "yes"
       },
       {
-        "id": "g3a-u03-wl06-choice",
-        "kind": "choice",
-        "prompt": "“哈”用英语怎么表达？",
-        "answer": "ha",
-        "options": [
-          "ha",
-          "Here I am!",
-          "but",
-          "oh"
-        ]
-      },
-      {
         "id": "g3a-u03-wl06-spell",
         "kind": "spell",
         "prompt": "拼写“哈”对应的英语单词",
@@ -1359,18 +1335,6 @@
         "kind": "spell",
         "prompt": "拼写“但是”对应的英语单词",
         "answer": "but"
-      },
-      {
-        "id": "g3a-u03-wl09-choice",
-        "kind": "choice",
-        "prompt": "“啊，哦”用英语怎么表达？",
-        "answer": "oh",
-        "options": [
-          "oh",
-          "sorry",
-          "twin",
-          "we"
-        ]
       },
       {
         "id": "g3a-u03-wl09-spell",
@@ -2882,18 +2846,6 @@
         "answer": "me"
       },
       {
-        "id": "g3a-u06-wl08-choice",
-        "kind": "choice",
-        "prompt": "“哇”用英语怎么表达？",
-        "answer": "wow",
-        "options": [
-          "wow",
-          "big",
-          "it",
-          "happy"
-        ]
-      },
-      {
         "id": "g3a-u06-wl08-spell",
         "kind": "spell",
         "prompt": "拼写“哇”对应的英语单词",
@@ -3945,10 +3897,11 @@
         "answer": "OK",
         "options": [
           "OK",
-          "How old are you?",
-          "please",
-          "here"
-        ]
+          "Yes, please.",
+          "No, I'm not.",
+          "You're welcome."
+        ],
+        "distractorStrategy": "curated-expression-v1"
       },
       {
         "id": "g3a-u07-wl24-spell",
@@ -3976,10 +3929,11 @@
         "answer": "please",
         "options": [
           "please",
-          "here",
-          "love",
-          "Here you are."
-        ]
+          "thanks",
+          "sorry",
+          "goodbye"
+        ],
+        "distractorStrategy": "curated-expression-v1"
       },
       {
         "id": "g3a-u07-wl26-spell",
