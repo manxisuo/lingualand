@@ -1,0 +1,1262 @@
+{
+  "edition": "译林版英语三年级上册 2024秋",
+  "sourcePdfPages": [
+    79,
+    80
+  ],
+  "sourcePrintedPages": [
+    78,
+    79
+  ],
+  "note": "依据教材 Word lists 人工逐项整理。星号为非单元核心词。词形别名见单元卡片。",
+  "units": [
+    {
+      "unitId": "g3a-u01",
+      "unitTitle": "Hello!",
+      "entries": [
+        {
+          "id": "g3a-u01-wl01",
+          "term": "hello",
+          "meaning": "你好",
+          "printedPage": 8,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl02",
+          "term": "hi",
+          "meaning": "嗨",
+          "printedPage": 8,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl03",
+          "term": "Good morning.",
+          "meaning": "早上好",
+          "printedPage": 10,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl04",
+          "term": "I",
+          "meaning": "我",
+          "printedPage": 10,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl05",
+          "term": "am",
+          "meaning": "是",
+          "printedPage": 10,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl06",
+          "term": "ah",
+          "meaning": "啊",
+          "printedPage": 10,
+          "wordListPage": 78,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl07",
+          "term": "a",
+          "meaning": "一个",
+          "printedPage": 10,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl08",
+          "term": "cat",
+          "meaning": "猫",
+          "printedPage": 10,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl09",
+          "term": "Miss",
+          "meaning": "小姐、女士",
+          "printedPage": 12,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl10",
+          "term": "Good afternoon.",
+          "meaning": "下午好",
+          "printedPage": 13,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl11",
+          "term": "class",
+          "meaning": "同学们",
+          "printedPage": 13,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl12",
+          "term": "goodbye",
+          "meaning": "再见",
+          "printedPage": 13,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u01-wl13",
+          "term": "bye",
+          "meaning": "再见",
+          "printedPage": 13,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3a-u02",
+      "unitTitle": "What's your name?",
+      "entries": [
+        {
+          "id": "g3a-u02-wl01",
+          "term": "what",
+          "meaning": "什么",
+          "printedPage": 16,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl02",
+          "term": "is",
+          "meaning": "是",
+          "printedPage": 16,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl03",
+          "term": "your",
+          "meaning": "你的",
+          "printedPage": 16,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl04",
+          "term": "name",
+          "meaning": "名字",
+          "printedPage": 16,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl05",
+          "term": "my",
+          "meaning": "我的",
+          "printedPage": 16,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl06",
+          "term": "Nice to meet you!",
+          "meaning": "很高兴认识你",
+          "printedPage": 18,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl07",
+          "term": "too",
+          "meaning": "也",
+          "printedPage": 18,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl08",
+          "term": "boy",
+          "meaning": "男孩",
+          "printedPage": 21,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl09",
+          "term": "and",
+          "meaning": "和",
+          "printedPage": 21,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl10",
+          "term": "girl",
+          "meaning": "女孩",
+          "printedPage": 21,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u02-wl11",
+          "term": "Mr",
+          "meaning": "先生",
+          "printedPage": 21,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3a-u03",
+      "unitTitle": "Are you Su Hai?",
+      "entries": [
+        {
+          "id": "g3a-u03-wl01",
+          "term": "are",
+          "meaning": "是",
+          "printedPage": 24,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl02",
+          "term": "you",
+          "meaning": "你、你们",
+          "printedPage": 24,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl03",
+          "term": "no",
+          "meaning": "不、不是",
+          "printedPage": 24,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl04",
+          "term": "not",
+          "meaning": "不",
+          "printedPage": 24,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl05",
+          "term": "yes",
+          "meaning": "是、对",
+          "printedPage": 26,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl06",
+          "term": "ha",
+          "meaning": "哈",
+          "printedPage": 26,
+          "wordListPage": 78,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl07",
+          "term": "Here I am!",
+          "meaning": "我在这里",
+          "printedPage": 26,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl08",
+          "term": "but",
+          "meaning": "但是",
+          "printedPage": 28,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl09",
+          "term": "oh",
+          "meaning": "啊，哦",
+          "printedPage": 28,
+          "wordListPage": 78,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl10",
+          "term": "sorry",
+          "meaning": "对不起",
+          "printedPage": 28,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl11",
+          "term": "twin",
+          "meaning": "双胞胎之一",
+          "printedPage": 28,
+          "wordListPage": 78,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl12",
+          "term": "we",
+          "meaning": "我们",
+          "printedPage": 28,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl13",
+          "term": "excuse me",
+          "meaning": "对不起，打扰一下",
+          "printedPage": 29,
+          "wordListPage": 78,
+          "nonCore": true,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl14",
+          "term": "class",
+          "meaning": "班级",
+          "printedPage": 29,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl15",
+          "term": "in",
+          "meaning": "在……中",
+          "printedPage": 29,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl16",
+          "term": "with",
+          "meaning": "和、同",
+          "printedPage": 29,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u03-wl17",
+          "term": "right",
+          "meaning": "正确的",
+          "printedPage": 29,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3a-u04",
+      "unitTitle": "This is my friend",
+      "entries": [
+        {
+          "id": "g3a-u04-wl01",
+          "term": "this",
+          "meaning": "这、这个",
+          "printedPage": 32,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl02",
+          "term": "friend",
+          "meaning": "朋友",
+          "printedPage": 32,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl03",
+          "term": "she",
+          "meaning": "她",
+          "printedPage": 32,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl04",
+          "term": "he",
+          "meaning": "他",
+          "printedPage": 34,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl05",
+          "term": "it",
+          "meaning": "它",
+          "printedPage": 37,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl06",
+          "term": "good",
+          "meaning": "好的",
+          "printedPage": 37,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl07",
+          "term": "Thank you.",
+          "meaning": "谢谢你",
+          "printedPage": 37,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl08",
+          "term": "have",
+          "meaning": "有",
+          "printedPage": 37,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u04-wl09",
+          "term": "many",
+          "meaning": "许多",
+          "printedPage": 37,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3a-u05",
+      "unitTitle": "She's my mother",
+      "entries": [
+        {
+          "id": "g3a-u05-wl01",
+          "term": "mother",
+          "meaning": "母亲、妈妈",
+          "printedPage": 42,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl02",
+          "term": "father",
+          "meaning": "父亲、爸爸",
+          "printedPage": 42,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl03",
+          "term": "dad",
+          "meaning": "爸爸",
+          "printedPage": 42,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl04",
+          "term": "mum",
+          "meaning": "妈妈",
+          "printedPage": 42,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl05",
+          "term": "brother",
+          "meaning": "兄弟",
+          "printedPage": 42,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl06",
+          "term": "baby",
+          "meaning": "婴儿",
+          "printedPage": 42,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl07",
+          "term": "sister",
+          "meaning": "姐妹",
+          "printedPage": 42,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl08",
+          "term": "Good evening.",
+          "meaning": "晚上好",
+          "printedPage": 44,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl09",
+          "term": "quick",
+          "meaning": "快，快点",
+          "printedPage": 44,
+          "wordListPage": 78,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl10",
+          "term": "look",
+          "meaning": "看",
+          "printedPage": 44,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl11",
+          "term": "the",
+          "meaning": "这个、这些、那个、那些",
+          "printedPage": 44,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl12",
+          "term": "pond",
+          "meaning": "池塘、水池",
+          "printedPage": 44,
+          "wordListPage": 78,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl13",
+          "term": "who",
+          "meaning": "谁",
+          "printedPage": 44,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl14",
+          "term": "great",
+          "meaning": "很棒的",
+          "printedPage": 44,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl15",
+          "term": "come",
+          "meaning": "来",
+          "printedPage": 46,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl16",
+          "term": "meet",
+          "meaning": "相识、结识",
+          "printedPage": 46,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl17",
+          "term": "family",
+          "meaning": "家庭",
+          "printedPage": 46,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u05-wl18",
+          "term": "say",
+          "meaning": "说",
+          "printedPage": 47,
+          "wordListPage": 78,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3a-u06",
+      "unitTitle": "Is he your grandpa?",
+      "entries": [
+        {
+          "id": "g3a-u06-wl01",
+          "term": "grandfather",
+          "meaning": "祖父、外祖父",
+          "printedPage": 50,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl02",
+          "term": "uncle",
+          "meaning": "叔伯舅姑姨父",
+          "printedPage": 50,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl03",
+          "term": "aunt",
+          "meaning": "姑姨伯婶舅母",
+          "printedPage": 50,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl04",
+          "term": "grandmother",
+          "meaning": "祖母、外祖母",
+          "printedPage": 50,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl05",
+          "term": "cousin",
+          "meaning": "堂表兄弟姐妹",
+          "printedPage": 50,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl06",
+          "term": "cool",
+          "meaning": "很酷的",
+          "printedPage": 52,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl07",
+          "term": "me",
+          "meaning": "我",
+          "printedPage": 52,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl08",
+          "term": "wow",
+          "meaning": "哇",
+          "printedPage": 54,
+          "wordListPage": 79,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl09",
+          "term": "big",
+          "meaning": "大的",
+          "printedPage": 54,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl10",
+          "term": "it",
+          "meaning": "它",
+          "printedPage": 55,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl11",
+          "term": "happy",
+          "meaning": "幸福的",
+          "printedPage": 55,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u06-wl12",
+          "term": "love",
+          "meaning": "爱",
+          "printedPage": 55,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3a-u07",
+      "unitTitle": "Happy Birthday!",
+      "entries": [
+        {
+          "id": "g3a-u07-wl01",
+          "term": "Happy Birthday!",
+          "meaning": "生日快乐",
+          "printedPage": 58,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl02",
+          "term": "one",
+          "meaning": "一",
+          "printedPage": 58,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl03",
+          "term": "two",
+          "meaning": "二",
+          "printedPage": 58,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl04",
+          "term": "three",
+          "meaning": "三",
+          "printedPage": 58,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl05",
+          "term": "four",
+          "meaning": "四",
+          "printedPage": 58,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl06",
+          "term": "five",
+          "meaning": "五",
+          "printedPage": 58,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl07",
+          "term": "six",
+          "meaning": "六",
+          "printedPage": 58,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl08",
+          "term": "seven",
+          "meaning": "七",
+          "printedPage": 59,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl09",
+          "term": "eight",
+          "meaning": "八",
+          "printedPage": 59,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl10",
+          "term": "nine",
+          "meaning": "九",
+          "printedPage": 59,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl11",
+          "term": "ten",
+          "meaning": "十",
+          "printedPage": 59,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl12",
+          "term": "now",
+          "meaning": "现在",
+          "printedPage": 60,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl13",
+          "term": "want",
+          "meaning": "想要",
+          "printedPage": 60,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl14",
+          "term": "car",
+          "meaning": "小汽车",
+          "printedPage": 60,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl15",
+          "term": "book",
+          "meaning": "书",
+          "printedPage": 60,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl16",
+          "term": "ball",
+          "meaning": "球",
+          "printedPage": 60,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl17",
+          "term": "cake",
+          "meaning": "蛋糕",
+          "printedPage": 60,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl18",
+          "term": "How lovely!",
+          "meaning": "真可爱",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl19",
+          "term": "Can I help you?",
+          "meaning": "要帮忙吗",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl20",
+          "term": "Yes, please.",
+          "meaning": "好的，谢谢",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl21",
+          "term": "some",
+          "meaning": "一些",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl22",
+          "term": "toy",
+          "meaning": "玩具",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl23",
+          "term": "for",
+          "meaning": "给、对、供",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl24",
+          "term": "OK",
+          "meaning": "对，好，行",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl25",
+          "term": "How old are you?",
+          "meaning": "你多大了",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl26",
+          "term": "please",
+          "meaning": "请",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl27",
+          "term": "here",
+          "meaning": "这里",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl28",
+          "term": "love",
+          "meaning": "喜爱",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl29",
+          "term": "Here you are.",
+          "meaning": "给你",
+          "printedPage": 62,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl30",
+          "term": "You're welcome.",
+          "meaning": "别客气，不用谢",
+          "printedPage": 63,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u07-wl31",
+          "term": "thanks",
+          "meaning": "谢谢",
+          "printedPage": 63,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3a-u08",
+      "unitTitle": "I can do this for you",
+      "entries": [
+        {
+          "id": "g3a-u08-wl01",
+          "term": "can",
+          "meaning": "能、会",
+          "printedPage": 66,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl02",
+          "term": "do",
+          "meaning": "做",
+          "printedPage": 66,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl03",
+          "term": "for",
+          "meaning": "给、对、供",
+          "printedPage": 66,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl04",
+          "term": "clean",
+          "meaning": "打扫、使干净",
+          "printedPage": 66,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl05",
+          "term": "table",
+          "meaning": "桌子",
+          "printedPage": 66,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl06",
+          "term": "draw",
+          "meaning": "画",
+          "printedPage": 66,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl07",
+          "term": "sing",
+          "meaning": "唱歌",
+          "printedPage": 67,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl08",
+          "term": "take pictures",
+          "meaning": "拍照",
+          "printedPage": 67,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3a-u08-wl09",
+          "term": "dance",
+          "meaning": "跳舞",
+          "printedPage": 67,
+          "wordListPage": 79,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
