@@ -75,7 +75,7 @@
         "emoji": "👋",
         "example": "Hello, Amy!",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -87,7 +87,7 @@
         "emoji": "👋",
         "example": "Hi, Ben!",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -99,7 +99,7 @@
         "emoji": "🙋",
         "example": "I am Amy.",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -111,7 +111,7 @@
         "emoji": "✨",
         "example": "I am happy.",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -121,9 +121,9 @@
         "word": "a",
         "meaning": "一个",
         "emoji": "🔤",
-        "example": "a.",
+        "example": "I see a cat.",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -135,7 +135,7 @@
         "emoji": "🐱",
         "example": "I see a cat.",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -147,7 +147,7 @@
         "emoji": "👩‍🏫",
         "example": "Good morning, Miss Lin.",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -159,7 +159,7 @@
         "emoji": "🏫",
         "example": "Good afternoon, class.",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -171,7 +171,7 @@
         "emoji": "👋",
         "example": "Goodbye, Ben!",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -183,7 +183,7 @@
         "emoji": "👋",
         "example": "Bye, Amy!",
         "source": {
-          "bookPage": 8,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -489,7 +489,7 @@
         "emoji": "❔",
         "example": "What is this?",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -501,7 +501,7 @@
         "emoji": "✨",
         "example": "This is my friend.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -513,7 +513,7 @@
         "emoji": "👤",
         "example": "Is this your book?",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -525,7 +525,7 @@
         "emoji": "🏷️",
         "example": "My name is Amy.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -537,7 +537,7 @@
         "emoji": "🙋",
         "example": "This is my book.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -549,7 +549,7 @@
         "emoji": "➕",
         "example": "I like it too.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -561,7 +561,7 @@
         "emoji": "👦",
         "example": "The boy is my friend.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -573,7 +573,7 @@
         "emoji": "🤝",
         "example": "Amy and Ben are friends.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -585,7 +585,7 @@
         "emoji": "👧",
         "example": "The girl is happy.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -597,7 +597,7 @@
         "emoji": "👨‍🏫",
         "example": "Good morning, Mr Lee.",
         "source": {
-          "bookPage": 16,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -964,7 +964,7 @@
         "emoji": "✨",
         "example": "Are you Amy?",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -976,7 +976,7 @@
         "emoji": "👥",
         "example": "You are my friend.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -988,7 +988,7 @@
         "emoji": "🚫",
         "example": "No, I'm not.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1000,7 +1000,7 @@
         "emoji": "🚫",
         "example": "I am not Ben.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1012,7 +1012,7 @@
         "emoji": "✔️",
         "example": "Yes, I am.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1024,7 +1024,7 @@
         "emoji": "↔️",
         "example": "I am Amy, but she is Lily.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1036,7 +1036,7 @@
         "emoji": "🙏",
         "example": "Sorry, I'm not Amy.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1048,7 +1048,7 @@
         "emoji": "👥",
         "example": "We are friends.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1060,7 +1060,7 @@
         "emoji": "🏫",
         "example": "Good afternoon, class.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1072,7 +1072,7 @@
         "emoji": "📍",
         "example": "I'm in Class 1.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1084,7 +1084,7 @@
         "emoji": "🤝",
         "example": "I am with my friend.",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1096,7 +1096,7 @@
         "emoji": "✔️",
         "example": "That's right!",
         "source": {
-          "bookPage": 24,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1509,7 +1509,7 @@
         "emoji": "👉",
         "example": "This is my friend.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1521,7 +1521,7 @@
         "emoji": "🤝",
         "example": "Ben is my friend.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1533,7 +1533,7 @@
         "emoji": "👧",
         "example": "She is my sister.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1545,7 +1545,7 @@
         "emoji": "👦",
         "example": "He is my brother.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1557,7 +1557,7 @@
         "emoji": "🐾",
         "example": "It is a cat.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1569,7 +1569,7 @@
         "emoji": "👍",
         "example": "This is a good book.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1581,7 +1581,7 @@
         "emoji": "🎒",
         "example": "I have a book.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1593,7 +1593,7 @@
         "emoji": "✨",
         "example": "I have many friends.",
         "source": {
-          "bookPage": 32,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1898,7 +1898,7 @@
         "emoji": "👩",
         "example": "This is my mother.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1910,7 +1910,7 @@
         "emoji": "👨",
         "example": "This is my father.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1922,7 +1922,7 @@
         "emoji": "👨",
         "example": "My dad is happy.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1934,7 +1934,7 @@
         "emoji": "👩",
         "example": "My mum is here.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1946,7 +1946,7 @@
         "emoji": "👦",
         "example": "He is my brother.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1958,7 +1958,7 @@
         "emoji": "👶",
         "example": "The baby is happy.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1970,7 +1970,7 @@
         "emoji": "👧",
         "example": "She is my sister.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1982,7 +1982,7 @@
         "emoji": "👀",
         "example": "Look at my book!",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -1994,7 +1994,7 @@
         "emoji": "❔",
         "example": "Who is she?",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2006,7 +2006,7 @@
         "emoji": "⭐",
         "example": "That's great!",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2018,7 +2018,7 @@
         "emoji": "🚶",
         "example": "Come here, please.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2030,7 +2030,7 @@
         "emoji": "🤝",
         "example": "Nice to meet you.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2042,7 +2042,7 @@
         "emoji": "🏠",
         "example": "I love my family.",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2054,7 +2054,7 @@
         "emoji": "💬",
         "example": "Say hello!",
         "source": {
-          "bookPage": 42,
+          "bookPage": 78,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2456,7 +2456,7 @@
         "emoji": "👴",
         "example": "This is my grandfather.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2468,7 +2468,7 @@
         "emoji": "👨",
         "example": "This is my uncle.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2480,7 +2480,7 @@
         "emoji": "👩",
         "example": "She is my aunt.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2492,7 +2492,7 @@
         "emoji": "👵",
         "example": "This is my grandmother.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2504,7 +2504,7 @@
         "emoji": "🧒",
         "example": "He is my cousin.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2516,7 +2516,7 @@
         "emoji": "😎",
         "example": "That's cool!",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2528,7 +2528,7 @@
         "emoji": "🙋",
         "example": "Look at me!",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2540,7 +2540,7 @@
         "emoji": "🏠",
         "example": "I have a big family.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2552,7 +2552,7 @@
         "emoji": "🐾",
         "example": "It is a cat.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2564,7 +2564,7 @@
         "emoji": "😊",
         "example": "We are happy.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2576,7 +2576,7 @@
         "emoji": "❤️",
         "example": "I love my family.",
         "source": {
-          "bookPage": 50,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2961,9 +2961,9 @@
         "word": "one",
         "meaning": "一",
         "emoji": "1️⃣",
-        "example": "I am one.",
+        "example": "I have one book.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2975,7 +2975,7 @@
         "emoji": "2️⃣",
         "example": "I have two books.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2987,7 +2987,7 @@
         "emoji": "3️⃣",
         "example": "I have three toys.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -2999,7 +2999,7 @@
         "emoji": "4️⃣",
         "example": "I see four balls.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3011,7 +3011,7 @@
         "emoji": "5️⃣",
         "example": "I am five.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3023,7 +3023,7 @@
         "emoji": "6️⃣",
         "example": "I am six.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3035,7 +3035,7 @@
         "emoji": "7️⃣",
         "example": "I am seven.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3047,7 +3047,7 @@
         "emoji": "8️⃣",
         "example": "I am eight.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3059,7 +3059,7 @@
         "emoji": "9️⃣",
         "example": "I am nine.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3071,7 +3071,7 @@
         "emoji": "🔟",
         "example": "I am ten.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3083,7 +3083,7 @@
         "emoji": "⏰",
         "example": "I am nine now.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3095,7 +3095,7 @@
         "emoji": "🎁",
         "example": "I want a book.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3107,7 +3107,7 @@
         "emoji": "🚗",
         "example": "I want a toy car.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3119,7 +3119,7 @@
         "emoji": "📚",
         "example": "This is my book.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3131,7 +3131,7 @@
         "emoji": "⚽",
         "example": "I want a ball.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3143,7 +3143,7 @@
         "emoji": "🎂",
         "example": "I like cake.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3155,7 +3155,7 @@
         "emoji": "➕",
         "example": "I want some toys.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3167,7 +3167,7 @@
         "emoji": "🧸",
         "example": "This is my toy.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3179,7 +3179,7 @@
         "emoji": "🙏",
         "example": "Yes, please.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3191,7 +3191,7 @@
         "emoji": "📍",
         "example": "Here you are.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3203,7 +3203,7 @@
         "emoji": "❤️",
         "example": "I love my family.",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3215,7 +3215,7 @@
         "emoji": "🙏",
         "example": "Thanks, Mum!",
         "source": {
-          "bookPage": 58,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3797,7 +3797,7 @@
         "emoji": "💪",
         "example": "I can sing.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3809,7 +3809,7 @@
         "emoji": "🛠️",
         "example": "I can do this.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3821,7 +3821,7 @@
         "emoji": "🎯",
         "example": "This is for you.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3833,7 +3833,7 @@
         "emoji": "🧹",
         "example": "I can clean the table.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3845,7 +3845,7 @@
         "emoji": "🪑",
         "example": "This is a table.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3857,7 +3857,7 @@
         "emoji": "🎨",
         "example": "I can draw.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3869,7 +3869,7 @@
         "emoji": "🎤",
         "example": "I can sing.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
@@ -3881,7 +3881,7 @@
         "emoji": "💃",
         "example": "I can dance.",
         "source": {
-          "bookPage": 66,
+          "bookPage": 79,
           "type": "textbook-word-list",
           "verified": true
         }
