@@ -2,7 +2,7 @@ import {course,type Card,type Question} from './data'
 import manifest from './content/2024-g3-manifest.json'
 import practice from './content/2024-g3-practice.json'
 import verifiedG3a from './content/2024-g3a-verified.json'
-export type Unit={id:string;title:string;description:string;cards:Card[];questions:Question[];status?:string}
+export type Unit={id:string;title:string;description:string;cards:Card[];questions:Question[];status?:string;letters?:string;objectives?:string[];phrases?:{english:string;meaning:string;origin?:string}[];dialogues?:{lines:string[];origin?:string}[]}
 export type Volume={id:string;grade:number;term:'上册'|'下册';units:Unit[]}
 export type Curriculum={id:string;name:string;volumes:Volume[]}
 const original:Unit={id:'happy-day',title:'My Happy Day',description:'问候与校园生活',cards:course.cards,questions:course.questions}
