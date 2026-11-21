@@ -49,6 +49,16 @@
           "title": "I can do this for you",
           "theme": "帮助家人"
         }
+      ],
+      "projects": [
+        {
+          "afterUnit": 4,
+          "title": "Making friends"
+        },
+        {
+          "afterUnit": 8,
+          "title": "My family poster"
+        }
       ]
     },
     {
@@ -95,6 +105,16 @@
           "id": "g3b-u08",
           "title": "Colours",
           "theme": "颜色"
+        }
+      ],
+      "projects": [
+        {
+          "afterUnit": 4,
+          "title": "A good student"
+        },
+        {
+          "afterUnit": 8,
+          "title": "My nature park"
         }
       ]
     }
