@@ -88,7 +88,7 @@
         "id": "g3a-u01-wl03",
         "word": "Good morning.",
         "meaning": "早上好",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -133,7 +133,7 @@
         "id": "g3a-u01-wl06",
         "word": "ah",
         "meaning": "啊",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -193,7 +193,7 @@
         "id": "g3a-u01-wl10",
         "word": "Good afternoon.",
         "meaning": "下午好",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -597,7 +597,7 @@
         "id": "g3a-u02-wl06",
         "word": "Nice to meet you!",
         "meaning": "很高兴认识你",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -1025,7 +1025,7 @@
         "id": "g3a-u03-wl06",
         "word": "ha",
         "meaning": "哈",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -1040,7 +1040,7 @@
         "id": "g3a-u03-wl07",
         "word": "Here I am!",
         "meaning": "我在这里",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -1070,7 +1070,7 @@
         "id": "g3a-u03-wl09",
         "word": "oh",
         "meaning": "啊，哦",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -1100,7 +1100,7 @@
         "id": "g3a-u03-wl11",
         "word": "twin",
         "meaning": "双胞胎之一",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -1130,7 +1130,7 @@
         "id": "g3a-u03-wl13",
         "word": "excuse me",
         "meaning": "对不起，打扰一下",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -1628,7 +1628,7 @@
         "id": "g3a-u04-wl07",
         "word": "Thank you.",
         "meaning": "谢谢你",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -1991,7 +1991,7 @@
         "id": "g3a-u05-wl08",
         "word": "Good evening.",
         "meaning": "晚上好",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -2006,7 +2006,7 @@
         "id": "g3a-u05-wl09",
         "word": "quick",
         "meaning": "快，快点",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -2036,7 +2036,7 @@
         "id": "g3a-u05-wl11",
         "word": "the",
         "meaning": "这个、这些、那个、那些",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -2051,7 +2051,7 @@
         "id": "g3a-u05-wl12",
         "word": "pond",
         "meaning": "池塘、水池",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -2639,7 +2639,7 @@
         "id": "g3a-u06-wl08",
         "word": "wow",
         "meaning": "哇",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3014,7 +3014,7 @@
         "id": "g3a-u07-wl01",
         "word": "Happy Birthday!",
         "meaning": "生日快乐",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3269,7 +3269,7 @@
         "id": "g3a-u07-wl18",
         "word": "How lovely!",
         "meaning": "真可爱",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3284,7 +3284,7 @@
         "id": "g3a-u07-wl19",
         "word": "Can I help you?",
         "meaning": "要帮忙吗",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3299,7 +3299,7 @@
         "id": "g3a-u07-wl20",
         "word": "Yes, please.",
         "meaning": "好的，谢谢",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3344,7 +3344,7 @@
         "id": "g3a-u07-wl23",
         "word": "for",
         "meaning": "给、对、供",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3359,7 +3359,7 @@
         "id": "g3a-u07-wl24",
         "word": "OK",
         "meaning": "对，好，行",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3374,7 +3374,7 @@
         "id": "g3a-u07-wl25",
         "word": "How old are you?",
         "meaning": "你多大了",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3434,7 +3434,7 @@
         "id": "g3a-u07-wl29",
         "word": "Here you are.",
         "meaning": "给你",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -3449,7 +3449,7 @@
         "id": "g3a-u07-wl30",
         "word": "You're welcome.",
         "meaning": "别客气，不用谢",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
@@ -4179,7 +4179,7 @@
         "id": "g3a-u08-wl08",
         "word": "take pictures",
         "meaning": "拍照",
-        "emoji": "📖",
+        "emoji": "",
         "example": "",
         "source": {
           "type": "textbook-word-list",
