@@ -14,6 +14,7 @@ const supportedTts=typeof window!=='undefined'&&'speechSynthesis'in window
 const recognitionConstructor=typeof window!=='undefined'?(window as Window & {SpeechRecognition?:RecognitionConstructor;webkitSpeechRecognition?:RecognitionConstructor}).SpeechRecognition||(window as Window & {webkitSpeechRecognition?:RecognitionConstructor}).webkitSpeechRecognition:undefined
 const supportedRecognition=Boolean(recognitionConstructor)
 const correct=computed(()=>chosen.value===card.value?.word)
+const wordOptions=computed(()=>[card.value,...cards.value.filter(c=>c.id!==card.value?.id).slice(0,3)].filter(Boolean).sort((a,b)=>hash(a.word+card.value?.id)-hash(b.word+card.value?.id)))
 const meaningOptions=computed(()=>{const words=cards.value.filter(c=>c.id!==card.value?.id).slice(0,3).map(c=>c.meaning);return [card.value?.meaning||'',...words].sort((a,b)=>hash(a+card.value?.id)-hash(b+card.value?.id))})
 function hash(v:string){return [...v].reduce((a,c)=>(a*31+c.charCodeAt(0))>>>0,7)}
 function reset(){chosen.value='';revealed.value=false;transcript.value='';speechError.value='';if(recognition){recognition.stop();recognition=null}listening.value=false}
@@ -40,7 +41,7 @@ onBeforeUnmount(()=>{recognition?.stop();if(supportedTts)window.speechSynthesis.
 <h3>{{mode==='speak'?card.word:mode==='word'?'听发音，找到对应的单词':'听发音，选择正确的中文意思'}}</h3>
 <p>{{mode==='speak'?'先听示范，再点击麦克风跟读。':'可以反复播放，慢慢听清楚每个音。'}}</p>
 <button class="speaking-play" :disabled="!supportedTts" @click="speak(card.word)">🔊 {{supportedTts?'播放英语发音':'浏览器不支持播放'}}</button>
-<template v-if="mode==='word'"><div class="speaking-options"><button v-for="c in cards.slice(0,Math.min(cards.length,4))" :key="c.id" :disabled="revealed" :class="{chosen:chosen===c.word}" @click="chosen=c.word">{{c.word}}</button></div></template>
+<template v-if="mode==='word'"><div class="speaking-options"><button v-for="c in wordOptions" :key="c.id" :disabled="revealed" :class="{chosen:chosen===c.word}" @click="chosen=c.word">{{c.word}}</button></div></template>
 <template v-else-if="mode==='meaning'"><div class="speaking-options"><button v-for="meaning in meaningOptions" :key="meaning" :disabled="revealed" :class="{chosen:chosen===meaning}" @click="chosen=meaning">{{meaning}}</button></div></template>
 <template v-else><div class="speaking-record"><button class="primary" :disabled="listening||!supportedRecognition" @click="listen">{{listening?'正在聆听…':'🎙️ 开始跟读'}}</button><button class="secondary" @click="revealed=true">我已自行跟读</button></div><p v-if="!supportedRecognition" class="speaking-caveat">当前浏览器没有可用的语音识别接口。仍可听示范并自行跟读。</p><p v-if="transcript" class="speaking-transcript">识别文字：{{transcript}}<br>{{match?'文字匹配成功！':'与目标单词不完全相同，可以再试一次。'}}<br><small>这只是文字识别结果，不代表发音质量评分。</small></p></template>
 <div v-if="mode!=='speak'&&revealed" class="speaking-feedback" :class="{incorrect:mode==='word'? !correct:chosen!==card.meaning}">{{(mode==='word'?correct:chosen===card.meaning)?'回答正确！':'继续加油！'}} 正确答案：{{card.word}} · {{card.meaning}}</div>
