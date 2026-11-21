@@ -26,6 +26,7 @@ const things:Unit={id:'everyday-things',title:'Everyday Things',description:'日
 const contentUnits:Unit[]=practice.map(u=>({...u,cards:u.cards as Card[],questions:u.questions.map(q=>({...q,kind:q.kind as Question['kind']}))}))
 const byId=(id:string)=>{const u=contentUnits.find(u=>u.id===id);if(!u)throw new Error('Missing content unit: '+id);return u}
 export const curricula:Curriculum[]=[{id:'yilin-2024',name:'译林版小学英语 · 2024修订版（原创配套练习）',volumes:manifest.volumes.map(v=>({id:v.id,grade:v.grade,term:v.term as Volume['term'],units:v.units.map(u=>byId(u.id))}))},[{id:'yilin-demo',name:'译林版方向 · 原创示范',volumes:[{id:'g3a',grade:3,term:'上册',units:[original,friends]},{id:'g3b',grade:3,term:'下册',units:[things]}]}]
-export const defaultUnitId='g3a-u01'
+export const defaultUnitId='happy-day'
+export const initialUnitId='g3a-u01'
 export const allUnits=()=>curricula.flatMap(c=>c.volumes.flatMap(v=>v.units.map(unit=>({curriculum:c,volume:v,unit}))))
 export const findUnit=(id:string)=>allUnits().find(x=>x.unit.id===id)||allUnits()[0]
