@@ -66,7 +66,13 @@ function prepareQuestions(source:Question[]):Question[]{
 }
 // Only depict concrete meanings with vetted original illustrations or unambiguous emoji.
 const illustratedWords=new Set(['desk','table','chair','take pictures','book','cat','car','ball','cake','toy','pond','draw','sing','dance','clean','family','friend','baby','twin','look'])
-const safeEmojiWords=new Set(['hello','hi','goodbye','bye','boy','girl','mother','father','dad','mum','brother','sister','grandfather','grandmother','uncle','aunt','cousin','one','two','three','four','five','six','seven','eight','nine','ten'])
+// Curated vocabulary only: emoji is allowed when it depicts the meaning clearly.
+const safeEmojiWords=new Set([
+ 'hello','hi','goodbye','bye','boy','girl','mother','father','dad','mum','brother','sister','grandfather','grandmother','grandpa','grandma','uncle','aunt','cousin','one','two','three','four','five','six','seven','eight','nine','ten',
+ 'pen','pencil','ruler','bag','school','classroom','window','door','read','walk','run','jump','play','game','listen',
+ 'apple','banana','orange','pear','grape','watermelon','fruit','farm','cow','pig','duck','chicken','sheep','horse','field','animal','dog','bird','fish','rabbit','tiger','panda',
+ 'red','blue','green','yellow','black','white','purple','birthday','gift','party','morning','afternoon','happy','love','please','now','name','meet','teacher','Miss','Mr','baby'
+])
 function illustrationKey(word:string){return word.toLowerCase().trim().replace(/[.!?]/g,'')}
 function hasIllustration(word:string){return illustratedWords.has(illustrationKey(word))}
 function showEmoji(word:string,emoji:string){return !hasIllustration(word)&&safeEmojiWords.has(illustrationKey(word))&&!!emoji}
