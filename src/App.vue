@@ -54,9 +54,18 @@ const badges=computed(()=>[
 ])
 const earnedBadges=computed(()=>badges.value.filter(b=>b.earned).length)
 function saveGrowth(){localStorage.setItem(growthKey,JSON.stringify(growth.value))}
+// Randomize option positions for each practice run without mutating shared curriculum data.
+function prepareQuestions(source:Question[]):Question[]{
+ return source.map(question=>{
+  if((question.kind!=='choice'&&question.kind!=='phrase')||!question.options?.length)return {...question}
+  const options=[...question.options]
+  for(let i=options.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[i],options[j]]=[options[j],options[i]]}
+  return {...question,options}
+ })
+}
 const activeQuestions=ref<Question[]>([])
 const questions=computed(()=>activeQuestions.value)
-function openStage(i:number){if(!unlocked(i)||!stageQuestions(i).length)return;stage.value=i;stageMode.value=true;stageComplete.value=false;review.value=false;activeQuestions.value=[...stageQuestions(i)];stageCorrect.value=0;stageTotal.value=0;streak.value=0;bonus.value=0;index.value=0;reset();page.value='quiz'}
+function openStage(i:number){if(!unlocked(i)||!stageQuestions(i).length)return;stage.value=i;stageMode.value=true;stageComplete.value=false;review.value=false;activeQuestions.value=prepareQuestions(stageQuestions(i));stageCorrect.value=0;stageTotal.value=0;streak.value=0;bonus.value=0;index.value=0;reset();page.value='quiz'}
 function finish(){if(stageMode.value){const earned=stageTotal.value?stageCorrect.value/stageTotal.value:0;const stars=earned===1?3:earned>=.7?2:earned>0?1:0;const key=stageKey(stage.value);if(stars>stageStars(stage.value)){stageScore.value={...stageScore.value,[key]:stars};localStorage.setItem('lingualand-stage-scores',JSON.stringify(stageScore.value))}growth.value.completedRuns++;if(stageTotal.value>0&&stageCorrect.value===stageTotal.value)growth.value.perfectRuns++;saveGrowth();stageComplete.value=true}else{page.value='home'}}
 
 const q=computed<Question|undefined>(()=>questions.value[index.value])
@@ -66,8 +75,8 @@ const wrong=computed(()=>activeUnit.value.questions.filter(q=>progress.value.res
 const percent=computed(()=>Math.round(mastered.value/activeUnit.value.questions.length*100))
 function save(){localStorage.setItem(key,JSON.stringify(progress.value))}
 function speak(s:string){if(!('speechSynthesis'in window))return;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(s);u.lang='en-US';u.rate=.82;window.speechSynthesis.speak(u)}
-function startDue(){stageMode.value=false;stageComplete.value=false;review.value=true;today.value=Date.now();activeQuestions.value=dueQuestions(activeUnit.value.questions,unitId.value,reviewRecords.value,progress.value.results,today.value);index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
-function start(isReview=false){stageMode.value=false;stageComplete.value=false;review.value=isReview;activeQuestions.value=isReview?activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]&&!progress.value.results[keyFor(q.id)].correct):[...activeUnit.value.questions];index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
+function startDue(){stageMode.value=false;stageComplete.value=false;review.value=true;today.value=Date.now();activeQuestions.value=prepareQuestions(dueQuestions(activeUnit.value.questions,unitId.value,reviewRecords.value,progress.value.results,today.value));index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
+function start(isReview=false){stageMode.value=false;stageComplete.value=false;review.value=isReview;activeQuestions.value=prepareQuestions(isReview?activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]&&!progress.value.results[keyFor(q.id)].correct):activeUnit.value.questions);index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
 function reset(){selected.value='';tokens.value=[];checked.value=false;correct.value=false}
 function submit(){if(!q.value||!answer.value.trim()||checked.value)return;correct.value=answer.value.trim().toLowerCase()===q.value.answer.trim().toLowerCase();checked.value=true;const old=progress.value.results[keyFor(q.value.id)];progress.value.results[keyFor(q.value.id)]={correct:correct.value,attempts:(old?.attempts||0)+1};bonus.value=0;if(correct.value){streak.value++;growth.value.totalCorrect++;growth.value.bestStreak=Math.max(growth.value.bestStreak,streak.value);bonus.value=streak.value>0&&streak.value%3===0?15:0;progress.value.stars+=10+bonus.value;if(stageMode.value)stageCorrect.value++}else{streak.value=0}if(stageMode.value)stageTotal.value++;const reviewId=keyFor(q.value.id);reviewRecords.value={...reviewRecords.value,[reviewId]:schedule(reviewRecords.value[reviewId],correct.value)};localStorage.setItem(reviewKey,JSON.stringify(reviewRecords.value));today.value=Date.now();saveGrowth();save()}
 function next(){if(index.value+1>=questions.value.length){finish();return}index.value++;reset()}
