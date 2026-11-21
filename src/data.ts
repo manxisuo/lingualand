@@ -1,4 +1,4 @@
-export type Card={id:string;word:string;meaning:string;emoji:string;example:string}
+export type Card={id:string;word:string;meaning:string;emoji:string;example:string;category?:'word'|'expression'}
 export type Question={id:string;kind:'choice'|'spell'|'order'|'phrase';prompt:string;answer:string;options?:string[];tokens?:string[];hint?:string}
 export const course={edition:'译林版方向 · 原创示范',grade:3,term:'上册',unit:'示范单元 · My Happy Day',
 cards:[
