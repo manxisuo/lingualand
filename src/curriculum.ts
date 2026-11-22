@@ -1,6 +1,5 @@
 import {course,type Card,type Question} from './data'
 import manifest from './content/2024-g3-manifest.json'
-import practice from './content/2024-g3-practice.json'
 import verifiedG3a from './content/2024-g3a-verified.json'
 import verifiedG3b from './content/2025-g3b-verified.json'
 export type Unit={id:string;title:string;description:string;cards:Card[];questions:Question[];status?:string;letters?:string;objectives?:string[];phrases?:{english:string;meaning:string;origin?:string}[];dialogues?:{lines:string[];origin?:string}[]}
