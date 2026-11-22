@@ -2,7 +2,7 @@
   {
     "id": "g3b-u01",
     "title": "School things",
-    "description": "学习用品",
+    "description": "学习校园文具和物品",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -393,13 +393,29 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "This is my pencil.",
+          "Is that your pen?",
+          "Yes, it is."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Where is my ruler?",
+          "It's in your schoolbag."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 1 词表中 12 条核心词汇与表达",
       "认识 2 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
@@ -409,7 +425,7 @@
   {
     "id": "g3b-u02",
     "title": "Clean our classroom",
-    "description": "打扫教室",
+    "description": "保持教室整洁，认识常见设施",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -910,13 +926,28 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "Let's clean our classroom.",
+          "All right!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "The desk is dirty.",
+          "Let's clean it."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 2 词表中 16 条核心词汇与表达",
       "认识 1 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
@@ -926,7 +957,7 @@
   {
     "id": "g3b-u03",
     "title": "School rules",
-    "description": "校园规则",
+    "description": "了解校园规则与礼貌表达",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -1388,13 +1419,28 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "Please be quiet in the library.",
+          "All right."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Can I run here?",
+          "No. Please walk."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 3 词表中 15 条核心词汇与表达",
       "认识 4 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
@@ -1404,7 +1450,7 @@
   {
     "id": "g3b-u04",
     "title": "Have fun after class",
-    "description": "课后活动",
+    "description": "课后活动、位置和校园生活",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -2138,13 +2184,28 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "Let's play after class.",
+          "Good idea!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Where is the duck?",
+          "It's under the tree."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 4 词表中 22 条核心词汇与表达",
       "认识 5 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
@@ -2154,7 +2215,7 @@
   {
     "id": "g3b-u05",
     "title": "Fruit",
-    "description": "水果",
+    "description": "认识水果，练习喜好和分享",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -2632,13 +2693,28 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "Would you like an apple?",
+          "Yes, please."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "I like bananas. What about you?",
+          "I like grapes."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 5 词表中 13 条核心词汇与表达",
       "认识 3 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
@@ -2648,7 +2724,7 @@
   {
     "id": "g3b-u06",
     "title": "On the farm",
-    "description": "农场",
+    "description": "认识农场动物与指示代词",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -3091,13 +3167,28 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "Welcome to my farm!",
+          "Thank you!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "What are these?",
+          "They are rabbits."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 6 词表中 14 条核心词汇与表达",
       "认识 0 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
@@ -3107,7 +3198,7 @@
   {
     "id": "g3b-u07",
     "title": "Animals",
-    "description": "动物",
+    "description": "认识动物及简单描述",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -3512,13 +3603,28 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "Look at the panda!",
+          "It's so cute!"
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Can you see the elephant?",
+          "Yes, I can."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 7 词表中 11 条核心词汇与表达",
       "认识 3 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
@@ -3528,7 +3634,7 @@
   {
     "id": "g3b-u08",
     "title": "Colours",
-    "description": "颜色",
+    "description": "认识颜色并表达颜色偏好",
     "status": "textbook-wordlist-verified",
     "cards": [
       {
@@ -4004,13 +4110,28 @@
         "origin": "textbook-word-list"
       }
     ],
-    "dialogues": [],
+    "dialogues": [
+      {
+        "lines": [
+          "What colour is the ball?",
+          "It's red."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "I like blue. What about you?",
+          "I like green."
+        ],
+        "origin": "original-practice"
+      }
+    ],
     "objectives": [
       "掌握 Unit 8 词表中 15 条核心词汇与表达",
       "认识 2 条标 * 的拓展词汇",
       "结合单元主题进行原创听说与词义练习"
     ],
-    "letters": "本册继续巩固字母与自然拼读",
+    "letters": "巩固26个英文字母及单词发音",
     "source": {
       "title": "译林版小学英语三年级下册（2025春版）",
       "verifiedScope": "书后 Word lists I，印刷页78–80",
