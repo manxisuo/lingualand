@@ -9,7 +9,7 @@ function say(s:string){if(!('speechSynthesis' in window))return;window.speechSyn
 <template>
 <section class="lesson-guide">
 <div class="studio-header"><small>✦ TEXTBOOK-ALIGNED LEARNING</small><h2>{{unit.title}}</h2><p>{{unit.description}}</p></div>
-<div v-if="isTextbook" class="lesson-source">教材：2024 修订版译林英语 · 三年级上册 · 词卡完整对应书后 Word lists；对话和练习为原创配套内容，非教材原题。</div>
+<div v-if="isTextbook" class="lesson-source">教材：译林版小学英语 · {{ unit.id.startsWith('g3b-') ? '三年级下册（2025春版）' : '三年级上册（2024秋版）' }} · 词卡对应书后 Word lists；对话和练习为原创配套内容，非教材原题。</div>
 <div v-else class="lesson-source">当前单元为原创主题练习，尚未与所选教材逐页核对。</div>
 <template v-if="unit.objectives?.length">
 <h3>本单元学习目标</h3><div class="lesson-goals"><div v-for="(goal,i) in unit.objectives" :key="i"><span>0{{i+1}}</span>{{goal}}</div></div>
