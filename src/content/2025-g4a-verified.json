@@ -1,0 +1,4073 @@
+[
+  {
+    "id": "g4a-u01",
+    "title": "Our school subjects",
+    "description": "学校课程",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u01-wl01",
+        "word": "subject",
+        "meaning": "学科，科目",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl02",
+        "word": "Chinese",
+        "meaning": "语文（课）；中国的",
+        "emoji": "📖",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl03",
+        "word": "English",
+        "meaning": "英语（课）；英语的",
+        "emoji": "🔤",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl04",
+        "word": "Maths (AmE Math)",
+        "meaning": "数学（课）",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl05",
+        "word": "PE",
+        "meaning": "体育（课）",
+        "emoji": "🏃",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl06",
+        "word": "Art",
+        "meaning": "美术（课）",
+        "emoji": "🎨",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl07",
+        "word": "Science",
+        "meaning": "科学（课）",
+        "emoji": "🔬",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl08",
+        "word": "IT",
+        "meaning": "信息科技（课）",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u01-wl09",
+        "word": "Music",
+        "meaning": "音乐（课）",
+        "emoji": "🎵",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl10",
+        "word": "Labour",
+        "meaning": "劳动（课）",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u01-wl11",
+        "word": "best",
+        "meaning": "最，最高程度地",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl12",
+        "word": "also",
+        "meaning": "也",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl13",
+        "word": "It's time for ...",
+        "meaning": "是……的时候了。",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl14",
+        "word": "mouse (pl. mice)",
+        "meaning": "鼠标；老鼠",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl15",
+        "word": "Welcome back to ...",
+        "meaning": "欢迎回到……",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl16",
+        "word": "be good at",
+        "meaning": "擅长",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl17",
+        "word": "interesting",
+        "meaning": "有趣的，有吸引力的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl18",
+        "word": "learn about",
+        "meaning": "学习",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl19",
+        "word": "culture",
+        "meaning": "文化，文明",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u01-wl20",
+        "word": "read",
+        "meaning": "阅读",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl21",
+        "word": "story",
+        "meaning": "故事",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl22",
+        "word": "all",
+        "meaning": "全部，都",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u01-wl23",
+        "word": "sports ground",
+        "meaning": "操场，运动场",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": true
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u01-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“学科，科目”对应的单词",
+        "answer": "subject"
+      },
+      {
+        "id": "g4a-u01-wl02-choice",
+        "kind": "choice",
+        "prompt": "“语文（课）；中国的”对应哪个英语表达？",
+        "answer": "Chinese",
+        "options": [
+          "Chinese",
+          "English",
+          "Maths (AmE Math)",
+          "PE"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“语文（课）；中国的”对应的单词",
+        "answer": "Chinese"
+      },
+      {
+        "id": "g4a-u01-wl03-choice",
+        "kind": "choice",
+        "prompt": "“英语（课）；英语的”对应哪个英语表达？",
+        "answer": "English",
+        "options": [
+          "English",
+          "Chinese",
+          "Maths (AmE Math)",
+          "PE"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“英语（课）；英语的”对应的单词",
+        "answer": "English"
+      },
+      {
+        "id": "g4a-u01-wl04-choice",
+        "kind": "choice",
+        "prompt": "“数学（课）”对应哪个英语表达？",
+        "answer": "Maths (AmE Math)",
+        "options": [
+          "Maths (AmE Math)",
+          "Chinese",
+          "English",
+          "PE"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl05-choice",
+        "kind": "choice",
+        "prompt": "“体育（课）”对应哪个英语表达？",
+        "answer": "PE",
+        "options": [
+          "PE",
+          "Chinese",
+          "English",
+          "Maths (AmE Math)"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“体育（课）”对应的单词",
+        "answer": "PE"
+      },
+      {
+        "id": "g4a-u01-wl06-choice",
+        "kind": "choice",
+        "prompt": "“美术（课）”对应哪个英语表达？",
+        "answer": "Art",
+        "options": [
+          "Art",
+          "Chinese",
+          "English",
+          "Maths (AmE Math)"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“美术（课）”对应的单词",
+        "answer": "Art"
+      },
+      {
+        "id": "g4a-u01-wl07-choice",
+        "kind": "choice",
+        "prompt": "“科学（课）”对应哪个英语表达？",
+        "answer": "Science",
+        "options": [
+          "Science",
+          "Chinese",
+          "English",
+          "Maths (AmE Math)"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“科学（课）”对应的单词",
+        "answer": "Science"
+      },
+      {
+        "id": "g4a-u01-wl08-choice",
+        "kind": "choice",
+        "prompt": "“信息科技（课）”对应哪个英语表达？",
+        "answer": "IT",
+        "options": [
+          "IT",
+          "Chinese",
+          "English",
+          "Maths (AmE Math)"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl09-choice",
+        "kind": "choice",
+        "prompt": "“音乐（课）”对应哪个英语表达？",
+        "answer": "Music",
+        "options": [
+          "Music",
+          "Chinese",
+          "English",
+          "Maths (AmE Math)"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“音乐（课）”对应的单词",
+        "answer": "Music"
+      },
+      {
+        "id": "g4a-u01-wl10-choice",
+        "kind": "choice",
+        "prompt": "“劳动（课）”对应哪个英语表达？",
+        "answer": "Labour",
+        "options": [
+          "Labour",
+          "Chinese",
+          "English",
+          "Maths (AmE Math)"
+        ]
+      },
+      {
+        "id": "g4a-u01-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“最，最高程度地”对应的单词",
+        "answer": "best"
+      },
+      {
+        "id": "g4a-u01-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“也”对应的单词",
+        "answer": "also"
+      },
+      {
+        "id": "g4a-u01-wl17-spell",
+        "kind": "spell",
+        "prompt": "拼写“有趣的，有吸引力的”对应的单词",
+        "answer": "interesting"
+      },
+      {
+        "id": "g4a-u01-wl20-spell",
+        "kind": "spell",
+        "prompt": "拼写“阅读”对应的单词",
+        "answer": "read"
+      },
+      {
+        "id": "g4a-u01-wl21-spell",
+        "kind": "spell",
+        "prompt": "拼写“故事”对应的单词",
+        "answer": "story"
+      },
+      {
+        "id": "g4a-u01-wl22-spell",
+        "kind": "spell",
+        "prompt": "拼写“全部，都”对应的单词",
+        "answer": "all"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "Maths (AmE Math)",
+        "meaning": "数学（课）",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "It's time for ...",
+        "meaning": "是……的时候了。",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "mouse (pl. mice)",
+        "meaning": "鼠标；老鼠",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Welcome back to ...",
+        "meaning": "欢迎回到……",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "be good at",
+        "meaning": "擅长",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "learn about",
+        "meaning": "学习",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "sports ground",
+        "meaning": "操场，运动场",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "What subject do you like best?",
+          "I like Science best."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Do you like Art?",
+          "Yes, I do. I like drawing."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 19 条核心词汇与表达",
+      "认识 4 条拓展词汇",
+      "练习学校课程相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g4a-u02",
+    "title": "My day",
+    "description": "日常作息与时间",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u02-wl01",
+        "word": "day",
+        "meaning": "一天，一日",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl02",
+        "word": "get up",
+        "meaning": "起床",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl03",
+        "word": "wash",
+        "meaning": "洗",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl04",
+        "word": "face",
+        "meaning": "脸，面孔",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl05",
+        "word": "have lessons",
+        "meaning": "上课",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl06",
+        "word": "have",
+        "meaning": "吃，喝",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl07",
+        "word": "dinner",
+        "meaning": "正餐（常指晚餐）",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl08",
+        "word": "breakfast",
+        "meaning": "早餐，早饭",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl09",
+        "word": "lunch",
+        "meaning": "午餐，午饭",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl10",
+        "word": "go to bed",
+        "meaning": "上床睡觉",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl11",
+        "word": "o'clock",
+        "meaning": "（表示整点）……点钟",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl12",
+        "word": "early",
+        "meaning": "早的，早",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl13",
+        "word": "thirty",
+        "meaning": "三十",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl14",
+        "word": "first",
+        "meaning": "首先，第一",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl15",
+        "word": "hurry up",
+        "meaning": "快点",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl16",
+        "word": "What time is it?",
+        "meaning": "几点了？",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl17",
+        "word": "I'm coming!",
+        "meaning": "我来了！",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl18",
+        "word": "twenty",
+        "meaning": "二十",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl19",
+        "word": "Come on!",
+        "meaning": "赶快！加把劲！",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl20",
+        "word": "class",
+        "meaning": "课，上课",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl21",
+        "word": "eleven",
+        "meaning": "十一",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl22",
+        "word": "sport",
+        "meaning": "体育运动",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl23",
+        "word": "fifteen",
+        "meaning": "十五",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl24",
+        "word": "It's time to ...",
+        "meaning": "到了……的时间了。",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl25",
+        "word": "bed",
+        "meaning": "床",
+        "emoji": "🛏️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u02-wl26",
+        "word": "Good night!",
+        "meaning": "晚安！",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u02-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“一天，一日”对应的单词",
+        "answer": "day"
+      },
+      {
+        "id": "g4a-u02-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“洗”对应的单词",
+        "answer": "wash"
+      },
+      {
+        "id": "g4a-u02-wl04-choice",
+        "kind": "choice",
+        "prompt": "“脸，面孔”对应哪个英语表达？",
+        "answer": "face",
+        "options": [
+          "face",
+          "hair",
+          "eye",
+          "ear"
+        ]
+      },
+      {
+        "id": "g4a-u02-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“脸，面孔”对应的单词",
+        "answer": "face"
+      },
+      {
+        "id": "g4a-u02-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“吃，喝”对应的单词",
+        "answer": "have"
+      },
+      {
+        "id": "g4a-u02-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“正餐（常指晚餐）”对应的单词",
+        "answer": "dinner"
+      },
+      {
+        "id": "g4a-u02-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“早餐，早饭”对应的单词",
+        "answer": "breakfast"
+      },
+      {
+        "id": "g4a-u02-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“午餐，午饭”对应的单词",
+        "answer": "lunch"
+      },
+      {
+        "id": "g4a-u02-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“早的，早”对应的单词",
+        "answer": "early"
+      },
+      {
+        "id": "g4a-u02-wl13-choice",
+        "kind": "choice",
+        "prompt": "“三十”对应哪个英语表达？",
+        "answer": "thirty",
+        "options": [
+          "thirty",
+          "eleven",
+          "fifteen",
+          "twenty"
+        ]
+      },
+      {
+        "id": "g4a-u02-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“三十”对应的单词",
+        "answer": "thirty"
+      },
+      {
+        "id": "g4a-u02-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“首先，第一”对应的单词",
+        "answer": "first"
+      },
+      {
+        "id": "g4a-u02-wl18-choice",
+        "kind": "choice",
+        "prompt": "“二十”对应哪个英语表达？",
+        "answer": "twenty",
+        "options": [
+          "twenty",
+          "eleven",
+          "fifteen",
+          "thirty"
+        ]
+      },
+      {
+        "id": "g4a-u02-wl18-spell",
+        "kind": "spell",
+        "prompt": "拼写“二十”对应的单词",
+        "answer": "twenty"
+      },
+      {
+        "id": "g4a-u02-wl20-spell",
+        "kind": "spell",
+        "prompt": "拼写“课，上课”对应的单词",
+        "answer": "class"
+      },
+      {
+        "id": "g4a-u02-wl21-choice",
+        "kind": "choice",
+        "prompt": "“十一”对应哪个英语表达？",
+        "answer": "eleven",
+        "options": [
+          "eleven",
+          "fifteen",
+          "twenty",
+          "thirty"
+        ]
+      },
+      {
+        "id": "g4a-u02-wl21-spell",
+        "kind": "spell",
+        "prompt": "拼写“十一”对应的单词",
+        "answer": "eleven"
+      },
+      {
+        "id": "g4a-u02-wl22-choice",
+        "kind": "choice",
+        "prompt": "“体育运动”对应哪个英语表达？",
+        "answer": "sport",
+        "options": [
+          "sport",
+          "football",
+          "ping-pong",
+          "basketball"
+        ]
+      },
+      {
+        "id": "g4a-u02-wl22-spell",
+        "kind": "spell",
+        "prompt": "拼写“体育运动”对应的单词",
+        "answer": "sport"
+      },
+      {
+        "id": "g4a-u02-wl23-choice",
+        "kind": "choice",
+        "prompt": "“十五”对应哪个英语表达？",
+        "answer": "fifteen",
+        "options": [
+          "fifteen",
+          "eleven",
+          "twenty",
+          "thirty"
+        ]
+      },
+      {
+        "id": "g4a-u02-wl23-spell",
+        "kind": "spell",
+        "prompt": "拼写“十五”对应的单词",
+        "answer": "fifteen"
+      },
+      {
+        "id": "g4a-u02-wl25-spell",
+        "kind": "spell",
+        "prompt": "拼写“床”对应的单词",
+        "answer": "bed"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "get up",
+        "meaning": "起床",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "have lessons",
+        "meaning": "上课",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "go to bed",
+        "meaning": "上床睡觉",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "hurry up",
+        "meaning": "快点",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "What time is it?",
+        "meaning": "几点了？",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "I'm coming!",
+        "meaning": "我来了！",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Come on!",
+        "meaning": "赶快！加把劲！",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "It's time to ...",
+        "meaning": "到了……的时间了。",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Good night!",
+        "meaning": "晚安！",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "What time do you get up?",
+          "I get up at seven o'clock."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "It's time for dinner.",
+          "Great! I'm hungry."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 26 条核心词汇与表达",
+      "认识 0 条拓展词汇",
+      "练习日常作息与时间相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g4a-u03",
+    "title": "My week",
+    "description": "星期与每周计划",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u03-wl01",
+        "word": "week",
+        "meaning": "周，星期",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl02",
+        "word": "Monday",
+        "meaning": "星期一",
+        "emoji": "📅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl03",
+        "word": "Tuesday",
+        "meaning": "星期二",
+        "emoji": "📅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl04",
+        "word": "Wednesday",
+        "meaning": "星期三",
+        "emoji": "📅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl05",
+        "word": "Thursday",
+        "meaning": "星期四",
+        "emoji": "📅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl06",
+        "word": "Friday",
+        "meaning": "星期五",
+        "emoji": "📅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl07",
+        "word": "Saturday",
+        "meaning": "星期六",
+        "emoji": "📅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl08",
+        "word": "Sunday",
+        "meaning": "星期天",
+        "emoji": "📅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl09",
+        "word": "when",
+        "meaning": "什么时候",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl10",
+        "word": "every",
+        "meaning": "每一个，每个",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl11",
+        "word": "at",
+        "meaning": "在（某时间）",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl12",
+        "word": "up",
+        "meaning": "起床",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl13",
+        "word": "early",
+        "meaning": "提早，提前",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl14",
+        "word": "today",
+        "meaning": "在今天",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl15",
+        "word": "What day is it today?",
+        "meaning": "今天星期几？",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl16",
+        "word": "cinema",
+        "meaning": "电影院",
+        "emoji": "🎬",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl17",
+        "word": "after school",
+        "meaning": "放学后",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl18",
+        "word": "dancing",
+        "meaning": "跳舞，舞蹈",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl19",
+        "word": "lesson",
+        "meaning": "节课，一课时",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl20",
+        "word": "walk",
+        "meaning": "牵着（动物）走，遛",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl21",
+        "word": "dog",
+        "meaning": "狗",
+        "emoji": "🐕",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl22",
+        "word": "tomorrow",
+        "meaning": "明天，在明天",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl23",
+        "word": "free",
+        "meaning": "空闲的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u03-wl24",
+        "word": "See you tomorrow!",
+        "meaning": "明天见！",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u03-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“周，星期”对应的单词",
+        "answer": "week"
+      },
+      {
+        "id": "g4a-u03-wl02-choice",
+        "kind": "choice",
+        "prompt": "“星期一”对应哪个英语表达？",
+        "answer": "Monday",
+        "options": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ]
+      },
+      {
+        "id": "g4a-u03-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“星期一”对应的单词",
+        "answer": "Monday"
+      },
+      {
+        "id": "g4a-u03-wl03-choice",
+        "kind": "choice",
+        "prompt": "“星期二”对应哪个英语表达？",
+        "answer": "Tuesday",
+        "options": [
+          "Tuesday",
+          "Monday",
+          "Wednesday",
+          "Thursday"
+        ]
+      },
+      {
+        "id": "g4a-u03-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“星期二”对应的单词",
+        "answer": "Tuesday"
+      },
+      {
+        "id": "g4a-u03-wl04-choice",
+        "kind": "choice",
+        "prompt": "“星期三”对应哪个英语表达？",
+        "answer": "Wednesday",
+        "options": [
+          "Wednesday",
+          "Monday",
+          "Tuesday",
+          "Thursday"
+        ]
+      },
+      {
+        "id": "g4a-u03-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“星期三”对应的单词",
+        "answer": "Wednesday"
+      },
+      {
+        "id": "g4a-u03-wl05-choice",
+        "kind": "choice",
+        "prompt": "“星期四”对应哪个英语表达？",
+        "answer": "Thursday",
+        "options": [
+          "Thursday",
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ]
+      },
+      {
+        "id": "g4a-u03-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“星期四”对应的单词",
+        "answer": "Thursday"
+      },
+      {
+        "id": "g4a-u03-wl06-choice",
+        "kind": "choice",
+        "prompt": "“星期五”对应哪个英语表达？",
+        "answer": "Friday",
+        "options": [
+          "Friday",
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ]
+      },
+      {
+        "id": "g4a-u03-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“星期五”对应的单词",
+        "answer": "Friday"
+      },
+      {
+        "id": "g4a-u03-wl07-choice",
+        "kind": "choice",
+        "prompt": "“星期六”对应哪个英语表达？",
+        "answer": "Saturday",
+        "options": [
+          "Saturday",
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ]
+      },
+      {
+        "id": "g4a-u03-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“星期六”对应的单词",
+        "answer": "Saturday"
+      },
+      {
+        "id": "g4a-u03-wl08-choice",
+        "kind": "choice",
+        "prompt": "“星期天”对应哪个英语表达？",
+        "answer": "Sunday",
+        "options": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ]
+      },
+      {
+        "id": "g4a-u03-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“星期天”对应的单词",
+        "answer": "Sunday"
+      },
+      {
+        "id": "g4a-u03-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“什么时候”对应的单词",
+        "answer": "when"
+      },
+      {
+        "id": "g4a-u03-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“每一个，每个”对应的单词",
+        "answer": "every"
+      },
+      {
+        "id": "g4a-u03-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“在（某时间）”对应的单词",
+        "answer": "at"
+      },
+      {
+        "id": "g4a-u03-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“起床”对应的单词",
+        "answer": "up"
+      },
+      {
+        "id": "g4a-u03-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“提早，提前”对应的单词",
+        "answer": "early"
+      },
+      {
+        "id": "g4a-u03-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“在今天”对应的单词",
+        "answer": "today"
+      },
+      {
+        "id": "g4a-u03-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“电影院”对应的单词",
+        "answer": "cinema"
+      },
+      {
+        "id": "g4a-u03-wl18-spell",
+        "kind": "spell",
+        "prompt": "拼写“跳舞，舞蹈”对应的单词",
+        "answer": "dancing"
+      },
+      {
+        "id": "g4a-u03-wl19-spell",
+        "kind": "spell",
+        "prompt": "拼写“节课，一课时”对应的单词",
+        "answer": "lesson"
+      },
+      {
+        "id": "g4a-u03-wl20-spell",
+        "kind": "spell",
+        "prompt": "拼写“牵着（动物）走，遛”对应的单词",
+        "answer": "walk"
+      },
+      {
+        "id": "g4a-u03-wl21-spell",
+        "kind": "spell",
+        "prompt": "拼写“狗”对应的单词",
+        "answer": "dog"
+      },
+      {
+        "id": "g4a-u03-wl22-spell",
+        "kind": "spell",
+        "prompt": "拼写“明天，在明天”对应的单词",
+        "answer": "tomorrow"
+      },
+      {
+        "id": "g4a-u03-wl23-spell",
+        "kind": "spell",
+        "prompt": "拼写“空闲的”对应的单词",
+        "answer": "free"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "What day is it today?",
+        "meaning": "今天星期几？",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "after school",
+        "meaning": "放学后",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "See you tomorrow!",
+        "meaning": "明天见！",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "What day is it today?",
+          "It's Wednesday."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "When do you play football?",
+          "On Saturday."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 24 条核心词汇与表达",
+      "认识 0 条拓展词汇",
+      "练习星期与每周计划相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g4a-u04",
+    "title": "I like sport",
+    "description": "体育运动与喜好",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u04-wl01",
+        "word": "play",
+        "meaning": "打（球），踢（球）",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl02",
+        "word": "football",
+        "meaning": "足球运动；足球",
+        "emoji": "⚽",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl03",
+        "word": "ping-pong",
+        "meaning": "乒乓球运动",
+        "emoji": "🏓",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl04",
+        "word": "basketball",
+        "meaning": "篮球运动；篮球",
+        "emoji": "🏀",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 33,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl05",
+        "word": "great",
+        "meaning": "非常的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl06",
+        "word": "swimming",
+        "meaning": "游泳；游泳运动",
+        "emoji": "🏊",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl07",
+        "word": "so",
+        "meaning": "（表示程度）这么，那么",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl08",
+        "word": "well",
+        "meaning": "好",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl09",
+        "word": "Have a go!",
+        "meaning": "试一试！",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl10",
+        "word": "hard",
+        "meaning": "难做的，不易的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl11",
+        "word": "It's OK.",
+        "meaning": "没关系。",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl12",
+        "word": "try",
+        "meaning": "试",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u04-wl13",
+        "word": "Well played!",
+        "meaning": "好球！",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u04-wl01-choice",
+        "kind": "choice",
+        "prompt": "“打（球），踢（球）”对应哪个英语表达？",
+        "answer": "play",
+        "options": [
+          "play",
+          "football",
+          "ping-pong",
+          "basketball"
+        ]
+      },
+      {
+        "id": "g4a-u04-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“打（球），踢（球）”对应的单词",
+        "answer": "play"
+      },
+      {
+        "id": "g4a-u04-wl02-choice",
+        "kind": "choice",
+        "prompt": "“足球运动；足球”对应哪个英语表达？",
+        "answer": "football",
+        "options": [
+          "football",
+          "ping-pong",
+          "basketball",
+          "swimming"
+        ]
+      },
+      {
+        "id": "g4a-u04-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“足球运动；足球”对应的单词",
+        "answer": "football"
+      },
+      {
+        "id": "g4a-u04-wl03-choice",
+        "kind": "choice",
+        "prompt": "“乒乓球运动”对应哪个英语表达？",
+        "answer": "ping-pong",
+        "options": [
+          "ping-pong",
+          "football",
+          "basketball",
+          "swimming"
+        ]
+      },
+      {
+        "id": "g4a-u04-wl04-choice",
+        "kind": "choice",
+        "prompt": "“篮球运动；篮球”对应哪个英语表达？",
+        "answer": "basketball",
+        "options": [
+          "basketball",
+          "football",
+          "ping-pong",
+          "swimming"
+        ]
+      },
+      {
+        "id": "g4a-u04-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“篮球运动；篮球”对应的单词",
+        "answer": "basketball"
+      },
+      {
+        "id": "g4a-u04-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“非常的”对应的单词",
+        "answer": "great"
+      },
+      {
+        "id": "g4a-u04-wl06-choice",
+        "kind": "choice",
+        "prompt": "“游泳；游泳运动”对应哪个英语表达？",
+        "answer": "swimming",
+        "options": [
+          "swimming",
+          "football",
+          "ping-pong",
+          "basketball"
+        ]
+      },
+      {
+        "id": "g4a-u04-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“游泳；游泳运动”对应的单词",
+        "answer": "swimming"
+      },
+      {
+        "id": "g4a-u04-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“（表示程度）这么，那么”对应的单词",
+        "answer": "so"
+      },
+      {
+        "id": "g4a-u04-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“好”对应的单词",
+        "answer": "well"
+      },
+      {
+        "id": "g4a-u04-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“难做的，不易的”对应的单词",
+        "answer": "hard"
+      },
+      {
+        "id": "g4a-u04-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“试”对应的单词",
+        "answer": "try"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "Have a go!",
+        "meaning": "试一试！",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "It's OK.",
+        "meaning": "没关系。",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Well played!",
+        "meaning": "好球！",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Do you like basketball?",
+          "Yes, I do."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Let's play ping-pong.",
+          "Good idea!"
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 13 条核心词汇与表达",
+      "认识 0 条拓展词汇",
+      "练习体育运动与喜好相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g4a-u05",
+    "title": "Different toys, same fun",
+    "description": "玩具与外貌描述",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u05-wl01",
+        "word": "different",
+        "meaning": "不同的，有区别的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u05-wl02",
+        "word": "same",
+        "meaning": "相同的，同一的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u05-wl03",
+        "word": "hair",
+        "meaning": "头发",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl04",
+        "word": "eye",
+        "meaning": "眼睛",
+        "emoji": "👁️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl05",
+        "word": "ear",
+        "meaning": "耳朵",
+        "emoji": "👂",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl06",
+        "word": "nose",
+        "meaning": "鼻子",
+        "emoji": "👃",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl07",
+        "word": "mouth",
+        "meaning": "嘴，口",
+        "emoji": "👄",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl08",
+        "word": "arm",
+        "meaning": "手臂",
+        "emoji": "💪",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl09",
+        "word": "leg",
+        "meaning": "腿",
+        "emoji": "🦵",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl10",
+        "word": "robot",
+        "meaning": "机器人",
+        "emoji": "🤖",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl11",
+        "word": "his",
+        "meaning": "他的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl12",
+        "word": "tall",
+        "meaning": "高的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl13",
+        "word": "short",
+        "meaning": "短的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl14",
+        "word": "doll",
+        "meaning": "玩具娃娃",
+        "emoji": "🪆",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl15",
+        "word": "her",
+        "meaning": "她的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl16",
+        "word": "small",
+        "meaning": "小的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl17",
+        "word": "bring",
+        "meaning": "带来",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl18",
+        "word": "lots of",
+        "meaning": "大量，许多",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl19",
+        "word": "have",
+        "meaning": "组织，举办",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u05-wl20",
+        "word": "show",
+        "meaning": "表演，演出",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u05-wl03-choice",
+        "kind": "choice",
+        "prompt": "“头发”对应哪个英语表达？",
+        "answer": "hair",
+        "options": [
+          "hair",
+          "eye",
+          "ear",
+          "nose"
+        ]
+      },
+      {
+        "id": "g4a-u05-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“头发”对应的单词",
+        "answer": "hair"
+      },
+      {
+        "id": "g4a-u05-wl04-choice",
+        "kind": "choice",
+        "prompt": "“眼睛”对应哪个英语表达？",
+        "answer": "eye",
+        "options": [
+          "eye",
+          "hair",
+          "ear",
+          "nose"
+        ]
+      },
+      {
+        "id": "g4a-u05-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“眼睛”对应的单词",
+        "answer": "eye"
+      },
+      {
+        "id": "g4a-u05-wl05-choice",
+        "kind": "choice",
+        "prompt": "“耳朵”对应哪个英语表达？",
+        "answer": "ear",
+        "options": [
+          "ear",
+          "hair",
+          "eye",
+          "nose"
+        ]
+      },
+      {
+        "id": "g4a-u05-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“耳朵”对应的单词",
+        "answer": "ear"
+      },
+      {
+        "id": "g4a-u05-wl06-choice",
+        "kind": "choice",
+        "prompt": "“鼻子”对应哪个英语表达？",
+        "answer": "nose",
+        "options": [
+          "nose",
+          "hair",
+          "eye",
+          "ear"
+        ]
+      },
+      {
+        "id": "g4a-u05-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“鼻子”对应的单词",
+        "answer": "nose"
+      },
+      {
+        "id": "g4a-u05-wl07-choice",
+        "kind": "choice",
+        "prompt": "“嘴，口”对应哪个英语表达？",
+        "answer": "mouth",
+        "options": [
+          "mouth",
+          "hair",
+          "eye",
+          "ear"
+        ]
+      },
+      {
+        "id": "g4a-u05-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“嘴，口”对应的单词",
+        "answer": "mouth"
+      },
+      {
+        "id": "g4a-u05-wl08-choice",
+        "kind": "choice",
+        "prompt": "“手臂”对应哪个英语表达？",
+        "answer": "arm",
+        "options": [
+          "arm",
+          "hair",
+          "eye",
+          "ear"
+        ]
+      },
+      {
+        "id": "g4a-u05-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“手臂”对应的单词",
+        "answer": "arm"
+      },
+      {
+        "id": "g4a-u05-wl09-choice",
+        "kind": "choice",
+        "prompt": "“腿”对应哪个英语表达？",
+        "answer": "leg",
+        "options": [
+          "leg",
+          "hair",
+          "eye",
+          "ear"
+        ]
+      },
+      {
+        "id": "g4a-u05-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“腿”对应的单词",
+        "answer": "leg"
+      },
+      {
+        "id": "g4a-u05-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“机器人”对应的单词",
+        "answer": "robot"
+      },
+      {
+        "id": "g4a-u05-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“他的”对应的单词",
+        "answer": "his"
+      },
+      {
+        "id": "g4a-u05-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“高的”对应的单词",
+        "answer": "tall"
+      },
+      {
+        "id": "g4a-u05-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“短的”对应的单词",
+        "answer": "short"
+      },
+      {
+        "id": "g4a-u05-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“玩具娃娃”对应的单词",
+        "answer": "doll"
+      },
+      {
+        "id": "g4a-u05-wl15-spell",
+        "kind": "spell",
+        "prompt": "拼写“她的”对应的单词",
+        "answer": "her"
+      },
+      {
+        "id": "g4a-u05-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“小的”对应的单词",
+        "answer": "small"
+      },
+      {
+        "id": "g4a-u05-wl17-spell",
+        "kind": "spell",
+        "prompt": "拼写“带来”对应的单词",
+        "answer": "bring"
+      },
+      {
+        "id": "g4a-u05-wl19-spell",
+        "kind": "spell",
+        "prompt": "拼写“组织，举办”对应的单词",
+        "answer": "have"
+      },
+      {
+        "id": "g4a-u05-wl20-spell",
+        "kind": "spell",
+        "prompt": "拼写“表演，演出”对应的单词",
+        "answer": "show"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "lots of",
+        "meaning": "大量，许多",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Look at my robot!",
+          "It has long arms."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Is this your doll?",
+          "Yes. Her hair is long."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 18 条核心词汇与表达",
+      "认识 2 条拓展词汇",
+      "练习玩具与外貌描述相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g4a-u06",
+    "title": "Weather",
+    "description": "天气与活动",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u06-wl01",
+        "word": "weather",
+        "meaning": "天气，气象",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl02",
+        "word": "cloudy",
+        "meaning": "多云的，阴天的",
+        "emoji": "☁️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl03",
+        "word": "sunny",
+        "meaning": "晴朗的",
+        "emoji": "☀️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl04",
+        "word": "cool",
+        "meaning": "凉的，凉爽的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl05",
+        "word": "rainy",
+        "meaning": "阴雨的，多雨的",
+        "emoji": "🌧️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl06",
+        "word": "hot",
+        "meaning": "温度高的，热的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl07",
+        "word": "windy",
+        "meaning": "多风的，风大的",
+        "emoji": "💨",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl08",
+        "word": "warm",
+        "meaning": "温暖的，暖和的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl09",
+        "word": "save ... for a rainy day",
+        "meaning": "未雨绸缪",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u06-wl10",
+        "word": "money",
+        "meaning": "钱",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl11",
+        "word": "What's the weather like today?",
+        "meaning": "今天天气怎么样？",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl12",
+        "word": "park",
+        "meaning": "公园",
+        "emoji": "🌳",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 54,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl13",
+        "word": "meet",
+        "meaning": "（与……）会面，集合",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 54,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl14",
+        "word": "fly a kite",
+        "meaning": "放风筝",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 54,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl15",
+        "word": "It's raining.",
+        "meaning": "下雨了。",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 55,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl16",
+        "word": "worry",
+        "meaning": "担心，担忧",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 55,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl17",
+        "word": "umbrella",
+        "meaning": "伞，雨伞",
+        "emoji": "☂️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 55,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u06-wl18",
+        "word": "there",
+        "meaning": "到那里，在那里",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 55,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u06-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“天气，气象”对应的单词",
+        "answer": "weather"
+      },
+      {
+        "id": "g4a-u06-wl02-choice",
+        "kind": "choice",
+        "prompt": "“多云的，阴天的”对应哪个英语表达？",
+        "answer": "cloudy",
+        "options": [
+          "cloudy",
+          "sunny",
+          "rainy",
+          "windy"
+        ]
+      },
+      {
+        "id": "g4a-u06-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“多云的，阴天的”对应的单词",
+        "answer": "cloudy"
+      },
+      {
+        "id": "g4a-u06-wl03-choice",
+        "kind": "choice",
+        "prompt": "“晴朗的”对应哪个英语表达？",
+        "answer": "sunny",
+        "options": [
+          "sunny",
+          "cloudy",
+          "rainy",
+          "windy"
+        ]
+      },
+      {
+        "id": "g4a-u06-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“晴朗的”对应的单词",
+        "answer": "sunny"
+      },
+      {
+        "id": "g4a-u06-wl04-choice",
+        "kind": "choice",
+        "prompt": "“凉的，凉爽的”对应哪个英语表达？",
+        "answer": "cool",
+        "options": [
+          "cool",
+          "sunny",
+          "cloudy",
+          "rainy"
+        ]
+      },
+      {
+        "id": "g4a-u06-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“凉的，凉爽的”对应的单词",
+        "answer": "cool"
+      },
+      {
+        "id": "g4a-u06-wl05-choice",
+        "kind": "choice",
+        "prompt": "“阴雨的，多雨的”对应哪个英语表达？",
+        "answer": "rainy",
+        "options": [
+          "rainy",
+          "sunny",
+          "cloudy",
+          "windy"
+        ]
+      },
+      {
+        "id": "g4a-u06-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“阴雨的，多雨的”对应的单词",
+        "answer": "rainy"
+      },
+      {
+        "id": "g4a-u06-wl06-choice",
+        "kind": "choice",
+        "prompt": "“温度高的，热的”对应哪个英语表达？",
+        "answer": "hot",
+        "options": [
+          "hot",
+          "sunny",
+          "cloudy",
+          "rainy"
+        ]
+      },
+      {
+        "id": "g4a-u06-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“温度高的，热的”对应的单词",
+        "answer": "hot"
+      },
+      {
+        "id": "g4a-u06-wl07-choice",
+        "kind": "choice",
+        "prompt": "“多风的，风大的”对应哪个英语表达？",
+        "answer": "windy",
+        "options": [
+          "windy",
+          "sunny",
+          "cloudy",
+          "rainy"
+        ]
+      },
+      {
+        "id": "g4a-u06-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“多风的，风大的”对应的单词",
+        "answer": "windy"
+      },
+      {
+        "id": "g4a-u06-wl08-choice",
+        "kind": "choice",
+        "prompt": "“温暖的，暖和的”对应哪个英语表达？",
+        "answer": "warm",
+        "options": [
+          "warm",
+          "sunny",
+          "cloudy",
+          "rainy"
+        ]
+      },
+      {
+        "id": "g4a-u06-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“温暖的，暖和的”对应的单词",
+        "answer": "warm"
+      },
+      {
+        "id": "g4a-u06-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“钱”对应的单词",
+        "answer": "money"
+      },
+      {
+        "id": "g4a-u06-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“公园”对应的单词",
+        "answer": "park"
+      },
+      {
+        "id": "g4a-u06-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“（与……）会面，集合”对应的单词",
+        "answer": "meet"
+      },
+      {
+        "id": "g4a-u06-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“担心，担忧”对应的单词",
+        "answer": "worry"
+      },
+      {
+        "id": "g4a-u06-wl17-spell",
+        "kind": "spell",
+        "prompt": "拼写“伞，雨伞”对应的单词",
+        "answer": "umbrella"
+      },
+      {
+        "id": "g4a-u06-wl18-spell",
+        "kind": "spell",
+        "prompt": "拼写“到那里，在那里”对应的单词",
+        "answer": "there"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "save ... for a rainy day",
+        "meaning": "未雨绸缪",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "What's the weather like today?",
+        "meaning": "今天天气怎么样？",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "fly a kite",
+        "meaning": "放风筝",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "It's raining.",
+        "meaning": "下雨了。",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "What's the weather like today?",
+          "It's cloudy and cool."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "It's raining!",
+          "Take your umbrella."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 17 条核心词汇与表达",
+      "认识 1 条拓展词汇",
+      "练习天气与活动相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g4a-u07",
+    "title": "Seasons",
+    "description": "季节与活动",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u07-wl01",
+        "word": "season",
+        "meaning": "季节",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl02",
+        "word": "spring",
+        "meaning": "春天，春季",
+        "emoji": "🌸",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl03",
+        "word": "go boating",
+        "meaning": "去划船",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl04",
+        "word": "winter",
+        "meaning": "冬天，冬季",
+        "emoji": "❄️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl05",
+        "word": "go skating",
+        "meaning": "去溜冰，去滑冰",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u07-wl06",
+        "word": "summer",
+        "meaning": "夏天，夏季",
+        "emoji": "☀️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl07",
+        "word": "ice cream",
+        "meaning": "冰激凌",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl08",
+        "word": "go swimming",
+        "meaning": "去游泳",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl09",
+        "word": "autumn",
+        "meaning": "秋天，秋季",
+        "emoji": "🍁",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl10",
+        "word": "go climbing",
+        "meaning": "去爬山",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u07-wl11",
+        "word": "new",
+        "meaning": "新的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl12",
+        "word": "cold",
+        "meaning": "寒冷的，冷的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl13",
+        "word": "bird",
+        "meaning": "鸟",
+        "emoji": "🐦",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl14",
+        "word": "back",
+        "meaning": "回原处",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl15",
+        "word": "in",
+        "meaning": "在（某段时间）内",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 62,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl16",
+        "word": "year",
+        "meaning": "年",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 62,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl17",
+        "word": "plant",
+        "meaning": "栽种，种植",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 62,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u07-wl18",
+        "word": "pick",
+        "meaning": "采，摘",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u07-wl19",
+        "word": "snow",
+        "meaning": "雪，积雪",
+        "emoji": "❄️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u07-wl01-choice",
+        "kind": "choice",
+        "prompt": "“季节”对应哪个英语表达？",
+        "answer": "season",
+        "options": [
+          "season",
+          "spring",
+          "summer",
+          "autumn"
+        ]
+      },
+      {
+        "id": "g4a-u07-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“季节”对应的单词",
+        "answer": "season"
+      },
+      {
+        "id": "g4a-u07-wl02-choice",
+        "kind": "choice",
+        "prompt": "“春天，春季”对应哪个英语表达？",
+        "answer": "spring",
+        "options": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter"
+        ]
+      },
+      {
+        "id": "g4a-u07-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“春天，春季”对应的单词",
+        "answer": "spring"
+      },
+      {
+        "id": "g4a-u07-wl04-choice",
+        "kind": "choice",
+        "prompt": "“冬天，冬季”对应哪个英语表达？",
+        "answer": "winter",
+        "options": [
+          "winter",
+          "spring",
+          "summer",
+          "autumn"
+        ]
+      },
+      {
+        "id": "g4a-u07-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“冬天，冬季”对应的单词",
+        "answer": "winter"
+      },
+      {
+        "id": "g4a-u07-wl06-choice",
+        "kind": "choice",
+        "prompt": "“夏天，夏季”对应哪个英语表达？",
+        "answer": "summer",
+        "options": [
+          "summer",
+          "spring",
+          "autumn",
+          "winter"
+        ]
+      },
+      {
+        "id": "g4a-u07-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“夏天，夏季”对应的单词",
+        "answer": "summer"
+      },
+      {
+        "id": "g4a-u07-wl09-choice",
+        "kind": "choice",
+        "prompt": "“秋天，秋季”对应哪个英语表达？",
+        "answer": "autumn",
+        "options": [
+          "autumn",
+          "spring",
+          "summer",
+          "winter"
+        ]
+      },
+      {
+        "id": "g4a-u07-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“秋天，秋季”对应的单词",
+        "answer": "autumn"
+      },
+      {
+        "id": "g4a-u07-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“新的”对应的单词",
+        "answer": "new"
+      },
+      {
+        "id": "g4a-u07-wl12-choice",
+        "kind": "choice",
+        "prompt": "“寒冷的，冷的”对应哪个英语表达？",
+        "answer": "cold",
+        "options": [
+          "cold",
+          "sunny",
+          "cloudy",
+          "rainy"
+        ]
+      },
+      {
+        "id": "g4a-u07-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“寒冷的，冷的”对应的单词",
+        "answer": "cold"
+      },
+      {
+        "id": "g4a-u07-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“鸟”对应的单词",
+        "answer": "bird"
+      },
+      {
+        "id": "g4a-u07-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“回原处”对应的单词",
+        "answer": "back"
+      },
+      {
+        "id": "g4a-u07-wl15-spell",
+        "kind": "spell",
+        "prompt": "拼写“在（某段时间）内”对应的单词",
+        "answer": "in"
+      },
+      {
+        "id": "g4a-u07-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“年”对应的单词",
+        "answer": "year"
+      },
+      {
+        "id": "g4a-u07-wl17-spell",
+        "kind": "spell",
+        "prompt": "拼写“栽种，种植”对应的单词",
+        "answer": "plant"
+      },
+      {
+        "id": "g4a-u07-wl19-spell",
+        "kind": "spell",
+        "prompt": "拼写“雪，积雪”对应的单词",
+        "answer": "snow"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "go boating",
+        "meaning": "去划船",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "go skating",
+        "meaning": "去溜冰，去滑冰",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "ice cream",
+        "meaning": "冰激凌",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "go swimming",
+        "meaning": "去游泳",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "go climbing",
+        "meaning": "去爬山",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "What's your favourite season?",
+          "I like spring."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "What do you do in winter?",
+          "I go skating."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 16 条核心词汇与表达",
+      "认识 3 条拓展词汇",
+      "练习季节与活动相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g4a-u08",
+    "title": "What we wear",
+    "description": "服装与穿着",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g4a-u08-wl01",
+        "word": "wear",
+        "meaning": "穿，戴",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl02",
+        "word": "cap",
+        "meaning": "（尤指有帽舌的）便帽",
+        "emoji": "🧢",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl03",
+        "word": "coat",
+        "meaning": "外套，外衣",
+        "emoji": "🧥",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl04",
+        "word": "skirt",
+        "meaning": "半身裙",
+        "emoji": "👗",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl05",
+        "word": "trousers",
+        "meaning": "裤子",
+        "emoji": "👖",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl06",
+        "word": "dress",
+        "meaning": "连衣裙",
+        "emoji": "👗",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl07",
+        "word": "shirt",
+        "meaning": "（男式）衬衫",
+        "emoji": "👕",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl08",
+        "word": "whose",
+        "meaning": "谁的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl09",
+        "word": "shorts",
+        "meaning": "短裤",
+        "emoji": "🩳",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl10",
+        "word": "look",
+        "meaning": "看起来好像，显得",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl11",
+        "word": "in",
+        "meaning": "穿着，戴着",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl12",
+        "word": "sunglasses",
+        "meaning": "太阳镜，墨镜",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u08-wl13",
+        "word": "why",
+        "meaning": "为什么",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl14",
+        "word": "because",
+        "meaning": "因为",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4a-u08-wl15",
+        "word": "bright",
+        "meaning": "聪明的；明亮的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4a-u08-wl16",
+        "word": "clothes",
+        "meaning": "衣服",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g4a-u08-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“穿，戴”对应的单词",
+        "answer": "wear"
+      },
+      {
+        "id": "g4a-u08-wl02-choice",
+        "kind": "choice",
+        "prompt": "“（尤指有帽舌的）便帽”对应哪个英语表达？",
+        "answer": "cap",
+        "options": [
+          "cap",
+          "coat",
+          "skirt",
+          "trousers"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“（尤指有帽舌的）便帽”对应的单词",
+        "answer": "cap"
+      },
+      {
+        "id": "g4a-u08-wl03-choice",
+        "kind": "choice",
+        "prompt": "“外套，外衣”对应哪个英语表达？",
+        "answer": "coat",
+        "options": [
+          "coat",
+          "cap",
+          "skirt",
+          "trousers"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“外套，外衣”对应的单词",
+        "answer": "coat"
+      },
+      {
+        "id": "g4a-u08-wl04-choice",
+        "kind": "choice",
+        "prompt": "“半身裙”对应哪个英语表达？",
+        "answer": "skirt",
+        "options": [
+          "skirt",
+          "cap",
+          "coat",
+          "trousers"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“半身裙”对应的单词",
+        "answer": "skirt"
+      },
+      {
+        "id": "g4a-u08-wl05-choice",
+        "kind": "choice",
+        "prompt": "“裤子”对应哪个英语表达？",
+        "answer": "trousers",
+        "options": [
+          "trousers",
+          "cap",
+          "coat",
+          "skirt"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“裤子”对应的单词",
+        "answer": "trousers"
+      },
+      {
+        "id": "g4a-u08-wl06-choice",
+        "kind": "choice",
+        "prompt": "“连衣裙”对应哪个英语表达？",
+        "answer": "dress",
+        "options": [
+          "dress",
+          "cap",
+          "coat",
+          "skirt"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“连衣裙”对应的单词",
+        "answer": "dress"
+      },
+      {
+        "id": "g4a-u08-wl07-choice",
+        "kind": "choice",
+        "prompt": "“（男式）衬衫”对应哪个英语表达？",
+        "answer": "shirt",
+        "options": [
+          "shirt",
+          "cap",
+          "coat",
+          "skirt"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“（男式）衬衫”对应的单词",
+        "answer": "shirt"
+      },
+      {
+        "id": "g4a-u08-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“谁的”对应的单词",
+        "answer": "whose"
+      },
+      {
+        "id": "g4a-u08-wl09-choice",
+        "kind": "choice",
+        "prompt": "“短裤”对应哪个英语表达？",
+        "answer": "shorts",
+        "options": [
+          "shorts",
+          "cap",
+          "coat",
+          "skirt"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“短裤”对应的单词",
+        "answer": "shorts"
+      },
+      {
+        "id": "g4a-u08-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“看起来好像，显得”对应的单词",
+        "answer": "look"
+      },
+      {
+        "id": "g4a-u08-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“穿着，戴着”对应的单词",
+        "answer": "in"
+      },
+      {
+        "id": "g4a-u08-wl12-choice",
+        "kind": "choice",
+        "prompt": "“太阳镜，墨镜”对应哪个英语表达？",
+        "answer": "sunglasses",
+        "options": [
+          "sunglasses",
+          "cap",
+          "coat",
+          "skirt"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“为什么”对应的单词",
+        "answer": "why"
+      },
+      {
+        "id": "g4a-u08-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“因为”对应的单词",
+        "answer": "because"
+      },
+      {
+        "id": "g4a-u08-wl16-choice",
+        "kind": "choice",
+        "prompt": "“衣服”对应哪个英语表达？",
+        "answer": "clothes",
+        "options": [
+          "clothes",
+          "cap",
+          "coat",
+          "skirt"
+        ]
+      },
+      {
+        "id": "g4a-u08-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“衣服”对应的单词",
+        "answer": "clothes"
+      }
+    ],
+    "phrases": [],
+    "dialogues": [
+      {
+        "lines": [
+          "Whose coat is this?",
+          "It's my brother's."
+        ],
+        "origin": "original-practice"
+      },
+      {
+        "lines": [
+          "Why are you wearing a cap?",
+          "Because it's sunny."
+        ],
+        "origin": "original-practice"
+      }
+    ],
+    "objectives": [
+      "学习本单元 14 条核心词汇与表达",
+      "认识 2 条拓展词汇",
+      "练习服装与穿着相关的英语交流"
+    ],
+    "letters": "继续练习发音与自然拼读",
+    "source": {
+      "title": "译林版小学英语四年级上册（2025秋版）",
+      "verifiedScope": "书后 Word lists I（印刷页78–80）",
+      "originalPractice": true
+    }
+  }
+]
