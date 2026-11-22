@@ -1,0 +1,1176 @@
+{
+  "edition": "译林版小学英语四年级上册（2025秋版）",
+  "source": "用户上传教材 PDF（89页）",
+  "sourceScope": "Word lists I，印刷页78–80；按单元顺序",
+  "units": [
+    {
+      "id": "g4a-u01",
+      "title": "Our school subjects",
+      "theme": "学校课程",
+      "entries": [
+        {
+          "id": "g4a-u01-wl01",
+          "term": "subject",
+          "meaning": "学科，科目",
+          "printedPage": 8,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl02",
+          "term": "Chinese",
+          "meaning": "语文（课）；中国的",
+          "printedPage": 8,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl03",
+          "term": "English",
+          "meaning": "英语（课）；英语的",
+          "printedPage": 8,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl04",
+          "term": "Maths (AmE Math)",
+          "meaning": "数学（课）",
+          "printedPage": 8,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl05",
+          "term": "PE",
+          "meaning": "体育（课）",
+          "printedPage": 8,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl06",
+          "term": "Art",
+          "meaning": "美术（课）",
+          "printedPage": 8,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl07",
+          "term": "Science",
+          "meaning": "科学（课）",
+          "printedPage": 8,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl08",
+          "term": "IT",
+          "meaning": "信息科技（课）",
+          "printedPage": 9,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u01-wl09",
+          "term": "Music",
+          "meaning": "音乐（课）",
+          "printedPage": 9,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl10",
+          "term": "Labour",
+          "meaning": "劳动（课）",
+          "printedPage": 9,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u01-wl11",
+          "term": "best",
+          "meaning": "最，最高程度地",
+          "printedPage": 10,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl12",
+          "term": "also",
+          "meaning": "也",
+          "printedPage": 10,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl13",
+          "term": "It's time for ...",
+          "meaning": "是……的时候了。",
+          "printedPage": 10,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl14",
+          "term": "mouse (pl. mice)",
+          "meaning": "鼠标；老鼠",
+          "printedPage": 10,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl15",
+          "term": "Welcome back to ...",
+          "meaning": "欢迎回到……",
+          "printedPage": 12,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl16",
+          "term": "be good at",
+          "meaning": "擅长",
+          "printedPage": 13,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl17",
+          "term": "interesting",
+          "meaning": "有趣的，有吸引力的",
+          "printedPage": 13,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl18",
+          "term": "learn about",
+          "meaning": "学习",
+          "printedPage": 13,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl19",
+          "term": "culture",
+          "meaning": "文化，文明",
+          "printedPage": 13,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u01-wl20",
+          "term": "read",
+          "meaning": "阅读",
+          "printedPage": 13,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl21",
+          "term": "story",
+          "meaning": "故事",
+          "printedPage": 13,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl22",
+          "term": "all",
+          "meaning": "全部，都",
+          "printedPage": 13,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u01-wl23",
+          "term": "sports ground",
+          "meaning": "操场，运动场",
+          "printedPage": 13,
+          "nonCore": true
+        }
+      ]
+    },
+    {
+      "id": "g4a-u02",
+      "title": "My day",
+      "theme": "日常作息与时间",
+      "entries": [
+        {
+          "id": "g4a-u02-wl01",
+          "term": "day",
+          "meaning": "一天，一日",
+          "printedPage": 16,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl02",
+          "term": "get up",
+          "meaning": "起床",
+          "printedPage": 16,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl03",
+          "term": "wash",
+          "meaning": "洗",
+          "printedPage": 16,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl04",
+          "term": "face",
+          "meaning": "脸，面孔",
+          "printedPage": 16,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl05",
+          "term": "have lessons",
+          "meaning": "上课",
+          "printedPage": 16,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl06",
+          "term": "have",
+          "meaning": "吃，喝",
+          "printedPage": 16,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl07",
+          "term": "dinner",
+          "meaning": "正餐（常指晚餐）",
+          "printedPage": 16,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl08",
+          "term": "breakfast",
+          "meaning": "早餐，早饭",
+          "printedPage": 17,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl09",
+          "term": "lunch",
+          "meaning": "午餐，午饭",
+          "printedPage": 17,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl10",
+          "term": "go to bed",
+          "meaning": "上床睡觉",
+          "printedPage": 17,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl11",
+          "term": "o'clock",
+          "meaning": "（表示整点）……点钟",
+          "printedPage": 18,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl12",
+          "term": "early",
+          "meaning": "早的，早",
+          "printedPage": 18,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl13",
+          "term": "thirty",
+          "meaning": "三十",
+          "printedPage": 18,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl14",
+          "term": "first",
+          "meaning": "首先，第一",
+          "printedPage": 18,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl15",
+          "term": "hurry up",
+          "meaning": "快点",
+          "printedPage": 18,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl16",
+          "term": "What time is it?",
+          "meaning": "几点了？",
+          "printedPage": 18,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl17",
+          "term": "I'm coming!",
+          "meaning": "我来了！",
+          "printedPage": 18,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl18",
+          "term": "twenty",
+          "meaning": "二十",
+          "printedPage": 20,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl19",
+          "term": "Come on!",
+          "meaning": "赶快！加把劲！",
+          "printedPage": 20,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl20",
+          "term": "class",
+          "meaning": "课，上课",
+          "printedPage": 20,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl21",
+          "term": "eleven",
+          "meaning": "十一",
+          "printedPage": 20,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl22",
+          "term": "sport",
+          "meaning": "体育运动",
+          "printedPage": 21,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl23",
+          "term": "fifteen",
+          "meaning": "十五",
+          "printedPage": 21,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl24",
+          "term": "It's time to ...",
+          "meaning": "到了……的时间了。",
+          "printedPage": 21,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl25",
+          "term": "bed",
+          "meaning": "床",
+          "printedPage": 21,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u02-wl26",
+          "term": "Good night!",
+          "meaning": "晚安！",
+          "printedPage": 21,
+          "nonCore": false
+        }
+      ]
+    },
+    {
+      "id": "g4a-u03",
+      "title": "My week",
+      "theme": "星期与每周计划",
+      "entries": [
+        {
+          "id": "g4a-u03-wl01",
+          "term": "week",
+          "meaning": "周，星期",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl02",
+          "term": "Monday",
+          "meaning": "星期一",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl03",
+          "term": "Tuesday",
+          "meaning": "星期二",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl04",
+          "term": "Wednesday",
+          "meaning": "星期三",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl05",
+          "term": "Thursday",
+          "meaning": "星期四",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl06",
+          "term": "Friday",
+          "meaning": "星期五",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl07",
+          "term": "Saturday",
+          "meaning": "星期六",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl08",
+          "term": "Sunday",
+          "meaning": "星期天",
+          "printedPage": 24,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl09",
+          "term": "when",
+          "meaning": "什么时候",
+          "printedPage": 26,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl10",
+          "term": "every",
+          "meaning": "每一个，每个",
+          "printedPage": 26,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl11",
+          "term": "at",
+          "meaning": "在（某时间）",
+          "printedPage": 26,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl12",
+          "term": "up",
+          "meaning": "起床",
+          "printedPage": 26,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl13",
+          "term": "early",
+          "meaning": "提早，提前",
+          "printedPage": 26,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl14",
+          "term": "today",
+          "meaning": "在今天",
+          "printedPage": 26,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl15",
+          "term": "What day is it today?",
+          "meaning": "今天星期几？",
+          "printedPage": 26,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl16",
+          "term": "cinema",
+          "meaning": "电影院",
+          "printedPage": 28,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl17",
+          "term": "after school",
+          "meaning": "放学后",
+          "printedPage": 28,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl18",
+          "term": "dancing",
+          "meaning": "跳舞，舞蹈",
+          "printedPage": 28,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl19",
+          "term": "lesson",
+          "meaning": "节课，一课时",
+          "printedPage": 28,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl20",
+          "term": "walk",
+          "meaning": "牵着（动物）走，遛",
+          "printedPage": 29,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl21",
+          "term": "dog",
+          "meaning": "狗",
+          "printedPage": 29,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl22",
+          "term": "tomorrow",
+          "meaning": "明天，在明天",
+          "printedPage": 29,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl23",
+          "term": "free",
+          "meaning": "空闲的",
+          "printedPage": 29,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u03-wl24",
+          "term": "See you tomorrow!",
+          "meaning": "明天见！",
+          "printedPage": 29,
+          "nonCore": false
+        }
+      ]
+    },
+    {
+      "id": "g4a-u04",
+      "title": "I like sport",
+      "theme": "体育运动与喜好",
+      "entries": [
+        {
+          "id": "g4a-u04-wl01",
+          "term": "play",
+          "meaning": "打（球），踢（球）",
+          "printedPage": 32,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl02",
+          "term": "football",
+          "meaning": "足球运动；足球",
+          "printedPage": 32,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl03",
+          "term": "ping-pong",
+          "meaning": "乒乓球运动",
+          "printedPage": 32,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl04",
+          "term": "basketball",
+          "meaning": "篮球运动；篮球",
+          "printedPage": 33,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl05",
+          "term": "great",
+          "meaning": "非常的",
+          "printedPage": 34,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl06",
+          "term": "swimming",
+          "meaning": "游泳；游泳运动",
+          "printedPage": 36,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl07",
+          "term": "so",
+          "meaning": "（表示程度）这么，那么",
+          "printedPage": 36,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl08",
+          "term": "well",
+          "meaning": "好",
+          "printedPage": 36,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl09",
+          "term": "Have a go!",
+          "meaning": "试一试！",
+          "printedPage": 37,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl10",
+          "term": "hard",
+          "meaning": "难做的，不易的",
+          "printedPage": 37,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl11",
+          "term": "It's OK.",
+          "meaning": "没关系。",
+          "printedPage": 37,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl12",
+          "term": "try",
+          "meaning": "试",
+          "printedPage": 37,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u04-wl13",
+          "term": "Well played!",
+          "meaning": "好球！",
+          "printedPage": 37,
+          "nonCore": false
+        }
+      ]
+    },
+    {
+      "id": "g4a-u05",
+      "title": "Different toys, same fun",
+      "theme": "玩具与外貌描述",
+      "entries": [
+        {
+          "id": "g4a-u05-wl01",
+          "term": "different",
+          "meaning": "不同的，有区别的",
+          "printedPage": 42,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u05-wl02",
+          "term": "same",
+          "meaning": "相同的，同一的",
+          "printedPage": 42,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u05-wl03",
+          "term": "hair",
+          "meaning": "头发",
+          "printedPage": 42,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl04",
+          "term": "eye",
+          "meaning": "眼睛",
+          "printedPage": 42,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl05",
+          "term": "ear",
+          "meaning": "耳朵",
+          "printedPage": 42,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl06",
+          "term": "nose",
+          "meaning": "鼻子",
+          "printedPage": 42,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl07",
+          "term": "mouth",
+          "meaning": "嘴，口",
+          "printedPage": 42,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl08",
+          "term": "arm",
+          "meaning": "手臂",
+          "printedPage": 42,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl09",
+          "term": "leg",
+          "meaning": "腿",
+          "printedPage": 42,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl10",
+          "term": "robot",
+          "meaning": "机器人",
+          "printedPage": 44,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl11",
+          "term": "his",
+          "meaning": "他的",
+          "printedPage": 44,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl12",
+          "term": "tall",
+          "meaning": "高的",
+          "printedPage": 44,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl13",
+          "term": "short",
+          "meaning": "短的",
+          "printedPage": 44,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl14",
+          "term": "doll",
+          "meaning": "玩具娃娃",
+          "printedPage": 46,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl15",
+          "term": "her",
+          "meaning": "她的",
+          "printedPage": 46,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl16",
+          "term": "small",
+          "meaning": "小的",
+          "printedPage": 46,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl17",
+          "term": "bring",
+          "meaning": "带来",
+          "printedPage": 47,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl18",
+          "term": "lots of",
+          "meaning": "大量，许多",
+          "printedPage": 47,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl19",
+          "term": "have",
+          "meaning": "组织，举办",
+          "printedPage": 47,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u05-wl20",
+          "term": "show",
+          "meaning": "表演，演出",
+          "printedPage": 47,
+          "nonCore": false
+        }
+      ]
+    },
+    {
+      "id": "g4a-u06",
+      "title": "Weather",
+      "theme": "天气与活动",
+      "entries": [
+        {
+          "id": "g4a-u06-wl01",
+          "term": "weather",
+          "meaning": "天气，气象",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl02",
+          "term": "cloudy",
+          "meaning": "多云的，阴天的",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl03",
+          "term": "sunny",
+          "meaning": "晴朗的",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl04",
+          "term": "cool",
+          "meaning": "凉的，凉爽的",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl05",
+          "term": "rainy",
+          "meaning": "阴雨的，多雨的",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl06",
+          "term": "hot",
+          "meaning": "温度高的，热的",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl07",
+          "term": "windy",
+          "meaning": "多风的，风大的",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl08",
+          "term": "warm",
+          "meaning": "温暖的，暖和的",
+          "printedPage": 50,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl09",
+          "term": "save ... for a rainy day",
+          "meaning": "未雨绸缪",
+          "printedPage": 52,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u06-wl10",
+          "term": "money",
+          "meaning": "钱",
+          "printedPage": 52,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl11",
+          "term": "What's the weather like today?",
+          "meaning": "今天天气怎么样？",
+          "printedPage": 52,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl12",
+          "term": "park",
+          "meaning": "公园",
+          "printedPage": 54,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl13",
+          "term": "meet",
+          "meaning": "（与……）会面，集合",
+          "printedPage": 54,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl14",
+          "term": "fly a kite",
+          "meaning": "放风筝",
+          "printedPage": 54,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl15",
+          "term": "It's raining.",
+          "meaning": "下雨了。",
+          "printedPage": 55,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl16",
+          "term": "worry",
+          "meaning": "担心，担忧",
+          "printedPage": 55,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl17",
+          "term": "umbrella",
+          "meaning": "伞，雨伞",
+          "printedPage": 55,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u06-wl18",
+          "term": "there",
+          "meaning": "到那里，在那里",
+          "printedPage": 55,
+          "nonCore": false
+        }
+      ]
+    },
+    {
+      "id": "g4a-u07",
+      "title": "Seasons",
+      "theme": "季节与活动",
+      "entries": [
+        {
+          "id": "g4a-u07-wl01",
+          "term": "season",
+          "meaning": "季节",
+          "printedPage": 58,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl02",
+          "term": "spring",
+          "meaning": "春天，春季",
+          "printedPage": 58,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl03",
+          "term": "go boating",
+          "meaning": "去划船",
+          "printedPage": 58,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl04",
+          "term": "winter",
+          "meaning": "冬天，冬季",
+          "printedPage": 58,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl05",
+          "term": "go skating",
+          "meaning": "去溜冰，去滑冰",
+          "printedPage": 58,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u07-wl06",
+          "term": "summer",
+          "meaning": "夏天，夏季",
+          "printedPage": 59,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl07",
+          "term": "ice cream",
+          "meaning": "冰激凌",
+          "printedPage": 59,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl08",
+          "term": "go swimming",
+          "meaning": "去游泳",
+          "printedPage": 59,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl09",
+          "term": "autumn",
+          "meaning": "秋天，秋季",
+          "printedPage": 59,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl10",
+          "term": "go climbing",
+          "meaning": "去爬山",
+          "printedPage": 59,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u07-wl11",
+          "term": "new",
+          "meaning": "新的",
+          "printedPage": 60,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl12",
+          "term": "cold",
+          "meaning": "寒冷的，冷的",
+          "printedPage": 60,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl13",
+          "term": "bird",
+          "meaning": "鸟",
+          "printedPage": 60,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl14",
+          "term": "back",
+          "meaning": "回原处",
+          "printedPage": 60,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl15",
+          "term": "in",
+          "meaning": "在（某段时间）内",
+          "printedPage": 62,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl16",
+          "term": "year",
+          "meaning": "年",
+          "printedPage": 62,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl17",
+          "term": "plant",
+          "meaning": "栽种，种植",
+          "printedPage": 62,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u07-wl18",
+          "term": "pick",
+          "meaning": "采，摘",
+          "printedPage": 63,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u07-wl19",
+          "term": "snow",
+          "meaning": "雪，积雪",
+          "printedPage": 63,
+          "nonCore": false
+        }
+      ]
+    },
+    {
+      "id": "g4a-u08",
+      "title": "What we wear",
+      "theme": "服装与穿着",
+      "entries": [
+        {
+          "id": "g4a-u08-wl01",
+          "term": "wear",
+          "meaning": "穿，戴",
+          "printedPage": 66,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl02",
+          "term": "cap",
+          "meaning": "（尤指有帽舌的）便帽",
+          "printedPage": 66,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl03",
+          "term": "coat",
+          "meaning": "外套，外衣",
+          "printedPage": 66,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl04",
+          "term": "skirt",
+          "meaning": "半身裙",
+          "printedPage": 66,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl05",
+          "term": "trousers",
+          "meaning": "裤子",
+          "printedPage": 66,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl06",
+          "term": "dress",
+          "meaning": "连衣裙",
+          "printedPage": 66,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl07",
+          "term": "shirt",
+          "meaning": "（男式）衬衫",
+          "printedPage": 66,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl08",
+          "term": "whose",
+          "meaning": "谁的",
+          "printedPage": 68,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl09",
+          "term": "shorts",
+          "meaning": "短裤",
+          "printedPage": 68,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl10",
+          "term": "look",
+          "meaning": "看起来好像，显得",
+          "printedPage": 68,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl11",
+          "term": "in",
+          "meaning": "穿着，戴着",
+          "printedPage": 68,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl12",
+          "term": "sunglasses",
+          "meaning": "太阳镜，墨镜",
+          "printedPage": 68,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u08-wl13",
+          "term": "why",
+          "meaning": "为什么",
+          "printedPage": 68,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl14",
+          "term": "because",
+          "meaning": "因为",
+          "printedPage": 68,
+          "nonCore": false
+        },
+        {
+          "id": "g4a-u08-wl15",
+          "term": "bright",
+          "meaning": "聪明的；明亮的",
+          "printedPage": 68,
+          "nonCore": true
+        },
+        {
+          "id": "g4a-u08-wl16",
+          "term": "clothes",
+          "meaning": "衣服",
+          "printedPage": 70,
+          "nonCore": false
+        }
+      ]
+    }
+  ]
+}
