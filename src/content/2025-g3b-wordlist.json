@@ -1,0 +1,1302 @@
+{
+  "edition": "译林版小学英语三年级下册（2025春版）",
+  "source": "用户提供的90页教材 PDF",
+  "sourcePrintedPages": [
+    78,
+    79,
+    80
+  ],
+  "note": "依据教材 Word lists I 按单元顺序整理；* 为非单元核心词；同形异义词保留不同单元的释义。",
+  "units": [
+    {
+      "unitId": "g3b-u01",
+      "title": "School things",
+      "entries": [
+        {
+          "id": "g3b-u01-wl01",
+          "term": "school",
+          "meaning": "学校",
+          "printedPage": 8,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl02",
+          "term": "thing",
+          "meaning": "用品，用具",
+          "printedPage": 8,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl03",
+          "term": "pen",
+          "meaning": "笔，钢笔",
+          "printedPage": 8,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl04",
+          "term": "pencil",
+          "meaning": "铅笔",
+          "printedPage": 8,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl05",
+          "term": "ruler",
+          "meaning": "直尺",
+          "printedPage": 8,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl06",
+          "term": "rubber",
+          "meaning": "橡皮",
+          "printedPage": 8,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl07",
+          "term": "schoolbag",
+          "meaning": "书包",
+          "printedPage": 9,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl08",
+          "term": "pencil case",
+          "meaning": "铅笔盒，铅笔袋",
+          "printedPage": 9,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl09",
+          "term": "that",
+          "meaning": "那，那个",
+          "printedPage": 10,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl10",
+          "term": "put",
+          "meaning": "放，安置",
+          "printedPage": 10,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl11",
+          "term": "guess",
+          "meaning": "猜测，估计",
+          "printedPage": 13,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl12",
+          "term": "again",
+          "meaning": "再一次，又一次",
+          "printedPage": 13,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl13",
+          "term": "long",
+          "meaning": "长的",
+          "printedPage": 13,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u01-wl14",
+          "term": "Good idea!",
+          "meaning": "好主意！",
+          "printedPage": 13,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3b-u02",
+      "title": "Clean our classroom",
+      "entries": [
+        {
+          "id": "g3b-u02-wl01",
+          "term": "our",
+          "meaning": "我们的",
+          "printedPage": 16,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl02",
+          "term": "classroom",
+          "meaning": "教室，课堂",
+          "printedPage": 16,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl03",
+          "term": "put away",
+          "meaning": "将……收起，把……放回原处",
+          "printedPage": 16,
+          "nonCore": true,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl04",
+          "term": "close",
+          "meaning": "关，关闭",
+          "printedPage": 16,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl05",
+          "term": "window",
+          "meaning": "窗，窗户",
+          "printedPage": 16,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl06",
+          "term": "blackboard",
+          "meaning": "黑板",
+          "printedPage": 16,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl07",
+          "term": "chair",
+          "meaning": "椅子",
+          "printedPage": 16,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl08",
+          "term": "sweep",
+          "meaning": "打扫，清扫",
+          "printedPage": 17,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl09",
+          "term": "floor",
+          "meaning": "地板，地面",
+          "printedPage": 17,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl10",
+          "term": "let",
+          "meaning": "让",
+          "printedPage": 18,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl11",
+          "term": "us",
+          "meaning": "我们",
+          "printedPage": 18,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl12",
+          "term": "desk",
+          "meaning": "课桌，书桌",
+          "printedPage": 18,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl13",
+          "term": "dirty",
+          "meaning": "脏的",
+          "printedPage": 18,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl14",
+          "term": "Me too!",
+          "meaning": "我也是！",
+          "printedPage": 20,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl15",
+          "term": "All right.",
+          "meaning": "好的。",
+          "printedPage": 21,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl16",
+          "term": "clean",
+          "meaning": "洁净的，干净的",
+          "printedPage": 21,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u02-wl17",
+          "term": "keep",
+          "meaning": "（使）保持，处于",
+          "printedPage": 21,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3b-u03",
+      "title": "School rules",
+      "entries": [
+        {
+          "id": "g3b-u03-wl01",
+          "term": "rule",
+          "meaning": "规则，规章",
+          "printedPage": 24,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl02",
+          "term": "library",
+          "meaning": "图书馆",
+          "printedPage": 24,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl03",
+          "term": "shout",
+          "meaning": "大声说，叫，嚷",
+          "printedPage": 24,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl04",
+          "term": "talk",
+          "meaning": "说话，讲话",
+          "printedPage": 24,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl05",
+          "term": "eat",
+          "meaning": "吃",
+          "printedPage": 24,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl06",
+          "term": "run",
+          "meaning": "跑，奔跑",
+          "printedPage": 24,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl07",
+          "term": "Mrs (AmE Mrs.)",
+          "meaning": "太太，夫人",
+          "printedPage": 26,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl08",
+          "term": "sit down",
+          "meaning": "坐下",
+          "printedPage": 26,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl09",
+          "term": "late",
+          "meaning": "迟的，晚的",
+          "printedPage": 26,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl10",
+          "term": "look out of",
+          "meaning": "朝……外看",
+          "printedPage": 26,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl11",
+          "term": "on",
+          "meaning": "在……上面",
+          "printedPage": 26,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl12",
+          "term": "shh",
+          "meaning": "嘘",
+          "printedPage": 28,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl13",
+          "term": "fun",
+          "meaning": "有趣的",
+          "printedPage": 28,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl14",
+          "term": "quiet",
+          "meaning": "安静的",
+          "printedPage": 28,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl15",
+          "term": "follow",
+          "meaning": "遵循，听从",
+          "printedPage": 28,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl16",
+          "term": "Would you like …?",
+          "meaning": "你想要……吗？",
+          "printedPage": 29,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl17",
+          "term": "sweet",
+          "meaning": "糖果",
+          "printedPage": 29,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl18",
+          "term": "look at",
+          "meaning": "看，瞧",
+          "printedPage": 29,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u03-wl19",
+          "term": "That’s all right.",
+          "meaning": "不要紧。",
+          "printedPage": 29,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3b-u04",
+      "title": "Have fun after class",
+      "entries": [
+        {
+          "id": "g3b-u04-wl01",
+          "term": "have fun",
+          "meaning": "玩得高兴",
+          "printedPage": 32,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl02",
+          "term": "after class",
+          "meaning": "课后",
+          "printedPage": 32,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl03",
+          "term": "behind",
+          "meaning": "在……的后面",
+          "printedPage": 32,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl04",
+          "term": "tree",
+          "meaning": "树，树木",
+          "printedPage": 32,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl05",
+          "term": "by",
+          "meaning": "在……旁边",
+          "printedPage": 32,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl06",
+          "term": "under",
+          "meaning": "在……下面",
+          "printedPage": 32,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl07",
+          "term": "flower",
+          "meaning": "花，花朵",
+          "printedPage": 33,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl08",
+          "term": "break time",
+          "meaning": "课间休息",
+          "printedPage": 34,
+          "nonCore": true,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl09",
+          "term": "play",
+          "meaning": "玩耍",
+          "printedPage": 34,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl10",
+          "term": "outside",
+          "meaning": "在外面",
+          "printedPage": 34,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl11",
+          "term": "ready",
+          "meaning": "准备好",
+          "printedPage": 34,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl12",
+          "term": "go",
+          "meaning": "开始；移动",
+          "printedPage": 34,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl13",
+          "term": "plane",
+          "meaning": "飞机",
+          "printedPage": 34,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl14",
+          "term": "very",
+          "meaning": "很，非常",
+          "printedPage": 34,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl15",
+          "term": "far",
+          "meaning": "远",
+          "printedPage": 34,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl16",
+          "term": "where",
+          "meaning": "在哪里，到哪里",
+          "printedPage": 34,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl17",
+          "term": "find",
+          "meaning": "找到",
+          "printedPage": 34,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl18",
+          "term": "over",
+          "meaning": "结束",
+          "printedPage": 36,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl19",
+          "term": "student",
+          "meaning": "学生",
+          "printedPage": 36,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl20",
+          "term": "from",
+          "meaning": "来自",
+          "printedPage": 36,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl21",
+          "term": "Art Club",
+          "meaning": "美术社团",
+          "printedPage": 36,
+          "nonCore": true,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl22",
+          "term": "nice",
+          "meaning": "美好的",
+          "printedPage": 36,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl23",
+          "term": "of",
+          "meaning": "关于",
+          "printedPage": 36,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl24",
+          "term": "garden",
+          "meaning": "花园，园圃",
+          "printedPage": 36,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl25",
+          "term": "butterfly",
+          "meaning": "蝴蝶",
+          "printedPage": 36,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl26",
+          "term": "beautiful",
+          "meaning": "美丽的，美好的",
+          "printedPage": 36,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u04-wl27",
+          "term": "duck",
+          "meaning": "鸭子",
+          "printedPage": 37,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3b-u05",
+      "title": "Fruit",
+      "entries": [
+        {
+          "id": "g3b-u05-wl01",
+          "term": "fruit",
+          "meaning": "水果",
+          "printedPage": 42,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl02",
+          "term": "orange",
+          "meaning": "橙子，柑橘",
+          "printedPage": 42,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl03",
+          "term": "grape",
+          "meaning": "葡萄",
+          "printedPage": 42,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl04",
+          "term": "banana",
+          "meaning": "香蕉",
+          "printedPage": 42,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl05",
+          "term": "apple",
+          "meaning": "苹果",
+          "printedPage": 43,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl06",
+          "term": "mango",
+          "meaning": "芒果",
+          "printedPage": 43,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl07",
+          "term": "share",
+          "meaning": "分享，共享",
+          "printedPage": 44,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl08",
+          "term": "like",
+          "meaning": "喜欢，喜爱",
+          "printedPage": 44,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl09",
+          "term": "they",
+          "meaning": "它们，他们，她们",
+          "printedPage": 44,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl10",
+          "term": "sweet",
+          "meaning": "甜的",
+          "printedPage": 44,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl11",
+          "term": "make",
+          "meaning": "做，制造",
+          "printedPage": 46,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl12",
+          "term": "salad",
+          "meaning": "色拉，沙拉",
+          "printedPage": 46,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl13",
+          "term": "together",
+          "meaning": "在一起，共同",
+          "printedPage": 46,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl14",
+          "term": "an",
+          "meaning": "一（个）",
+          "printedPage": 46,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl15",
+          "term": "What about you?",
+          "meaning": "你呢？",
+          "printedPage": 46,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u05-wl16",
+          "term": "good",
+          "meaning": "有用，有好处",
+          "printedPage": 47,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3b-u06",
+      "title": "On the farm",
+      "entries": [
+        {
+          "id": "g3b-u06-wl01",
+          "term": "farm",
+          "meaning": "农场",
+          "printedPage": 50,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl02",
+          "term": "cow",
+          "meaning": "奶牛",
+          "printedPage": 50,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl03",
+          "term": "sheep",
+          "meaning": "羊，绵羊",
+          "printedPage": 50,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl04",
+          "term": "rabbit",
+          "meaning": "兔子",
+          "printedPage": 50,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl05",
+          "term": "chicken",
+          "meaning": "鸡",
+          "printedPage": 50,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl06",
+          "term": "carrot",
+          "meaning": "胡萝卜",
+          "printedPage": 51,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl07",
+          "term": "pig",
+          "meaning": "猪",
+          "printedPage": 51,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl08",
+          "term": "Welcome to …",
+          "meaning": "欢迎来到……",
+          "printedPage": 52,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl09",
+          "term": "home",
+          "meaning": "家，住所",
+          "printedPage": 52,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl10",
+          "term": "these",
+          "meaning": "这些",
+          "printedPage": 52,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl11",
+          "term": "those",
+          "meaning": "那些",
+          "printedPage": 52,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl12",
+          "term": "help",
+          "meaning": "帮助，协助",
+          "printedPage": 52,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl13",
+          "term": "cute",
+          "meaning": "可爱的",
+          "printedPage": 55,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u06-wl14",
+          "term": "move",
+          "meaning": "移动",
+          "printedPage": 55,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3b-u07",
+      "title": "Animals",
+      "entries": [
+        {
+          "id": "g3b-u07-wl01",
+          "term": "animal",
+          "meaning": "动物",
+          "printedPage": 58,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl02",
+          "term": "monkey",
+          "meaning": "猴子",
+          "printedPage": 58,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl03",
+          "term": "lion",
+          "meaning": "狮子",
+          "printedPage": 58,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl04",
+          "term": "bear",
+          "meaning": "熊",
+          "printedPage": 58,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl05",
+          "term": "tiger",
+          "meaning": "老虎",
+          "printedPage": 58,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl06",
+          "term": "panda",
+          "meaning": "大熊猫",
+          "printedPage": 59,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl07",
+          "term": "elephant",
+          "meaning": "大象",
+          "printedPage": 59,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl08",
+          "term": "lunchtime",
+          "meaning": "午餐时间",
+          "printedPage": 60,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl09",
+          "term": "fish",
+          "meaning": "鱼；鱼肉",
+          "printedPage": 60,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl10",
+          "term": "high five",
+          "meaning": "相互高举胳膊击掌",
+          "printedPage": 60,
+          "nonCore": true,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl11",
+          "term": "feed",
+          "meaning": "给食物，喂养",
+          "printedPage": 63,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl12",
+          "term": "zoo",
+          "meaning": "动物园",
+          "printedPage": 63,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl13",
+          "term": "go",
+          "meaning": "去，走",
+          "printedPage": 63,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u07-wl14",
+          "term": "see",
+          "meaning": "看，见",
+          "printedPage": 63,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "unitId": "g3b-u08",
+      "title": "Colours",
+      "entries": [
+        {
+          "id": "g3b-u08-wl01",
+          "term": "colour (AmE color)",
+          "meaning": "颜色，色彩",
+          "printedPage": 66,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl02",
+          "term": "yellow",
+          "meaning": "黄色的",
+          "printedPage": 66,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl03",
+          "term": "blue",
+          "meaning": "蓝色的",
+          "printedPage": 66,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl04",
+          "term": "red",
+          "meaning": "红色的",
+          "printedPage": 66,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl05",
+          "term": "orange",
+          "meaning": "橙红色的，橘黄色的",
+          "printedPage": 66,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl06",
+          "term": "pink",
+          "meaning": "粉红色的",
+          "printedPage": 66,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl07",
+          "term": "green",
+          "meaning": "绿色的",
+          "printedPage": 67,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl08",
+          "term": "brown",
+          "meaning": "棕色的",
+          "printedPage": 67,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl09",
+          "term": "black",
+          "meaning": "黑色的",
+          "printedPage": 67,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl10",
+          "term": "white",
+          "meaning": "白色的",
+          "printedPage": 67,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl11",
+          "term": "buy",
+          "meaning": "买",
+          "printedPage": 68,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl12",
+          "term": "balloon",
+          "meaning": "气球",
+          "printedPage": 68,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl13",
+          "term": "sure",
+          "meaning": "（表示同意）当然",
+          "printedPage": 68,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl14",
+          "term": "chameleon",
+          "meaning": "变色龙",
+          "printedPage": 70,
+          "nonCore": true,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl15",
+          "term": "little",
+          "meaning": "小的",
+          "printedPage": 70,
+          "nonCore": false,
+          "category": "word",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl16",
+          "term": "What colour is ...?",
+          "meaning": "……是什么颜色的？",
+          "printedPage": 70,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        },
+        {
+          "id": "g3b-u08-wl17",
+          "term": "How come?",
+          "meaning": "怎么回事？",
+          "printedPage": 71,
+          "nonCore": false,
+          "category": "expression",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
