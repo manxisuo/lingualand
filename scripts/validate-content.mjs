@@ -19,3 +19,24 @@ console.log('Verified textbook entries:',wl.units.reduce((n,u)=>n+u.entries.leng
 
 for(const u of units){for(const q of u.questions.filter(q=>q.kind==='choice')){if(!q.distractorStrategy)throw Error('Missing curated distractors '+q.id)}}
 console.log('Curated multiple-choice distractors:',units.reduce((n,u)=>n+u.questions.filter(q=>q.kind==='choice').length,0))
+
+const spring=JSON.parse(readFileSync(new URL('2025-g3b-verified.json',root),'utf8'))
+const springList=JSON.parse(readFileSync(new URL('2025-g3b-wordlist.json',root),'utf8'))
+if(spring.length!==8||springList.units.length!==8)throw Error('Spring semester must contain eight units')
+const seenSpring=new Set()
+for(const [i,u] of spring.entries()){
+ const entries=springList.units[i].entries
+ if(u.cards.length!==entries.length)throw Error('Incomplete spring vocabulary: '+u.id)
+ if(!u.questions.length)throw Error('Missing spring practice: '+u.id)
+ for(const entry of entries){
+  const card=u.cards.find(c=>c.word===entry.term&&c.source?.bookPage===entry.printedPage&&c.meaning===entry.meaning)
+  if(!card)throw Error('Unmatched textbook word: '+entry.id)
+  if(seenSpring.has(entry.id))throw Error('Duplicate spring entry: '+entry.id)
+  seenSpring.add(entry.id)
+ }
+ for(const q of u.questions){
+  if(!q.answer||!q.prompt)throw Error('Incomplete spring question: '+q.id)
+  if(q.kind==='choice'&&(!q.options?.includes(q.answer)||q.options.length!==4||new Set(q.options).size!==4))throw Error('Invalid spring options: '+q.id)
+ }
+}
+console.log('Spring 2025 textbook validation passed:',spring.length,'units,',seenSpring.size,'word-list entries,',spring.reduce((n,u)=>n+u.questions.length,0),'original questions')
