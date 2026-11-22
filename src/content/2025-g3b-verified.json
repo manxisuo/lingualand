@@ -1,0 +1,4020 @@
+[
+  {
+    "id": "g3b-u01",
+    "title": "School things",
+    "description": "学习用品",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u01-wl01",
+        "word": "school",
+        "meaning": "学校",
+        "emoji": "🏫",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl02",
+        "word": "thing",
+        "meaning": "用品，用具",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u01-wl03",
+        "word": "pen",
+        "meaning": "笔，钢笔",
+        "emoji": "🖊️",
+        "example": "This is my pen.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl04",
+        "word": "pencil",
+        "meaning": "铅笔",
+        "emoji": "✏️",
+        "example": "I have a pencil.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl05",
+        "word": "ruler",
+        "meaning": "直尺",
+        "emoji": "📏",
+        "example": "This is my ruler.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl06",
+        "word": "rubber",
+        "meaning": "橡皮",
+        "emoji": "🧽",
+        "example": "Where is my rubber?",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl07",
+        "word": "schoolbag",
+        "meaning": "书包",
+        "emoji": "🎒",
+        "example": "My schoolbag is blue.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl08",
+        "word": "pencil case",
+        "meaning": "铅笔盒，铅笔袋",
+        "emoji": "👝",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl09",
+        "word": "that",
+        "meaning": "那，那个",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl10",
+        "word": "put",
+        "meaning": "放，安置",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl11",
+        "word": "guess",
+        "meaning": "猜测，估计",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u01-wl12",
+        "word": "again",
+        "meaning": "再一次，又一次",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl13",
+        "word": "long",
+        "meaning": "长的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u01-wl14",
+        "word": "Good idea!",
+        "meaning": "好主意！",
+        "emoji": "",
+        "example": "Good idea!",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u01-wl01-choice",
+        "kind": "choice",
+        "prompt": "“学校”用英语怎么表达？",
+        "answer": "school",
+        "options": [
+          "school",
+          "pen",
+          "pencil",
+          "ruler"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“学校”对应的英语单词",
+        "answer": "school"
+      },
+      {
+        "id": "g3b-u01-wl03-choice",
+        "kind": "choice",
+        "prompt": "“笔，钢笔”用英语怎么表达？",
+        "answer": "pen",
+        "options": [
+          "pen",
+          "school",
+          "pencil",
+          "ruler"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“笔，钢笔”对应的英语单词",
+        "answer": "pen"
+      },
+      {
+        "id": "g3b-u01-wl04-choice",
+        "kind": "choice",
+        "prompt": "“铅笔”用英语怎么表达？",
+        "answer": "pencil",
+        "options": [
+          "pencil",
+          "school",
+          "pen",
+          "ruler"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“铅笔”对应的英语单词",
+        "answer": "pencil"
+      },
+      {
+        "id": "g3b-u01-wl05-choice",
+        "kind": "choice",
+        "prompt": "“直尺”用英语怎么表达？",
+        "answer": "ruler",
+        "options": [
+          "ruler",
+          "school",
+          "pen",
+          "pencil"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“直尺”对应的英语单词",
+        "answer": "ruler"
+      },
+      {
+        "id": "g3b-u01-wl06-choice",
+        "kind": "choice",
+        "prompt": "“橡皮”用英语怎么表达？",
+        "answer": "rubber",
+        "options": [
+          "rubber",
+          "school",
+          "pen",
+          "pencil"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“橡皮”对应的英语单词",
+        "answer": "rubber"
+      },
+      {
+        "id": "g3b-u01-wl07-choice",
+        "kind": "choice",
+        "prompt": "“书包”用英语怎么表达？",
+        "answer": "schoolbag",
+        "options": [
+          "schoolbag",
+          "school",
+          "pen",
+          "pencil"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“书包”对应的英语单词",
+        "answer": "schoolbag"
+      },
+      {
+        "id": "g3b-u01-wl09-choice",
+        "kind": "choice",
+        "prompt": "“那，那个”用英语怎么表达？",
+        "answer": "that",
+        "options": [
+          "that",
+          "our",
+          "us",
+          "they"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“那，那个”对应的英语单词",
+        "answer": "that"
+      },
+      {
+        "id": "g3b-u01-wl10-choice",
+        "kind": "choice",
+        "prompt": "“放，安置”用英语怎么表达？",
+        "answer": "put",
+        "options": [
+          "put",
+          "close",
+          "sweep",
+          "talk"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“放，安置”对应的英语单词",
+        "answer": "put"
+      },
+      {
+        "id": "g3b-u01-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“再一次，又一次”对应的英语单词",
+        "answer": "again"
+      },
+      {
+        "id": "g3b-u01-wl13-choice",
+        "kind": "choice",
+        "prompt": "“长的”用英语怎么表达？",
+        "answer": "long",
+        "options": [
+          "long",
+          "dirty",
+          "clean",
+          "late"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u01-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“长的”对应的英语单词",
+        "answer": "long"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "pencil case",
+        "meaning": "铅笔盒，铅笔袋",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Good idea!",
+        "meaning": "好主意！",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 1 词表中 12 条核心词汇与表达",
+      "认识 2 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g3b-u02",
+    "title": "Clean our classroom",
+    "description": "打扫教室",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u02-wl01",
+        "word": "our",
+        "meaning": "我们的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl02",
+        "word": "classroom",
+        "meaning": "教室，课堂",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl03",
+        "word": "put away",
+        "meaning": "将……收起，把……放回原处",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u02-wl04",
+        "word": "close",
+        "meaning": "关，关闭",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl05",
+        "word": "window",
+        "meaning": "窗，窗户",
+        "emoji": "🪟",
+        "example": "Please close the window.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl06",
+        "word": "blackboard",
+        "meaning": "黑板",
+        "emoji": "⬛",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl07",
+        "word": "chair",
+        "meaning": "椅子",
+        "emoji": "🪑",
+        "example": "Please sit on the chair.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl08",
+        "word": "sweep",
+        "meaning": "打扫，清扫",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl09",
+        "word": "floor",
+        "meaning": "地板，地面",
+        "emoji": "🧹",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl10",
+        "word": "let",
+        "meaning": "让",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl11",
+        "word": "us",
+        "meaning": "我们",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl12",
+        "word": "desk",
+        "meaning": "课桌，书桌",
+        "emoji": "",
+        "example": "The book is on the desk.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl13",
+        "word": "dirty",
+        "meaning": "脏的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl14",
+        "word": "Me too!",
+        "meaning": "我也是！",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl15",
+        "word": "All right.",
+        "meaning": "好的。",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl16",
+        "word": "clean",
+        "meaning": "洁净的，干净的",
+        "emoji": "",
+        "example": "Keep the classroom clean.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u02-wl17",
+        "word": "keep",
+        "meaning": "（使）保持，处于",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u02-wl01-choice",
+        "kind": "choice",
+        "prompt": "“我们的”用英语怎么表达？",
+        "answer": "our",
+        "options": [
+          "our",
+          "us",
+          "that",
+          "they"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“我们的”对应的英语单词",
+        "answer": "our"
+      },
+      {
+        "id": "g3b-u02-wl02-choice",
+        "kind": "choice",
+        "prompt": "“教室，课堂”用英语怎么表达？",
+        "answer": "classroom",
+        "options": [
+          "classroom",
+          "window",
+          "blackboard",
+          "chair"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“教室，课堂”对应的英语单词",
+        "answer": "classroom"
+      },
+      {
+        "id": "g3b-u02-wl04-choice",
+        "kind": "choice",
+        "prompt": "“关，关闭”用英语怎么表达？",
+        "answer": "close",
+        "options": [
+          "close",
+          "sweep",
+          "put",
+          "talk"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“关，关闭”对应的英语单词",
+        "answer": "close"
+      },
+      {
+        "id": "g3b-u02-wl05-choice",
+        "kind": "choice",
+        "prompt": "“窗，窗户”用英语怎么表达？",
+        "answer": "window",
+        "options": [
+          "window",
+          "classroom",
+          "blackboard",
+          "chair"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“窗，窗户”对应的英语单词",
+        "answer": "window"
+      },
+      {
+        "id": "g3b-u02-wl06-choice",
+        "kind": "choice",
+        "prompt": "“黑板”用英语怎么表达？",
+        "answer": "blackboard",
+        "options": [
+          "blackboard",
+          "classroom",
+          "window",
+          "chair"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“黑板”对应的英语单词",
+        "answer": "blackboard"
+      },
+      {
+        "id": "g3b-u02-wl07-choice",
+        "kind": "choice",
+        "prompt": "“椅子”用英语怎么表达？",
+        "answer": "chair",
+        "options": [
+          "chair",
+          "classroom",
+          "window",
+          "blackboard"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“椅子”对应的英语单词",
+        "answer": "chair"
+      },
+      {
+        "id": "g3b-u02-wl08-choice",
+        "kind": "choice",
+        "prompt": "“打扫，清扫”用英语怎么表达？",
+        "answer": "sweep",
+        "options": [
+          "sweep",
+          "close",
+          "put",
+          "talk"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“打扫，清扫”对应的英语单词",
+        "answer": "sweep"
+      },
+      {
+        "id": "g3b-u02-wl09-choice",
+        "kind": "choice",
+        "prompt": "“地板，地面”用英语怎么表达？",
+        "answer": "floor",
+        "options": [
+          "floor",
+          "classroom",
+          "window",
+          "blackboard"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“地板，地面”对应的英语单词",
+        "answer": "floor"
+      },
+      {
+        "id": "g3b-u02-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“让”对应的英语单词",
+        "answer": "let"
+      },
+      {
+        "id": "g3b-u02-wl11-choice",
+        "kind": "choice",
+        "prompt": "“我们”用英语怎么表达？",
+        "answer": "us",
+        "options": [
+          "us",
+          "our",
+          "that",
+          "they"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“我们”对应的英语单词",
+        "answer": "us"
+      },
+      {
+        "id": "g3b-u02-wl12-choice",
+        "kind": "choice",
+        "prompt": "“课桌，书桌”用英语怎么表达？",
+        "answer": "desk",
+        "options": [
+          "desk",
+          "classroom",
+          "window",
+          "blackboard"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“课桌，书桌”对应的英语单词",
+        "answer": "desk"
+      },
+      {
+        "id": "g3b-u02-wl13-choice",
+        "kind": "choice",
+        "prompt": "“脏的”用英语怎么表达？",
+        "answer": "dirty",
+        "options": [
+          "dirty",
+          "clean",
+          "long",
+          "late"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“脏的”对应的英语单词",
+        "answer": "dirty"
+      },
+      {
+        "id": "g3b-u02-wl16-choice",
+        "kind": "choice",
+        "prompt": "“洁净的，干净的”用英语怎么表达？",
+        "answer": "clean",
+        "options": [
+          "clean",
+          "dirty",
+          "long",
+          "late"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u02-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“洁净的，干净的”对应的英语单词",
+        "answer": "clean"
+      },
+      {
+        "id": "g3b-u02-wl17-spell",
+        "kind": "spell",
+        "prompt": "拼写“（使）保持，处于”对应的英语单词",
+        "answer": "keep"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "put away",
+        "meaning": "将……收起，把……放回原处",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Me too!",
+        "meaning": "我也是！",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "All right.",
+        "meaning": "好的。",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 2 词表中 16 条核心词汇与表达",
+      "认识 1 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g3b-u03",
+    "title": "School rules",
+    "description": "校园规则",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u03-wl01",
+        "word": "rule",
+        "meaning": "规则，规章",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl02",
+        "word": "library",
+        "meaning": "图书馆",
+        "emoji": "📚",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl03",
+        "word": "shout",
+        "meaning": "大声说，叫，嚷",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u03-wl04",
+        "word": "talk",
+        "meaning": "说话，讲话",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl05",
+        "word": "eat",
+        "meaning": "吃",
+        "emoji": "🍽️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl06",
+        "word": "run",
+        "meaning": "跑，奔跑",
+        "emoji": "🏃",
+        "example": "I can run.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl07",
+        "word": "Mrs (AmE Mrs.)",
+        "meaning": "太太，夫人",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl08",
+        "word": "sit down",
+        "meaning": "坐下",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl09",
+        "word": "late",
+        "meaning": "迟的，晚的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl10",
+        "word": "look out of",
+        "meaning": "朝……外看",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl11",
+        "word": "on",
+        "meaning": "在……上面",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl12",
+        "word": "shh",
+        "meaning": "嘘",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u03-wl13",
+        "word": "fun",
+        "meaning": "有趣的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl14",
+        "word": "quiet",
+        "meaning": "安静的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl15",
+        "word": "follow",
+        "meaning": "遵循，听从",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u03-wl16",
+        "word": "Would you like …?",
+        "meaning": "你想要……吗？",
+        "emoji": "",
+        "example": "Would you like an apple?",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl17",
+        "word": "sweet",
+        "meaning": "糖果",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u03-wl18",
+        "word": "look at",
+        "meaning": "看，瞧",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u03-wl19",
+        "word": "That’s all right.",
+        "meaning": "不要紧。",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u03-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“规则，规章”对应的英语单词",
+        "answer": "rule"
+      },
+      {
+        "id": "g3b-u03-wl02-choice",
+        "kind": "choice",
+        "prompt": "“图书馆”用英语怎么表达？",
+        "answer": "library",
+        "options": [
+          "library",
+          "school",
+          "pen",
+          "pencil"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“图书馆”对应的英语单词",
+        "answer": "library"
+      },
+      {
+        "id": "g3b-u03-wl04-choice",
+        "kind": "choice",
+        "prompt": "“说话，讲话”用英语怎么表达？",
+        "answer": "talk",
+        "options": [
+          "talk",
+          "eat",
+          "run",
+          "put"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“说话，讲话”对应的英语单词",
+        "answer": "talk"
+      },
+      {
+        "id": "g3b-u03-wl05-choice",
+        "kind": "choice",
+        "prompt": "“吃”用英语怎么表达？",
+        "answer": "eat",
+        "options": [
+          "eat",
+          "talk",
+          "run",
+          "put"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“吃”对应的英语单词",
+        "answer": "eat"
+      },
+      {
+        "id": "g3b-u03-wl06-choice",
+        "kind": "choice",
+        "prompt": "“跑，奔跑”用英语怎么表达？",
+        "answer": "run",
+        "options": [
+          "run",
+          "talk",
+          "eat",
+          "put"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“跑，奔跑”对应的英语单词",
+        "answer": "run"
+      },
+      {
+        "id": "g3b-u03-wl09-choice",
+        "kind": "choice",
+        "prompt": "“迟的，晚的”用英语怎么表达？",
+        "answer": "late",
+        "options": [
+          "late",
+          "fun",
+          "quiet",
+          "long"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“迟的，晚的”对应的英语单词",
+        "answer": "late"
+      },
+      {
+        "id": "g3b-u03-wl11-choice",
+        "kind": "choice",
+        "prompt": "“在……上面”用英语怎么表达？",
+        "answer": "on",
+        "options": [
+          "on",
+          "behind",
+          "by",
+          "under"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“在……上面”对应的英语单词",
+        "answer": "on"
+      },
+      {
+        "id": "g3b-u03-wl13-choice",
+        "kind": "choice",
+        "prompt": "“有趣的”用英语怎么表达？",
+        "answer": "fun",
+        "options": [
+          "fun",
+          "late",
+          "quiet",
+          "long"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“有趣的”对应的英语单词",
+        "answer": "fun"
+      },
+      {
+        "id": "g3b-u03-wl14-choice",
+        "kind": "choice",
+        "prompt": "“安静的”用英语怎么表达？",
+        "answer": "quiet",
+        "options": [
+          "quiet",
+          "late",
+          "fun",
+          "long"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u03-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“安静的”对应的英语单词",
+        "answer": "quiet"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "Mrs (AmE Mrs.)",
+        "meaning": "太太，夫人",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "sit down",
+        "meaning": "坐下",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "look out of",
+        "meaning": "朝……外看",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Would you like …?",
+        "meaning": "你想要……吗？",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "look at",
+        "meaning": "看，瞧",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "That’s all right.",
+        "meaning": "不要紧。",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 3 词表中 15 条核心词汇与表达",
+      "认识 4 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g3b-u04",
+    "title": "Have fun after class",
+    "description": "课后活动",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u04-wl01",
+        "word": "have fun",
+        "meaning": "玩得高兴",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl02",
+        "word": "after class",
+        "meaning": "课后",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl03",
+        "word": "behind",
+        "meaning": "在……的后面",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl04",
+        "word": "tree",
+        "meaning": "树，树木",
+        "emoji": "🌳",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl05",
+        "word": "by",
+        "meaning": "在……旁边",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl06",
+        "word": "under",
+        "meaning": "在……下面",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl07",
+        "word": "flower",
+        "meaning": "花，花朵",
+        "emoji": "🌸",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 33,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl08",
+        "word": "break time",
+        "meaning": "课间休息",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u04-wl09",
+        "word": "play",
+        "meaning": "玩耍",
+        "emoji": "",
+        "example": "Let's play!",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl10",
+        "word": "outside",
+        "meaning": "在外面",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u04-wl11",
+        "word": "ready",
+        "meaning": "准备好",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u04-wl12",
+        "word": "go",
+        "meaning": "开始；移动",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl13",
+        "word": "plane",
+        "meaning": "飞机",
+        "emoji": "✈️",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl14",
+        "word": "very",
+        "meaning": "很，非常",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl15",
+        "word": "far",
+        "meaning": "远",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl16",
+        "word": "where",
+        "meaning": "在哪里，到哪里",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl17",
+        "word": "find",
+        "meaning": "找到",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl18",
+        "word": "over",
+        "meaning": "结束",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl19",
+        "word": "student",
+        "meaning": "学生",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl20",
+        "word": "from",
+        "meaning": "来自",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl21",
+        "word": "Art Club",
+        "meaning": "美术社团",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u04-wl22",
+        "word": "nice",
+        "meaning": "美好的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl23",
+        "word": "of",
+        "meaning": "关于",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl24",
+        "word": "garden",
+        "meaning": "花园，园圃",
+        "emoji": "🌷",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl25",
+        "word": "butterfly",
+        "meaning": "蝴蝶",
+        "emoji": "🦋",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u04-wl26",
+        "word": "beautiful",
+        "meaning": "美丽的，美好的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u04-wl27",
+        "word": "duck",
+        "meaning": "鸭子",
+        "emoji": "🦆",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u04-wl03-choice",
+        "kind": "choice",
+        "prompt": "“在……的后面”用英语怎么表达？",
+        "answer": "behind",
+        "options": [
+          "behind",
+          "by",
+          "under",
+          "where"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“在……的后面”对应的英语单词",
+        "answer": "behind"
+      },
+      {
+        "id": "g3b-u04-wl04-choice",
+        "kind": "choice",
+        "prompt": "“树，树木”用英语怎么表达？",
+        "answer": "tree",
+        "options": [
+          "tree",
+          "flower",
+          "garden",
+          "butterfly"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“树，树木”对应的英语单词",
+        "answer": "tree"
+      },
+      {
+        "id": "g3b-u04-wl05-choice",
+        "kind": "choice",
+        "prompt": "“在……旁边”用英语怎么表达？",
+        "answer": "by",
+        "options": [
+          "by",
+          "behind",
+          "under",
+          "where"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“在……旁边”对应的英语单词",
+        "answer": "by"
+      },
+      {
+        "id": "g3b-u04-wl06-choice",
+        "kind": "choice",
+        "prompt": "“在……下面”用英语怎么表达？",
+        "answer": "under",
+        "options": [
+          "under",
+          "behind",
+          "by",
+          "where"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“在……下面”对应的英语单词",
+        "answer": "under"
+      },
+      {
+        "id": "g3b-u04-wl07-choice",
+        "kind": "choice",
+        "prompt": "“花，花朵”用英语怎么表达？",
+        "answer": "flower",
+        "options": [
+          "flower",
+          "tree",
+          "garden",
+          "butterfly"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“花，花朵”对应的英语单词",
+        "answer": "flower"
+      },
+      {
+        "id": "g3b-u04-wl09-choice",
+        "kind": "choice",
+        "prompt": "“玩耍”用英语怎么表达？",
+        "answer": "play",
+        "options": [
+          "play",
+          "find",
+          "put",
+          "close"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“玩耍”对应的英语单词",
+        "answer": "play"
+      },
+      {
+        "id": "g3b-u04-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“开始；移动”对应的英语单词",
+        "answer": "go"
+      },
+      {
+        "id": "g3b-u04-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“飞机”对应的英语单词",
+        "answer": "plane"
+      },
+      {
+        "id": "g3b-u04-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“很，非常”对应的英语单词",
+        "answer": "very"
+      },
+      {
+        "id": "g3b-u04-wl15-choice",
+        "kind": "choice",
+        "prompt": "“远”用英语怎么表达？",
+        "answer": "far",
+        "options": [
+          "far",
+          "nice",
+          "beautiful",
+          "long"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl15-spell",
+        "kind": "spell",
+        "prompt": "拼写“远”对应的英语单词",
+        "answer": "far"
+      },
+      {
+        "id": "g3b-u04-wl16-choice",
+        "kind": "choice",
+        "prompt": "“在哪里，到哪里”用英语怎么表达？",
+        "answer": "where",
+        "options": [
+          "where",
+          "behind",
+          "by",
+          "under"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“在哪里，到哪里”对应的英语单词",
+        "answer": "where"
+      },
+      {
+        "id": "g3b-u04-wl17-choice",
+        "kind": "choice",
+        "prompt": "“找到”用英语怎么表达？",
+        "answer": "find",
+        "options": [
+          "find",
+          "play",
+          "put",
+          "close"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl17-spell",
+        "kind": "spell",
+        "prompt": "拼写“找到”对应的英语单词",
+        "answer": "find"
+      },
+      {
+        "id": "g3b-u04-wl18-spell",
+        "kind": "spell",
+        "prompt": "拼写“结束”对应的英语单词",
+        "answer": "over"
+      },
+      {
+        "id": "g3b-u04-wl19-spell",
+        "kind": "spell",
+        "prompt": "拼写“学生”对应的英语单词",
+        "answer": "student"
+      },
+      {
+        "id": "g3b-u04-wl20-choice",
+        "kind": "choice",
+        "prompt": "“来自”用英语怎么表达？",
+        "answer": "from",
+        "options": [
+          "from",
+          "behind",
+          "by",
+          "under"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl20-spell",
+        "kind": "spell",
+        "prompt": "拼写“来自”对应的英语单词",
+        "answer": "from"
+      },
+      {
+        "id": "g3b-u04-wl22-choice",
+        "kind": "choice",
+        "prompt": "“美好的”用英语怎么表达？",
+        "answer": "nice",
+        "options": [
+          "nice",
+          "far",
+          "beautiful",
+          "long"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl22-spell",
+        "kind": "spell",
+        "prompt": "拼写“美好的”对应的英语单词",
+        "answer": "nice"
+      },
+      {
+        "id": "g3b-u04-wl23-choice",
+        "kind": "choice",
+        "prompt": "“关于”用英语怎么表达？",
+        "answer": "of",
+        "options": [
+          "of",
+          "behind",
+          "by",
+          "under"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl23-spell",
+        "kind": "spell",
+        "prompt": "拼写“关于”对应的英语单词",
+        "answer": "of"
+      },
+      {
+        "id": "g3b-u04-wl24-choice",
+        "kind": "choice",
+        "prompt": "“花园，园圃”用英语怎么表达？",
+        "answer": "garden",
+        "options": [
+          "garden",
+          "tree",
+          "flower",
+          "butterfly"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl24-spell",
+        "kind": "spell",
+        "prompt": "拼写“花园，园圃”对应的英语单词",
+        "answer": "garden"
+      },
+      {
+        "id": "g3b-u04-wl25-choice",
+        "kind": "choice",
+        "prompt": "“蝴蝶”用英语怎么表达？",
+        "answer": "butterfly",
+        "options": [
+          "butterfly",
+          "tree",
+          "flower",
+          "garden"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl26-choice",
+        "kind": "choice",
+        "prompt": "“美丽的，美好的”用英语怎么表达？",
+        "answer": "beautiful",
+        "options": [
+          "beautiful",
+          "far",
+          "nice",
+          "long"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl26-spell",
+        "kind": "spell",
+        "prompt": "拼写“美丽的，美好的”对应的英语单词",
+        "answer": "beautiful"
+      },
+      {
+        "id": "g3b-u04-wl27-choice",
+        "kind": "choice",
+        "prompt": "“鸭子”用英语怎么表达？",
+        "answer": "duck",
+        "options": [
+          "duck",
+          "tree",
+          "flower",
+          "garden"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u04-wl27-spell",
+        "kind": "spell",
+        "prompt": "拼写“鸭子”对应的英语单词",
+        "answer": "duck"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "have fun",
+        "meaning": "玩得高兴",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "after class",
+        "meaning": "课后",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "break time",
+        "meaning": "课间休息",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "Art Club",
+        "meaning": "美术社团",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 4 词表中 22 条核心词汇与表达",
+      "认识 5 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g3b-u05",
+    "title": "Fruit",
+    "description": "水果",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u05-wl01",
+        "word": "fruit",
+        "meaning": "水果",
+        "emoji": "🍇",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl02",
+        "word": "orange",
+        "meaning": "橙子，柑橘",
+        "emoji": "🍊",
+        "example": "I like oranges.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl03",
+        "word": "grape",
+        "meaning": "葡萄",
+        "emoji": "🍇",
+        "example": "These grapes are sweet.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl04",
+        "word": "banana",
+        "meaning": "香蕉",
+        "emoji": "🍌",
+        "example": "I like bananas.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl05",
+        "word": "apple",
+        "meaning": "苹果",
+        "emoji": "🍎",
+        "example": "I like apples.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 43,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl06",
+        "word": "mango",
+        "meaning": "芒果",
+        "emoji": "🥭",
+        "example": "This mango is sweet.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 43,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl07",
+        "word": "share",
+        "meaning": "分享，共享",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl08",
+        "word": "like",
+        "meaning": "喜欢，喜爱",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl09",
+        "word": "they",
+        "meaning": "它们，他们，她们",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl10",
+        "word": "sweet",
+        "meaning": "甜的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u05-wl11",
+        "word": "make",
+        "meaning": "做，制造",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl12",
+        "word": "salad",
+        "meaning": "色拉，沙拉",
+        "emoji": "🥗",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u05-wl13",
+        "word": "together",
+        "meaning": "在一起，共同",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u05-wl14",
+        "word": "an",
+        "meaning": "一（个）",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl15",
+        "word": "What about you?",
+        "meaning": "你呢？",
+        "emoji": "",
+        "example": "I like apples. What about you?",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u05-wl16",
+        "word": "good",
+        "meaning": "有用，有好处",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u05-wl01-choice",
+        "kind": "choice",
+        "prompt": "“水果”用英语怎么表达？",
+        "answer": "fruit",
+        "options": [
+          "fruit",
+          "orange",
+          "grape",
+          "banana"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“水果”对应的英语单词",
+        "answer": "fruit"
+      },
+      {
+        "id": "g3b-u05-wl02-choice",
+        "kind": "choice",
+        "prompt": "“橙子，柑橘”用英语怎么表达？",
+        "answer": "orange",
+        "options": [
+          "orange",
+          "fruit",
+          "grape",
+          "banana"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“橙子，柑橘”对应的英语单词",
+        "answer": "orange"
+      },
+      {
+        "id": "g3b-u05-wl03-choice",
+        "kind": "choice",
+        "prompt": "“葡萄”用英语怎么表达？",
+        "answer": "grape",
+        "options": [
+          "grape",
+          "fruit",
+          "orange",
+          "banana"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“葡萄”对应的英语单词",
+        "answer": "grape"
+      },
+      {
+        "id": "g3b-u05-wl04-choice",
+        "kind": "choice",
+        "prompt": "“香蕉”用英语怎么表达？",
+        "answer": "banana",
+        "options": [
+          "banana",
+          "fruit",
+          "orange",
+          "grape"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“香蕉”对应的英语单词",
+        "answer": "banana"
+      },
+      {
+        "id": "g3b-u05-wl05-choice",
+        "kind": "choice",
+        "prompt": "“苹果”用英语怎么表达？",
+        "answer": "apple",
+        "options": [
+          "apple",
+          "fruit",
+          "orange",
+          "grape"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“苹果”对应的英语单词",
+        "answer": "apple"
+      },
+      {
+        "id": "g3b-u05-wl06-choice",
+        "kind": "choice",
+        "prompt": "“芒果”用英语怎么表达？",
+        "answer": "mango",
+        "options": [
+          "mango",
+          "fruit",
+          "orange",
+          "grape"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“芒果”对应的英语单词",
+        "answer": "mango"
+      },
+      {
+        "id": "g3b-u05-wl07-choice",
+        "kind": "choice",
+        "prompt": "“分享，共享”用英语怎么表达？",
+        "answer": "share",
+        "options": [
+          "share",
+          "like",
+          "make",
+          "put"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“分享，共享”对应的英语单词",
+        "answer": "share"
+      },
+      {
+        "id": "g3b-u05-wl08-choice",
+        "kind": "choice",
+        "prompt": "“喜欢，喜爱”用英语怎么表达？",
+        "answer": "like",
+        "options": [
+          "like",
+          "share",
+          "make",
+          "put"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“喜欢，喜爱”对应的英语单词",
+        "answer": "like"
+      },
+      {
+        "id": "g3b-u05-wl09-choice",
+        "kind": "choice",
+        "prompt": "“它们，他们，她们”用英语怎么表达？",
+        "answer": "they",
+        "options": [
+          "they",
+          "an",
+          "that",
+          "our"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“它们，他们，她们”对应的英语单词",
+        "answer": "they"
+      },
+      {
+        "id": "g3b-u05-wl11-choice",
+        "kind": "choice",
+        "prompt": "“做，制造”用英语怎么表达？",
+        "answer": "make",
+        "options": [
+          "make",
+          "share",
+          "like",
+          "put"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“做，制造”对应的英语单词",
+        "answer": "make"
+      },
+      {
+        "id": "g3b-u05-wl12-choice",
+        "kind": "choice",
+        "prompt": "“色拉，沙拉”用英语怎么表达？",
+        "answer": "salad",
+        "options": [
+          "salad",
+          "fruit",
+          "orange",
+          "grape"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl14-choice",
+        "kind": "choice",
+        "prompt": "“一（个）”用英语怎么表达？",
+        "answer": "an",
+        "options": [
+          "an",
+          "they",
+          "that",
+          "our"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“一（个）”对应的英语单词",
+        "answer": "an"
+      },
+      {
+        "id": "g3b-u05-wl16-choice",
+        "kind": "choice",
+        "prompt": "“有用，有好处”用英语怎么表达？",
+        "answer": "good",
+        "options": [
+          "good",
+          "long",
+          "dirty",
+          "clean"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u05-wl16-spell",
+        "kind": "spell",
+        "prompt": "拼写“有用，有好处”对应的英语单词",
+        "answer": "good"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "What about you?",
+        "meaning": "你呢？",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 5 词表中 13 条核心词汇与表达",
+      "认识 3 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g3b-u06",
+    "title": "On the farm",
+    "description": "农场",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u06-wl01",
+        "word": "farm",
+        "meaning": "农场",
+        "emoji": "🚜",
+        "example": "Welcome to my farm.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl02",
+        "word": "cow",
+        "meaning": "奶牛",
+        "emoji": "🐄",
+        "example": "Look at the cow.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl03",
+        "word": "sheep",
+        "meaning": "羊，绵羊",
+        "emoji": "🐑",
+        "example": "The sheep is on the farm.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl04",
+        "word": "rabbit",
+        "meaning": "兔子",
+        "emoji": "🐇",
+        "example": "I can see a rabbit.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl05",
+        "word": "chicken",
+        "meaning": "鸡",
+        "emoji": "🐔",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl06",
+        "word": "carrot",
+        "meaning": "胡萝卜",
+        "emoji": "🥕",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 51,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl07",
+        "word": "pig",
+        "meaning": "猪",
+        "emoji": "🐖",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 51,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl08",
+        "word": "Welcome to …",
+        "meaning": "欢迎来到……",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl09",
+        "word": "home",
+        "meaning": "家，住所",
+        "emoji": "🏠",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl10",
+        "word": "these",
+        "meaning": "这些",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl11",
+        "word": "those",
+        "meaning": "那些",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl12",
+        "word": "help",
+        "meaning": "帮助，协助",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl13",
+        "word": "cute",
+        "meaning": "可爱的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 55,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u06-wl14",
+        "word": "move",
+        "meaning": "移动",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 55,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u06-wl01-choice",
+        "kind": "choice",
+        "prompt": "“农场”用英语怎么表达？",
+        "answer": "farm",
+        "options": [
+          "farm",
+          "cow",
+          "sheep",
+          "rabbit"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“农场”对应的英语单词",
+        "answer": "farm"
+      },
+      {
+        "id": "g3b-u06-wl02-choice",
+        "kind": "choice",
+        "prompt": "“奶牛”用英语怎么表达？",
+        "answer": "cow",
+        "options": [
+          "cow",
+          "farm",
+          "sheep",
+          "rabbit"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“奶牛”对应的英语单词",
+        "answer": "cow"
+      },
+      {
+        "id": "g3b-u06-wl03-choice",
+        "kind": "choice",
+        "prompt": "“羊，绵羊”用英语怎么表达？",
+        "answer": "sheep",
+        "options": [
+          "sheep",
+          "farm",
+          "cow",
+          "rabbit"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“羊，绵羊”对应的英语单词",
+        "answer": "sheep"
+      },
+      {
+        "id": "g3b-u06-wl04-choice",
+        "kind": "choice",
+        "prompt": "“兔子”用英语怎么表达？",
+        "answer": "rabbit",
+        "options": [
+          "rabbit",
+          "farm",
+          "cow",
+          "sheep"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“兔子”对应的英语单词",
+        "answer": "rabbit"
+      },
+      {
+        "id": "g3b-u06-wl05-choice",
+        "kind": "choice",
+        "prompt": "“鸡”用英语怎么表达？",
+        "answer": "chicken",
+        "options": [
+          "chicken",
+          "farm",
+          "cow",
+          "sheep"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“鸡”对应的英语单词",
+        "answer": "chicken"
+      },
+      {
+        "id": "g3b-u06-wl06-choice",
+        "kind": "choice",
+        "prompt": "“胡萝卜”用英语怎么表达？",
+        "answer": "carrot",
+        "options": [
+          "carrot",
+          "fruit",
+          "orange",
+          "grape"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“胡萝卜”对应的英语单词",
+        "answer": "carrot"
+      },
+      {
+        "id": "g3b-u06-wl07-choice",
+        "kind": "choice",
+        "prompt": "“猪”用英语怎么表达？",
+        "answer": "pig",
+        "options": [
+          "pig",
+          "farm",
+          "cow",
+          "sheep"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“猪”对应的英语单词",
+        "answer": "pig"
+      },
+      {
+        "id": "g3b-u06-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“家，住所”对应的英语单词",
+        "answer": "home"
+      },
+      {
+        "id": "g3b-u06-wl10-choice",
+        "kind": "choice",
+        "prompt": "“这些”用英语怎么表达？",
+        "answer": "these",
+        "options": [
+          "these",
+          "those",
+          "that",
+          "our"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“这些”对应的英语单词",
+        "answer": "these"
+      },
+      {
+        "id": "g3b-u06-wl11-choice",
+        "kind": "choice",
+        "prompt": "“那些”用英语怎么表达？",
+        "answer": "those",
+        "options": [
+          "those",
+          "these",
+          "that",
+          "our"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“那些”对应的英语单词",
+        "answer": "those"
+      },
+      {
+        "id": "g3b-u06-wl12-choice",
+        "kind": "choice",
+        "prompt": "“帮助，协助”用英语怎么表达？",
+        "answer": "help",
+        "options": [
+          "help",
+          "move",
+          "put",
+          "close"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“帮助，协助”对应的英语单词",
+        "answer": "help"
+      },
+      {
+        "id": "g3b-u06-wl13-choice",
+        "kind": "choice",
+        "prompt": "“可爱的”用英语怎么表达？",
+        "answer": "cute",
+        "options": [
+          "cute",
+          "long",
+          "dirty",
+          "clean"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“可爱的”对应的英语单词",
+        "answer": "cute"
+      },
+      {
+        "id": "g3b-u06-wl14-choice",
+        "kind": "choice",
+        "prompt": "“移动”用英语怎么表达？",
+        "answer": "move",
+        "options": [
+          "move",
+          "help",
+          "put",
+          "close"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u06-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“移动”对应的英语单词",
+        "answer": "move"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "Welcome to …",
+        "meaning": "欢迎来到……",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 6 词表中 14 条核心词汇与表达",
+      "认识 0 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g3b-u07",
+    "title": "Animals",
+    "description": "动物",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u07-wl01",
+        "word": "animal",
+        "meaning": "动物",
+        "emoji": "🐾",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl02",
+        "word": "monkey",
+        "meaning": "猴子",
+        "emoji": "🐒",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl03",
+        "word": "lion",
+        "meaning": "狮子",
+        "emoji": "🦁",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl04",
+        "word": "bear",
+        "meaning": "熊",
+        "emoji": "🐻",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl05",
+        "word": "tiger",
+        "meaning": "老虎",
+        "emoji": "🐅",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl06",
+        "word": "panda",
+        "meaning": "大熊猫",
+        "emoji": "🐼",
+        "example": "Look at the panda.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl07",
+        "word": "elephant",
+        "meaning": "大象",
+        "emoji": "🐘",
+        "example": "The elephant is big.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl08",
+        "word": "lunchtime",
+        "meaning": "午餐时间",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u07-wl09",
+        "word": "fish",
+        "meaning": "鱼；鱼肉",
+        "emoji": "🐟",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl10",
+        "word": "high five",
+        "meaning": "相互高举胳膊击掌",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u07-wl11",
+        "word": "feed",
+        "meaning": "给食物，喂养",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u07-wl12",
+        "word": "zoo",
+        "meaning": "动物园",
+        "emoji": "🦒",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl13",
+        "word": "go",
+        "meaning": "去，走",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u07-wl14",
+        "word": "see",
+        "meaning": "看，见",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u07-wl01-choice",
+        "kind": "choice",
+        "prompt": "“动物”用英语怎么表达？",
+        "answer": "animal",
+        "options": [
+          "animal",
+          "monkey",
+          "lion",
+          "bear"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl01-spell",
+        "kind": "spell",
+        "prompt": "拼写“动物”对应的英语单词",
+        "answer": "animal"
+      },
+      {
+        "id": "g3b-u07-wl02-choice",
+        "kind": "choice",
+        "prompt": "“猴子”用英语怎么表达？",
+        "answer": "monkey",
+        "options": [
+          "monkey",
+          "animal",
+          "lion",
+          "bear"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“猴子”对应的英语单词",
+        "answer": "monkey"
+      },
+      {
+        "id": "g3b-u07-wl03-choice",
+        "kind": "choice",
+        "prompt": "“狮子”用英语怎么表达？",
+        "answer": "lion",
+        "options": [
+          "lion",
+          "animal",
+          "monkey",
+          "bear"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“狮子”对应的英语单词",
+        "answer": "lion"
+      },
+      {
+        "id": "g3b-u07-wl04-choice",
+        "kind": "choice",
+        "prompt": "“熊”用英语怎么表达？",
+        "answer": "bear",
+        "options": [
+          "bear",
+          "animal",
+          "monkey",
+          "lion"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“熊”对应的英语单词",
+        "answer": "bear"
+      },
+      {
+        "id": "g3b-u07-wl05-choice",
+        "kind": "choice",
+        "prompt": "“老虎”用英语怎么表达？",
+        "answer": "tiger",
+        "options": [
+          "tiger",
+          "animal",
+          "monkey",
+          "lion"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“老虎”对应的英语单词",
+        "answer": "tiger"
+      },
+      {
+        "id": "g3b-u07-wl06-choice",
+        "kind": "choice",
+        "prompt": "“大熊猫”用英语怎么表达？",
+        "answer": "panda",
+        "options": [
+          "panda",
+          "animal",
+          "monkey",
+          "lion"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“大熊猫”对应的英语单词",
+        "answer": "panda"
+      },
+      {
+        "id": "g3b-u07-wl07-choice",
+        "kind": "choice",
+        "prompt": "“大象”用英语怎么表达？",
+        "answer": "elephant",
+        "options": [
+          "elephant",
+          "animal",
+          "monkey",
+          "lion"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“大象”对应的英语单词",
+        "answer": "elephant"
+      },
+      {
+        "id": "g3b-u07-wl09-choice",
+        "kind": "choice",
+        "prompt": "“鱼；鱼肉”用英语怎么表达？",
+        "answer": "fish",
+        "options": [
+          "fish",
+          "animal",
+          "monkey",
+          "lion"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“鱼；鱼肉”对应的英语单词",
+        "answer": "fish"
+      },
+      {
+        "id": "g3b-u07-wl12-choice",
+        "kind": "choice",
+        "prompt": "“动物园”用英语怎么表达？",
+        "answer": "zoo",
+        "options": [
+          "zoo",
+          "animal",
+          "monkey",
+          "lion"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl12-spell",
+        "kind": "spell",
+        "prompt": "拼写“动物园”对应的英语单词",
+        "answer": "zoo"
+      },
+      {
+        "id": "g3b-u07-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“去，走”对应的英语单词",
+        "answer": "go"
+      },
+      {
+        "id": "g3b-u07-wl14-choice",
+        "kind": "choice",
+        "prompt": "“看，见”用英语怎么表达？",
+        "answer": "see",
+        "options": [
+          "see",
+          "put",
+          "close",
+          "sweep"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u07-wl14-spell",
+        "kind": "spell",
+        "prompt": "拼写“看，见”对应的英语单词",
+        "answer": "see"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "high five",
+        "meaning": "相互高举胳膊击掌",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 7 词表中 11 条核心词汇与表达",
+      "认识 3 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  },
+  {
+    "id": "g3b-u08",
+    "title": "Colours",
+    "description": "颜色",
+    "status": "textbook-wordlist-verified",
+    "cards": [
+      {
+        "id": "g3b-u08-wl01",
+        "word": "colour (AmE color)",
+        "meaning": "颜色，色彩",
+        "emoji": "",
+        "example": "",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl02",
+        "word": "yellow",
+        "meaning": "黄色的",
+        "emoji": "🟡",
+        "example": "The flower is yellow.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl03",
+        "word": "blue",
+        "meaning": "蓝色的",
+        "emoji": "🔵",
+        "example": "The sky is blue.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl04",
+        "word": "red",
+        "meaning": "红色的",
+        "emoji": "🔴",
+        "example": "The apple is red.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl05",
+        "word": "orange",
+        "meaning": "橙红色的，橘黄色的",
+        "emoji": "🍊",
+        "example": "I like oranges.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl06",
+        "word": "pink",
+        "meaning": "粉红色的",
+        "emoji": "🩷",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl07",
+        "word": "green",
+        "meaning": "绿色的",
+        "emoji": "🟢",
+        "example": "The tree is green.",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 67,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl08",
+        "word": "brown",
+        "meaning": "棕色的",
+        "emoji": "🟤",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 67,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl09",
+        "word": "black",
+        "meaning": "黑色的",
+        "emoji": "⚫",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 67,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl10",
+        "word": "white",
+        "meaning": "白色的",
+        "emoji": "⚪",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 67,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl11",
+        "word": "buy",
+        "meaning": "买",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl12",
+        "word": "balloon",
+        "meaning": "气球",
+        "emoji": "🎈",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u08-wl13",
+        "word": "sure",
+        "meaning": "（表示同意）当然",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl14",
+        "word": "chameleon",
+        "meaning": "变色龙",
+        "emoji": "🦎",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g3b-u08-wl15",
+        "word": "little",
+        "meaning": "小的",
+        "emoji": "",
+        "example": "",
+        "category": "word",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl16",
+        "word": "What colour is ...?",
+        "meaning": "……是什么颜色的？",
+        "emoji": "",
+        "example": "What colour is the ball?",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g3b-u08-wl17",
+        "word": "How come?",
+        "meaning": "怎么回事？",
+        "emoji": "",
+        "example": "How come?",
+        "category": "expression",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 71,
+          "nonCore": false
+        }
+      }
+    ],
+    "questions": [
+      {
+        "id": "g3b-u08-wl02-choice",
+        "kind": "choice",
+        "prompt": "“黄色的”用英语怎么表达？",
+        "answer": "yellow",
+        "options": [
+          "yellow",
+          "blue",
+          "red",
+          "pink"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl02-spell",
+        "kind": "spell",
+        "prompt": "拼写“黄色的”对应的英语单词",
+        "answer": "yellow"
+      },
+      {
+        "id": "g3b-u08-wl03-choice",
+        "kind": "choice",
+        "prompt": "“蓝色的”用英语怎么表达？",
+        "answer": "blue",
+        "options": [
+          "blue",
+          "yellow",
+          "red",
+          "pink"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl03-spell",
+        "kind": "spell",
+        "prompt": "拼写“蓝色的”对应的英语单词",
+        "answer": "blue"
+      },
+      {
+        "id": "g3b-u08-wl04-choice",
+        "kind": "choice",
+        "prompt": "“红色的”用英语怎么表达？",
+        "answer": "red",
+        "options": [
+          "red",
+          "yellow",
+          "blue",
+          "pink"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl04-spell",
+        "kind": "spell",
+        "prompt": "拼写“红色的”对应的英语单词",
+        "answer": "red"
+      },
+      {
+        "id": "g3b-u08-wl05-choice",
+        "kind": "choice",
+        "prompt": "“橙红色的，橘黄色的”用英语怎么表达？",
+        "answer": "orange",
+        "options": [
+          "orange",
+          "fruit",
+          "grape",
+          "banana"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl05-spell",
+        "kind": "spell",
+        "prompt": "拼写“橙红色的，橘黄色的”对应的英语单词",
+        "answer": "orange"
+      },
+      {
+        "id": "g3b-u08-wl06-choice",
+        "kind": "choice",
+        "prompt": "“粉红色的”用英语怎么表达？",
+        "answer": "pink",
+        "options": [
+          "pink",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl06-spell",
+        "kind": "spell",
+        "prompt": "拼写“粉红色的”对应的英语单词",
+        "answer": "pink"
+      },
+      {
+        "id": "g3b-u08-wl07-choice",
+        "kind": "choice",
+        "prompt": "“绿色的”用英语怎么表达？",
+        "answer": "green",
+        "options": [
+          "green",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl07-spell",
+        "kind": "spell",
+        "prompt": "拼写“绿色的”对应的英语单词",
+        "answer": "green"
+      },
+      {
+        "id": "g3b-u08-wl08-choice",
+        "kind": "choice",
+        "prompt": "“棕色的”用英语怎么表达？",
+        "answer": "brown",
+        "options": [
+          "brown",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl08-spell",
+        "kind": "spell",
+        "prompt": "拼写“棕色的”对应的英语单词",
+        "answer": "brown"
+      },
+      {
+        "id": "g3b-u08-wl09-choice",
+        "kind": "choice",
+        "prompt": "“黑色的”用英语怎么表达？",
+        "answer": "black",
+        "options": [
+          "black",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl09-spell",
+        "kind": "spell",
+        "prompt": "拼写“黑色的”对应的英语单词",
+        "answer": "black"
+      },
+      {
+        "id": "g3b-u08-wl10-choice",
+        "kind": "choice",
+        "prompt": "“白色的”用英语怎么表达？",
+        "answer": "white",
+        "options": [
+          "white",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl10-spell",
+        "kind": "spell",
+        "prompt": "拼写“白色的”对应的英语单词",
+        "answer": "white"
+      },
+      {
+        "id": "g3b-u08-wl11-choice",
+        "kind": "choice",
+        "prompt": "“买”用英语怎么表达？",
+        "answer": "buy",
+        "options": [
+          "buy",
+          "put",
+          "close",
+          "sweep"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl11-spell",
+        "kind": "spell",
+        "prompt": "拼写“买”对应的英语单词",
+        "answer": "buy"
+      },
+      {
+        "id": "g3b-u08-wl13-spell",
+        "kind": "spell",
+        "prompt": "拼写“（表示同意）当然”对应的英语单词",
+        "answer": "sure"
+      },
+      {
+        "id": "g3b-u08-wl15-choice",
+        "kind": "choice",
+        "prompt": "“小的”用英语怎么表达？",
+        "answer": "little",
+        "options": [
+          "little",
+          "long",
+          "dirty",
+          "clean"
+        ],
+        "distractorStrategy": "textbook-semantic-category-v2"
+      },
+      {
+        "id": "g3b-u08-wl15-spell",
+        "kind": "spell",
+        "prompt": "拼写“小的”对应的英语单词",
+        "answer": "little"
+      }
+    ],
+    "phrases": [
+      {
+        "english": "colour (AmE color)",
+        "meaning": "颜色，色彩",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "What colour is ...?",
+        "meaning": "……是什么颜色的？",
+        "origin": "textbook-word-list"
+      },
+      {
+        "english": "How come?",
+        "meaning": "怎么回事？",
+        "origin": "textbook-word-list"
+      }
+    ],
+    "dialogues": [],
+    "objectives": [
+      "掌握 Unit 8 词表中 15 条核心词汇与表达",
+      "认识 2 条标 * 的拓展词汇",
+      "结合单元主题进行原创听说与词义练习"
+    ],
+    "letters": "本册继续巩固字母与自然拼读",
+    "source": {
+      "title": "译林版小学英语三年级下册（2025春版）",
+      "verifiedScope": "书后 Word lists I，印刷页78–80",
+      "originalPractice": true
+    }
+  }
+]
