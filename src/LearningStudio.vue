@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {computed,ref,watch} from 'vue'
 import {curricula} from './curriculum'
+import SentenceCastle from './SentenceCastle.vue'
 type Mode='phrase'|'sentence'|'dialogue'
 type Entry={id:string;mode:Mode;english:string;meaning:string;note:string;origin:'textbook-word-list'|'original-practice';volume:string;unit:string;unitTitle:string;icon:string}
 const volumes=curricula[0]!.volumes.filter(v=>['g3a','g3b','g4a'].includes(v.id))
@@ -38,10 +39,11 @@ function speak(){if(!card.value||!('speechSynthesis' in window))return;window.sp
 <div class="studio-overview"><div><strong>{{stats.phrase}}</strong><span>短语与表达</span></div><div><strong>{{stats.sentence}}</strong><span>配套例句</span></div><div><strong>{{stats.dialogue}}</strong><span>情景对话</span></div></div>
 <div class="studio-filters"><label>教材册次<select v-model="volume"><option value="all">全部三册</option><option v-for="v in volumes" :key="v.id" :value="v.id">{{volumeLabel(v.id)}}</option></select></label><label>学习单元<select v-model="unit"><option value="all">全部单元</option><option v-for="u in units" :key="u.id" :value="u.id">{{u.id.split('-').slice(-1)[0]?.toUpperCase()}} · {{u.title}}</option></select></label><label class="studio-review"><input v-model="reviewOnly" type="checkbox"/> 只看收藏（{{favorites.length}}）</label></div>
 <div class="studio-tabs" role="tablist" aria-label="学习分类"><button :class="{active:mode==='phrase'}" role="tab" :aria-selected="mode==='phrase'" @click="change('phrase')">🧩 短语工坊</button><button :class="{active:mode==='sentence'}" role="tab" :aria-selected="mode==='sentence'" @click="change('sentence')">🏰 句式城堡</button><button :class="{active:mode==='dialogue'}" role="tab" :aria-selected="mode==='dialogue'" @click="change('dialogue')">🎭 情景对话</button></div>
-<div v-if="card" class="studio-card"><div class="studio-card-top"><span>{{volumeLabel(card.volume)}} / {{card.unitTitle}}</span><span>{{index+1}} / {{cards.length}}</span></div><div class="studio-emoji">{{card.icon}}</div><h3>{{card.english}}</h3><p>{{card.note}}</p><div class="studio-answer" aria-live="polite">{{revealed?(card.meaning||'这是原创配套练习。请结合单元词汇理解、跟读，并尝试替换关键词进行表达。'):'先回忆意思或尝试朗读，再揭晓提示'}}</div><div class="studio-actions"><button class="secondary" @click="speak">🔊 听发音</button><button class="primary" @click="revealed=!revealed">{{revealed?'隐藏提示':'揭晓提示 ✨'}}</button><button class="secondary" :aria-pressed="favorites.includes(card.id)" @click="toggleFavorite">{{favorites.includes(card.id)?'★ 已收藏':'☆ 收藏复习'}}</button></div><div class="studio-origin">{{card.origin==='textbook-word-list'?'教材词汇表收录':'原创配套练习 · 非教材原文'}}</div></div>
+<SentenceCastle v-if="mode==='sentence'" :volume="volume" :unit="unit"/>
+<div v-else-if="card" class="studio-card"><div class="studio-card-top"><span>{{volumeLabel(card.volume)}} / {{card.unitTitle}}</span><span>{{index+1}} / {{cards.length}}</span></div><div class="studio-emoji">{{card.icon}}</div><h3>{{card.english}}</h3><p>{{card.note}}</p><div class="studio-answer" aria-live="polite">{{revealed?(card.meaning||'这是原创配套练习。请结合单元词汇理解、跟读，并尝试替换关键词进行表达。'):'先回忆意思或尝试朗读，再揭晓提示'}}</div><div class="studio-actions"><button class="secondary" @click="speak">🔊 听发音</button><button class="primary" @click="revealed=!revealed">{{revealed?'隐藏提示':'揭晓提示 ✨'}}</button><button class="secondary" :aria-pressed="favorites.includes(card.id)" @click="toggleFavorite">{{favorites.includes(card.id)?'★ 已收藏':'☆ 收藏复习'}}</button></div><div class="studio-origin">{{card.origin==='textbook-word-list'?'教材词汇表收录':'原创配套练习 · 非教材原文'}}</div></div>
 <div v-else class="studio-card studio-empty"><h3>当前筛选条件下没有内容</h3><p>试试切换单元、学习分类，或者关闭“只看收藏”。</p><button class="secondary" @click="volume='all';unit='all';reviewOnly=false">查看全部内容</button></div>
-<div class="studio-nav"><button class="secondary" :disabled="!cards.length" @click="move(-1)">← 上一张</button><button class="primary" :disabled="!cards.length" @click="move(1)">下一张 →</button></div>
-<p class="studio-disclaimer">资料范围：译林版三年级上册（2024秋）、三年级下册（2025春）、四年级上册（2025秋）。短语和表达来自现有教材词汇表整理数据；例句及对话是原创配套练习，并非教材原文。例句不提供未经核实的逐句中文译文。</p>
+<div v-if="mode!=='sentence'" class="studio-nav"><button class="secondary" :disabled="!cards.length" @click="move(-1)">← 上一张</button><button class="primary" :disabled="!cards.length" @click="move(1)">下一张 →</button></div>
+<p class="studio-disclaimer">资料范围：译林版三年级上册（2024秋）、三年级下册（2025春）、四年级上册（2025秋）。短语和表达来自现有教材词汇表整理数据；句型模板、替换词块、例句及对话是原创配套练习，并非教材原文。</p>
 </section>
 </template>
 <style scoped>
