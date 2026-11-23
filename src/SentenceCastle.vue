@@ -100,10 +100,10 @@ const masteredCount=computed(()=>patterns.filter(p=>modes.every(mode=>progress.v
 const currentCompleted=computed(()=>current.value?modes.filter(mode=>progress.value[current.value!.id]?.[mode]).length:0)
 const matchChoice=ref('')
 const transformChoice=ref('')
-const qa=computed(()=>exercises[current.value?.id||'hello'])
+const qa=computed<Exercise>(()=>exercises[current.value?.id||'hello']||exercises.hello!)
 const transformItem=computed(()=>qa.value)
-const matchOptions=computed(()=>qa.value?[qa.value.wrong[0],qa.value.a,qa.value.wrong[1]]:[])
-const transformOptions=computed(()=>transformItem.value?[transformItem.value.transformWrong[0],transformItem.value.to,transformItem.value.transformWrong[1]]:[])
+const matchOptions=computed(()=>[qa.value.wrong[0],qa.value.a,qa.value.wrong[1]])
+const transformOptions=computed(()=>[transformItem.value.transformWrong[0],transformItem.value.to,transformItem.value.transformWrong[1]])
 function reset(){values.value=current.value?.slots.map(s=>s.choices[0]!)||[];attempt.value=[];matchChoice.value='';transformChoice.value='';result.value=''}
 watch([filtered,selected],reset,{immediate:true})
 function next(d:number){if(!filtered.value.length)return;selected.value=(selected.value+d+filtered.value.length)%filtered.value.length;reset()}
