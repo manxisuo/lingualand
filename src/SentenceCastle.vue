@@ -34,7 +34,7 @@ const patterns:Pattern[]=[
 ]
 const props=defineProps<{volume:string;unit:string}>()
 const filtered=computed(()=>patterns.filter(p=>(props.volume==='all'||p.volume===props.volume)&&(props.unit==='all'||p.unit===props.unit)))
-const selected=ref(0),values=ref<string[]>([]),activity=ref<'explore'|'challenge'|'match'|'transform'>('explore'),attempt=ref<string[]>([]),result=ref<'correct'|'wrong'|''>(''),showRule=ref(true)
+const selected=ref(0),values=ref<string[]>([]),activity=ref<'explore'|'challenge'|'match'|'transform'>('explore'),attempt=ref<string[]>([]),result=ref<'correct'|'wrong'|'next'|''>(''),showRule=ref(true)
 type Activity='explore'|'challenge'|'match'|'transform'
 type ModeProgress=Partial<Record<Activity,boolean>>
 type ProgressMap=Record<string,ModeProgress>
@@ -98,18 +98,63 @@ const modes:Activity[]=['explore','challenge','match','transform']
 const completedCount=computed(()=>patterns.reduce((n,p)=>n+modes.filter(mode=>progress.value[p.id]?.[mode]).length,0))
 const masteredCount=computed(()=>patterns.filter(p=>modes.every(mode=>progress.value[p.id]?.[mode])).length)
 const currentCompleted=computed(()=>current.value?modes.filter(mode=>progress.value[current.value!.id]?.[mode]).length:0)
+const exploreVariants=ref<Record<string,string[]>>({})
+const matchRound=ref(0)
 const matchChoice=ref('')
 const transformChoice=ref('')
 const qa=computed<Exercise>(()=>exercises[current.value?.id||'hello']||exercises.hello!)
 const transformItem=computed(()=>qa.value)
-const matchOptions=computed(()=>[qa.value.wrong[0],qa.value.a,qa.value.wrong[1]])
+const matchQuestion=computed(()=>{
+ const e=qa.value
+ const choices=current.value?.slots[0]?.choices||[]
+ const seed=choices.find(v=>e.q.includes(v)||e.a.includes(v))
+ const replacement=choices.find(v=>v!==seed)
+ if(matchRound.value===0||!seed||!replacement)return e
+ const q=e.q.replace(seed,replacement),a=e.a.replace(seed,replacement)
+ return q!==e.q&&a!==e.a?{...e,q,a,wrong:[e.a,e.wrong[0]] as [string,string]}:e
+})
+const matchOptions=computed(()=>{
+ const e=matchQuestion.value
+ const options=[e.a,...e.wrong]
+ const offset=(matchRound.value+patterns.findIndex(p=>p.id===current.value?.id))%3
+ return [options[(offset+1)%3]!,options[(offset+2)%3]!,options[offset]!]
+})
+const matchHasVariant=computed(()=>{
+ const e=qa.value,choices=current.value?.slots[0]?.choices||[]
+ const seed=choices.find(v=>e.q.includes(v)||e.a.includes(v))
+ const replacement=choices.find(v=>v!==seed)
+ return !!(seed&&replacement&&e.q.includes(seed)&&e.a.includes(seed))
+})
+const exploreCount=computed(()=>new Set(exploreVariants.value[current.value?.id||'']||[]).size)
+const exploreRequired=computed(()=>current.value?.slots.some(s=>s.choices.length>1)?2:1)
+function changeActivity(mode:Activity){activity.value=mode;result.value='';matchRound.value=0;matchChoice.value='';attempt.value=[]}
 const transformOptions=computed(()=>[transformItem.value.transformWrong[0],transformItem.value.to,transformItem.value.transformWrong[1]])
-function reset(){values.value=current.value?.slots.map(s=>s.choices[0]!)||[];attempt.value=[];matchChoice.value='';transformChoice.value='';result.value=''}
+function reset(){values.value=current.value?.slots.map(s=>s.choices[0]!)||[];attempt.value=[];matchRound.value=0;matchChoice.value='';transformChoice.value='';result.value=''}
 watch([filtered,selected],reset,{immediate:true})
 function next(d:number){if(!filtered.value.length)return;selected.value=(selected.value+d+filtered.value.length)%filtered.value.length;reset()}
 function choose(slot:number,value:string){values.value=[...values.value];values.value[slot]=value;result.value=''}
 function addToken(id:number){if(attempt.value.includes(String(id)))return;attempt.value=[...attempt.value,String(id)];result.value=''}
-function check(){if(!current.value)return;const expected=words.value.map((_,i)=>String(i));result.value=activity.value==='challenge'?(attempt.value.join(',')===expected.join(',')?'correct':'wrong'):activity.value==='match'?(matchChoice.value===qa.value.a?'correct':'wrong'):activity.value==='transform'?(transformChoice.value===transformItem.value.to?'correct':'wrong'):(sentence.value.trim()?'correct':'wrong');if(result.value==='correct'){progress.value={...progress.value,[current.value.id]:{...progress.value[current.value.id],[activity.value]:true}};localStorage.setItem('lingualand-castle-progress-v2',JSON.stringify(progress.value))}}
+function check(){
+ if(!current.value)return
+ if(activity.value==='explore'){
+  const id=current.value.id
+  const key=values.value.join('|')
+  const variants=[...new Set([...(exploreVariants.value[id]||[]),key])]
+  exploreVariants.value={...exploreVariants.value,[id]:variants}
+  result.value=variants.length>=exploreRequired.value?'correct':'wrong'
+ }else if(activity.value==='match'){
+  if(matchChoice.value!==matchQuestion.value.a){result.value='wrong';return}
+  if(matchRound.value===0&&matchHasVariant.value){matchRound.value=1;matchChoice.value='';result.value='next';return}
+  result.value='correct'
+ }else if(activity.value==='challenge'){
+  result.value=attempt.value.join(',')===words.value.map((_,i)=>String(i)).join(',')?'correct':'wrong'
+ }else result.value=transformChoice.value===transformItem.value.to?'correct':'wrong'
+ if(result.value==='correct'){
+  progress.value={...progress.value,[current.value.id]:{...progress.value[current.value.id],[activity.value]:true}}
+  localStorage.setItem('lingualand-castle-progress-v2',JSON.stringify(progress.value))
+ }
+}
+
 const speechStatus=ref('idle')
 const speechMessage=ref('')
 function speak(text:string){
@@ -132,14 +177,14 @@ function speak(text:string){
 <div class="castle">
 <div class="castle-intro"><div><small>THE SENTENCE CASTLE</small><h3>句式城堡 · 造句实验室</h3><p>理解结构、替换词块、排列句子，逐步掌握英语表达。</p></div><div class="castle-stars">✦ {{masteredCount}} / {{patterns.length}} <span>全部模式完成 · {{completedCount}} / {{patterns.length*4}} 项</span></div></div>
 <div v-if="current" class="castle-body"><div class="castle-patterns"><button v-for="(p,i) in filtered" :key="p.id" :class="{chosen:i===selected,done:modes.every(mode=>progress[p.id]?.[mode])}" @click="selected=i">{{modes.every(mode=>progress[p.id]?.[mode])?'✓':'◇'}} {{p.title}} <small>{{modes.filter(mode=>progress[p.id]?.[mode]).length}}/4</small></button></div>
-<div class="castle-main"><div class="castle-top"><span>{{current.volume==='g3a'?'三年级上册':current.volume==='g3b'?'三年级下册':'四年级上册'}} · {{current.unit.split('-').slice(-1)[0]?.toUpperCase()}}</span><span>{{selected+1}} / {{filtered.length}}</span></div><p class="castle-mode-progress">当前句型 {{currentCompleted}} / 4 项完成</p><div class="castle-switch"><button :class="{chosen:activity==='explore'}" @click="activity='explore';result=''">词块替换 {{progress[current.id]?.explore?'✓':''}}</button><button :class="{chosen:activity==='challenge'}" @click="activity='challenge';result='';attempt=[]">组句挑战 {{progress[current.id]?.challenge?'✓':''}}</button><button :class="{chosen:activity==='match'}" @click="activity='match';result=''">问答配对 {{progress[current.id]?.match?'✓':''}}</button><button :class="{chosen:activity==='transform'}" @click="activity='transform';result=''">肯否转换 {{progress[current.id]?.transform?'✓':''}}</button></div><p class="castle-meaning">{{current.zh}}</p>
-<template v-if="activity==='explore'"><div class="castle-sentence" aria-live="polite">{{sentence}}</div><div class="castle-slots"><fieldset v-for="(slot,i) in current.slots" :key="i"><legend>{{slot.label}}</legend><button v-for="choice in slot.choices" :key="choice" :class="{chosen:values[i]===choice}" @click="choose(i,choice)">{{choice}}</button></fieldset></div></template>
+<div class="castle-main"><div class="castle-top"><span>{{current.volume==='g3a'?'三年级上册':current.volume==='g3b'?'三年级下册':'四年级上册'}} · {{current.unit.split('-').slice(-1)[0]?.toUpperCase()}}</span><span>{{selected+1}} / {{filtered.length}}</span></div><p class="castle-mode-progress">当前句型 {{currentCompleted}} / 4 项完成</p><div class="castle-switch"><button :class="{chosen:activity==='explore'}" @click="changeActivity('explore')">词块替换 {{progress[current.id]?.explore?'✓':''}}</button><button :class="{chosen:activity==='challenge'}" @click="changeActivity('challenge')">组句挑战 {{progress[current.id]?.challenge?'✓':''}}</button><button :class="{chosen:activity==='match'}" @click="changeActivity('match')">问答配对 {{progress[current.id]?.match?'✓':''}}</button><button :class="{chosen:activity==='transform'}" @click="changeActivity('transform')">肯否转换 {{progress[current.id]?.transform?'✓':''}}</button></div><p class="castle-meaning">{{current.zh}}</p>
+<template v-if="activity==='explore'"><p class="castle-task">尝试至少 {{exploreRequired}} 种不同的词块组合（已尝试 {{exploreCount}} 种），每次点击“检查答案”记录一次。</p><div class="castle-sentence" aria-live="polite">{{sentence}}</div><div class="castle-slots"><fieldset v-for="(slot,i) in current.slots" :key="i"><legend>{{slot.label}}</legend><button v-for="choice in slot.choices" :key="choice" :class="{chosen:values[i]===choice}" @click="choose(i,choice)">{{choice}}</button></fieldset></div></template>
 <template v-else-if="activity==='challenge'"><p class="castle-task">按正确顺序点击词块，拼出下面的句子。</p><div class="castle-assembled" aria-live="polite">{{attempt.map(id=>words[Number(id)]).join(' ')||'点击下方词块开始组句'}}</div><div class="castle-tokens"><button v-for="token in pool" :key="token.id" :disabled="attempt.includes(String(token.id))" @click="addToken(token.id)">{{token.word}}</button></div><button class="secondary" @click="attempt=[];result=''">↺ 重新排列</button></template>
-<template v-else-if="activity==='match'"><p class="castle-task">选择与问题匹配的回答</p><div class="castle-sentence">{{qa.q}}</div><div class="castle-options"><button v-for="option in matchOptions" :key="option" :class="{chosen:matchChoice===option}" @click="matchChoice=option;result=''">{{option}}</button></div></template>
+<template v-else-if="activity==='match'"><p class="castle-task">选择与问题匹配的回答 · 第 {{matchRound+1}} / {{matchHasVariant?2:1}} 题</p><div class="castle-sentence">{{matchQuestion.q}}</div><div class="castle-options"><button v-for="option in matchOptions" :key="option" :class="{chosen:matchChoice===option}" @click="matchChoice=option;result=''">{{option}}</button></div></template>
 <template v-else><p class="castle-task">将下面的肯定句改成否定句</p><div class="castle-sentence">{{transformItem.from}}</div><div class="castle-options"><button v-for="option in transformOptions" :key="option" :class="{chosen:transformChoice===option}" @click="transformChoice=option;result=''">{{option}}</button></div><p class="castle-task">提示：{{transformItem.hint}}</p></template>
-<div class="castle-actions"><button class="secondary" @click="showRule=!showRule">{{showRule?'收起':'查看'}}句型结构</button><button type="button" class="secondary" @click.stop="speak(activity==='explore'?sentence:activity==='match'?qa.q:activity==='transform'?transformItem.from:target)">🔊 {{speechStatus==='speaking'?'朗读中…':'听发音'}}</button><button class="primary" @click="check">检查答案</button></div>
+<div class="castle-actions"><button class="secondary" @click="showRule=!showRule">{{showRule?'收起':'查看'}}句型结构</button><button type="button" class="secondary" @click.stop="speak(activity==='explore'?sentence:activity==='match'?matchQuestion.q:activity==='transform'?transformItem.from:target)">🔊 {{speechStatus==='speaking'?'朗读中…':'听发音'}}</button><button class="primary" @click="check">检查答案</button></div>
 <p v-if="speechMessage" class="castle-speech-status" :class="{error:speechStatus==='error'}" role="status">{{speechMessage}}</p><div v-if="showRule" class="castle-rule"><strong>结构解析</strong><p>{{current.rule}}</p><small>示范：{{current.example}}</small></div>
-<p v-if="result" class="castle-result" :class="result" role="status">{{result==='correct'?'回答正确！已记录当前训练模式的完成状态。':activity==='challenge'?'顺序还不对，可以清空后重新试试。':'再想一想，选择正确答案。'}}</p><div class="castle-footer"><button class="secondary" @click="next(-1)">← 上一句型</button><button class="primary" @click="next(1)">下一句型 →</button></div>
+<p v-if="result" class="castle-result" :class="result" role="status">{{result==='correct'?'回答正确！已记录当前训练模式的完成状态。':result==='next'?'答对了！继续完成下一道变化题。':activity==='explore'?'再替换词块，尝试不同的表达。':activity==='challenge'?'顺序还不对，可以清空后重新试试。':'再想一想，选择正确答案。'}}</p><div class="castle-footer"><button class="secondary" @click="next(-1)">← 上一句型</button><button class="primary" @click="next(1)">下一句型 →</button></div>
 </div></div><div v-else class="castle-empty">当前单元暂无句式实验。请选择其他单元或切换为“全部单元”。</div>
 <p class="castle-source">本模块为依据三册教材单元主题、已有词汇及原创练习整理的教学设计，句型模板、替换词块和组句挑战属于原创配套内容，并非逐字摘录教材。组句挑战采用示范句作为固定标准答案。问答与肯否转换按句型独立关联练习，四种模式分别记录进度；肯否转换中的部分题目使用同主题陈述句。</p>
 </div>
