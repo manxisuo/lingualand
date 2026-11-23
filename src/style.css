@@ -22,3 +22,10 @@
 
 /* V2.2: semantic vocabulary artwork; never substitute unrelated icons. */
 .card-no-image{display:inline-flex;align-items:center;justify-content:center;min-height:68px;padding:13px 23px;border-radius:999px;background:#ffffffa8;border:1px solid #dcebe0;color:#699b84;font-size:16px;letter-spacing:.05em;font-weight:700}.flashcard .vocab-art{flex-shrink:0}.flashcard:focus-visible{outline:3px solid #75b89b;outline-offset:4px}
+
+/* Quiz feedback is rendered after the controls: answering never shifts the next button. */
+.quiz-feedback-slot{min-height:112px;padding-top:16px;box-sizing:border-box}
+.quiz-feedback-slot .feedback{margin-top:0}
+.quiz-actions{align-items:center;gap:12px}
+.quiz-actions>.primary{min-width:138px}
+@media(max-width:520px){.quiz-feedback-slot{min-height:124px}.quiz-actions>.primary{min-width:128px}}
