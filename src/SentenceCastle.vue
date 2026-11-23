@@ -3,9 +3,9 @@ import {computed,ref,watch} from 'vue'
 type Slot={label:string;choices:string[]}
 type Pattern={id:string;volume:string;unit:string;title:string;zh:string;rule:string;parts:string[];slots:Slot[];example:string}
 const patterns:Pattern[]=[
-{id:'hello',volume:'g3a',unit:'g3a-u01',title:'问候与介绍',zh:'我是……',rule:'I am + 人名：介绍自己。',parts:['I am ','','.'],slots:[{label:'名字',choices:['Amy','Ben','Lily']}],example:'I am Amy.'},
-{id:'this-is',volume:'g3a',unit:'g3a-u02',title:'介绍人物或物品',zh:'这是……',rule:'This is + 名词或姓名。',parts:['This is ','','.'],slots:[{label:'人物',choices:['my friend','my teacher','Lily']}],example:'This is my friend.'},
-{id:'like',volume:'g3a',unit:'g3a-u05',title:'表达喜好',zh:'我喜欢……',rule:'I like + 名词。',parts:['I like ','','.'],slots:[{label:'事物',choices:['apples','cats','dogs']}],example:'I like cats.'},
+{id:'hello',volume:'g3a',unit:'g3a-u02',title:'问候与介绍',zh:'我是……',rule:'I am + 人名：介绍自己。',parts:['I am ','','.'],slots:[{label:'名字',choices:['Amy','Ben','Lily']}],example:'I am Amy.'},
+{id:'this-is',volume:'g3a',unit:'g3a-u04',title:'介绍人物或物品',zh:'这是……',rule:'This is + 名词或姓名。',parts:['This is ','','.'],slots:[{label:'人物',choices:['my friend','my teacher','Lily']}],example:'This is my friend.'},
+{id:'like',volume:'g3b',unit:'g3b-u05',title:'表达喜好',zh:'我喜欢……',rule:'I like + 名词。',parts:['I like ','','.'],slots:[{label:'事物',choices:['apples','cats','dogs']}],example:'I like cats.'},
 {id:'school-thing',volume:'g3b',unit:'g3b-u01',title:'校园物品',zh:'这是我的……',rule:'This is my + 物品。',parts:['This is my ','','.'],slots:[{label:'文具',choices:['pen','pencil','ruler']}],example:'This is my pen.'},
 {id:'where',volume:'g3b',unit:'g3b-u01',title:'寻找物品',zh:'我的……在哪里？',rule:'Where is my + 单数物品？',parts:['Where is my ','','?'],slots:[{label:'物品',choices:['pen','ruler','schoolbag']}],example:'Where is my ruler?'},
 {id:'have',volume:'g3b',unit:'g3b-u01',title:'拥有物品',zh:'我有一个……',rule:'I have a + 单数可数名词。',parts:['I have a ','','.'],slots:[{label:'物品',choices:['pen','pencil','ruler']}],example:'I have a pencil.'},
@@ -26,14 +26,14 @@ const current=computed(()=>filtered.value[selected.value])
 const sentence=computed(()=>current.value?current.value.parts.reduce((text,part,i)=>text+part+(values.value[i]||''),''):'')
 const target=computed(()=>current.value?current.value.parts.reduce((text,part,i)=>text+part+(current.value!.slots[i]?.choices[0]||''),''):'')
 const words=computed(()=>target.value.match(/[A-Za-z]+(?:'[A-Za-z]+)?|[?.!]/g)||[])
-const pool=computed(()=>words.value.map((word,i)=>({word,id:i})).sort((a,b)=>((a.id*7+3)%Math.max(words.value.length,1))-((b.id*7+3)%Math.max(words.value.length,1))))
+const pool=computed(()=>words.value.map((word,i)=>({word,id:i})).sort((a,b)=>b.id-a.id))
 const correct=computed(()=>Object.keys(progress.value).filter(id=>progress.value[id]).length)
 function reset(){values.value=current.value?.slots.map(s=>s.choices[0]!)||[];attempt.value=[];result.value=''}
 watch([filtered,selected],reset,{immediate:true})
 function next(d:number){if(!filtered.value.length)return;selected.value=(selected.value+d+filtered.value.length)%filtered.value.length;reset()}
 function choose(slot:number,value:string){values.value=[...values.value];values.value[slot]=value;result.value=''}
 function addToken(id:number){if(attempt.value.includes(String(id)))return;attempt.value=[...attempt.value,String(id)];result.value=''}
-function check(){if(!current.value)return;const expected=words.value.map((_,i)=>String(i));result.value=activity.value==='challenge'?(attempt.value.join(',')===expected.join(',')?'correct':'wrong'):(sentence.value.trim()?'correct':'wrong');if(result.value==='correct'){progress.value={...progress.value,[current.value.id]:true};localStorage.setItem('lingualand-castle-progress',JSON.stringify(progress.value))}}
+function check(){if(!current.value)return;const expected=words.value.map((_,i)=>String(i));result.value=activity.value==='challenge'?(attempt.value.join(',')===expected.join(',')?'correct':'wrong'):(sentence.value.trim()?'correct':'wrong');if(result.value==='correct'&&activity.value==='challenge'){progress.value={...progress.value,[current.value.id]:true};localStorage.setItem('lingualand-castle-progress',JSON.stringify(progress.value))}}
 function speak(text:string){if(!('speechSynthesis' in window))return;window.speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-US';utterance.rate=.8;window.speechSynthesis.speak(utterance)}
 </script>
 <template>
@@ -45,7 +45,7 @@ function speak(text:string){if(!('speechSynthesis' in window))return;window.spee
 <template v-else><p class="castle-task">按正确顺序点击词块，拼出下面的句子。</p><div class="castle-assembled" aria-live="polite">{{attempt.map(id=>words[Number(id)]).join(' ')||'点击下方词块开始组句'}}</div><div class="castle-tokens"><button v-for="token in pool" :key="token.id" :disabled="attempt.includes(String(token.id))" @click="addToken(token.id)">{{token.word}}</button></div><button class="secondary" @click="attempt=[];result=''">↺ 重新排列</button></template>
 <div class="castle-actions"><button class="secondary" @click="showRule=!showRule">{{showRule?'收起':'查看'}}句型结构</button><button class="secondary" @click="speak(activity==='explore'?sentence:target)">🔊 听发音</button><button class="primary" @click="check">检查答案</button></div>
 <div v-if="showRule" class="castle-rule"><strong>结构解析</strong><p>{{current.rule}}</p><small>示范：{{current.example}}</small></div>
-<p v-if="result" class="castle-result" :class="result" role="status">{{result==='correct'?'回答正确！已记录学习进度。':activity==='challenge'?'顺序还不对，可以清空后重新试试。':'请先完成词块选择。'}}</p><div class="castle-footer"><button class="secondary" @click="next(-1)">← 上一句型</button><button class="primary" @click="next(1)">下一句型 →</button></div>
+<p v-if="result" class="castle-result" :class="result" role="status">{{result==='correct'?(activity==='challenge'?'回答正确！已记录学习进度。':'句子生成成功！可以换一个词块，继续尝试。'):activity==='challenge'?'顺序还不对，可以清空后重新试试。':'请先完成词块选择。'}}</p><div class="castle-footer"><button class="secondary" @click="next(-1)">← 上一句型</button><button class="primary" @click="next(1)">下一句型 →</button></div>
 </div></div><div v-else class="castle-empty">当前单元暂无句式实验。请选择其他单元或切换为“全部单元”。</div>
 <p class="castle-source">本模块为依据三册教材单元主题、已有词汇及原创练习整理的教学设计，句型模板、替换词块和组句挑战属于原创配套内容，并非逐字摘录教材。组句挑战采用示范句作为固定标准答案。</p>
 </div>
