@@ -208,4 +208,147 @@ export const books:ReadingBook[]=[
       ]
     ]
   }
-]
+,{
+  "id": "rainy-day",
+  "volume": "g4a",
+  "unit": "g4a-u06",
+  "unitTitle": "Weather",
+  "title": "A Rainy Day Surprise",
+  "zh": "雨天里的惊喜",
+  "pages": [
+    [
+      "It's Saturday morning. Fox and Cat are happy.",
+      "both",
+      "garden",
+      "reading/rainy-day/01.webp"
+    ],
+    [
+      "“Let's go to the park today!” says Fox.",
+      "both",
+      "garden",
+      "reading/rainy-day/02.webp"
+    ],
+    [
+      "“What's the weather like today?” asks Cat. “It's sunny and warm!”",
+      "both",
+      "garden",
+      "reading/rainy-day/03.webp"
+    ],
+    [
+      "Look! It's cloudy now. The wind is blowing. It's windy.",
+      "both",
+      "garden",
+      "reading/rainy-day/04.webp"
+    ],
+    [
+      "Oh no! It's rainy now. They can't go to the park.",
+      "both",
+      "garden",
+      "reading/rainy-day/05.webp"
+    ],
+    [
+      "“What can we do on a rainy day?” asks Fox.",
+      "both",
+      "garden",
+      "reading/rainy-day/06.webp"
+    ],
+    [
+      "Cat has an idea. “Let's make some cakes!”",
+      "both",
+      "garden",
+      "reading/rainy-day/07.webp"
+    ],
+    [
+      "They mix eggs, milk and flour in a big bowl.",
+      "both",
+      "garden",
+      "reading/rainy-day/08.webp"
+    ],
+    [
+      "The little cakes are ready. They smell good!",
+      "both",
+      "garden",
+      "reading/rainy-day/09.webp"
+    ],
+    [
+      "They have cakes and warm milk. It's cool outside, but warm inside.",
+      "both",
+      "garden",
+      "reading/rainy-day/10.webp"
+    ],
+    [
+      "“Let's make paper boats!” says Fox.",
+      "both",
+      "garden",
+      "reading/rainy-day/11.webp"
+    ],
+    [
+      "They put on their boots and take their umbrellas. Their boats float on the water.",
+      "both",
+      "garden",
+      "reading/rainy-day/12.webp"
+    ],
+    [
+      "The rain stops. The sun comes out. Look! A rainbow!",
+      "both",
+      "garden",
+      "reading/rainy-day/13.webp"
+    ],
+    [
+      "Fox takes a picture. “What a beautiful rainbow!” says Cat.",
+      "both",
+      "garden",
+      "reading/rainy-day/14.webp"
+    ],
+    [
+      "In the evening, they look at their pictures. “A rainy day can be fun, too!”",
+      "both",
+      "garden",
+      "reading/rainy-day/15.webp"
+    ]
+  ],
+  "words": {
+    "sunny": "晴朗的",
+    "warm": "温暖的",
+    "cloudy": "多云的",
+    "windy": "有风的",
+    "rainy": "下雨的",
+    "cool": "凉爽的",
+    "park": "公园",
+    "rainbow": "彩虹",
+    "paper boats": "纸船",
+    "What's the weather like today?": "今天天气怎么样？"
+  },
+  "questions": [
+    [
+      "Where do they want to go?",
+      "The park",
+      "The zoo",
+      "The farm"
+    ],
+    [
+      "Why do they stay inside?",
+      "It's rainy.",
+      "It's hot.",
+      "It's sunny."
+    ],
+    [
+      "What do they make first?",
+      "Cakes",
+      "Paper boats",
+      "A kite"
+    ],
+    [
+      "What do they see after the rain?",
+      "A rainbow",
+      "Snow",
+      "A star"
+    ],
+    [
+      "How do they feel at the end?",
+      "Happy",
+      "Angry",
+      "Sad"
+    ]
+  ]
+}]
