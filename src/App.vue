@@ -61,12 +61,26 @@ const badges=computed(()=>[
 const earnedBadges=computed(()=>badges.value.filter(b=>b.earned).length)
 function saveGrowth(){localStorage.setItem(growthKey,JSON.stringify(growth.value))}
 // Randomize option positions for each practice run without mutating shared curriculum data.
+function shuffle<T>(source:T[]):T[]{
+ const result=[...source]
+ for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}
+ return result
+}
 function prepareQuestions(source:Question[]):Question[]{
  return source.map(question=>{
-  if((question.kind!=='choice'&&question.kind!=='phrase')||!question.options?.length)return {...question}
-  const options=[...question.options]
-  for(let i=options.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[i],options[j]]=[options[j],options[i]]}
-  return {...question,options}
+  if(question.kind==='order'&&question.tokens?.length){
+   const original=question.tokens
+   let tokens=shuffle(original)
+   // Reject the solved order; bounded retries also handle malformed identical tokens.
+   for(let attempt=0;attempt<32&&tokens.join(' ')===question.answer;attempt++)tokens=shuffle(original)
+   if(tokens.join(' ')===question.answer){
+    const i=tokens.findIndex(t=>t!==tokens[0])
+    if(i>0)[tokens[0],tokens[i]]=[tokens[i],tokens[0]]
+   }
+   return {...question,tokens}
+  }
+  if((question.kind==='choice'||question.kind==='phrase')&&question.options?.length)return {...question,options:shuffle(question.options)}
+  return {...question}
  })
 }
 // Only depict concrete meanings with vetted original illustrations or unambiguous emoji.
