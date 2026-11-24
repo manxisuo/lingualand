@@ -102,32 +102,47 @@ function clear(){if(confirm('确定清空本设备的学习记录吗？')){progr
 
 const route=useRoute()
 const router=useRouter()
-let applyingRoute=false
+const unitPages=new Set(['lesson','cards','speaking','stages'])
+const validUnit=(id:string)=>allUnits().some(x=>x.unit.id===id)
+if(!validUnit(unitId.value))unitId.value=initialUnitId
 function currentPath():string{
- if(page.value!=='quiz')return pagePaths[page.value]
- if(stageMode.value)return '/adventure/challenge/'+stage.value
- if(review.value)return dueMode.value?'/review/due':'/review'
- return '/practice'
+ if(page.value==='reading')return '/reading'
+ if(page.value!=='quiz')return pagePaths[page.value]+(unitPages.has(page.value)?'/'+unitId.value:'')
+ if(stageMode.value)return '/adventure/'+unitId.value+'/challenge/'+stage.value
+ if(review.value)return (dueMode.value?'/review/due/':'/review/')+unitId.value
+ return '/practice/'+unitId.value
 }
-// Batch synchronous state changes (e.g. chooseUnit followed by startDue).
+function matches(path:string,target:string){return path===target||(target==='/reading'&&path.startsWith('/reading/'))}
+let applyingRoute=false
+let canonicalPending=''
 watch(currentPath,path=>{
- if(!applyingRoute&&route.path!==path)void router.push(path)
+ if(!applyingRoute&&canonicalPending!==path&&!matches(route.path,path))void router.push(path)
 },{flush:'post'})
+// Route application is atomic: suppress state-to-URL updates while initializing views.
 watch(()=>route.path,path=>{
- if(path===currentPath())return
+ if(matches(path,currentPath()))return
  applyingRoute=true
  try{
-  if(path==='/practice')start()
-  else if(path==='/review')start(true)
-  else if(path==='/review/due')startDue()
-  else if(path.startsWith('/adventure/challenge/')){
+  const requested=typeof route.params.unitId==='string'?route.params.unitId:''
+  if(requested&&validUnit(requested)&&requested!==unitId.value){
+   unitId.value=requested;localStorage.setItem('lingualand-unit',requested)
+   cardIndex.value=0;flipped.value=false;index.value=0;reset()
+  }
+  if(path==='/reading'||path.startsWith('/reading/'))page.value='reading'
+  else if(path==='/practice'||path.startsWith('/practice/'))start()
+  else if(path==='/review/due'||path.startsWith('/review/due/'))startDue()
+  else if(path==='/review'||path.startsWith('/review/'))start(true)
+  else if(route.params.stage!==undefined){
    const i=Number(route.params.stage)
    if(Number.isInteger(i)&&i>=0&&i<stages.length&&unlocked(i)&&stageQuestions(i).length)openStage(i)
-   else{page.value='stages';void router.replace('/adventure')}
+   else page.value='stages'
   }else{
-   const entry=Object.entries(pagePaths).find(([,value])=>value===path)
+   const root='/'+path.split('/')[1]
+   const entry=Object.entries(pagePaths).find(([,value])=>value===root)
    page.value=entry?(entry[0] as keyof typeof pagePaths):'home'
   }
+  const canonical=currentPath()
+  if(!matches(path,canonical)){canonicalPending=canonical;void router.replace(canonical).finally(()=>{if(canonicalPending===canonical)canonicalPending=''})}
  }finally{applyingRoute=false}
 },{immediate:true,flush:'sync'})
 </script>
