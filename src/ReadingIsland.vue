@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import {computed,ref,onBeforeUnmount} from 'vue'
+import {computed,ref,onBeforeUnmount,watch} from 'vue'
+import {useRoute,useRouter} from 'vue-router'
 import {books,type ReadingBook} from './readingBooks'
 const base=import.meta.env.BASE_URL
+const route=useRoute(),router=useRouter()
 const volume=ref('all'),unit=ref('all'),book=ref<ReadingBook|null>(null),page=ref(0),rate=ref(.8),playing=ref(false),quiz=ref(false),answers=ref<Record<number,string>>({}),checked=ref(false),word=ref('')
 type RecordEntry={page:number;read:boolean;score?:number}
 function load():Record<string,RecordEntry>{try{return JSON.parse(localStorage.getItem('lingualand-reading-v1')||'{}')||{}}catch{return {}}}
@@ -14,12 +16,30 @@ const options=computed(()=>book.value?.questions.map((q,i)=>{const a=q.slice(1);
 const tokens=computed(()=>{if(!book.value||!scene.value)return [];const keys=Object.keys(book.value.words).sort((a,b)=>b.length-a.length);const text=scene.value[0]||'';const re=new RegExp('('+keys.map(k=>k.replace(/[.*+?^$${}()|[\]\\]/g,'\\$&')).join('|')+')','gi');return text.split(re).map(t=>({text:t,key:keys.find(k=>k.toLowerCase()===t.toLowerCase())}))})
 let speechId=0
 function stop(){speechId++;playing.value=false;if('speechSynthesis' in window)window.speechSynthesis.cancel()}
-function speak(text:string,continuous=false){stop();if(!('speechSynthesis' in window))return;const id=speechId;playing.value=true;const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate.value;u.onend=()=>{if(id!==speechId)return;playing.value=false;if(continuous&&book.value&&page.value<book.value.pages.length-1){page.value++;save();speak(book.value.pages[page.value]![0]!,true)}};u.onerror=()=>{if(id===speechId)playing.value=false};window.speechSynthesis.speak(u)}
+function speak(text:string,continuous=false){stop();if(!('speechSynthesis' in window))return;const id=speechId;playing.value=true;const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate.value;u.onend=()=>{if(id!==speechId)return;playing.value=false;if(continuous&&book.value&&page.value<book.value.pages.length-1){page.value++;save();syncPage();speak(book.value.pages[page.value]![0]!,true)}};u.onerror=()=>{if(id===speechId)playing.value=false};window.speechSynthesis.speak(u)}
 function save(read=false){if(!book.value)return;const id=book.value.id;const old=progress.value[id];progress.value={...progress.value,[id]:{...old,page:page.value,read:read||!!old?.read}};try{localStorage.setItem('lingualand-reading-v1',JSON.stringify(progress.value))}catch{}}
-function open(b:ReadingBook){stop();book.value=b;page.value=Math.min(b.pages.length-1,Math.max(0,progress.value[b.id]?.page||0));quiz.value=false;checked.value=false;answers.value={};word.value='';save()}
-function move(d:number){if(!book.value)return;stop();page.value=Math.max(0,Math.min(book.value.pages.length-1,page.value+d));word.value='';save()}
+function loadBook(b:ReadingBook){stop();book.value=b;page.value=Math.min(b.pages.length-1,Math.max(0,progress.value[b.id]?.page||0));quiz.value=false;checked.value=false;answers.value={};word.value='';save()}
+function move(d:number){if(!book.value)return;stop();page.value=Math.max(0,Math.min(book.value.pages.length-1,page.value+d));word.value='';save();syncPage()}
 function finish(){stop();save(true);quiz.value=true}
 function grade(){if(!book.value)return;checked.value=true;save(true);progress.value[book.value.id]!.score=score.value;try{localStorage.setItem('lingualand-reading-v1',JSON.stringify(progress.value))}catch{}}
+function bookPath(){return book.value?'/reading/'+book.value.id+'/'+(page.value+1):'/reading'}
+function syncPage(){if(book.value&&route.path!==bookPath())void router.replace(bookPath())}
+function open(b:ReadingBook){loadBook(b);void router.push(bookPath())}
+function closeBook(){stop();book.value=null;quiz.value=false;void router.push('/reading')}
+function restart(){stop();quiz.value=false;page.value=0;checked.value=false;answers.value={};word.value='';save();syncPage()}
+watch(()=>route.path,path=>{
+ if(path!=='/reading'&&!path.startsWith('/reading/'))return
+ const id=route.params.bookId
+ if(typeof id!=='string'){stop();book.value=null;quiz.value=false;return}
+ const b=books.find(x=>x.id===id)
+ if(!b){stop();book.value=null;void router.replace('/reading');return}
+ const raw=route.params.page
+ const n=typeof raw==='string'&&/^\d+$/.test(raw)?Number(raw):1
+ const target=Math.max(0,Math.min(b.pages.length-1,n-1))
+ if(book.value?.id!==b.id){loadBook(b);page.value=target;save()}
+ else if(page.value!==target){stop();page.value=target;quiz.value=false;word.value='';save()}
+ if(path!==bookPath())void router.replace(bookPath())
+},{immediate:true})
 onBeforeUnmount(stop)
 </script>
 <template>
@@ -30,7 +50,7 @@ onBeforeUnmount(stop)
 <div class="reading-shelf"><button v-for="b in visible" :key="b.id" class="reading-cover" @click="open(b)"><img v-if="b.pages[0]?.[3]" class="cover-art reading-art" :src="base+b.pages[0][3]" :alt="b.title" /><div v-else class="cover-art" :class="b.id"><span class="cover-sun"></span><span class="cover-hill"></span><span class="cover-animal">{{b.id==='hello'?'Hello!':b.id==='fruit'?'Fruit':'My day'}}</span></div><small>{{b.unitTitle}} · {{b.pages.length}} 页</small><h3>{{b.title}}</h3><p>{{b.zh}}</p><span>{{progress[b.id]?.read?'已阅读':progress[b.id]?'继续阅读':'开始阅读'}} →</span></button></div><p v-if="!visible.length">该单元的绘本正在准备中。</p>
 </template>
 <template v-else>
-<div class="reading-toolbar"><button class="secondary" @click="stop();book=null">← 返回书架</button><strong>{{book.title}}</strong><span>{{quiz?'阅读理解':page+1+' / '+book.pages.length}}</span></div>
+<div class="reading-toolbar"><button class="secondary" @click="closeBook">← 返回书架</button><strong>{{book.title}}</strong><span>{{quiz?'阅读理解':page+1+' / '+book.pages.length}}</span></div>
 <div v-if="!quiz&&scene" class="reading-spread">
 <img v-if="scene[3]" class="reading-art" :src="base+scene[3]" :alt="scene[0]" /><svg v-else class="reading-art" viewBox="0 0 640 360" role="img" :aria-label="scene[2]+' story illustration'">
 <defs><linearGradient id="readSky" x2="0" y2="1"><stop stop-color="#a8dce6"/><stop offset="1" stop-color="#fff1cc"/></linearGradient><linearGradient id="readFur" x2="0" y2="1"><stop stop-color="#f5b76e"/><stop offset="1" stop-color="#dc854d"/></linearGradient></defs>
@@ -43,7 +63,7 @@ onBeforeUnmount(stop)
 </svg>
 <div class="reading-text"><p><template v-for="(t,i) in tokens" :key="i"><button v-if="t.key" class="reading-word" @click="word=t.key||''">{{t.text}}</button><span v-else>{{t.text}}</span></template></p><div class="reading-gloss" aria-live="polite"><template v-if="word"><strong>{{word}}</strong> · {{book.words[word]}} <button class="secondary" @click="speak(word)">听发音</button></template><span v-else>点击带下划线的重点词汇查看释义</span></div></div></div>
 <div v-if="!quiz" class="reading-controls"><button class="secondary" :disabled="page===0" @click="move(-1)">← 上一页</button><button class="secondary" @click="playing?stop():speak(scene?.[0]||'')">{{playing?'停止':'朗读本页'}}</button><button class="secondary" @click="speak(scene?.[0]||'',true)">连续朗读</button><select v-model.number="rate"><option :value=".65">慢速</option><option :value=".8">适中</option><option :value="1">正常</option></select><button v-if="page<book.pages.length-1" class="primary" @click="move(1)">下一页 →</button><button v-else class="primary" @click="finish">阅读理解 →</button></div>
-<div v-else class="reading-quiz"><h3>你读懂故事了吗？</h3><fieldset v-for="(q,i) in book.questions" :key="i"><legend>{{i+1}}. {{q[0]}}</legend><button v-for="a in options[i]" :key="a" :disabled="checked" :class="{selected:answers[i]===a}" @click="answers[i]=a">{{a}}</button><p v-if="checked">{{answers[i]===q[1]?'回答正确':'正确答案：'+q[1]}}</p></fieldset><button class="primary" :disabled="checked||Object.keys(answers).length!==book.questions.length" @click="grade">提交答案</button><p v-if="checked">本次成绩：{{score}} / {{book.questions.length}}</p><button class="secondary" @click="quiz=false;page=0;checked=false;answers={};save()">重新阅读</button></div>
+<div v-else class="reading-quiz"><h3>你读懂故事了吗？</h3><fieldset v-for="(q,i) in book.questions" :key="i"><legend>{{i+1}}. {{q[0]}}</legend><button v-for="a in options[i]" :key="a" :disabled="checked" :class="{selected:answers[i]===a}" @click="answers[i]=a">{{a}}</button><p v-if="checked">{{answers[i]===q[1]?'回答正确':'正确答案：'+q[1]}}</p></fieldset><button class="primary" :disabled="checked||Object.keys(answers).length!==book.questions.length" @click="grade">提交答案</button><p v-if="checked">本次成绩：{{score}} / {{book.questions.length}}</p><button class="secondary" @click="restart">重新阅读</button></div>
 </template><p class="reading-note">原创教材配套阅读 · 非教材原文 · 插画包含原创 SVG 与 AI 生成素材。</p></section>
 </template>
 <style scoped>
