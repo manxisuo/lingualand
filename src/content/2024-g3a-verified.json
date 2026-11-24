@@ -472,6 +472,65 @@
         "kind": "spell",
         "prompt": "拼写“再见”对应的英语单词",
         "answer": "bye"
+      },
+      {
+        "id": "g3a-u01-order-1",
+        "kind": "order",
+        "prompt": "排列词块：我是一个男孩。",
+        "answer": "I am a boy.",
+        "tokens": [
+          "am",
+          "a",
+          "boy.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u01-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我是一个女孩。",
+        "answer": "I am a girl.",
+        "tokens": [
+          "am",
+          "a",
+          "girl.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u01-order-3",
+        "kind": "order",
+        "prompt": "排列词块：李老师，早上好！",
+        "answer": "Good morning, Miss Li!",
+        "tokens": [
+          "morning,",
+          "Miss",
+          "Li!",
+          "Good"
+        ]
+      },
+      {
+        "id": "g3a-u01-order-4",
+        "kind": "order",
+        "prompt": "排列词块：同学们，下午好！",
+        "answer": "Good afternoon, class!",
+        "tokens": [
+          "afternoon,",
+          "class!",
+          "Good"
+        ]
+      },
+      {
+        "id": "g3a-u01-order-5",
+        "kind": "order",
+        "prompt": "排列词块：你好，我是艾米。",
+        "answer": "Hello, I am Amy.",
+        "tokens": [
+          "I",
+          "am",
+          "Amy.",
+          "Hello,"
+        ]
       }
     ]
   },
@@ -887,6 +946,67 @@
         "kind": "spell",
         "prompt": "拼写“先生”对应的英语单词",
         "answer": "Mr"
+      },
+      {
+        "id": "g3a-u02-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你叫什么名字？",
+        "answer": "What is your name?",
+        "tokens": [
+          "is",
+          "your",
+          "name?",
+          "What"
+        ]
+      },
+      {
+        "id": "g3a-u02-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我叫本。",
+        "answer": "My name is Ben.",
+        "tokens": [
+          "name",
+          "is",
+          "Ben.",
+          "My"
+        ]
+      },
+      {
+        "id": "g3a-u02-order-3",
+        "kind": "order",
+        "prompt": "排列词块：很高兴认识你！",
+        "answer": "Nice to meet you!",
+        "tokens": [
+          "to",
+          "meet",
+          "you!",
+          "Nice"
+        ]
+      },
+      {
+        "id": "g3a-u02-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我是一个女孩。",
+        "answer": "I am a girl.",
+        "tokens": [
+          "am",
+          "a",
+          "girl.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u02-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我也很高兴认识你！",
+        "answer": "Nice to meet you too!",
+        "tokens": [
+          "to",
+          "meet",
+          "you",
+          "too!",
+          "Nice"
+        ]
       }
     ]
   },
@@ -1487,6 +1607,62 @@
         "kind": "spell",
         "prompt": "拼写“正确的”对应的英语单词",
         "answer": "right"
+      },
+      {
+        "id": "g3a-u03-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你是艾米吗？",
+        "answer": "Are you Amy?",
+        "tokens": [
+          "you",
+          "Amy?",
+          "Are"
+        ]
+      },
+      {
+        "id": "g3a-u03-order-2",
+        "kind": "order",
+        "prompt": "排列词块：是的，我是。",
+        "answer": "Yes, I am.",
+        "tokens": [
+          "I",
+          "am.",
+          "Yes,"
+        ]
+      },
+      {
+        "id": "g3a-u03-order-3",
+        "kind": "order",
+        "prompt": "排列词块：不，我不是。",
+        "answer": "No, I am not.",
+        "tokens": [
+          "I",
+          "am",
+          "not.",
+          "No,"
+        ]
+      },
+      {
+        "id": "g3a-u03-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我在这里！",
+        "answer": "Here I am!",
+        "tokens": [
+          "I",
+          "am!",
+          "Here"
+        ]
+      },
+      {
+        "id": "g3a-u03-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我们是双胞胎。",
+        "answer": "We are twins.",
+        "tokens": [
+          "are",
+          "twins.",
+          "We"
+        ]
       }
     ]
   },
@@ -1835,6 +2011,67 @@
         "kind": "spell",
         "prompt": "拼写“许多”对应的英语单词",
         "answer": "many"
+      },
+      {
+        "id": "g3a-u04-order-1",
+        "kind": "order",
+        "prompt": "排列词块：这是我的朋友。",
+        "answer": "This is my friend.",
+        "tokens": [
+          "is",
+          "my",
+          "friend.",
+          "This"
+        ]
+      },
+      {
+        "id": "g3a-u04-order-2",
+        "kind": "order",
+        "prompt": "排列词块：她是我的朋友。",
+        "answer": "She is my friend.",
+        "tokens": [
+          "is",
+          "my",
+          "friend.",
+          "She"
+        ]
+      },
+      {
+        "id": "g3a-u04-order-3",
+        "kind": "order",
+        "prompt": "排列词块：他是我的朋友。",
+        "answer": "He is my friend.",
+        "tokens": [
+          "is",
+          "my",
+          "friend.",
+          "He"
+        ]
+      },
+      {
+        "id": "g3a-u04-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我有许多朋友。",
+        "answer": "I have many friends.",
+        "tokens": [
+          "have",
+          "many",
+          "friends.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u04-order-5",
+        "kind": "order",
+        "prompt": "排列词块：这是我的朋友本。",
+        "answer": "This is my friend Ben.",
+        "tokens": [
+          "is",
+          "my",
+          "friend",
+          "Ben.",
+          "This"
+        ]
       }
     ]
   },
@@ -2489,6 +2726,66 @@
         "kind": "spell",
         "prompt": "拼写“说”对应的英语单词",
         "answer": "say"
+      },
+      {
+        "id": "g3a-u05-order-1",
+        "kind": "order",
+        "prompt": "排列词块：她是我的妈妈。",
+        "answer": "She is my mother.",
+        "tokens": [
+          "is",
+          "my",
+          "mother.",
+          "She"
+        ]
+      },
+      {
+        "id": "g3a-u05-order-2",
+        "kind": "order",
+        "prompt": "排列词块：他是我的爸爸。",
+        "answer": "He is my father.",
+        "tokens": [
+          "is",
+          "my",
+          "father.",
+          "He"
+        ]
+      },
+      {
+        "id": "g3a-u05-order-3",
+        "kind": "order",
+        "prompt": "排列词块：这是我的姐姐（妹妹）。",
+        "answer": "This is my sister.",
+        "tokens": [
+          "is",
+          "my",
+          "sister.",
+          "This"
+        ]
+      },
+      {
+        "id": "g3a-u05-order-4",
+        "kind": "order",
+        "prompt": "排列词块：他是我的哥哥（弟弟）。",
+        "answer": "He is my brother.",
+        "tokens": [
+          "is",
+          "my",
+          "brother.",
+          "He"
+        ]
+      },
+      {
+        "id": "g3a-u05-order-5",
+        "kind": "order",
+        "prompt": "排列词块：看看这个宝宝。",
+        "answer": "Look at the baby.",
+        "tokens": [
+          "at",
+          "the",
+          "baby.",
+          "Look"
+        ]
       }
     ]
   },
@@ -2926,6 +3223,66 @@
         "kind": "spell",
         "prompt": "拼写“爱”对应的英语单词",
         "answer": "love"
+      },
+      {
+        "id": "g3a-u06-order-1",
+        "kind": "order",
+        "prompt": "排列词块：他是你的爷爷吗？",
+        "answer": "Is he your grandpa?",
+        "tokens": [
+          "he",
+          "your",
+          "grandpa?",
+          "Is"
+        ]
+      },
+      {
+        "id": "g3a-u06-order-2",
+        "kind": "order",
+        "prompt": "排列词块：她是你的奶奶吗？",
+        "answer": "Is she your grandma?",
+        "tokens": [
+          "she",
+          "your",
+          "grandma?",
+          "Is"
+        ]
+      },
+      {
+        "id": "g3a-u06-order-3",
+        "kind": "order",
+        "prompt": "排列词块：这是我的叔叔。",
+        "answer": "This is my uncle.",
+        "tokens": [
+          "is",
+          "my",
+          "uncle.",
+          "This"
+        ]
+      },
+      {
+        "id": "g3a-u06-order-4",
+        "kind": "order",
+        "prompt": "排列词块：她是我的姑姑。",
+        "answer": "She is my aunt.",
+        "tokens": [
+          "is",
+          "my",
+          "aunt.",
+          "She"
+        ]
+      },
+      {
+        "id": "g3a-u06-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我爱我的家人。",
+        "answer": "I love my family.",
+        "tokens": [
+          "love",
+          "my",
+          "family.",
+          "I"
+        ]
       }
     ]
   },
@@ -4023,6 +4380,64 @@
         "kind": "spell",
         "prompt": "拼写“谢谢”对应的英语单词",
         "answer": "thanks"
+      },
+      {
+        "id": "g3a-u07-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你多大了？",
+        "answer": "How old are you?",
+        "tokens": [
+          "old",
+          "are",
+          "you?",
+          "How"
+        ]
+      },
+      {
+        "id": "g3a-u07-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我九岁。",
+        "answer": "I am nine.",
+        "tokens": [
+          "am",
+          "nine.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u07-order-3",
+        "kind": "order",
+        "prompt": "排列词块：我能帮你吗？",
+        "answer": "Can I help you?",
+        "tokens": [
+          "I",
+          "help",
+          "you?",
+          "Can"
+        ]
+      },
+      {
+        "id": "g3a-u07-order-4",
+        "kind": "order",
+        "prompt": "排列词块：给你。",
+        "answer": "Here you are.",
+        "tokens": [
+          "you",
+          "are.",
+          "Here"
+        ]
+      },
+      {
+        "id": "g3a-u07-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我现在八岁。",
+        "answer": "I am eight now.",
+        "tokens": [
+          "am",
+          "eight",
+          "now.",
+          "I"
+        ]
       }
     ]
   },
@@ -4371,6 +4786,70 @@
         "kind": "spell",
         "prompt": "拼写“跳舞”对应的英语单词",
         "answer": "dance"
+      },
+      {
+        "id": "g3a-u08-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你会做什么？",
+        "answer": "What can you do?",
+        "tokens": [
+          "can",
+          "you",
+          "do?",
+          "What"
+        ]
+      },
+      {
+        "id": "g3a-u08-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我会擦桌子。",
+        "answer": "I can clean the table.",
+        "tokens": [
+          "can",
+          "clean",
+          "the",
+          "table.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u08-order-3",
+        "kind": "order",
+        "prompt": "排列词块：你会拍照吗？",
+        "answer": "Can you take pictures?",
+        "tokens": [
+          "you",
+          "take",
+          "pictures?",
+          "Can"
+        ]
+      },
+      {
+        "id": "g3a-u08-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我会唱歌和跳舞。",
+        "answer": "I can sing and dance.",
+        "tokens": [
+          "can",
+          "sing",
+          "and",
+          "dance.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3a-u08-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我能为你做这件事。",
+        "answer": "I can do this for you.",
+        "tokens": [
+          "can",
+          "do",
+          "this",
+          "for",
+          "you.",
+          "I"
+        ]
       }
     ]
   }
