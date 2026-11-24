@@ -40,3 +40,21 @@ for(const [i,u] of spring.entries()){
  }
 }
 console.log('Spring 2025 textbook validation passed:',spring.length,'units,',seenSpring.size,'word-list entries,',spring.reduce((n,u)=>n+u.questions.length,0),'original questions')
+
+
+const autumn4=JSON.parse(readFileSync(new URL('2025-g4a-verified.json',root),'utf8'))
+const formalUnits=[...units,...spring,...autumn4]
+if(formalUnits.length!==24)throw Error('Expected 24 formal units')
+const questionIds=new Set()
+for(const u of formalUnits){
+ const orders=u.questions.filter(q=>q.kind==='order')
+ if(orders.length<5)throw Error('Sentence stage requires at least five questions: '+u.id)
+ for(const q of u.questions){
+  if(questionIds.has(q.id))throw Error('Duplicate question ID: '+q.id)
+  questionIds.add(q.id)
+ }
+ for(const q of orders){
+  if(!Array.isArray(q.tokens)||q.tokens.length<2||q.tokens.join(' ')===q.answer||JSON.stringify([...q.tokens].sort())!==JSON.stringify(q.answer.split(' ').sort()))throw Error('Invalid sentence ordering question: '+q.id)
+ }
+}
+console.log('Sentence stage coverage:',formalUnits.length,'units,',formalUnits.reduce((n,u)=>n+u.questions.filter(q=>q.kind==='order').length,0),'ordering questions')
