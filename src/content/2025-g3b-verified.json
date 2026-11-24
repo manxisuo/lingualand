@@ -379,6 +379,68 @@
         "kind": "spell",
         "prompt": "拼写“长的”对应的英语单词",
         "answer": "long"
+      },
+      {
+        "id": "g3b-u01-order-1",
+        "kind": "order",
+        "prompt": "排列词块：这是你的钢笔吗？",
+        "answer": "Is this your pen?",
+        "tokens": [
+          "this",
+          "your",
+          "pen?",
+          "Is"
+        ]
+      },
+      {
+        "id": "g3b-u01-order-2",
+        "kind": "order",
+        "prompt": "排列词块：那是我的尺子。",
+        "answer": "That is my ruler.",
+        "tokens": [
+          "is",
+          "my",
+          "ruler.",
+          "That"
+        ]
+      },
+      {
+        "id": "g3b-u01-order-3",
+        "kind": "order",
+        "prompt": "排列词块：这是我的铅笔盒。",
+        "answer": "This is my pencil case.",
+        "tokens": [
+          "is",
+          "my",
+          "pencil",
+          "case.",
+          "This"
+        ]
+      },
+      {
+        "id": "g3b-u01-order-4",
+        "kind": "order",
+        "prompt": "排列词块：把它放进你的书包。",
+        "answer": "Put it in your schoolbag.",
+        "tokens": [
+          "it",
+          "in",
+          "your",
+          "schoolbag.",
+          "Put"
+        ]
+      },
+      {
+        "id": "g3b-u01-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我的橡皮在哪里？",
+        "answer": "Where is my rubber?",
+        "tokens": [
+          "is",
+          "my",
+          "rubber?",
+          "Where"
+        ]
       }
     ],
     "phrases": [
@@ -907,6 +969,67 @@
         "kind": "spell",
         "prompt": "拼写“（使）保持，处于”对应的英语单词",
         "answer": "keep"
+      },
+      {
+        "id": "g3b-u02-order-1",
+        "kind": "order",
+        "prompt": "排列词块：让我们打扫教室吧。",
+        "answer": "Let's clean our classroom.",
+        "tokens": [
+          "clean",
+          "our",
+          "classroom.",
+          "Let's"
+        ]
+      },
+      {
+        "id": "g3b-u02-order-2",
+        "kind": "order",
+        "prompt": "排列词块：请关窗。",
+        "answer": "Please close the window.",
+        "tokens": [
+          "close",
+          "the",
+          "window.",
+          "Please"
+        ]
+      },
+      {
+        "id": "g3b-u02-order-3",
+        "kind": "order",
+        "prompt": "排列词块：收好你的书。",
+        "answer": "Put away your books.",
+        "tokens": [
+          "away",
+          "your",
+          "books.",
+          "Put"
+        ]
+      },
+      {
+        "id": "g3b-u02-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我会扫地。",
+        "answer": "I can sweep the floor.",
+        "tokens": [
+          "can",
+          "sweep",
+          "the",
+          "floor.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3b-u02-order-5",
+        "kind": "order",
+        "prompt": "排列词块：让我们擦黑板吧。",
+        "answer": "Let's clean the blackboard.",
+        "tokens": [
+          "clean",
+          "the",
+          "blackboard.",
+          "Let's"
+        ]
       }
     ],
     "phrases": [
@@ -1385,6 +1508,68 @@
         "kind": "spell",
         "prompt": "拼写“安静的”对应的英语单词",
         "answer": "quiet"
+      },
+      {
+        "id": "g3b-u03-order-1",
+        "kind": "order",
+        "prompt": "排列词块：不要在图书馆大喊。",
+        "answer": "Don't shout in the library.",
+        "tokens": [
+          "shout",
+          "in",
+          "the",
+          "library.",
+          "Don't"
+        ]
+      },
+      {
+        "id": "g3b-u03-order-2",
+        "kind": "order",
+        "prompt": "排列词块：请坐下。",
+        "answer": "Please sit down.",
+        "tokens": [
+          "sit",
+          "down.",
+          "Please"
+        ]
+      },
+      {
+        "id": "g3b-u03-order-3",
+        "kind": "order",
+        "prompt": "排列词块：不要在教室里跑。",
+        "answer": "Don't run in the classroom.",
+        "tokens": [
+          "run",
+          "in",
+          "the",
+          "classroom.",
+          "Don't"
+        ]
+      },
+      {
+        "id": "g3b-u03-order-4",
+        "kind": "order",
+        "prompt": "排列词块：请看黑板。",
+        "answer": "Please look at the blackboard.",
+        "tokens": [
+          "look",
+          "at",
+          "the",
+          "blackboard.",
+          "Please"
+        ]
+      },
+      {
+        "id": "g3b-u03-order-5",
+        "kind": "order",
+        "prompt": "排列词块：不要在课堂上吃东西。",
+        "answer": "Don't eat in class.",
+        "tokens": [
+          "eat",
+          "in",
+          "class.",
+          "Don't"
+        ]
       }
     ],
     "phrases": [
@@ -2160,6 +2345,70 @@
         "kind": "spell",
         "prompt": "拼写“鸭子”对应的英语单词",
         "answer": "duck"
+      },
+      {
+        "id": "g3b-u04-order-1",
+        "kind": "order",
+        "prompt": "排列词块：我们课后一起玩吧。",
+        "answer": "Let's play after class.",
+        "tokens": [
+          "play",
+          "after",
+          "class.",
+          "Let's"
+        ]
+      },
+      {
+        "id": "g3b-u04-order-2",
+        "kind": "order",
+        "prompt": "排列词块：球在树下。",
+        "answer": "The ball is under the tree.",
+        "tokens": [
+          "ball",
+          "is",
+          "under",
+          "the",
+          "tree.",
+          "The"
+        ]
+      },
+      {
+        "id": "g3b-u04-order-3",
+        "kind": "order",
+        "prompt": "排列词块：猫在椅子后面。",
+        "answer": "The cat is behind the chair.",
+        "tokens": [
+          "cat",
+          "is",
+          "behind",
+          "the",
+          "chair.",
+          "The"
+        ]
+      },
+      {
+        "id": "g3b-u04-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我们可以在外面玩。",
+        "answer": "We can play outside.",
+        "tokens": [
+          "can",
+          "play",
+          "outside.",
+          "We"
+        ]
+      },
+      {
+        "id": "g3b-u04-order-5",
+        "kind": "order",
+        "prompt": "排列词块：让我们一起开心地玩吧。",
+        "answer": "Let's have fun together.",
+        "tokens": [
+          "have",
+          "fun",
+          "together.",
+          "Let's"
+        ]
       }
     ],
     "phrases": [
@@ -2684,6 +2933,69 @@
         "kind": "spell",
         "prompt": "拼写“有用，有好处”对应的英语单词",
         "answer": "good"
+      },
+      {
+        "id": "g3b-u05-order-1",
+        "kind": "order",
+        "prompt": "排列词块：我喜欢甜苹果。",
+        "answer": "I like sweet apples.",
+        "tokens": [
+          "like",
+          "sweet",
+          "apples.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3b-u05-order-2",
+        "kind": "order",
+        "prompt": "排列词块：你喜欢葡萄吗？",
+        "answer": "Do you like grapes?",
+        "tokens": [
+          "you",
+          "like",
+          "grapes?",
+          "Do"
+        ]
+      },
+      {
+        "id": "g3b-u05-order-3",
+        "kind": "order",
+        "prompt": "排列词块：我们做水果沙拉吧。",
+        "answer": "Let's make a fruit salad.",
+        "tokens": [
+          "make",
+          "a",
+          "fruit",
+          "salad.",
+          "Let's"
+        ]
+      },
+      {
+        "id": "g3b-u05-order-4",
+        "kind": "order",
+        "prompt": "排列词块：你想要一根香蕉吗？",
+        "answer": "Would you like a banana?",
+        "tokens": [
+          "you",
+          "like",
+          "a",
+          "banana?",
+          "Would"
+        ]
+      },
+      {
+        "id": "g3b-u05-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我们可以分享水果。",
+        "answer": "We can share the fruit.",
+        "tokens": [
+          "can",
+          "share",
+          "the",
+          "fruit.",
+          "We"
+        ]
       }
     ],
     "phrases": [
@@ -3158,6 +3470,67 @@
         "kind": "spell",
         "prompt": "拼写“移动”对应的英语单词",
         "answer": "move"
+      },
+      {
+        "id": "g3b-u06-order-1",
+        "kind": "order",
+        "prompt": "排列词块：欢迎来到我的农场！",
+        "answer": "Welcome to my farm!",
+        "tokens": [
+          "to",
+          "my",
+          "farm!",
+          "Welcome"
+        ]
+      },
+      {
+        "id": "g3b-u06-order-2",
+        "kind": "order",
+        "prompt": "排列词块：这些是什么？",
+        "answer": "What are these?",
+        "tokens": [
+          "are",
+          "these?",
+          "What"
+        ]
+      },
+      {
+        "id": "g3b-u06-order-3",
+        "kind": "order",
+        "prompt": "排列词块：它们是小兔子。",
+        "answer": "They are little rabbits.",
+        "tokens": [
+          "are",
+          "little",
+          "rabbits.",
+          "They"
+        ]
+      },
+      {
+        "id": "g3b-u06-order-4",
+        "kind": "order",
+        "prompt": "排列词块：那些是我的奶牛。",
+        "answer": "Those are my cows.",
+        "tokens": [
+          "are",
+          "my",
+          "cows.",
+          "Those"
+        ]
+      },
+      {
+        "id": "g3b-u06-order-5",
+        "kind": "order",
+        "prompt": "排列词块：绵羊在农场里。",
+        "answer": "The sheep are on the farm.",
+        "tokens": [
+          "sheep",
+          "are",
+          "on",
+          "the",
+          "farm.",
+          "The"
+        ]
       }
     ],
     "phrases": [
@@ -3594,6 +3967,69 @@
         "kind": "spell",
         "prompt": "拼写“看，见”对应的英语单词",
         "answer": "see"
+      },
+      {
+        "id": "g3b-u07-order-1",
+        "kind": "order",
+        "prompt": "排列词块：看看那头大象！",
+        "answer": "Look at the elephant!",
+        "tokens": [
+          "at",
+          "the",
+          "elephant!",
+          "Look"
+        ]
+      },
+      {
+        "id": "g3b-u07-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我喜欢小猴子。",
+        "answer": "I like little monkeys.",
+        "tokens": [
+          "like",
+          "little",
+          "monkeys.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3b-u07-order-3",
+        "kind": "order",
+        "prompt": "排列词块：你能看见老虎吗？",
+        "answer": "Can you see the tiger?",
+        "tokens": [
+          "you",
+          "see",
+          "the",
+          "tiger?",
+          "Can"
+        ]
+      },
+      {
+        "id": "g3b-u07-order-4",
+        "kind": "order",
+        "prompt": "排列词块：熊非常大。",
+        "answer": "The bear is very big.",
+        "tokens": [
+          "bear",
+          "is",
+          "very",
+          "big.",
+          "The"
+        ]
+      },
+      {
+        "id": "g3b-u07-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我们去动物园吧。",
+        "answer": "Let's go to the zoo.",
+        "tokens": [
+          "go",
+          "to",
+          "the",
+          "zoo.",
+          "Let's"
+        ]
       }
     ],
     "phrases": [
@@ -4091,6 +4527,70 @@
         "kind": "spell",
         "prompt": "拼写“小的”对应的英语单词",
         "answer": "little"
+      },
+      {
+        "id": "g3b-u08-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你的气球是什么颜色的？",
+        "answer": "What colour is your balloon?",
+        "tokens": [
+          "colour",
+          "is",
+          "your",
+          "balloon?",
+          "What"
+        ]
+      },
+      {
+        "id": "g3b-u08-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我的气球是黄色的。",
+        "answer": "My balloon is yellow.",
+        "tokens": [
+          "balloon",
+          "is",
+          "yellow.",
+          "My"
+        ]
+      },
+      {
+        "id": "g3b-u08-order-3",
+        "kind": "order",
+        "prompt": "排列词块：我喜欢绿色和蓝色。",
+        "answer": "I like green and blue.",
+        "tokens": [
+          "like",
+          "green",
+          "and",
+          "blue.",
+          "I"
+        ]
+      },
+      {
+        "id": "g3b-u08-order-4",
+        "kind": "order",
+        "prompt": "排列词块：这是一个粉色气球。",
+        "answer": "This is a pink balloon.",
+        "tokens": [
+          "is",
+          "a",
+          "pink",
+          "balloon.",
+          "This"
+        ]
+      },
+      {
+        "id": "g3b-u08-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我们买一个红气球吧。",
+        "answer": "Let's buy a red balloon.",
+        "tokens": [
+          "buy",
+          "a",
+          "red",
+          "balloon.",
+          "Let's"
+        ]
       }
     ],
     "phrases": [
