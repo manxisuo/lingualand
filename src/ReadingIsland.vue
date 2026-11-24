@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {computed,ref,onBeforeUnmount} from 'vue'
 import {books,type ReadingBook} from './readingBooks'
+const base=import.meta.env.BASE_URL
 const volume=ref('all'),unit=ref('all'),book=ref<ReadingBook|null>(null),page=ref(0),rate=ref(.8),playing=ref(false),quiz=ref(false),answers=ref<Record<number,string>>({}),checked=ref(false),word=ref('')
 type RecordEntry={page:number;read:boolean;score?:number}
 function load():Record<string,RecordEntry>{try{return JSON.parse(localStorage.getItem('lingualand-reading-v1')||'{}')||{}}catch{return {}}}
@@ -26,12 +27,12 @@ onBeforeUnmount(stop)
 <div class="studio-header"><small>READING ISLAND · ORIGINAL STORIES</small><h2>故事阅读岛</h2><p>翻开一本小书，在故事里遇见学过的英语。</p></div>
 <template v-if="!book">
 <div class="reading-filter"><select v-model="volume" @change="unit='all'"><option value="all">全部教材</option><option value="g3a">三年级上册</option><option value="g3b">三年级下册</option><option value="g4a">四年级上册</option></select><select v-model="unit"><option value="all">全部单元</option><option v-for="b in units" :key="b.unit" :value="b.unit">{{b.unitTitle}}</option></select></div>
-<div class="reading-shelf"><button v-for="b in visible" :key="b.id" class="reading-cover" @click="open(b)"><div class="cover-art" :class="b.id"><span class="cover-sun"></span><span class="cover-hill"></span><span class="cover-animal">{{b.id==='hello'?'Hello!':b.id==='fruit'?'Fruit':'My day'}}</span></div><small>{{b.unitTitle}} · {{b.pages.length}} 页</small><h3>{{b.title}}</h3><p>{{b.zh}}</p><span>{{progress[b.id]?.read?'已阅读':progress[b.id]?'继续阅读':'开始阅读'}} →</span></button></div><p v-if="!visible.length">该单元的绘本正在准备中。</p>
+<div class="reading-shelf"><button v-for="b in visible" :key="b.id" class="reading-cover" @click="open(b)"><img v-if="b.pages[0]?.[3]" class="cover-art reading-art" :src="base+b.pages[0][3]" :alt="b.title" /><div v-else class="cover-art" :class="b.id"><span class="cover-sun"></span><span class="cover-hill"></span><span class="cover-animal">{{b.id==='hello'?'Hello!':b.id==='fruit'?'Fruit':'My day'}}</span></div><small>{{b.unitTitle}} · {{b.pages.length}} 页</small><h3>{{b.title}}</h3><p>{{b.zh}}</p><span>{{progress[b.id]?.read?'已阅读':progress[b.id]?'继续阅读':'开始阅读'}} →</span></button></div><p v-if="!visible.length">该单元的绘本正在准备中。</p>
 </template>
 <template v-else>
 <div class="reading-toolbar"><button class="secondary" @click="stop();book=null">← 返回书架</button><strong>{{book.title}}</strong><span>{{quiz?'阅读理解':page+1+' / '+book.pages.length}}</span></div>
 <div v-if="!quiz&&scene" class="reading-spread">
-<svg class="reading-art" viewBox="0 0 640 360" role="img" :aria-label="scene[2]+' story illustration'">
+<img v-if="scene[3]" class="reading-art" :src="base+scene[3]" :alt="scene[0]" /><svg v-else class="reading-art" viewBox="0 0 640 360" role="img" :aria-label="scene[2]+' story illustration'">
 <defs><linearGradient id="readSky" x2="0" y2="1"><stop stop-color="#a8dce6"/><stop offset="1" stop-color="#fff1cc"/></linearGradient><linearGradient id="readFur" x2="0" y2="1"><stop stop-color="#f5b76e"/><stop offset="1" stop-color="#dc854d"/></linearGradient></defs>
 <rect width="640" height="360" rx="20" :fill="scene[2]==='evening'||scene[2]==='bed'?'#b4b4d9':'url(#readSky)'"/><circle :cx="scene[2]==='afternoon'?510:110" cy="65" r="37" fill="#fff1b1"/><g fill="#fff" opacity=".75"><ellipse cx="330" cy="65" rx="63" ry="19"/><ellipse cx="360" cy="52" rx="34" ry="25"/></g><path d="M0 235 Q140 125 310 235 T640 215 V360 H0Z" fill="#a6c99a"/><path d="M0 280 Q180 215 340 278 T640 250 V360 H0Z" fill="#79b38a"/>
 <g v-if="scene[2]==='school'"><rect x="235" y="75" width="200" height="150" rx="8" fill="#fff0c8"/><path d="M215 80 L335 12 L455 80Z" fill="#bc7966"/><rect x="310" y="145" width="50" height="80" fill="#9b745f"/><rect x="255" y="105" width="35" height="35" fill="#9ccfdf"/><rect x="380" y="105" width="35" height="35" fill="#9ccfdf"/></g>
