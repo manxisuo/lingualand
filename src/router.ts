@@ -14,6 +14,10 @@ export const router=createRouter({
  routes:[
   {path:'/',redirect:'/home'},
   ...Object.entries(pagePaths).map(([name,path])=>({name,path,component:RouteMarker})),
+  ...['lesson','vocabulary','speaking','adventure','practice','review'].map(path=>({path:'/'+path+'/:unitId',component:RouteMarker})),
+  {path:'/review/due/:unitId',component:RouteMarker},
+  {path:'/adventure/:unitId/challenge/:stage(0|1|2)',component:RouteMarker},
+  {path:'/reading/:bookId/:page?',component:RouteMarker},
   {path:'/practice',name:'practice',component:RouteMarker},
   {path:'/review',name:'review',component:RouteMarker},
   {path:'/review/due',name:'due',component:RouteMarker},
