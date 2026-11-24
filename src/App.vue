@@ -66,14 +66,21 @@ function shuffle<T>(source:T[]):T[]{
  for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}
  return result
 }
+// Separate sentence punctuation without splitting contractions, possessives or hyphenated words.
+function splitOrderTokens(source:string[]):string[]{
+ return source.flatMap(token=>token.match(/[^\s.,!?;:]+|[.,!?;:]/g)||[])
+}
+function joinOrderTokens(source:string[]):string{
+ return source.join(' ').replace(/\s+([.,!?;:])/g,'$1')
+}
 function prepareQuestions(source:Question[]):Question[]{
  return source.map(question=>{
   if(question.kind==='order'&&question.tokens?.length){
-   const original=question.tokens
+   const original=splitOrderTokens(question.tokens)
    let tokens=shuffle(original)
    // Reject the solved order; bounded retries also handle malformed identical tokens.
-   for(let attempt=0;attempt<32&&tokens.join(' ')===question.answer;attempt++)tokens=shuffle(original)
-   if(tokens.join(' ')===question.answer){
+   for(let attempt=0;attempt<32&&joinOrderTokens(tokens)===question.answer;attempt++)tokens=shuffle(original)
+   if(joinOrderTokens(tokens)===question.answer){
     const i=tokens.findIndex(t=>t!==tokens[0])
     if(i>0)[tokens[0],tokens[i]]=[tokens[i],tokens[0]]
    }
@@ -101,7 +108,7 @@ function openStage(i:number){if(!unlocked(i)||!stageQuestions(i).length)return;s
 function finish(){if(stageMode.value){const earned=stageTotal.value?stageCorrect.value/stageTotal.value:0;const stars=earned===1?3:earned>=.7?2:earned>0?1:0;const key=stageKey(stage.value);if(stars>stageStars(stage.value)){stageScore.value={...stageScore.value,[key]:stars};localStorage.setItem('lingualand-stage-scores',JSON.stringify(stageScore.value))}growth.value.completedRuns++;if(stageTotal.value>0&&stageCorrect.value===stageTotal.value)growth.value.perfectRuns++;saveGrowth();stageComplete.value=true}else{page.value='home'}}
 
 const q=computed<Question|undefined>(()=>questions.value[index.value])
-const answer=computed(()=>q.value?.kind==='order'?tokens.value.map(i=>q.value!.tokens![i]).join(' '):selected.value)
+const answer=computed(()=>q.value?.kind==='order'?joinOrderTokens(tokens.value.map(i=>q.value!.tokens![i])):selected.value)
 const mastered=computed(()=>activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]?.correct).length)
 const wrong=computed(()=>activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]&&!progress.value.results[keyFor(q.id)].correct).length)
 const percent=computed(()=>Math.round(mastered.value/activeUnit.value.questions.length*100))
