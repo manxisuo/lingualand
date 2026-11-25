@@ -514,6 +514,69 @@
         "kind": "spell",
         "prompt": "拼写“全部，都”对应的单词",
         "answer": "all"
+      },
+      {
+        "id": "g4a-u01-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你最喜欢什么学科？",
+        "answer": "What subject do you like best?",
+        "tokens": [
+          "subject",
+          "do",
+          "you",
+          "like",
+          "best?",
+          "What"
+        ]
+      },
+      {
+        "id": "g4a-u01-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我最喜欢科学。",
+        "answer": "I like Science best.",
+        "tokens": [
+          "like",
+          "Science",
+          "best.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u01-order-3",
+        "kind": "order",
+        "prompt": "排列词块：你喜欢英语吗？",
+        "answer": "Do you like English?",
+        "tokens": [
+          "you",
+          "like",
+          "English?",
+          "Do"
+        ]
+      },
+      {
+        "id": "g4a-u01-order-4",
+        "kind": "order",
+        "prompt": "排列词块：到上数学课的时间了。",
+        "answer": "It's time for Maths.",
+        "tokens": [
+          "time",
+          "for",
+          "Maths.",
+          "It's"
+        ]
+      },
+      {
+        "id": "g4a-u01-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我擅长美术。",
+        "answer": "I am good at Art.",
+        "tokens": [
+          "am",
+          "good",
+          "at",
+          "Art.",
+          "I"
+        ]
       }
     ],
     "phrases": [
@@ -1120,6 +1183,74 @@
         "kind": "spell",
         "prompt": "拼写“床”对应的单词",
         "answer": "bed"
+      },
+      {
+        "id": "g4a-u02-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你几点起床？",
+        "answer": "What time do you get up?",
+        "tokens": [
+          "time",
+          "do",
+          "you",
+          "get",
+          "up?",
+          "What"
+        ]
+      },
+      {
+        "id": "g4a-u02-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我七点起床。",
+        "answer": "I get up at seven.",
+        "tokens": [
+          "get",
+          "up",
+          "at",
+          "seven.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u02-order-3",
+        "kind": "order",
+        "prompt": "排列词块：我八点吃早饭。",
+        "answer": "I have breakfast at eight.",
+        "tokens": [
+          "have",
+          "breakfast",
+          "at",
+          "eight.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u02-order-4",
+        "kind": "order",
+        "prompt": "排列词块：该上床睡觉了。",
+        "answer": "It's time to go to bed.",
+        "tokens": [
+          "time",
+          "to",
+          "go",
+          "to",
+          "bed.",
+          "It's"
+        ]
+      },
+      {
+        "id": "g4a-u02-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我每天早上洗脸。",
+        "answer": "I wash my face every morning.",
+        "tokens": [
+          "wash",
+          "my",
+          "face",
+          "every",
+          "morning.",
+          "I"
+        ]
       }
     ],
     "phrases": [
@@ -1750,6 +1881,69 @@
         "kind": "spell",
         "prompt": "拼写“空闲的”对应的单词",
         "answer": "free"
+      },
+      {
+        "id": "g4a-u03-order-1",
+        "kind": "order",
+        "prompt": "排列词块：今天星期几？",
+        "answer": "What day is it today?",
+        "tokens": [
+          "day",
+          "is",
+          "it",
+          "today?",
+          "What"
+        ]
+      },
+      {
+        "id": "g4a-u03-order-2",
+        "kind": "order",
+        "prompt": "排列词块：今天是星期一。",
+        "answer": "Today is Monday.",
+        "tokens": [
+          "is",
+          "Monday.",
+          "Today"
+        ]
+      },
+      {
+        "id": "g4a-u03-order-3",
+        "kind": "order",
+        "prompt": "排列词块：你什么时候踢足球？",
+        "answer": "When do you play football?",
+        "tokens": [
+          "do",
+          "you",
+          "play",
+          "football?",
+          "When"
+        ]
+      },
+      {
+        "id": "g4a-u03-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我星期六踢足球。",
+        "answer": "I play football on Saturday.",
+        "tokens": [
+          "play",
+          "football",
+          "on",
+          "Saturday.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u03-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我们星期五有音乐课。",
+        "answer": "We have Music on Friday.",
+        "tokens": [
+          "have",
+          "Music",
+          "on",
+          "Friday.",
+          "We"
+        ]
       }
     ],
     "phrases": [
@@ -2100,6 +2294,68 @@
         "kind": "spell",
         "prompt": "拼写“试”对应的单词",
         "answer": "try"
+      },
+      {
+        "id": "g4a-u04-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你喜欢打篮球吗？",
+        "answer": "Do you like playing basketball?",
+        "tokens": [
+          "you",
+          "like",
+          "playing",
+          "basketball?",
+          "Do"
+        ]
+      },
+      {
+        "id": "g4a-u04-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我喜欢踢足球。",
+        "answer": "I like playing football.",
+        "tokens": [
+          "like",
+          "playing",
+          "football.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u04-order-3",
+        "kind": "order",
+        "prompt": "排列词块：我们打乒乓球吧。",
+        "answer": "Let's play ping-pong.",
+        "tokens": [
+          "play",
+          "ping-pong.",
+          "Let's"
+        ]
+      },
+      {
+        "id": "g4a-u04-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我游泳游得很好。",
+        "answer": "I can swim very well.",
+        "tokens": [
+          "can",
+          "swim",
+          "very",
+          "well.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u04-order-5",
+        "kind": "order",
+        "prompt": "排列词块：你可以试一试。",
+        "answer": "You can have a go.",
+        "tokens": [
+          "can",
+          "have",
+          "a",
+          "go.",
+          "You"
+        ]
       }
     ],
     "phrases": [
@@ -2620,6 +2876,68 @@
         "kind": "spell",
         "prompt": "拼写“表演，演出”对应的单词",
         "answer": "show"
+      },
+      {
+        "id": "g4a-u05-order-1",
+        "kind": "order",
+        "prompt": "排列词块：看看我的新机器人！",
+        "answer": "Look at my new robot!",
+        "tokens": [
+          "at",
+          "my",
+          "new",
+          "robot!",
+          "Look"
+        ]
+      },
+      {
+        "id": "g4a-u05-order-2",
+        "kind": "order",
+        "prompt": "排列词块：它有长长的胳膊。",
+        "answer": "It has long arms.",
+        "tokens": [
+          "has",
+          "long",
+          "arms.",
+          "It"
+        ]
+      },
+      {
+        "id": "g4a-u05-order-3",
+        "kind": "order",
+        "prompt": "排列词块：他的眼睛很大。",
+        "answer": "His eyes are big.",
+        "tokens": [
+          "eyes",
+          "are",
+          "big.",
+          "His"
+        ]
+      },
+      {
+        "id": "g4a-u05-order-4",
+        "kind": "order",
+        "prompt": "排列词块：她的头发很长。",
+        "answer": "Her hair is long.",
+        "tokens": [
+          "hair",
+          "is",
+          "long.",
+          "Her"
+        ]
+      },
+      {
+        "id": "g4a-u05-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我的机器人有两条腿。",
+        "answer": "My robot has two legs.",
+        "tokens": [
+          "robot",
+          "has",
+          "two",
+          "legs.",
+          "My"
+        ]
       }
     ],
     "phrases": [
@@ -3084,6 +3402,70 @@
         "kind": "spell",
         "prompt": "拼写“到那里，在那里”对应的单词",
         "answer": "there"
+      },
+      {
+        "id": "g4a-u06-order-1",
+        "kind": "order",
+        "prompt": "排列词块：今天天气怎么样？",
+        "answer": "What's the weather like today?",
+        "tokens": [
+          "the",
+          "weather",
+          "like",
+          "today?",
+          "What's"
+        ]
+      },
+      {
+        "id": "g4a-u06-order-2",
+        "kind": "order",
+        "prompt": "排列词块：天气晴朗而温暖。",
+        "answer": "It is sunny and warm.",
+        "tokens": [
+          "is",
+          "sunny",
+          "and",
+          "warm.",
+          "It"
+        ]
+      },
+      {
+        "id": "g4a-u06-order-3",
+        "kind": "order",
+        "prompt": "排列词块：今天多云。",
+        "answer": "It is cloudy today.",
+        "tokens": [
+          "is",
+          "cloudy",
+          "today.",
+          "It"
+        ]
+      },
+      {
+        "id": "g4a-u06-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我们放风筝吧。",
+        "answer": "Let's fly a kite.",
+        "tokens": [
+          "fly",
+          "a",
+          "kite.",
+          "Let's"
+        ]
+      },
+      {
+        "id": "g4a-u06-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我们可以去公园。",
+        "answer": "We can go to the park.",
+        "tokens": [
+          "can",
+          "go",
+          "to",
+          "the",
+          "park.",
+          "We"
+        ]
       }
     ],
     "phrases": [
@@ -3559,6 +3941,69 @@
         "kind": "spell",
         "prompt": "拼写“雪，积雪”对应的单词",
         "answer": "snow"
+      },
+      {
+        "id": "g4a-u07-order-1",
+        "kind": "order",
+        "prompt": "排列词块：你最喜欢哪个季节？",
+        "answer": "What's your favourite season?",
+        "tokens": [
+          "your",
+          "favourite",
+          "season?",
+          "What's"
+        ]
+      },
+      {
+        "id": "g4a-u07-order-2",
+        "kind": "order",
+        "prompt": "排列词块：我最喜欢春天。",
+        "answer": "I like spring best.",
+        "tokens": [
+          "like",
+          "spring",
+          "best.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u07-order-3",
+        "kind": "order",
+        "prompt": "排列词块：我们夏天去游泳。",
+        "answer": "We go swimming in summer.",
+        "tokens": [
+          "go",
+          "swimming",
+          "in",
+          "summer.",
+          "We"
+        ]
+      },
+      {
+        "id": "g4a-u07-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我冬天去滑冰。",
+        "answer": "I go skating in winter.",
+        "tokens": [
+          "go",
+          "skating",
+          "in",
+          "winter.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u07-order-5",
+        "kind": "order",
+        "prompt": "排列词块：我们秋天去爬山吧。",
+        "answer": "Let's go climbing in autumn.",
+        "tokens": [
+          "go",
+          "climbing",
+          "in",
+          "autumn.",
+          "Let's"
+        ]
       }
     ],
     "phrases": [
@@ -4039,6 +4484,71 @@
         "kind": "spell",
         "prompt": "拼写“衣服”对应的单词",
         "answer": "clothes"
+      },
+      {
+        "id": "g4a-u08-order-1",
+        "kind": "order",
+        "prompt": "排列词块：这是谁的外套？",
+        "answer": "Whose coat is this?",
+        "tokens": [
+          "coat",
+          "is",
+          "this?",
+          "Whose"
+        ]
+      },
+      {
+        "id": "g4a-u08-order-2",
+        "kind": "order",
+        "prompt": "排列词块：这是我哥哥（弟弟）的外套。",
+        "answer": "It is my brother's coat.",
+        "tokens": [
+          "is",
+          "my",
+          "brother's",
+          "coat.",
+          "It"
+        ]
+      },
+      {
+        "id": "g4a-u08-order-3",
+        "kind": "order",
+        "prompt": "排列词块：她穿着红色连衣裙。",
+        "answer": "She is in a red dress.",
+        "tokens": [
+          "is",
+          "in",
+          "a",
+          "red",
+          "dress.",
+          "She"
+        ]
+      },
+      {
+        "id": "g4a-u08-order-4",
+        "kind": "order",
+        "prompt": "排列词块：我夏天穿短裤。",
+        "answer": "I wear shorts in summer.",
+        "tokens": [
+          "wear",
+          "shorts",
+          "in",
+          "summer.",
+          "I"
+        ]
+      },
+      {
+        "id": "g4a-u08-order-5",
+        "kind": "order",
+        "prompt": "排列词块：看看我的新帽子。",
+        "answer": "Look at my new cap.",
+        "tokens": [
+          "at",
+          "my",
+          "new",
+          "cap.",
+          "Look"
+        ]
       }
     ],
     "phrases": [],

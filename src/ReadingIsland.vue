@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import {computed,ref,onBeforeUnmount} from 'vue'
+import {computed,ref,onBeforeUnmount,watch} from 'vue'
+import {useRoute,useRouter} from 'vue-router'
 import {books,type ReadingBook} from './readingBooks'
 const base=import.meta.env.BASE_URL
+const route=useRoute(),router=useRouter()
 const volume=ref('all'),unit=ref('all'),book=ref<ReadingBook|null>(null),page=ref(0),rate=ref(.8),playing=ref(false),quiz=ref(false),answers=ref<Record<number,string>>({}),checked=ref(false),word=ref('')
 type RecordEntry={page:number;read:boolean;score?:number}
 function load():Record<string,RecordEntry>{try{return JSON.parse(localStorage.getItem('lingualand-reading-v1')||'{}')||{}}catch{return {}}}
@@ -14,12 +16,30 @@ const options=computed(()=>book.value?.questions.map((q,i)=>{const a=q.slice(1);
 const tokens=computed(()=>{if(!book.value||!scene.value)return [];const keys=Object.keys(book.value.words).sort((a,b)=>b.length-a.length);const text=scene.value[0]||'';const re=new RegExp('('+keys.map(k=>k.replace(/[.*+?^$${}()|[\]\\]/g,'\\$&')).join('|')+')','gi');return text.split(re).map(t=>({text:t,key:keys.find(k=>k.toLowerCase()===t.toLowerCase())}))})
 let speechId=0
 function stop(){speechId++;playing.value=false;if('speechSynthesis' in window)window.speechSynthesis.cancel()}
-function speak(text:string,continuous=false){stop();if(!('speechSynthesis' in window))return;const id=speechId;playing.value=true;const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate.value;u.onend=()=>{if(id!==speechId)return;playing.value=false;if(continuous&&book.value&&page.value<book.value.pages.length-1){page.value++;save();speak(book.value.pages[page.value]![0]!,true)}};u.onerror=()=>{if(id===speechId)playing.value=false};window.speechSynthesis.speak(u)}
+function speak(text:string,continuous=false){stop();if(!('speechSynthesis' in window))return;const id=speechId;playing.value=true;const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate.value;u.onend=()=>{if(id!==speechId)return;playing.value=false;if(continuous&&book.value&&page.value<book.value.pages.length-1){page.value++;save();syncPage();speak(book.value.pages[page.value]![0]!,true)}};u.onerror=()=>{if(id===speechId)playing.value=false};window.speechSynthesis.speak(u)}
 function save(read=false){if(!book.value)return;const id=book.value.id;const old=progress.value[id];progress.value={...progress.value,[id]:{...old,page:page.value,read:read||!!old?.read}};try{localStorage.setItem('lingualand-reading-v1',JSON.stringify(progress.value))}catch{}}
-function open(b:ReadingBook){stop();book.value=b;page.value=Math.min(b.pages.length-1,Math.max(0,progress.value[b.id]?.page||0));quiz.value=false;checked.value=false;answers.value={};word.value='';save()}
-function move(d:number){if(!book.value)return;stop();page.value=Math.max(0,Math.min(book.value.pages.length-1,page.value+d));word.value='';save()}
+function loadBook(b:ReadingBook){stop();book.value=b;page.value=Math.min(b.pages.length-1,Math.max(0,progress.value[b.id]?.page||0));quiz.value=false;checked.value=false;answers.value={};word.value='';save()}
+function move(d:number){if(!book.value)return;stop();page.value=Math.max(0,Math.min(book.value.pages.length-1,page.value+d));word.value='';save();syncPage()}
 function finish(){stop();save(true);quiz.value=true}
 function grade(){if(!book.value)return;checked.value=true;save(true);progress.value[book.value.id]!.score=score.value;try{localStorage.setItem('lingualand-reading-v1',JSON.stringify(progress.value))}catch{}}
+function bookPath(){return book.value?'/reading/'+book.value.id+'/'+(page.value+1):'/reading'}
+function syncPage(){if(book.value&&route.path!==bookPath())void router.replace(bookPath())}
+function open(b:ReadingBook){loadBook(b);void router.push(bookPath())}
+function closeBook(){stop();book.value=null;quiz.value=false;void router.push('/reading')}
+function restart(){stop();quiz.value=false;page.value=0;checked.value=false;answers.value={};word.value='';save();syncPage()}
+watch(()=>route.path,path=>{
+ if(path!=='/reading'&&!path.startsWith('/reading/'))return
+ const id=route.params.bookId
+ if(typeof id!=='string'){stop();book.value=null;quiz.value=false;return}
+ const b=books.find(x=>x.id===id)
+ if(!b){stop();book.value=null;void router.replace('/reading');return}
+ const raw=route.params.page
+ const n=typeof raw==='string'&&/^\d+$/.test(raw)?Number(raw):1
+ const target=Math.max(0,Math.min(b.pages.length-1,n-1))
+ if(book.value?.id!==b.id){loadBook(b);page.value=target;save()}
+ else if(page.value!==target){stop();page.value=target;quiz.value=false;word.value='';save()}
+ if(path!==bookPath())void router.replace(bookPath())
+},{immediate:true})
 onBeforeUnmount(stop)
 </script>
 <template>
@@ -30,7 +50,7 @@ onBeforeUnmount(stop)
 <div class="reading-shelf"><button v-for="b in visible" :key="b.id" class="reading-cover" @click="open(b)"><img v-if="b.pages[0]?.[3]" class="cover-art reading-art" :src="base+b.pages[0][3]" :alt="b.title" /><div v-else class="cover-art" :class="b.id"><span class="cover-sun"></span><span class="cover-hill"></span><span class="cover-animal">{{b.id==='hello'?'Hello!':b.id==='fruit'?'Fruit':'My day'}}</span></div><small>{{b.unitTitle}} · {{b.pages.length}} 页</small><h3>{{b.title}}</h3><p>{{b.zh}}</p><span>{{progress[b.id]?.read?'已阅读':progress[b.id]?'继续阅读':'开始阅读'}} →</span></button></div><p v-if="!visible.length">该单元的绘本正在准备中。</p>
 </template>
 <template v-else>
-<div class="reading-toolbar"><button class="secondary" @click="stop();book=null">← 返回书架</button><strong>{{book.title}}</strong><span>{{quiz?'阅读理解':page+1+' / '+book.pages.length}}</span></div>
+<div class="reading-toolbar"><button class="secondary" @click="closeBook">← 返回书架</button><strong>{{book.title}}</strong><span>{{quiz?'阅读理解':page+1+' / '+book.pages.length}}</span></div>
 <div v-if="!quiz&&scene" class="reading-spread">
 <img v-if="scene[3]" class="reading-art" :src="base+scene[3]" :alt="scene[0]" /><svg v-else class="reading-art" viewBox="0 0 640 360" role="img" :aria-label="scene[2]+' story illustration'">
 <defs><linearGradient id="readSky" x2="0" y2="1"><stop stop-color="#a8dce6"/><stop offset="1" stop-color="#fff1cc"/></linearGradient><linearGradient id="readFur" x2="0" y2="1"><stop stop-color="#f5b76e"/><stop offset="1" stop-color="#dc854d"/></linearGradient></defs>
@@ -43,9 +63,21 @@ onBeforeUnmount(stop)
 </svg>
 <div class="reading-text"><p><template v-for="(t,i) in tokens" :key="i"><button v-if="t.key" class="reading-word" @click="word=t.key||''">{{t.text}}</button><span v-else>{{t.text}}</span></template></p><div class="reading-gloss" aria-live="polite"><template v-if="word"><strong>{{word}}</strong> · {{book.words[word]}} <button class="secondary" @click="speak(word)">听发音</button></template><span v-else>点击带下划线的重点词汇查看释义</span></div></div></div>
 <div v-if="!quiz" class="reading-controls"><button class="secondary" :disabled="page===0" @click="move(-1)">← 上一页</button><button class="secondary" @click="playing?stop():speak(scene?.[0]||'')">{{playing?'停止':'朗读本页'}}</button><button class="secondary" @click="speak(scene?.[0]||'',true)">连续朗读</button><select v-model.number="rate"><option :value=".65">慢速</option><option :value=".8">适中</option><option :value="1">正常</option></select><button v-if="page<book.pages.length-1" class="primary" @click="move(1)">下一页 →</button><button v-else class="primary" @click="finish">阅读理解 →</button></div>
-<div v-else class="reading-quiz"><h3>你读懂故事了吗？</h3><fieldset v-for="(q,i) in book.questions" :key="i"><legend>{{i+1}}. {{q[0]}}</legend><button v-for="a in options[i]" :key="a" :disabled="checked" :class="{selected:answers[i]===a}" @click="answers[i]=a">{{a}}</button><p v-if="checked">{{answers[i]===q[1]?'回答正确':'正确答案：'+q[1]}}</p></fieldset><button class="primary" :disabled="checked||Object.keys(answers).length!==book.questions.length" @click="grade">提交答案</button><p v-if="checked">本次成绩：{{score}} / {{book.questions.length}}</p><button class="secondary" @click="quiz=false;page=0;checked=false;answers={};save()">重新阅读</button></div>
-</template><p class="reading-note">原创教材配套阅读 · 非教材原文 · V1 插画为程序绘制的 SVG 样板。</p></section>
+<div v-else class="reading-quiz"><h3>你读懂故事了吗？</h3><fieldset v-for="(q,i) in book.questions" :key="i"><legend>{{i+1}}. {{q[0]}}</legend><button v-for="a in options[i]" :key="a" :disabled="checked" :class="{selected:answers[i]===a}" @click="answers[i]=a">{{a}}</button><p v-if="checked">{{answers[i]===q[1]?'回答正确':'正确答案：'+q[1]}}</p></fieldset><button class="primary" :disabled="checked||Object.keys(answers).length!==book.questions.length" @click="grade">提交答案</button><p v-if="checked">本次成绩：{{score}} / {{book.questions.length}}</p><button class="secondary" @click="restart">重新阅读</button></div>
+</template><p class="reading-note">原创教材配套阅读 · 非教材原文 · 插画包含原创 SVG 与 AI 生成素材。</p></section>
 </template>
 <style scoped>
 .reading-filter,.reading-toolbar,.reading-controls{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:16px 0}.reading-filter select,.reading-controls select{padding:10px;border:1px solid #d9e5d9;border-radius:10px;background:white;color:#456d58}.reading-shelf{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}.reading-cover{border:1px solid #dce8db;border-radius:20px;background:white;text-align:left;padding:14px;color:#416b56;cursor:pointer}.reading-cover h3{margin:10px 0 4px;font-size:21px}.reading-cover p{margin:0 0 14px}.reading-cover small{display:block;margin-top:12px}.cover-art{height:165px;border-radius:13px;background:linear-gradient(#b5dce5,#fff0c7);position:relative;overflow:hidden;display:grid;place-items:center}.cover-art.fruit{background:linear-gradient(#f9d5a8,#f8edc9)}.cover-art.day{background:linear-gradient(#b5c7e7,#f7e6b9)}.cover-sun{position:absolute;width:45px;height:45px;border-radius:50%;background:#fff1ad;top:15px;left:20px}.cover-hill{position:absolute;width:140%;height:65%;border-radius:50%;background:#91bb92;bottom:-25%}.cover-animal{position:relative;font-size:30px;font-weight:900;color:#416b56;background:#fff9e8;padding:12px 18px;border-radius:16px;transform:rotate(-4deg)}.reading-toolbar strong{flex:1}.reading-spread{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;background:#fffdf5;border:1px solid #e9e2ce;border-radius:22px;padding:18px}.reading-art{width:100%;display:block}.reading-text{display:flex;flex-direction:column;justify-content:center;min-width:0}.reading-text>p{font-size:clamp(22px,3vw,34px);line-height:1.65;color:#3e574b;margin:10px 0}.reading-word{display:inline;background:transparent;border:0;border-bottom:2px dotted #8caa80;color:#397a57;font:inherit;padding:0;cursor:pointer}.reading-gloss{min-height:70px;font-size:13px;color:#718b77}.reading-controls{justify-content:center}.reading-quiz fieldset{border:1px solid #dce8db;border-radius:14px;padding:16px;margin:14px 0}.reading-quiz legend{font-weight:700;color:#456d58}.reading-quiz fieldset button{display:block;width:100%;text-align:left;padding:12px;margin:6px 0;border:1px solid #dce8db;border-radius:10px;background:white;color:#456d58}.reading-quiz button.selected{background:#e0f1df;border-color:#7cae81}.reading-note{font-size:12px;color:#819485;margin-top:20px}@media(max-width:760px){.reading-spread{grid-template-columns:1fr}.reading-text>p{font-size:24px}.reading-toolbar strong{flex-basis:100%;order:-1}}
+
+/* Keep raster story illustrations at a comfortable desktop reading size. */
+@media(min-width:761px){
+.reading-spread{max-width:820px;margin-inline:auto;grid-template-columns:minmax(0,340px) minmax(0,1fr);align-items:center;gap:28px;padding:24px}
+.reading-spread>img.reading-art{width:auto;max-width:100%;max-height:340px;height:auto;object-fit:contain;justify-self:center}
+.reading-toolbar,.reading-controls{max-width:820px;margin-inline:auto}
+.reading-shelf{grid-template-columns:repeat(auto-fill,minmax(210px,260px))}
+
+}
+
+/* Preserve cover aspect ratio on every viewport. */
+.reading-cover>img.cover-art{display:block;width:100%;height:165px;object-fit:cover;object-position:center;border-radius:13px}
 </style>

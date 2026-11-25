@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import {computed,ref} from 'vue'
+import {computed,ref,watch} from 'vue'
+import {useRoute,useRouter} from 'vue-router'
+import {pagePaths} from './router'
 import {course,type Question} from './data'
 import LearningStudio from './LearningStudio.vue'
 import ReadingIsland from './ReadingIsland.vue'
@@ -32,6 +34,7 @@ function chooseUnit(id:string){unitId.value=id;localStorage.setItem('lingualand-
 function unitPercent(id:string){const u=findUnit(id).unit;return Math.round(u.questions.filter(q=>progress.value.results[id===defaultUnitId?q.id:id+':'+q.id]?.correct).length/u.questions.length*100)}
 
 const page=ref<'home'|'cards'|'quiz'|'studio'|'courses'|'stages'|'achievements'|'speaking'|'insights'|'lesson'|'lab'|'reading'>('home')
+const dueMode=ref(false)
 const review=ref(false),cardIndex=ref(0),flipped=ref(false),index=ref(0),selected=ref(''),tokens=ref<number[]>([]),checked=ref(false),correct=ref(false)
 const stage=ref(0),stageMode=ref(false),stageComplete=ref(false),stageCorrect=ref(0),stageTotal=ref(0)
 const stages=[{title:'启程小径',icon:'🌱',detail:'认识单词与基础词义'},{title:'拼写溪谷',icon:'🪄',detail:'练习拼写与短语'},{title:'句式高地',icon:'🏔️',detail:'挑战完整句子'}]
@@ -58,12 +61,33 @@ const badges=computed(()=>[
 const earnedBadges=computed(()=>badges.value.filter(b=>b.earned).length)
 function saveGrowth(){localStorage.setItem(growthKey,JSON.stringify(growth.value))}
 // Randomize option positions for each practice run without mutating shared curriculum data.
+function shuffle<T>(source:T[]):T[]{
+ const result=[...source]
+ for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}
+ return result
+}
+// Separate sentence punctuation without splitting contractions, possessives or hyphenated words.
+function splitOrderTokens(source:string[]):string[]{
+ return source.flatMap(token=>token.match(/[^\s.,!?;:]+|[.,!?;:]/g)||[])
+}
+function joinOrderTokens(source:string[]):string{
+ return source.join(' ').replace(/\s+([.,!?;:])/g,'$1')
+}
 function prepareQuestions(source:Question[]):Question[]{
  return source.map(question=>{
-  if((question.kind!=='choice'&&question.kind!=='phrase')||!question.options?.length)return {...question}
-  const options=[...question.options]
-  for(let i=options.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[options[i],options[j]]=[options[j],options[i]]}
-  return {...question,options}
+  if(question.kind==='order'&&question.tokens?.length){
+   const original=splitOrderTokens(question.tokens)
+   let tokens=shuffle(original)
+   // Reject the solved order; bounded retries also handle malformed identical tokens.
+   for(let attempt=0;attempt<32&&joinOrderTokens(tokens)===question.answer;attempt++)tokens=shuffle(original)
+   if(joinOrderTokens(tokens)===question.answer){
+    const i=tokens.findIndex(t=>t!==tokens[0])
+    if(i>0)[tokens[0],tokens[i]]=[tokens[i],tokens[0]]
+   }
+   return {...question,tokens}
+  }
+  if((question.kind==='choice'||question.kind==='phrase')&&question.options?.length)return {...question,options:shuffle(question.options)}
+  return {...question}
  })
 }
 // Only depict concrete meanings with vetted original illustrations or unambiguous emoji.
@@ -80,22 +104,68 @@ function hasIllustration(word:string){return illustratedWords.has(illustrationKe
 function showEmoji(word:string,emoji:string){return !hasIllustration(word)&&safeEmojiWords.has(illustrationKey(word))&&!!emoji}
 const activeQuestions=ref<Question[]>([])
 const questions=computed(()=>activeQuestions.value)
-function openStage(i:number){if(!unlocked(i)||!stageQuestions(i).length)return;stage.value=i;stageMode.value=true;stageComplete.value=false;review.value=false;activeQuestions.value=prepareQuestions(stageQuestions(i));stageCorrect.value=0;stageTotal.value=0;streak.value=0;bonus.value=0;index.value=0;reset();page.value='quiz'}
+function openStage(i:number){if(!unlocked(i)||!stageQuestions(i).length)return;stage.value=i;dueMode.value=false;stageMode.value=true;stageComplete.value=false;review.value=false;activeQuestions.value=prepareQuestions(stageQuestions(i));stageCorrect.value=0;stageTotal.value=0;streak.value=0;bonus.value=0;index.value=0;reset();page.value='quiz'}
 function finish(){if(stageMode.value){const earned=stageTotal.value?stageCorrect.value/stageTotal.value:0;const stars=earned===1?3:earned>=.7?2:earned>0?1:0;const key=stageKey(stage.value);if(stars>stageStars(stage.value)){stageScore.value={...stageScore.value,[key]:stars};localStorage.setItem('lingualand-stage-scores',JSON.stringify(stageScore.value))}growth.value.completedRuns++;if(stageTotal.value>0&&stageCorrect.value===stageTotal.value)growth.value.perfectRuns++;saveGrowth();stageComplete.value=true}else{page.value='home'}}
 
 const q=computed<Question|undefined>(()=>questions.value[index.value])
-const answer=computed(()=>q.value?.kind==='order'?tokens.value.map(i=>q.value!.tokens![i]).join(' '):selected.value)
+const answer=computed(()=>q.value?.kind==='order'?joinOrderTokens(tokens.value.map(i=>q.value!.tokens![i])):selected.value)
 const mastered=computed(()=>activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]?.correct).length)
 const wrong=computed(()=>activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]&&!progress.value.results[keyFor(q.id)].correct).length)
 const percent=computed(()=>Math.round(mastered.value/activeUnit.value.questions.length*100))
 function save(){localStorage.setItem(key,JSON.stringify(progress.value))}
 function speak(s:string){if(!('speechSynthesis'in window))return;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(s);u.lang='en-US';u.rate=.82;window.speechSynthesis.speak(u)}
-function startDue(){stageMode.value=false;stageComplete.value=false;review.value=true;today.value=Date.now();activeQuestions.value=prepareQuestions(dueQuestions(activeUnit.value.questions,unitId.value,reviewRecords.value,progress.value.results,today.value));index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
-function start(isReview=false){stageMode.value=false;stageComplete.value=false;review.value=isReview;activeQuestions.value=prepareQuestions(isReview?activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]&&!progress.value.results[keyFor(q.id)].correct):activeUnit.value.questions);index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
+function startDue(){dueMode.value=true;stageMode.value=false;stageComplete.value=false;review.value=true;today.value=Date.now();activeQuestions.value=prepareQuestions(dueQuestions(activeUnit.value.questions,unitId.value,reviewRecords.value,progress.value.results,today.value));index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
+function start(isReview=false){dueMode.value=false;stageMode.value=false;stageComplete.value=false;review.value=isReview;activeQuestions.value=prepareQuestions(isReview?activeUnit.value.questions.filter(q=>progress.value.results[keyFor(q.id)]&&!progress.value.results[keyFor(q.id)].correct):activeUnit.value.questions);index.value=0;streak.value=0;bonus.value=0;reset();page.value='quiz'}
 function reset(){selected.value='';tokens.value=[];checked.value=false;correct.value=false}
 function submit(){if(!q.value||!answer.value.trim()||checked.value)return;correct.value=answer.value.trim().toLowerCase()===q.value.answer.trim().toLowerCase();checked.value=true;const old=progress.value.results[keyFor(q.value.id)];progress.value.results[keyFor(q.value.id)]={correct:correct.value,attempts:(old?.attempts||0)+1};bonus.value=0;if(correct.value){streak.value++;growth.value.totalCorrect++;growth.value.bestStreak=Math.max(growth.value.bestStreak,streak.value);bonus.value=streak.value>0&&streak.value%3===0?15:0;progress.value.stars+=10+bonus.value;if(stageMode.value)stageCorrect.value++}else{streak.value=0}if(stageMode.value)stageTotal.value++;const reviewId=keyFor(q.value.id);reviewRecords.value={...reviewRecords.value,[reviewId]:schedule(reviewRecords.value[reviewId],correct.value)};localStorage.setItem(reviewKey,JSON.stringify(reviewRecords.value));today.value=Date.now();saveGrowth();save()}
 function next(){if(index.value+1>=questions.value.length){finish();return}index.value++;reset()}
 function clear(){if(confirm('确定清空本设备的学习记录吗？')){progress.value={stars:0,results:{}};save();stageScore.value={};localStorage.removeItem('lingualand-stage-scores');growth.value={totalCorrect:0,bestStreak:0,completedRuns:0,perfectRuns:0};saveGrowth();reviewRecords.value={};localStorage.removeItem(reviewKey);streak.value=0;page.value='home'}}
+
+const route=useRoute()
+const router=useRouter()
+const unitPages=new Set(['lesson','cards','speaking','stages'])
+const validUnit=(id:string)=>allUnits().some(x=>x.unit.id===id)
+if(!validUnit(unitId.value))unitId.value=initialUnitId
+function currentPath():string{
+ if(page.value==='reading')return '/reading'
+ if(page.value!=='quiz')return pagePaths[page.value]+(unitPages.has(page.value)?'/'+unitId.value:'')
+ if(stageMode.value)return '/adventure/'+unitId.value+'/challenge/'+stage.value
+ if(review.value)return (dueMode.value?'/review/due/':'/review/')+unitId.value
+ return '/practice/'+unitId.value
+}
+function matches(path:string,target:string){return path===target||(target==='/reading'&&path.startsWith('/reading/'))}
+let applyingRoute=false
+let canonicalPending=''
+watch(currentPath,path=>{
+ if(!applyingRoute&&canonicalPending!==path&&!matches(route.path,path))void router.push(path)
+},{flush:'post'})
+// Route application is atomic: suppress state-to-URL updates while initializing views.
+watch(()=>route.path,path=>{
+ if(matches(path,currentPath()))return
+ applyingRoute=true
+ try{
+  const requested=typeof route.params.unitId==='string'?route.params.unitId:''
+  if(requested&&validUnit(requested)&&requested!==unitId.value){
+   unitId.value=requested;localStorage.setItem('lingualand-unit',requested)
+   cardIndex.value=0;flipped.value=false;index.value=0;reset()
+  }
+  if(path==='/reading'||path.startsWith('/reading/'))page.value='reading'
+  else if(path==='/practice'||path.startsWith('/practice/'))start()
+  else if(path==='/review/due'||path.startsWith('/review/due/'))startDue()
+  else if(path==='/review'||path.startsWith('/review/'))start(true)
+  else if(route.params.stage!==undefined){
+   const i=Number(route.params.stage)
+   if(Number.isInteger(i)&&i>=0&&i<stages.length&&unlocked(i)&&stageQuestions(i).length)openStage(i)
+   else page.value='stages'
+  }else{
+   const root='/'+path.split('/')[1]
+   const entry=Object.entries(pagePaths).find(([,value])=>value===root)
+   page.value=entry?(entry[0] as keyof typeof pagePaths):'home'
+  }
+  const canonical=currentPath()
+  if(!matches(path,canonical)){canonicalPending=canonical;void router.replace(canonical).finally(()=>{if(canonicalPending===canonical)canonicalPending=''})}
+ }finally{applyingRoute=false}
+},{immediate:true,flush:'sync'})
 </script>
 <template>
 <div class="shell">
