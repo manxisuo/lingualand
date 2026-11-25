@@ -351,4 +351,154 @@ export const books:ReadingBook[]=[
       "Sad"
     ]
   ]
-}]
+},
+{
+  "id": "lost-lamb",
+  "volume": "g3b",
+  "unit": "g3b-u06",
+  "unitTitle": "On the farm",
+  "title": "The Little Lost Lamb",
+  "zh": "迷路的小羊羔",
+  "pages": [
+    [
+      "“Welcome to my farm!” says Farmer Bear.",
+      "both",
+      "garden",
+      "reading/lost-lamb/01.webp"
+    ],
+    [
+      "Fox and Cat see a little lamb.",
+      "both",
+      "garden",
+      "reading/lost-lamb/02.webp"
+    ],
+    [
+      "“Where is your mum?” asks Cat.",
+      "both",
+      "garden",
+      "reading/lost-lamb/03.webp"
+    ],
+    [
+      "“Let's help the little lamb!” says Fox.",
+      "both",
+      "garden",
+      "reading/lost-lamb/04.webp"
+    ],
+    [
+      "“What are these?” “They are chickens.”",
+      "both",
+      "garden",
+      "reading/lost-lamb/05.webp"
+    ],
+    [
+      "“What are those?” “They are cows.”",
+      "both",
+      "garden",
+      "reading/lost-lamb/06.webp"
+    ],
+    [
+      "Look! These are rabbits.",
+      "both",
+      "garden",
+      "reading/lost-lamb/07.webp"
+    ],
+    [
+      "Cat gives the rabbits some carrots.",
+      "both",
+      "garden",
+      "reading/lost-lamb/08.webp"
+    ],
+    [
+      "“What are those?” “They are pigs.”",
+      "both",
+      "garden",
+      "reading/lost-lamb/09.webp"
+    ],
+    [
+      "The little lamb is sad. Where is Mum?",
+      "both",
+      "garden",
+      "reading/lost-lamb/10.webp"
+    ],
+    [
+      "Listen! “Baa! Baa!”",
+      "both",
+      "garden",
+      "reading/lost-lamb/11.webp"
+    ],
+    [
+      "“Look! Those are sheep!” says Fox.",
+      "both",
+      "garden",
+      "reading/lost-lamb/12.webp"
+    ],
+    [
+      "The little lamb runs to its mum.",
+      "both",
+      "garden",
+      "reading/lost-lamb/13.webp"
+    ],
+    [
+      "Mum and the little lamb are happy.",
+      "both",
+      "garden",
+      "reading/lost-lamb/14.webp"
+    ],
+    [
+      "“You're home now!” says Cat.",
+      "both",
+      "garden",
+      "reading/lost-lamb/15.webp"
+    ]
+  ],
+  "words": {
+    "farm": "农场",
+    "lamb": "小羊羔",
+    "mum": "妈妈",
+    "help": "帮助",
+    "these": "这些",
+    "those": "那些",
+    "chickens": "鸡",
+    "cows": "奶牛",
+    "rabbits": "兔子",
+    "carrots": "胡萝卜",
+    "pigs": "猪",
+    "sheep": "绵羊",
+    "sad": "伤心的",
+    "home": "家",
+    "happy": "开心的"
+  },
+  "questions": [
+    [
+      "Where are Fox and Cat?",
+      "On a farm",
+      "At school",
+      "In a library"
+    ],
+    [
+      "Who needs help?",
+      "A little lamb",
+      "A little pig",
+      "A little rabbit"
+    ],
+    [
+      "What does Cat give the rabbits?",
+      "Carrots",
+      "Apples",
+      "Milk"
+    ],
+    [
+      "What animals do they see on the hill?",
+      "Sheep",
+      "Cows",
+      "Chickens"
+    ],
+    [
+      "Who does the little lamb find?",
+      "Its mum",
+      "Farmer Bear",
+      "A rabbit"
+    ]
+  ]
+}
+]
