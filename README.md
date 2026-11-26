@@ -1,3 +1,5 @@
+[![LinguaLand · 语言奇遇岛](public/banner.webp)](https://manxisuo.github.io/lingualand/)
+
 ## V2.4 四年级互动实验室
 - 新增 `src/InteractiveLab.vue`，并接入首页和侧栏：时间魔法、每周计划、四季天气、穿搭小屋。
 - Unit 2：可点击表盘设置分针，使用加减按钮调整时针和分针，检查整点与半点任务。
