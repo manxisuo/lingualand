@@ -7,15 +7,25 @@ import newWordlists from './content/g4b-g5a-wordlist.json'
 export type Unit={id:string;title:string;description:string;cards:Card[];questions:Question[];status?:string;letters?:string;objectives?:string[];phrases?:{english:string;meaning:string;origin?:string}[];dialogues?:{lines:string[];origin?:string}[]}
 export type Volume={id:string;grade:number;term:'上册'|'下册';units:Unit[]}
 export type Curriculum={id:string;name:string;volumes:Volume[]}
+// Original examples aligned with the inspected Unit 1 textbook pages.
+const unitSupplements:Record<string, {objectives:string[];phrases:NonNullable<Unit['phrases']>;dialogues:NonNullable<Unit['dialogues']>;questions:Question[]}>=Object.fromEntries([
+ ['g4b-u01', ['谈论朋友之间的互助','描述某处有什么','谈论快乐的一天'], [['share ... with ...','与……分享'],['there are','有（复数）'],['thank you for ...','感谢……']], ['There are some apples on the table.','Let us share them with our friends.'], [['There are two rabbits in the garden.','花园里有两只兔子。'],['There is a cat under the tree.','树下有一只猫。'],['I want to help my friends.','我想帮助我的朋友。'],['We share our fruit with them.','我们与他们分享水果。'],['Thank you for the apples.','谢谢你的苹果。']], ['There are ___ oranges.','some','a','an']],
+ ['g5a-u01', ['谈论良好习惯','描述日常行为','运用一般现在时描述他人的习惯'], [['keep ... tidy','保持……整洁'],['do exercise','锻炼'],['take notes','记笔记']], ['Does your room look tidy?','Yes. I clean it every day.'], [['She keeps her desk tidy.','她保持书桌整洁。'],['He never runs in class.','他从不在课堂上跑。'],['I do exercise every day.','我每天锻炼。'],['My sister often takes notes.','我的姐姐经常记笔记。'],['Tom listens carefully in class.','汤姆在课堂上认真听讲。']], ['She ___ her room every day.','cleans','clean','cleaning']]
+].map(entry=>{
+ const [id,objectives,phrases,lines,sentences,quiz]=entry as [string,string[],string[][],string[],string[][],string[]]
+ return [id,{objectives,phrases:phrases.map(([english,meaning])=>({english,meaning,origin:'教材主题对齐'})),dialogues:[{lines,origin:'原创情景'}],questions:[{id:id+'-context-1',kind:'phrase' as const,prompt:quiz[0],answer:quiz[1],options:quiz.slice(1)},...sentences.map(([answer,zh],i)=>({id:id+'-order-'+(i+1),kind:'order' as const,prompt:'排列词块：'+zh,answer,tokens:answer.split(' ').reverse()}))]}]
+}))
 // Original vocabulary practice derived from the transcribed textbook lists.
 const newUnits:Unit[]=newWordlists.map(u=>({
  ...u,
  cards:u.cards as Card[],
- objectives:['理解本单元词汇及常用表达','在语境中识别并运用本单元词汇'],
- questions:u.cards.flatMap((c):Question[]=>{
+ objectives:unitSupplements[u.id]?.objectives??['理解本单元词汇及常用表达','在语境中识别并运用本单元词汇'],
+ phrases:unitSupplements[u.id]?.phrases??[],
+ dialogues:unitSupplements[u.id]?.dialogues??[],
+ questions:[...(unitSupplements[u.id]?.questions??[]),...u.cards.flatMap((c):Question[]=>{
   const distractors=[...new Set(u.cards.filter(x=>x.meaning!==c.meaning).map(x=>x.meaning))].slice(0,3)
   return [{id:c.id+'-meaning',kind:'choice',prompt:'“'+c.word+'”是什么意思？',answer:c.meaning,options:[c.meaning,...distractors]},...(/^[a-z]+$/i.test(c.word)?[{id:c.id+'-spell',kind:'spell' as const,prompt:'拼写：'+c.meaning,answer:c.word}]:[])]
- })
+ })]
 }))
 const contentUnits:Unit[]=[...verifiedG3a,...verifiedG3b,...verifiedG4a].map(u=>({...u,cards:u.cards as Card[],questions:u.questions.map(q=>({...q,kind:q.kind as Question['kind']}))}))
 contentUnits.push(...newUnits)
