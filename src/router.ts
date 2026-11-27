@@ -7,7 +7,7 @@ const RouteMarker=defineComponent({render:()=>null})
 export const pagePaths={
  home:'/home',courses:'/courses',stages:'/adventure',achievements:'/profile',
  lesson:'/lesson',cards:'/vocabulary',insights:'/analytics',speaking:'/speaking',
- lab:'/lab',studio:'/studio',reading:'/reading'
+ lab:'/lab',studio:'/studio',reading:'/reading',grammar:'/grammar'
 } as const
 export const router=createRouter({
  history:createWebHashHistory(import.meta.env.BASE_URL),
@@ -17,6 +17,7 @@ export const router=createRouter({
   ...['lesson','vocabulary','speaking','adventure','practice','review'].map(path=>({path:'/'+path+'/:unitId',component:RouteMarker})),
   {path:'/review/due/:unitId',component:RouteMarker},
   {path:'/adventure/:unitId/challenge/:stage(0|1|2)',component:RouteMarker},
+  {path:'/grammar/:topicId',component:RouteMarker},
   {path:'/reading/:bookId/:page?',component:RouteMarker},
   {path:'/practice',name:'practice',component:RouteMarker},
   {path:'/review',name:'review',component:RouteMarker},
