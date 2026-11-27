@@ -1,0 +1,3965 @@
+[
+  {
+    "id": "g4b-u01",
+    "title": "We're friends",
+    "description": "朋友与互助",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u01-wl01",
+        "word": "weak",
+        "meaning": "虚弱的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u01-wl02",
+        "word": "strong",
+        "meaning": "强壮的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl03",
+        "word": "there are",
+        "meaning": "有",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl04",
+        "word": "them",
+        "meaning": "他们，她们，它们",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl05",
+        "word": "from",
+        "meaning": "来自",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl06",
+        "word": "party",
+        "meaning": "聚会",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl07",
+        "word": "like",
+        "meaning": "像",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl08",
+        "word": "friendship",
+        "meaning": "友谊",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u01-wl09",
+        "word": "forest",
+        "meaning": "森林",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 10,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u01-wl10",
+        "word": "thin",
+        "meaning": "瘦的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl11",
+        "word": "back",
+        "meaning": "背部",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl12",
+        "word": "angry",
+        "meaning": "生气的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl13",
+        "word": "one day",
+        "meaning": "有朝一日",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl14",
+        "word": "how",
+        "meaning": "怎样",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl15",
+        "word": "Please!",
+        "meaning": "求求你",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl16",
+        "word": "Go away!",
+        "meaning": "走开",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 12,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u01-wl17",
+        "word": "net",
+        "meaning": "网",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u01-wl18",
+        "word": "sad",
+        "meaning": "伤心的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl19",
+        "word": "Help!",
+        "meaning": "救命啊",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl20",
+        "word": "there is",
+        "meaning": "有",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl21",
+        "word": "hole",
+        "meaning": "洞",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u01-wl22",
+        "word": "kind",
+        "meaning": "友好的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u01-wl23",
+        "word": "become",
+        "meaning": "变成",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "g4b-u02",
+    "title": "Helping others at school",
+    "description": "校园互助",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u02-wl01",
+        "word": "other",
+        "meaning": "其他",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u02-wl02",
+        "word": "room",
+        "meaning": "房间",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 16,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl03",
+        "word": "computer",
+        "meaning": "电脑",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl04",
+        "word": "swing",
+        "meaning": "秋千",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u02-wl05",
+        "word": "playground",
+        "meaning": "操场",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl06",
+        "word": "have a look",
+        "meaning": "看一看",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl07",
+        "word": "careful",
+        "meaning": "小心的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl08",
+        "word": "feel",
+        "meaning": "感觉",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 18,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl09",
+        "word": "take",
+        "meaning": "带，拿",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl10",
+        "word": "first",
+        "meaning": "第一",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl11",
+        "word": "floor",
+        "meaning": "楼层",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl12",
+        "word": "show ... around",
+        "meaning": "带……参观",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u02-wl13",
+        "word": "any",
+        "meaning": "任何的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl14",
+        "word": "third",
+        "meaning": "第三",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl15",
+        "word": "later",
+        "meaning": "以后",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u02-wl16",
+        "word": "piano",
+        "meaning": "钢琴",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u02-wl17",
+        "word": "second",
+        "meaning": "第二",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 21,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g4b-u03",
+    "title": "Road safety",
+    "description": "道路安全",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u03-wl01",
+        "word": "road",
+        "meaning": "道路",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl02",
+        "word": "safety",
+        "meaning": "安全",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 24,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u03-wl03",
+        "word": "bus",
+        "meaning": "公共汽车",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl04",
+        "word": "traffic light",
+        "meaning": "交通信号灯",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u03-wl05",
+        "word": "take",
+        "meaning": "乘坐",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl06",
+        "word": "busy",
+        "meaning": "车来车往的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl07",
+        "word": "stay",
+        "meaning": "保持",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl08",
+        "word": "close",
+        "meaning": "接近",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl09",
+        "word": "cross",
+        "meaning": "横过",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u03-wl10",
+        "word": "stop",
+        "meaning": "停止",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl11",
+        "word": "wait",
+        "meaning": "等待",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl12",
+        "word": "left",
+        "meaning": "向左边",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl13",
+        "word": "right",
+        "meaning": "向右边",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u03-wl14",
+        "word": "safe",
+        "meaning": "安全的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g4b-u04",
+    "title": "Caring about others",
+    "description": "关心他人",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u04-wl01",
+        "word": "care about",
+        "meaning": "关心",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u04-wl02",
+        "word": "hungry",
+        "meaning": "饥饿的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl03",
+        "word": "thirsty",
+        "meaning": "口渴的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u04-wl04",
+        "word": "ill",
+        "meaning": "有病的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 33,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl05",
+        "word": "tired",
+        "meaning": "疲劳的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 33,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl06",
+        "word": "hot",
+        "meaning": "觉得热",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl07",
+        "word": "water",
+        "meaning": "水",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl08",
+        "word": "have a rest",
+        "meaning": "休息一下",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u04-wl09",
+        "word": "What's the matter?",
+        "meaning": "怎么了",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl10",
+        "word": "home",
+        "meaning": "家",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl11",
+        "word": "bag",
+        "meaning": "包",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl12",
+        "word": "bread",
+        "meaning": "面包",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 36,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl13",
+        "word": "dear",
+        "meaning": "亲爱的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u04-wl14",
+        "word": "set the table",
+        "meaning": "摆放餐具",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "g4b-u05",
+    "title": "Eating out",
+    "description": "外出就餐",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u05-wl01",
+        "word": "eat out",
+        "meaning": "外出吃饭",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl02",
+        "word": "fried rice",
+        "meaning": "炒饭",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u05-wl03",
+        "word": "spring roll",
+        "meaning": "春卷",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u05-wl04",
+        "word": "noodle",
+        "meaning": "面条",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl05",
+        "word": "tea",
+        "meaning": "茶",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl06",
+        "word": "juice",
+        "meaning": "果汁",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 42,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl07",
+        "word": "menu",
+        "meaning": "菜单",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u05-wl08",
+        "word": "What would you like?",
+        "meaning": "你想要什么",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl09",
+        "word": "fish and chips",
+        "meaning": "炸鱼薯条",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u05-wl10",
+        "word": "sandwich",
+        "meaning": "三明治",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u05-wl11",
+        "word": "hot dog",
+        "meaning": "热狗",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl12",
+        "word": "delicious",
+        "meaning": "美味的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u05-wl13",
+        "word": "Anything else?",
+        "meaning": "还要其他东西吗",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u05-wl14",
+        "word": "a glass of",
+        "meaning": "一杯",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl15",
+        "word": "a cup of",
+        "meaning": "一杯",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl16",
+        "word": "food",
+        "meaning": "食物",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl17",
+        "word": "next time",
+        "meaning": "下次",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl18",
+        "word": "hot pot",
+        "meaning": "火锅",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u05-wl19",
+        "word": "takeaway box",
+        "meaning": "打包盒",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "g4b-u06",
+    "title": "Jobs",
+    "description": "职业",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u06-wl01",
+        "word": "job",
+        "meaning": "职业",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl02",
+        "word": "driver",
+        "meaning": "司机",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl03",
+        "word": "nurse",
+        "meaning": "护士",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl04",
+        "word": "worker",
+        "meaning": "工人",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl05",
+        "word": "teacher",
+        "meaning": "教师",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl06",
+        "word": "doctor",
+        "meaning": "医生",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl07",
+        "word": "farmer",
+        "meaning": "农民",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl08",
+        "word": "cook",
+        "meaning": "厨师",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 51,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl09",
+        "word": "police officer",
+        "meaning": "警察",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 51,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u06-wl10",
+        "word": "hospital",
+        "meaning": "医院",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl11",
+        "word": "parent",
+        "meaning": "父母",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl12",
+        "word": "work",
+        "meaning": "工作",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl13",
+        "word": "sick",
+        "meaning": "生病的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u06-wl14",
+        "word": "people",
+        "meaning": "人们",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl15",
+        "word": "busy",
+        "meaning": "忙碌的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl16",
+        "word": "taxi",
+        "meaning": "出租车",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl17",
+        "word": "train",
+        "meaning": "火车",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 52,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl18",
+        "word": "place",
+        "meaning": "地方",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 54,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u06-wl19",
+        "word": "way",
+        "meaning": "方法",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 55,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g4b-u07",
+    "title": "Doing chores at home",
+    "description": "家庭家务",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u07-wl01",
+        "word": "chore",
+        "meaning": "日常事务",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl02",
+        "word": "dish",
+        "meaning": "碗碟",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u07-wl03",
+        "word": "water",
+        "meaning": "给……浇水",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl04",
+        "word": "make the bed",
+        "meaning": "铺床",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl05",
+        "word": "what",
+        "meaning": "多么",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl06",
+        "word": "house",
+        "meaning": "房子",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl07",
+        "word": "Good job!",
+        "meaning": "干得漂亮",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl08",
+        "word": "part of",
+        "meaning": "……的一部分",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 62,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u07-wl09",
+        "word": "so",
+        "meaning": "所以",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 62,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl10",
+        "word": "half",
+        "meaning": "一半",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u07-wl11",
+        "word": "past",
+        "meaning": "在……之后",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u07-wl12",
+        "word": "weekend",
+        "meaning": "周末",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "g4b-u08",
+    "title": "In the kitchen",
+    "description": "厨房",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g4b-u08-wl01",
+        "word": "kitchen",
+        "meaning": "厨房",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl02",
+        "word": "milk",
+        "meaning": "牛奶",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl03",
+        "word": "tomato",
+        "meaning": "西红柿",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl04",
+        "word": "potato",
+        "meaning": "马铃薯",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 66,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl05",
+        "word": "chicken",
+        "meaning": "鸡肉",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 67,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl06",
+        "word": "egg",
+        "meaning": "鸡蛋",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 67,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl07",
+        "word": "birthday",
+        "meaning": "生日",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl08",
+        "word": "soup",
+        "meaning": "汤",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl09",
+        "word": "him",
+        "meaning": "他",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl10",
+        "word": "really",
+        "meaning": "非常",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 68,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g4b-u08-wl11",
+        "word": "cut",
+        "meaning": "切",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl12",
+        "word": "meat",
+        "meaning": "肉",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl13",
+        "word": "I can't wait!",
+        "meaning": "我等不及了",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g4b-u08-wl14",
+        "word": "get",
+        "meaning": "去取",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u01",
+    "title": "Good habits",
+    "description": "良好习惯",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u01-wl01",
+        "word": "habit",
+        "meaning": "习惯",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u01-wl02",
+        "word": "do exercise",
+        "meaning": "锻炼",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl03",
+        "word": "listen",
+        "meaning": "听",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl04",
+        "word": "carefully",
+        "meaning": "仔细地",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl05",
+        "word": "put ... in order",
+        "meaning": "把……整理好",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 8,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u01-wl06",
+        "word": "take notes",
+        "meaning": "记笔记",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u01-wl07",
+        "word": "tidy",
+        "meaning": "整洁的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 9,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl08",
+        "word": "wait a minute",
+        "meaning": "等一会儿",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 11,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl09",
+        "word": "never",
+        "meaning": "从不",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 11,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl10",
+        "word": "in class",
+        "meaning": "在课堂上",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl11",
+        "word": "do well",
+        "meaning": "成功",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl12",
+        "word": "very much",
+        "meaning": "非常",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl13",
+        "word": "a lot of",
+        "meaning": "许多",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl14",
+        "word": "often",
+        "meaning": "常常",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl15",
+        "word": "in bed",
+        "meaning": "在床上",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl16",
+        "word": "bad",
+        "meaning": "坏的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 13,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl17",
+        "word": "healthy",
+        "meaning": "健康的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 14,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl18",
+        "word": "late",
+        "meaning": "迟",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 14,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl19",
+        "word": "health",
+        "meaning": "健康",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 14,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl20",
+        "word": "card",
+        "meaning": "卡片",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u01-wl21",
+        "word": "It's your turn.",
+        "meaning": "轮到你了",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 17,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u02",
+    "title": "I feel good",
+    "description": "情绪感受",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u02-wl01",
+        "word": "feel good",
+        "meaning": "感到愉快",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl02",
+        "word": "worried",
+        "meaning": "担心的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u02-wl03",
+        "word": "excited",
+        "meaning": "兴奋的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 20,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl04",
+        "word": "the high jump",
+        "meaning": "跳高",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 22,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u02-wl05",
+        "word": "hard",
+        "meaning": "努力地",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 22,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl06",
+        "word": "ouch",
+        "meaning": "哎哟",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 22,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u02-wl07",
+        "word": "like",
+        "meaning": "例如",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 22,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl08",
+        "word": "Well done!",
+        "meaning": "干得好",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 23,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl09",
+        "word": "yeah",
+        "meaning": "是的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 23,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u02-wl10",
+        "word": "or",
+        "meaning": "也不",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl11",
+        "word": "hear",
+        "meaning": "听见",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl12",
+        "word": "sometimes",
+        "meaning": "有时",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl13",
+        "word": "then",
+        "meaning": "然后",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl14",
+        "word": "teach",
+        "meaning": "教",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl15",
+        "word": "write",
+        "meaning": "写字",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl16",
+        "word": "word",
+        "meaning": "单词",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl17",
+        "word": "hand",
+        "meaning": "手",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl18",
+        "word": "understand",
+        "meaning": "理解",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 25,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u02-wl19",
+        "word": "give up",
+        "meaning": "放弃",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl20",
+        "word": "other",
+        "meaning": "另一个",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u02-wl21",
+        "word": "fast",
+        "meaning": "快速",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl22",
+        "word": "speak",
+        "meaning": "说话",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 26,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl23",
+        "word": "study",
+        "meaning": "学习",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl24",
+        "word": "know",
+        "meaning": "知道",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 28,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u02-wl25",
+        "word": "when",
+        "meaning": "当……时",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 29,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u03",
+    "title": "Hobbies",
+    "description": "兴趣爱好",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u03-wl01",
+        "word": "hobby",
+        "meaning": "业余爱好",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u03-wl02",
+        "word": "dance",
+        "meaning": "舞蹈",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl03",
+        "word": "paper-cutting",
+        "meaning": "剪纸",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 32,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl04",
+        "word": "gift",
+        "meaning": "礼物",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl05",
+        "word": "her",
+        "meaning": "她",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 34,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl06",
+        "word": "skip",
+        "meaning": "跳绳",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 35,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u03-wl07",
+        "word": "I don't think so.",
+        "meaning": "我不这么认为",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 35,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl08",
+        "word": "make",
+        "meaning": "使变得",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 35,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl09",
+        "word": "join",
+        "meaning": "参加",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 37,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u03-wl10",
+        "word": "over there",
+        "meaning": "在那里",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 38,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl11",
+        "word": "a lot",
+        "meaning": "大量",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 38,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u03-wl12",
+        "word": "paint",
+        "meaning": "用颜料画",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 40,
+          "nonCore": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u04",
+    "title": "Safety first",
+    "description": "安全第一",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u04-wl01",
+        "word": "pull",
+        "meaning": "拉",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u04-wl02",
+        "word": "push",
+        "meaning": "推",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u04-wl03",
+        "word": "warm up",
+        "meaning": "热身",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl04",
+        "word": "jump",
+        "meaning": "跳",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 44,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl05",
+        "word": "climb",
+        "meaning": "攀登",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 45,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u04-wl06",
+        "word": "should",
+        "meaning": "应该",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl07",
+        "word": "swim",
+        "meaning": "游泳",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl08",
+        "word": "swimming pool",
+        "meaning": "游泳池",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u04-wl09",
+        "word": "hurt",
+        "meaning": "疼痛，受伤",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 46,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl10",
+        "word": "listen",
+        "meaning": "听从",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 47,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl11",
+        "word": "stairs",
+        "meaning": "楼梯",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 49,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u04-wl12",
+        "word": "keep to the right",
+        "meaning": "靠右边走",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 49,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl13",
+        "word": "from",
+        "meaning": "从",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 49,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl14",
+        "word": "may",
+        "meaning": "可能",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl15",
+        "word": "out of the way",
+        "meaning": "不再挡路",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl16",
+        "word": "right now",
+        "meaning": "马上",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl17",
+        "word": "walk",
+        "meaning": "走",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u04-wl18",
+        "word": "slowly",
+        "meaning": "缓慢地",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 50,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u05",
+    "title": "At weekends",
+    "description": "周末活动",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u05-wl01",
+        "word": "watch",
+        "meaning": "观看",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl02",
+        "word": "TV",
+        "meaning": "电视",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl03",
+        "word": "visit",
+        "meaning": "拜访",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl04",
+        "word": "grandparent",
+        "meaning": "祖父母之一",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u05-wl05",
+        "word": "play Chinese chess",
+        "meaning": "下象棋",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 58,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u05-wl06",
+        "word": "play the piano",
+        "meaning": "弹钢琴",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl07",
+        "word": "chat",
+        "meaning": "聊天",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u05-wl08",
+        "word": "internet",
+        "meaning": "互联网",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 59,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl09",
+        "word": "always",
+        "meaning": "总是",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 60,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl10",
+        "word": "have a picnic",
+        "meaning": "野餐",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 61,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u05-wl11",
+        "word": "get out",
+        "meaning": "出去",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 61,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl12",
+        "word": "usually",
+        "meaning": "通常",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u05-wl13",
+        "word": "plant",
+        "meaning": "植物",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl14",
+        "word": "spend",
+        "meaning": "度过",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u05-wl15",
+        "word": "live",
+        "meaning": "居住",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 63,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u05-wl16",
+        "word": "wonderful",
+        "meaning": "精彩的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 64,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u06",
+    "title": "Getting along with others",
+    "description": "与人相处",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u06-wl01",
+        "word": "get along with",
+        "meaning": "与……和睦相处",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u06-wl02",
+        "word": "between",
+        "meaning": "在……中间",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl03",
+        "word": "wall",
+        "meaning": "墙",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl04",
+        "word": "neighbour",
+        "meaning": "邻居",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 70,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u06-wl05",
+        "word": "heavy",
+        "meaning": "重的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 72,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl06",
+        "word": "drink",
+        "meaning": "喝",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 72,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl07",
+        "word": "some",
+        "meaning": "有些事物",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 73,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl08",
+        "word": "on one's way back",
+        "meaning": "在某人回去的路上",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 73,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl09",
+        "word": "next to",
+        "meaning": "紧邻",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl10",
+        "word": "space",
+        "meaning": "空间",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl11",
+        "word": "their",
+        "meaning": "他们的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl12",
+        "word": "too",
+        "meaning": "太",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl13",
+        "word": "close to",
+        "meaning": "接近",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl14",
+        "word": "use",
+        "meaning": "使用",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl15",
+        "word": "letter",
+        "meaning": "信",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl16",
+        "word": "advice",
+        "meaning": "建议",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 75,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u06-wl17",
+        "word": "important",
+        "meaning": "重要的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 76,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u06-wl18",
+        "word": "friendly",
+        "meaning": "友好的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 76,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl19",
+        "word": "then",
+        "meaning": "到那时",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 78,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl20",
+        "word": "time",
+        "meaning": "时间",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 79,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl21",
+        "word": "favourite (AmE favorite)",
+        "meaning": "特别喜爱的",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 79,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl22",
+        "word": "problem",
+        "meaning": "问题",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 79,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl23",
+        "word": "do your homework",
+        "meaning": "做家庭作业",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 79,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u06-wl24",
+        "word": "classmate",
+        "meaning": "同班同学",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 79,
+          "nonCore": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u07",
+    "title": "Shopping smart",
+    "description": "理性购物",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u07-wl01",
+        "word": "shop",
+        "meaning": "购物",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 82,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl02",
+        "word": "smart",
+        "meaning": "明智且高效地",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 82,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u07-wl03",
+        "word": "shoe",
+        "meaning": "鞋",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 82,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl04",
+        "word": "sweater",
+        "meaning": "毛衣",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 82,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl05",
+        "word": "sock",
+        "meaning": "短袜",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 83,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl06",
+        "word": "bow",
+        "meaning": "蝴蝶结",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 84,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u07-wl07",
+        "word": "need",
+        "meaning": "需要",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 84,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u07-wl08",
+        "word": "Ms",
+        "meaning": "女士",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 84,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl09",
+        "word": "twenty-eight",
+        "meaning": "二十八",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 84,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl10",
+        "word": "yuan",
+        "meaning": "元",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 84,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u07-wl11",
+        "word": "How about ...?",
+        "meaning": "……怎么样",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 85,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl12",
+        "word": "show",
+        "meaning": "展示",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 85,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl13",
+        "word": "tail",
+        "meaning": "尾巴",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 85,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl14",
+        "word": "list",
+        "meaning": "清单",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 87,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u07-wl15",
+        "word": "pocket money",
+        "meaning": "零花钱",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 87,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u07-wl16",
+        "word": "one",
+        "meaning": "一个",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 87,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl17",
+        "word": "try on",
+        "meaning": "试穿",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 87,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl18",
+        "word": "sixty-eight",
+        "meaning": "六十八",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 87,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl19",
+        "word": "take",
+        "meaning": "买下",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 87,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl20",
+        "word": "pair",
+        "meaning": "一双",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 88,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl21",
+        "word": "forty",
+        "meaning": "四十",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 88,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u07-wl22",
+        "word": "twenty-four",
+        "meaning": "二十四",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 88,
+          "nonCore": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "g5a-u08",
+    "title": "We love festivals!",
+    "description": "节日文化",
+    "status": "wordlist-transcribed",
+    "cards": [
+      {
+        "id": "g5a-u08-wl01",
+        "word": "festival",
+        "meaning": "节日",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 94,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl02",
+        "word": "sky",
+        "meaning": "天空",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 96,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl03",
+        "word": "about",
+        "meaning": "关于",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 96,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl04",
+        "word": "May",
+        "meaning": "五月",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 96,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl05",
+        "word": "or",
+        "meaning": "或者",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 96,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl06",
+        "word": "June",
+        "meaning": "六月",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 96,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl07",
+        "word": "dragon boat race",
+        "meaning": "龙舟比赛",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 96,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl08",
+        "word": "January",
+        "meaning": "一月",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 99,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl09",
+        "word": "February",
+        "meaning": "二月",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 99,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl10",
+        "word": "before",
+        "meaning": "在……以前",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 99,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl11",
+        "word": "door",
+        "meaning": "门",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 99,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl12",
+        "word": "red packet",
+        "meaning": "红包",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 99,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl13",
+        "word": "lion dance",
+        "meaning": "舞狮",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 99,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl14",
+        "word": "have a good time",
+        "meaning": "过得愉快",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 99,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl15",
+        "word": "December",
+        "meaning": "十二月",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 100,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl16",
+        "word": "hang",
+        "meaning": "挂",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 100,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl17",
+        "word": "stocking",
+        "meaning": "圣诞袜",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 100,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl18",
+        "word": "open",
+        "meaning": "打开",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 100,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl19",
+        "word": "turkey",
+        "meaning": "火鸡",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 100,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl20",
+        "word": "October",
+        "meaning": "十月",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 102,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl21",
+        "word": "September",
+        "meaning": "九月",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 103,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl22",
+        "word": "mooncake",
+        "meaning": "月饼",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 103,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl23",
+        "word": "activity",
+        "meaning": "活动",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 103,
+          "nonCore": true
+        }
+      },
+      {
+        "id": "g5a-u08-wl24",
+        "word": "moon",
+        "meaning": "月亮",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 103,
+          "nonCore": false
+        }
+      },
+      {
+        "id": "g5a-u08-wl25",
+        "word": "China",
+        "meaning": "中国",
+        "emoji": "",
+        "example": "",
+        "source": {
+          "type": "textbook-word-list",
+          "verified": true,
+          "bookPage": 103,
+          "nonCore": false
+        }
+      }
+    ]
+  }
+]
